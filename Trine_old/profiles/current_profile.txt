@@ -1,0 +1,8 @@
+current_profile=default
+
+player2_profile=
+
+player3_profile=
+
+player4_profile=
+
