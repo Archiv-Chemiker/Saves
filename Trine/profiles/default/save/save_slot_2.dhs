@@ -1,0 +1,78 @@
+#!dhs -nopp
+
+// <SAVEGAME>
+
+script savegame_slot_2
+sub get_info
+savegameVersion "1.10"
+savegameDescription "Castle, Hallways"
+savegameTime "2022/11/28 - 20:12"
+savegameType "savegame"
+endSub
+
+sub apply_mission
+setLoadMissionFile "data/mission/castle1/castle1.dhm"
+setMissionId "castle1"
+endSub
+
+sub apply_variables
+permanentGlobal int,autoadjust_difficulty_level; setValue 0; setVariable autoadjust_difficulty_level
+permanentGlobal int[6],player_max_hp; setArrayVariableValues player_max_hp,0,200,200,200,0,0
+permanentGlobal int[119],player_item_max_level; setArrayVariableValues player_item_max_level,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,0,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int,reached_first_checkpoint; setValue 0; setVariable reached_first_checkpoint
+permanentGlobal int,selected_player_combo; setValue 9; setVariable selected_player_combo
+permanentGlobal int,item_amount_level; setValue 100; setVariable item_amount_level
+permanentGlobal int,demo; setValue 0; setVariable demo
+permanentGlobal int,experience_shard_total_amount; setValue 9; setVariable experience_shard_total_amount
+permanentGlobal int[16],mission_complete_time_hard; setArrayVariableValues mission_complete_time_hard,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int[6],player_xp; setArrayVariableValues player_xp,0,0,0,0,0,0
+permanentGlobal int,hostile_amount_level; setValue 100; setVariable hostile_amount_level
+permanentGlobal int,reached_first_level_up; setValue 0; setVariable reached_first_level_up
+permanentGlobal int,challenge_mode; setValue 0; setVariable challenge_mode
+permanentGlobal int[6],player_current_sword_weapon; setArrayVariableValues player_current_sword_weapon,0,0,0,0,0,0
+permanentGlobal int[6],player_using_ranged_weapon; setArrayVariableValues player_using_ranged_weapon,0,1,1,1,0,0
+permanentGlobal int[16],mission_secrets_unlocked; setArrayVariableValues mission_secrets_unlocked,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int,levitate_object_rotation_hint; setValue 0; setVariable levitate_object_rotation_hint
+permanentGlobal int[119],player_item_cur_level; setArrayVariableValues player_item_cur_level,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int[16],mission_complete_time_medium; setArrayVariableValues mission_complete_time_medium,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int,general_difficulty_level; setValue 100; setVariable general_difficulty_level
+permanentGlobal int[6],player_current_ranged_weapon; setArrayVariableValues player_current_ranged_weapon,0,10,7,4,0,0
+permanentGlobal int[6],player_hp; setArrayVariableValues player_hp,0,200,200,200,0,0
+permanentGlobal int[10],xp_limits; setArrayVariableValues xp_limits,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int,pending_arrows; setValue 999; setVariable pending_arrows
+permanentGlobal int[119],player_item_slot; setArrayVariableValues player_item_slot,0,0,0,0,0,0,0,0,0,0,1000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000,0,0,0,0,0,0,1000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int,save_requested; setValue 1; setVariable save_requested
+permanentGlobal int[16],mission_complete_time_very_hard; setArrayVariableValues mission_complete_time_very_hard,419145,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int[6],player_level; setArrayVariableValues player_level,0,0,0,0,0,0
+permanentGlobal int[119],player_item_type; setArrayVariableValues player_item_type,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int[16],mission_shards_total_found; setArrayVariableValues mission_shards_total_found,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int[6],player_energy; setArrayVariableValues player_energy,0,200,200,200,0,0
+permanentGlobal int,experience_shard_amount; setValue 9; setVariable experience_shard_amount
+permanentGlobal int,very_hard_difficulty_unlocked; setValue 0; setVariable very_hard_difficulty_unlocked
+permanentGlobal int,players_created; setValue 1; setVariable players_created
+permanentGlobal int[119],player_item_owner; setArrayVariableValues player_item_owner,0,0,0,0,3,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int,new_log_entry; setValue 0; setVariable new_log_entry
+permanentGlobal int,misc_thief_finds_jewelry_but_not_necklace; setValue 0; setVariable misc_thief_finds_jewelry_but_not_necklace
+permanentGlobal int[6],player_max_energy; setArrayVariableValues player_max_energy,0,200,200,200,0,0
+permanentGlobal int,level_up_available; setValue 0; setVariable level_up_available
+permanentGlobal string,last_checkpoint_name; setString "castle1_entry"; setStringVariable last_checkpoint_name
+permanentGlobal int,damage_amount_level; setValue 100; setVariable damage_amount_level
+permanentGlobal int[16],mission_shards_enemies_total_found; setArrayVariableValues mission_shards_enemies_total_found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int,pending_energy; setValue 0; setVariable pending_energy
+permanentGlobal int[6],player_max_energy_original; setArrayVariableValues player_max_energy_original,0,200,200,200,0,0
+permanentGlobal int[16],mission_complete_time_easy; setArrayVariableValues mission_complete_time_easy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int,last_played_mission; setValue 1; setVariable last_played_mission
+permanentGlobal int,next_log_entry_time; setValue 0; setVariable next_log_entry_time
+permanentGlobal int[119],player_item_state; setArrayVariableValues player_item_state,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int[6],player_max_hp_original; setArrayVariableValues player_max_hp_original,0,200,200,200,0,0
+permanentGlobal int[16],mission_unlocked; setArrayVariableValues mission_unlocked,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int,misc_thief_has_found_jewelry; setValue 0; setVariable misc_thief_has_found_jewelry
+permanentGlobal int[6],player_unassigned_skill_points; setArrayVariableValues player_unassigned_skill_points,0,0,0,0,0,0
+endSub
+
+sub apply_ueohs
+handleSaveGameUEOHs 00107BC1499D4D1C,00100641499BEB95,00100642499BEB9B,0019699749AD3FEA,0019ACEE4A040E2B,00102576499D0ABC,00103D84499D2E5B,00102570499D0A35,00103D8C499D2F53,
+endSub
+
+endScript
+
