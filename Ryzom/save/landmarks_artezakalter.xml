@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<interface_config>
+  <landmarks continent="bagne" type="user"/>
+  <landmarks continent="corrupted_moor" type="user"/>
+  <landmarks continent="fyros" type="user"/>
+  <landmarks continent="fyros_island" type="user"/>
+  <landmarks continent="fyros_newbie" type="user"/>
+  <landmarks continent="indoors" type="user"/>
+  <landmarks continent="kitiniere" type="user"/>
+  <landmarks continent="matis" type="user"/>
+  <landmarks continent="matis_island" type="user"/>
+  <landmarks continent="matis_newbie" type="user"/>
+  <landmarks continent="newbieland" type="user"/>
+  <landmarks continent="nexus" type="user"/>
+  <landmarks continent="r2_desert" type="user"/>
+  <landmarks continent="r2_forest" type="user"/>
+  <landmarks continent="r2_jungle" type="user"/>
+  <landmarks continent="r2_lakes" type="user"/>
+  <landmarks continent="r2_roots" type="user"/>
+  <landmarks continent="route_gouffre" type="user"/>
+  <landmarks continent="sources" type="user"/>
+  <landmarks continent="terre" type="user"/>
+  <landmarks continent="testroom" type="user"/>
+  <landmarks continent="tryker" type="user"/>
+  <landmarks continent="tryker_island" type="user"/>
+  <landmarks continent="tryker_newbie" type="user"/>
+  <landmarks continent="undernexus" type="user"/>
+  <landmarks continent="zorai" type="user"/>
+  <landmarks continent="zorai_island" type="user"/>
+  <landmarks continent="zorai_newbie" type="user"/>
+</interface_config>

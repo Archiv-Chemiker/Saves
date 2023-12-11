@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+Item Groups - Version 2
+
+/// branch="handling" ///
+HandR:     index="0"
+HandL:     index="1"
+
+/// branch="equipment" ///
+Headdress: index="0"
+Head:      index="1"
+Face:      index="2"
+EarL:      index="3"
+EarR:      index="4"
+Neck:      index="5"
+Body:      index="6"
+Arms:      index="7"
+WristL:    index="8"
+WristR:    index="9"
+Hands:     index="10"
+FingerL:   index="13"
+FingerR:   index="14"
+Legs:      index="15"
+AnkleL:    index="16"
+AnkleR:    index="17"
+Feet:      index="18"
+
+/// branch="hotbar" ///
+Pocket #1: index="0"
+Pocket #2: index="1"
+Pocket #3: index="2"
+Pocket #4: index="3"
+Pocket #5: index="4"
+-->
+<item_groups version="2"/>
