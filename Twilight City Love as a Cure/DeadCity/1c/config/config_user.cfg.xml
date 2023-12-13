@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+  <options
+    acceleration_3d="true"
+    custom_cursor="1"
+    full_screen="1"
+    music_volume="74"
+    sfx_volume="75"
+    wide_screen="1"/>
+</root>
