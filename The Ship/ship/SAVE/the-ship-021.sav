@@ -1,0 +1,32 @@
+"SavedPlayerState"
+{
+	"RestoreData"
+	{
+		"mission"		"6"
+		"objective"		"5"
+		"map"		"cotopaxi_sp"
+		"type"		"#ship_sp_checkpoint"
+		"image"		"SAVE/chapter7.tga"
+		"comment"		"#ship_chapter7_title"
+		"bank"		"4030"
+		"cash"		"43750"
+		"Pee"		"25"
+		"Poo"		"19"
+		"Dirty"		"3"
+		"Hunger"		"38"
+		"Thirst"		"77"
+		"Lonely"		"4"
+		"Boredom"		"1"
+		"Fatigue"		"37"
+		"item"
+		{
+			"name"		"item_thebible"
+			"slot"		"5"
+		}
+		"item"
+		{
+			"name"		"weapon_shank"
+			"slot"		"0"
+		}
+	}
+}

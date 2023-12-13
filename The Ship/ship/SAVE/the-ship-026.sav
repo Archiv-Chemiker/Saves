@@ -1,0 +1,76 @@
+"SavedPlayerState"
+{
+	"RestoreData"
+	{
+		"mission"		"9"
+		"objective"		"1"
+		"map"		"cotopaxi_sp"
+		"type"		"#ship_sp_checkpoint"
+		"image"		"SAVE/chapter10.tga"
+		"comment"		"#ship_chapter10_title"
+		"bank"		"4030"
+		"cash"		"108650"
+		"Pee"		"70"
+		"Poo"		"30"
+		"Dirty"		"51"
+		"Hunger"		"58"
+		"Thirst"		"48"
+		"Lonely"		"20"
+		"Boredom"		"33"
+		"Fatigue"		"1"
+		"Item"
+		{
+			"name"		"outfit_male_braces_3"
+			"slot"		"1"
+		}
+		"Item"
+		{
+			"name"		"glasses_round_male"
+			"slot"		"5"
+		}
+		"Item"
+		{
+			"name"		"hat_bonnet_male"
+			"slot"		"6"
+		}
+		"Item"
+		{
+			"name"		"hat_fedora_male"
+			"slot"		"2"
+		}
+		"Item"
+		{
+			"name"		"outfit_male_suit_3"
+			"slot"		"4"
+		}
+		"Item"
+		{
+			"name"		"glasses_dark_male"
+			"slot"		"3"
+		}
+		"Item"
+		{
+			"name"		"weapon_winchester"
+			"slot"		"11"
+			"ammo"		"8"
+		}
+		"Item"
+		{
+			"name"		"weapon_flaregun"
+			"slot"		"10"
+			"ammo"		"0"
+		}
+		"Item"
+		{
+			"name"		"weapon_tommygun"
+			"slot"		"13"
+			"ammo"		"30"
+		}
+		"Item"
+		{
+			"name"		"weapon_blunder"
+			"slot"		"8"
+			"ammo"		"2"
+		}
+	}
+}

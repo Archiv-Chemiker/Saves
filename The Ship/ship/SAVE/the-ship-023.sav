@@ -1,0 +1,118 @@
+"SavedPlayerState"
+{
+	"RestoreData"
+	{
+		"mission"		"7"
+		"objective"		"4"
+		"map"		"cotopaxi_sp"
+		"type"		"#ship_sp_checkpoint"
+		"image"		"SAVE/chapter8.tga"
+		"comment"		"#ship_chapter8_title"
+		"bank"		"4030"
+		"cash"		"93750"
+		"Pee"		"21"
+		"Poo"		"16"
+		"Dirty"		"21"
+		"Hunger"		"79"
+		"Thirst"		"81"
+		"Lonely"		"18"
+		"Boredom"		"34"
+		"Fatigue"		"61"
+		"item"
+		{
+			"name"		"outfit_male_braces_3"
+			"slot"		"4"
+		}
+		"item"
+		{
+			"name"		"glasses_round_male"
+			"slot"		"5"
+		}
+		"item"
+		{
+			"name"		"hat_bonnet_male"
+			"slot"		"6"
+		}
+		"item"
+		{
+			"name"		"item_drink_energy"
+			"slot"		"7"
+		}
+		"item"
+		{
+			"name"		"item_food_chocolate"
+			"slot"		"8"
+		}
+		"item"
+		{
+			"name"		"item_drink_can"
+			"slot"		"9"
+		}
+		"item"
+		{
+			"name"		"hat_fedora_male"
+			"slot"		"2"
+		}
+		"item"
+		{
+			"name"		"outfit_male_suit_3"
+			"slot"		"1"
+		}
+		"item"
+		{
+			"name"		"glasses_dark_male"
+			"slot"		"3"
+		}
+		"item"
+		{
+			"name"		"item_thebible"
+			"slot"		"10"
+		}
+		"item"
+		{
+			"name"		"weapon_cleaver"
+			"slot"		"16"
+		}
+		"item"
+		{
+			"name"		"weapon_frying_pan"
+			"slot"		"17"
+		}
+		"item"
+		{
+			"name"		"weapon_scalpel"
+			"slot"		"18"
+		}
+		"item"
+		{
+			"name"		"weapon_truncheon"
+			"slot"		"19"
+		}
+		"item"
+		{
+			"name"		"weapon_spanner"
+			"slot"		"12"
+		}
+		"item"
+		{
+			"name"		"hat_male_guard"
+			"slot"		"13"
+		}
+		"item"
+		{
+			"name"		"outfit_male_guard"
+			"slot"		"14"
+		}
+		"item"
+		{
+			"name"		"weapon_syringe"
+			"slot"		"11"
+			"ammo"		"0"
+		}
+		"item"
+		{
+			"name"		"weapon_cut_throat"
+			"slot"		"15"
+		}
+	}
+}

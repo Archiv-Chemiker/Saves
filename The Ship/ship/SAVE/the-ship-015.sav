@@ -1,0 +1,68 @@
+"SavedPlayerState"
+{
+	"RestoreData"
+	{
+		"mission"		"3"
+		"objective"		"1"
+		"map"		"cotopaxi_sp"
+		"type"		"#ship_sp_checkpoint"
+		"image"		"SAVE/chapter4.tga"
+		"comment"		"#ship_chapter4_title"
+		"bank"		"4030"
+		"cash"		"250"
+		"Pee"		"29"
+		"Poo"		"18"
+		"Dirty"		"7"
+		"Hunger"		"29"
+		"Thirst"		"31"
+		"Lonely"		"1"
+		"Boredom"		"23"
+		"Fatigue"		"0"
+		"item"
+		{
+			"name"		"outfit_male_braces_3"
+			"slot"		"1"
+		}
+		"item"
+		{
+			"name"		"hat_bowler_male"
+			"slot"		"4"
+		}
+		"item"
+		{
+			"name"		"glasses_round_male"
+			"slot"		"3"
+		}
+		"item"
+		{
+			"name"		"hat_bonnet_male"
+			"slot"		"2"
+		}
+		"item"
+		{
+			"name"		"item_alice"
+			"slot"		"5"
+		}
+		"item"
+		{
+			"name"		"hat_beret_female"
+			"slot"		"6"
+		}
+		"item"
+		{
+			"name"		"item_theraven"
+			"slot"		"7"
+		}
+		"item"
+		{
+			"name"		"item_colostomy_bag"
+			"slot"		"8"
+		}
+		"item"
+		{
+			"name"		"weapon_syringe_sleep"
+			"slot"		"9"
+			"ammo"		"0"
+		}
+	}
+}

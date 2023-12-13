@@ -1,0 +1,103 @@
+"SavedPlayerState"
+{
+	"RestoreData"
+	{
+		"mission"		"8"
+		"objective"		"1"
+		"map"		"cotopaxi_sp"
+		"type"		"#ship_sp_checkpoint"
+		"image"		"SAVE/chapter9.tga"
+		"comment"		"#ship_chapter9_title"
+		"bank"		"4030"
+		"cash"		"93650"
+		"Pee"		"31"
+		"Poo"		"9"
+		"Dirty"		"18"
+		"Hunger"		"16"
+		"Thirst"		"31"
+		"Lonely"		"17"
+		"Boredom"		"0"
+		"Fatigue"		"44"
+		"Item"
+		{
+			"name"		"outfit_male_braces_3"
+			"slot"		"4"
+		}
+		"Item"
+		{
+			"name"		"glasses_round_male"
+			"slot"		"5"
+		}
+		"Item"
+		{
+			"name"		"hat_bonnet_male"
+			"slot"		"6"
+		}
+		"Item"
+		{
+			"name"		"item_drink_energy"
+			"slot"		"7"
+		}
+		"Item"
+		{
+			"name"		"hat_fedora_male"
+			"slot"		"2"
+		}
+		"Item"
+		{
+			"name"		"outfit_male_suit_3"
+			"slot"		"1"
+		}
+		"Item"
+		{
+			"name"		"glasses_dark_male"
+			"slot"		"3"
+		}
+		"Item"
+		{
+			"name"		"weapon_spanner"
+			"slot"		"12"
+		}
+		"Item"
+		{
+			"name"		"weapon_syringe"
+			"slot"		"11"
+			"ammo"		"0"
+		}
+		"Item"
+		{
+			"name"		"weapon_flaregun"
+			"slot"		"8"
+			"ammo"		"1"
+		}
+		"Item"
+		{
+			"name"		"weapon_revolver"
+			"slot"		"9"
+			"ammo"		"6"
+		}
+		"Item"
+		{
+			"name"		"weapon_blunder"
+			"slot"		"15"
+			"ammo"		"0"
+		}
+		"Item"
+		{
+			"name"		"weapon_tommygun"
+			"slot"		"14"
+			"ammo"		"30"
+		}
+		"Item"
+		{
+			"name"		"weapon_winchester"
+			"slot"		"13"
+			"ammo"		"5"
+		}
+		"Item"
+		{
+			"name"		"weapon_pipe"
+			"slot"		"16"
+		}
+	}
+}

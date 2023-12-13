@@ -1,0 +1,57 @@
+"SavedPlayerState"
+{
+	"RestoreData"
+	{
+		"mission"		"2"
+		"objective"		"1"
+		"map"		"cotopaxi_sp"
+		"type"		"#ship_sp_checkpoint"
+		"image"		"SAVE/chapter3.tga"
+		"comment"		"#ship_chapter3_title"
+		"bank"		"5280"
+		"cash"		"250"
+		"Pee"		"29"
+		"Poo"		"12"
+		"Dirty"		"17"
+		"Hunger"		"13"
+		"Thirst"		"16"
+		"Lonely"		"2"
+		"Boredom"		"19"
+		"Fatigue"		"7"
+		"Item"
+		{
+			"name"		"outfit_male_braces_3"
+			"slot"		"1"
+		}
+		"Item"
+		{
+			"name"		"hat_bowler_male"
+			"slot"		"2"
+		}
+		"Item"
+		{
+			"name"		"glasses_round_male"
+			"slot"		"3"
+		}
+		"Item"
+		{
+			"name"		"item_travel_magazine"
+			"slot"		"4"
+		}
+		"Item"
+		{
+			"name"		"item_theraven"
+			"slot"		"9"
+		}
+		"Item"
+		{
+			"name"		"item_car_magazine"
+			"slot"		"6"
+		}
+		"Item"
+		{
+			"name"		"glasses_half_female"
+			"slot"		"14"
+		}
+	}
+}

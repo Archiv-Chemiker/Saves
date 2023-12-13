@@ -1,0 +1,110 @@
+"SavedPlayerState"
+{
+	"RestoreData"
+	{
+		"mission"		"5"
+		"objective"		"1"
+		"map"		"cotopaxi_sp"
+		"type"		"#ship_sp_checkpoint"
+		"image"		"SAVE/chapter6.tga"
+		"comment"		"#ship_chapter6_title"
+		"bank"		"4030"
+		"cash"		"20050"
+		"Pee"		"43"
+		"Poo"		"13"
+		"Dirty"		"20"
+		"Hunger"		"26"
+		"Thirst"		"49"
+		"Lonely"		"0"
+		"Boredom"		"18"
+		"Fatigue"		"64"
+		"item"
+		{
+			"name"		"outfit_male_braces_3"
+			"slot"		"1"
+		}
+		"item"
+		{
+			"name"		"glasses_round_male"
+			"slot"		"3"
+		}
+		"item"
+		{
+			"name"		"hat_bonnet_male"
+			"slot"		"2"
+		}
+		"item"
+		{
+			"name"		"item_alice"
+			"slot"		"5"
+		}
+		"item"
+		{
+			"name"		"item_theraven"
+			"slot"		"7"
+		}
+		"item"
+		{
+			"name"		"item_drink_can"
+			"slot"		"9"
+		}
+		"item"
+		{
+			"name"		"item_drink_energy"
+			"slot"		"10"
+		}
+		"item"
+		{
+			"name"		"item_food_chocolate"
+			"slot"		"11"
+		}
+		"item"
+		{
+			"name"		"item_kamasutra"
+			"slot"		"12"
+		}
+		"item"
+		{
+			"name"		"item_treasureisland"
+			"slot"		"13"
+		}
+		"item"
+		{
+			"name"		"item_drink_can"
+			"slot"		"14"
+		}
+		"item"
+		{
+			"name"		"weapon_axe"
+			"slot"		"17"
+		}
+		"item"
+		{
+			"name"		"weapon_flaregun"
+			"slot"		"15"
+			"ammo"		"1"
+		}
+		"item"
+		{
+			"name"		"weapon_winchester"
+			"slot"		"6"
+			"ammo"		"5"
+		}
+		"item"
+		{
+			"name"		"weapon_blunder"
+			"slot"		"18"
+			"ammo"		"2"
+		}
+		"item"
+		{
+			"name"		"hat_male_guard"
+			"slot"		"19"
+		}
+		"item"
+		{
+			"name"		"outfit_male_guard"
+			"slot"		"4"
+		}
+	}
+}
