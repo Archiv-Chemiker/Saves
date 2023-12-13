@@ -1,0 +1,41 @@
+"259550"
+{
+	"ChangeNumber"		"0"
+	"ostype"		"16"
+	"Backup_Save.dat"
+	{
+		"root"		"0"
+		"size"		"315485"
+		"localtime"		"1690560190"
+		"time"		"1690560190"
+		"remotetime"		"1690560193"
+		"sha"		"efb8b45de86331575016c59bee28a3ad7deaef0f"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"Save.dat"
+	{
+		"root"		"0"
+		"size"		"315485"
+		"localtime"		"1676101897"
+		"time"		"1676101897"
+		"remotetime"		"1676101899"
+		"sha"		"efb8b45de86331575016c59bee28a3ad7deaef0f"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"StartLanguage.str"
+	{
+		"root"		"0"
+		"size"		"1"
+		"localtime"		"1653158928"
+		"time"		"1653158928"
+		"remotetime"		"1653158930"
+		"sha"		"0ab8318acaf6e678dd02e2b5c343ed41111b393d"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+}
