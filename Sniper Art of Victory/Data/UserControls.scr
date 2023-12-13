@@ -1,0 +1,47 @@
+!ActionKey(s,i,i)
+!ImplantsBindingF1(i,i,i,i,i,i,i,i)
+!ImplantsBindingF2(i,i,i,i,i,i,i,i)
+!ImplantsBindingF3(i,i,i,i,i,i,i,i)
+!ImplantsBindingF4(i,i,i,i,i,i,i,i)
+!InvertMouse(i)
+!MouseSensitvity(i)
+!AutoQuickSave(i)
+
+AutoQuickSave(1)
+ActionKey("FORWARD",17,0)//W
+ActionKey("BACKWARD",31,0)//S
+ActionKey("STRAFE LEFT",30,0)//A
+ActionKey("STRAFE RIGHT",32,0)//D
+ActionKey("LEAN LEFT",16,0)//Q
+ActionKey("LEAN RIGHT",18,0)//E
+ActionKey("JUMP",57,0)//??????
+ActionKey("SPRINT",42,0)//????? SHIFT
+ActionKey("CROUCH",0,0)//
+ActionKey("CROUCH TOGGLE",29,0)//????? CTRL
+ActionKey("PRONE",0,0)//
+ActionKey("PRONE TOGGLE",44,0)//Z
+ActionKey("FIRE",61440,0)//?????? ???? 1
+ActionKey("MELEE ATTACK",45,0)//X
+ActionKey("AIM/SPECIAL WEAPON",0,0)//
+ActionKey("AIM TOGGLE",61441,0)//?????? ???? 2
+ActionKey("RELOAD",19,0)//R
+ActionKey("ACTION",33,0)//F
+ActionKey("ZOOM IN",13,0)//=
+ActionKey("ZOOM OUT",12,0)//-
+ActionKey("MAP MODE",15,0)//TAB
+ActionKey("LOGS MODE",38,0)//L
+ActionKey("SELECT MELEE WEAPON",2,0)//1
+ActionKey("SELECT PISTOL",3,0)//2
+ActionKey("SLECT RIFLE",4,0)//3
+ActionKey("SELECT HEAVY GUN",5,0)//4
+ActionKey("SELECT GRENADE",6,0)//5
+ActionKey("SLOT 6",7,0)//6
+ActionKey("NEXT WEAPON",242,0)//???????? ???? ????
+ActionKey("PREVIOUS WEAPON",241,0)//???????? ???? ?????
+ActionKey("THROW GRENADE",34,0)//G
+ActionKey("QUICKSAVE",63,0)//F5
+ActionKey("QUICKLOAD",66,0)//F8
+ActionKey("SET FIRE MODE",50,0)//M
+ActionKey("BINOCULARS",48,0)//B
+InvertMouse(0)
+MouseSensitvity(0)
