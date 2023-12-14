@@ -1,0 +1,53 @@
+"302510"
+{
+	"ChangeNumber"		"-8930126916486086165"
+	"ostype"		"16"
+	"RyseSave"
+	{
+		"root"		"0"
+		"size"		"139430"
+		"localtime"		"1695454141"
+		"time"		"1695454141"
+		"remotetime"		"1695454141"
+		"sha"		"1722b83ad6667d7b00cc66d535c2f32b6946c4d9"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"ryseSave.act"
+	{
+		"root"		"0"
+		"size"		"525"
+		"localtime"		"1695548422"
+		"time"		"1695548422"
+		"remotetime"		"1695548422"
+		"sha"		"d12a005c684eadc7db71cf68fe72a0ae0e096aa5"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"ryseSave.att"
+	{
+		"root"		"0"
+		"size"		"102125"
+		"localtime"		"1695548422"
+		"time"		"1695548422"
+		"remotetime"		"1695548422"
+		"sha"		"3cfe29ea43fb4b41ad3c6c1d1e0c53519eba8d53"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"ryseSave.pro"
+	{
+		"root"		"0"
+		"size"		"94"
+		"localtime"		"1695548423"
+		"time"		"1695548422"
+		"remotetime"		"1695548422"
+		"sha"		"cee6d6d2ab3ae594f32326325644fbfe63f4d55b"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+}
