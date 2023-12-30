@@ -1,0 +1,11 @@
+ScriptEngine::wrap not found type Mesh2D
+ScriptEngine::wrap not found type MovieSceneEffect
+ScriptEngine::wrap not found type MovieEvent
+ScriptEngine::wrap not found type RenderClipplane
+ScriptEngine::wrap not found type SurfaceTrackMatte
+ScriptEngine::wrap not found type ResourceMusic
+ScriptEngine::wrap not found type ResourceParticle
+ScriptEngine::wrap not found type ResourceFile
+ScriptEngine::wrap not found type ResourceCursorICO
+ScriptEngine::wrap not found type ResourceCursorSystem
+Win32ThreadSystem::finalize Win32ThreadMutex not all remove 6
