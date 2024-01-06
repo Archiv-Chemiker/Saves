@@ -1,5 +1,0 @@
-joystick_x_axis = axis_x
-joystick_y_axis = axis_y
-controller_type = 101
-screenshot = f11,printscreen
-console_toggle = f8

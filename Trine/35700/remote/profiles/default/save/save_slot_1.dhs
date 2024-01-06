@@ -5,21 +5,17 @@
 script savegame_slot_1
 sub get_info
 savegameVersion "1.10"
-savegameDescription "Castle, Hallways"
-savegameTime "2022/12/17 - 10:37"
+savegameDescription "(LOCALIZATION MISSING)"
+savegameTime "2024/01/06 - 22:56"
 savegameType "savegame"
 endSub
 
 sub apply_mission
-setLoadMissionFile "data/mission/castle1/castle1.dhm"
-setMissionId "castle1"
+setLoadMissionFile "data/mission/extra1/extra1.dhm"
+setMissionId "extra1"
 endSub
 
 sub apply_variables
-permanentGlobal int,autoadjust_difficulty_level; setValue 0; setVariable autoadjust_difficulty_level
-permanentGlobal int[6],player_max_hp; setArrayVariableValues player_max_hp,0,220,210,230,0,0
-permanentGlobal int[119],player_item_max_level; setArrayVariableValues player_item_max_level,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,0,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-permanentGlobal int,reached_first_checkpoint; setValue 1; setVariable reached_first_checkpoint
 permanentGlobal int,selected_player_combo; setValue 9; setVariable selected_player_combo
 permanentGlobal int,item_amount_level; setValue 75; setVariable item_amount_level
 permanentGlobal int,demo; setValue 0; setVariable demo
@@ -49,19 +45,23 @@ permanentGlobal int[16],mission_shards_total_found; setArrayVariableValues missi
 permanentGlobal int[6],player_energy; setArrayVariableValues player_energy,0,200,210,250,0,0
 permanentGlobal int,experience_shard_amount; setValue 25; setVariable experience_shard_amount
 permanentGlobal int,very_hard_difficulty_unlocked; setValue 1; setVariable very_hard_difficulty_unlocked
+permanentGlobal int,autoadjust_difficulty_level; setValue 0; setVariable autoadjust_difficulty_level
+permanentGlobal int[6],player_max_hp; setArrayVariableValues player_max_hp,0,220,210,230,0,0
+permanentGlobal int[119],player_item_max_level; setArrayVariableValues player_item_max_level,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,0,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+permanentGlobal int,reached_first_checkpoint; setValue 1; setVariable reached_first_checkpoint
 permanentGlobal int,players_created; setValue 1; setVariable players_created
 permanentGlobal int[119],player_item_owner; setArrayVariableValues player_item_owner,0,0,0,0,3,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,1,1,1,1,2,0,2,3,2,2,3,3,2,1,2,1,1,0,1,2,3,3,3,3,1,2,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0,1,0,0,3,3,0,3,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 permanentGlobal int,new_log_entry; setValue 0; setVariable new_log_entry
 permanentGlobal int,misc_thief_finds_jewelry_but_not_necklace; setValue 1; setVariable misc_thief_finds_jewelry_but_not_necklace
 permanentGlobal int[6],player_max_energy; setArrayVariableValues player_max_energy,0,200,210,250,0,0
 permanentGlobal int,level_up_available; setValue 0; setVariable level_up_available
-permanentGlobal string,last_checkpoint_name; setString "castle1_entry"; setStringVariable last_checkpoint_name
+permanentGlobal string,last_checkpoint_name; setString "extra1_entry"; setStringVariable last_checkpoint_name
 permanentGlobal int,damage_amount_level; setValue 75; setVariable damage_amount_level
 permanentGlobal int[16],mission_shards_enemies_total_found; setArrayVariableValues mission_shards_enemies_total_found,0,20,15,20,25,20,20,20,20,15,20,20,20,25,15,0
 permanentGlobal int,pending_energy; setValue 0; setVariable pending_energy
 permanentGlobal int[6],player_max_energy_original; setArrayVariableValues player_max_energy_original,0,200,200,200,0,0
 permanentGlobal int[16],mission_complete_time_easy; setArrayVariableValues mission_complete_time_easy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-permanentGlobal int,last_played_mission; setValue 1; setVariable last_played_mission
+permanentGlobal int,last_played_mission; setValue 15; setVariable last_played_mission
 permanentGlobal int,next_log_entry_time; setValue 0; setVariable next_log_entry_time
 permanentGlobal int[119],player_item_state; setArrayVariableValues player_item_state,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 permanentGlobal int[6],player_max_hp_original; setArrayVariableValues player_max_hp_original,0,200,200,200,0,0
