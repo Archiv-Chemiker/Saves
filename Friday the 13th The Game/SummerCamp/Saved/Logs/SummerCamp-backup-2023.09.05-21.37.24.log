@@ -1,0 +1,298 @@
+﻿Log file open, 09/05/23 21:34:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1263728305) SRandInit(-1263728305).
+LogTaskGraph: Started task graph with 4 named threads and 13 total threads with 3 sets of task threads.
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin AESHandlerComponent
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemPS4Server
+LogPluginManager: Mounting plugin OnlineSubsystemLiveServer
+LogPluginManager: Mounting plugin SteamController
+LogPluginManager: Mounting plugin GameLiftServerSDK
+LogPluginManager: Mounting plugin MfMedia
+LogPluginManager: Mounting plugin EasyAntiCheat
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++SummerCamp+main-CL-39331
+LogInit: Engine Version: 4.18.3-39331+++SummerCamp+main
+LogInit: Compatible Engine Version: 4.18.0-39331+++SummerCamp+main
+LogInit: Net CL: 39331
+LogInit: Compiled (64-bit): Aug 17 2021 10:09:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++SummerCamp+main
+LogInit: Command line: 
+LogInit: Base directory: D:/Launchers/Steam/steamapps/common/F13Game/SummerCamp/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 2097152 objects, including 140000 objects not considered by GC, pre-allocating 40000000 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true
+LogInit: Object subsystem initialized
+[2023.09.05-15.34.23:404][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2023.09.05-15.34.23:404][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2023.09.05-15.34.23:453][  0]LogInit: Setting Device Profile CVar: [[sg.ViewDistanceQuality:2]]
+[2023.09.05-15.34.23:454][  0]LogInit: Setting Device Profile CVar: [[sg.AntiAliasingQuality:2]]
+[2023.09.05-15.34.23:454][  0]LogInit: Setting Device Profile CVar: [[sg.ShadowQuality:2]]
+[2023.09.05-15.34.23:454][  0]LogInit: Setting Device Profile CVar: [[sg.PostProcessQuality:2]]
+[2023.09.05-15.34.23:454][  0]LogInit: Setting Device Profile CVar: [[sg.TextureQuality:2]]
+[2023.09.05-15.34.23:454][  0]LogInit: Setting Device Profile CVar: [[sg.EffectsQuality:2]]
+[2023.09.05-15.34.23:454][  0]LogInit: Setting Device Profile CVar: [[sg.FoliageQuality:2]]
+[2023.09.05-15.34.23:454][  0]LogInit: Computer: COMPUTER
+[2023.09.05-15.34.23:454][  0]LogInit: User: TeMeR
+[2023.09.05-15.34.23:454][  0]LogInit: CPU Page size=4096, Cores=4
+[2023.09.05-15.34.23:455][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.09.05-15.34.23:455][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2023.09.05-15.34.23:455][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2023.09.05-15.34.23:455][  0]LogMemory: Process Physical Memory: 205.88 MB used, 205.89 MB peak
+[2023.09.05-15.34.23:455][  0]LogMemory: Process Virtual Memory: 252.42 MB used, 252.42 MB peak
+[2023.09.05-15.34.23:455][  0]LogMemory: Physical Memory: 14213.34 MB used,  18517.46 MB free, 32730.81 MB total
+[2023.09.05-15.34.23:455][  0]LogMemory: Virtual Memory: 4665.27 MB used,  18517.46 MB free, 134217728.00 MB total
+[2023.09.05-15.34.23:988][  0]LogInit: Using OS detected language (ru-RU).
+[2023.09.05-15.34.23:988][  0]LogInit: Using OS detected locale (ru-RU).
+[2023.09.05-15.34.24:013][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2023.09.05-15.34.24:601][  0]LogD3D11RHI: D3D11 adapters:
+[2023.09.05-15.34.27:688][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2023.09.05-15.34.27:688][  0]LogD3D11RHI:       8019/0/16365 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.09.05-15.34.27:865][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.09.05-15.34.27:865][  0]LogD3D11RHI:       0/0/16365 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.09.05-15.34.27:865][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.09.05-15.34.27:871][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.09.05-15.34.27:871][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
+[2023.09.05-15.34.27:871][  0]LogWindows: EnumDisplayDevices:
+[2023.09.05-15.34.27:871][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2023.09.05-15.34.27:872][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2023.09.05-15.34.27:872][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2023.09.05-15.34.27:872][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2023.09.05-15.34.27:872][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.09.05-15.34.27:872][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2023.09.05-15.34.27:872][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.09.05-15.34.27:872][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.09.05-15.34.27:872][  0]LogRHI: Texture pool is 5613 MB (70% of 8019 MB)
+[2023.09.05-15.34.30:045][  0]LogD3D11RHI: Async texture creation enabled
+[2023.09.05-15.34.30:062][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.09.05-15.34.30:333][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.09.05-15.34.30:333][  0]LogSlate: Using Freetype 2.6.0
+[2023.09.05-15.34.30:507][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.09.05-15.34.30:507][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.09.05-15.34.31:035][  0]LogAssetRegistry: FAssetRegistry took 0.2053 seconds to start up
+[2023.09.05-15.34.31:128][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.009270 seconds
+[2023.09.05-15.34.31:128][  0]LogPakFile: New pak file ../../../SummerCamp/Content/Paks/SummerCamp-WindowsNoEditor.pak added to pak precacher.
+[2023.09.05-15.34.31:145][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2023.09.05-15.34.31:321][  0]LogNetVersion: SummerCamp , NetCL: 39331, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2227084052)
+[2023.09.05-15.34.37:996][  0]LogMoviePlayer: Initializing movie player
+[2023.09.05-15.34.39:139][  0]LogEasyAntiCheatServer: Using path: (D:/Launchers/Steam/steamapps/common/F13Game/EasyAntiCheat)
+[2023.09.05-15.34.39:150][  0]LogEasyAntiCheatClient: Using path: (D:/Launchers/Steam/steamapps/common/F13Game/EasyAntiCheat)
+[2023.09.05-15.34.39:151][  0]LogEasyAntiCheatClient: Loading native plugin from: D:/Launchers/Steam/steamapps/common/F13Game/EasyAntiCheat
+[2023.09.05-15.34.39:176][  0]LogEasyAntiCheatClient: [FEasyAntiCheatClient::EACInitFinished] Result: 0
+[2023.09.05-15.34.39:184][  0]LogEasyAntiCheatClient: Native plugin initialized successfully.
+[2023.09.05-15.34.39:184][  0]LogEasyAntiCheatClient: Events registered
+[2023.09.05-15.34.39:184][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.09.05-15.34.39:184][  0]LogOcInput: OculusInput pre-init called
+[2023.09.05-15.34.39:194][  0]LogUObjectArray: 100394 objects as part of root set at end of initial load.
+[2023.09.05-15.34.39:194][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2023.09.05-15.34.39:194][  0]LogUObjectAllocator: 26768240 out of 40000000 bytes used by permanent object pool.
+[2023.09.05-15.34.39:194][  0]LogUObjectArray: CloseDisregardForGC: 100394/140000 objects in disregard for GC pool
+[2023.09.05-15.34.39:216][  0]LogEngine: Initializing Engine...
+[2023.09.05-15.34.39:735][  0]LogInit: XAudio2 using 'Наушники (24288 Excellence Red Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2023.09.05-15.34.39:755][  0]LogInit: FAudioDevice initialized.
+[2023.09.05-15.34.39:801][  0]LogInit: Texture streaming: Enabled
+[2023.09.05-15.34.40:274][  0]LogCounselorClothing: Counselor clothing initialized, found 35 outfits
+[2023.09.05-15.34.40:281][  0]LogInit: Display: Game Engine Initialized.
+[2023.09.05-15.34.40:281][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.09.05-15.34.40:294][  0]LogInit: Display: Starting Game.
+[2023.09.05-15.34.40:294][  0]LogNet: Browse: /Game/Maps/UI/Menu_Backgrounds_JasonVignette_J3?Name=Player
+[2023.09.05-15.34.40:341][  0]LogLoad: LoadMap: /Game/Maps/UI/Menu_Backgrounds_JasonVignette_J3?Name=Player
+[2023.09.05-15.34.42:889][  0]LogStreaming: Display: /Game/Maps/UI/Menu_Backgrounds_JasonVignette_J3 is prestreaming /Game/Maps/UI/Menu_Backgrounds_CounselorModel_01
+[2023.09.05-15.34.42:889][  0]LogStreaming: Display: /Game/Maps/UI/Menu_Backgrounds_JasonVignette_J3 is prestreaming /Game/Maps/UI/Menu_Backgrounds_JasonModel_01
+[2023.09.05-15.34.43:082][  0]LogAIModule: Creating AISystem for world Menu_Backgrounds_JasonVignette_J3
+[2023.09.05-15.34.43:082][  0]LogLoad: Game class is 'EntryGame_C'
+[2023.09.05-15.34.43:084][  0]LogWorld: Bringing World /Game/Maps/UI/Menu_Backgrounds_JasonVignette_J3.Menu_Backgrounds_JasonVignette_J3 up for play (max tick rate 0) at 2023.09.05-21.34.43
+[2023.09.05-15.34.43:136][  0]LogWorld: Bringing up level for play took: 0.053906
+[2023.09.05-15.34.43:137][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.09.05-15.34.43:137][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.09.05-15.34.43:137][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.09.05-15.34.43:137][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.09.05-15.34.43:195][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.09.05-15.34.43:195][  0]LogLoad: Took 2.852935 seconds to LoadMap(/Game/Maps/UI/Menu_Backgrounds_JasonVignette_J3)
+[2023.09.05-15.34.43:195][  0]LogIGF: UILLGameInstance initialization
+[2023.09.05-15.34.43:195][  0]LogIGF: ... Build: 12506
+[2023.09.05-15.34.43:195][  0]LogIGF: ... GameLift: true
+[2023.09.05-15.35.10:897][  0]LogLoad: (Engine Initialization) Total time: 50.81 seconds
+[2023.09.05-15.35.10:897][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.09.05-15.35.10:907][  0]LogContentStreaming: Texture pool size now 1350 MB
+[2023.09.05-15.35.10:909][  0]LogSlate: Took 0.001498 seconds to synchronously load lazily loaded font '../../../SummerCamp/Content/UI/Font/AlteHaasGrotesk_0_Bold.ufont' (142K)
+[2023.09.05-15.35.10:926][  0]LogSlate: Took 0.016970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.09.05-15.35.10:928][  0]LogSlate: Took 0.000876 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2023.09.05-15.35.10:929][  0]LogSlate: Took 0.000937 seconds to synchronously load lazily loaded font '../../../SummerCamp/Content/UI/Font/AlteHaasGrotesk_0_Regular.ufont' (141K)
+[2023.09.05-15.35.11:304][  0]LogStreaming: Display: Suspending async loading (1)
+[2023.09.05-15.35.11:335][  0]LogStreaming: Display: Resuming async loading (0)
+[2023.09.05-15.35.11:414][  1]LogRenderer: Reallocating scene render targets to support 2688x1512 Format 9 NumSamples 1 (Frame:1).
+[2023.09.05-15.35.11:473][  1]LogOnlineGame: Verbose: AILLPlayerController bUsingMultiplayerFeatures changed to false
+[2023.09.05-15.35.11:473][  1]LogOnlineGame: Verbose: AILLPlayerState::PromoteToHost: Chemiker 76561198093545625
+[2023.09.05-15.35.11:487][  2]LogOnline: Warning: STEAM: GetAchievementAndUnlockTime() failed for achievement 'ACH_VIRTUALCABIN_COMPLETE'
+[2023.09.05-15.35.18:923][442]Closing by request
+[2023.09.05-15.35.18:923][442]LogWindows: FPlatformMisc::RequestExit(0)
+[2023.09.05-15.35.18:960][443]LogOnlineGame: Verbose: AILLPlayerState::DemoteFromHost: Chemiker 76561198093545625
+[2023.09.05-15.35.19:244][443]LogStreaming: Display: Suspending async loading (1)
+[2023.09.05-15.35.19:274][443]LogStreaming: Display: Resuming async loading (0)
+[2023.09.05-15.35.19:276][443]LogSlate: Request Window 'Friday the 13th: The Game  - B12506' being destroyed
+[2023.09.05-15.35.19:276][443]LogStreaming: Display: Suspending async loading (1)
+[2023.09.05-15.35.19:342][443]LogStreaming: Display: Resuming async loading (0)
+[2023.09.05-15.35.19:343][443]LogSlate: Window 'Friday the 13th: The Game  - B12506' being destroyed
+[2023.09.05-15.35.19:343][443]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2023.09.05-15.35.19:380][443]LogExit: Preparing to exit.
+[2023.09.05-15.35.19:380][443]LogMoviePlayer: Shutting down movie player
+[2023.09.05-15.35.19:637][443]LogExit: Game engine shut down
+[2023.09.05-15.35.19:784][443]LogExit: Object subsystem successfully closed.
+[2023.09.05-15.35.19:962][443]LogD3D11RHI: Shutdown
+[2023.09.05-15.35.19:962][443]LogD3D11RHI: CleanupD3DDevice
+[2023.09.05-15.35.20:040][443]LogD3D11RHI: ~FD3D11DynamicRHI
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module AIModule (178)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (176)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (174)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (172)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (170)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module CharacterAI (168)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module SessionServices (166)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (164)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module MovieScene (162)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module GeometryCache (160)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (158)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module AnalyticsET (156)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module SCLoadingScreen (154)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (152)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module OculusInput (150)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (148)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (146)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module CableComponent (144)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (142)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module AndroidPermission (140)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module ActorSequence (138)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module MediaCompositing (136)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module HTML5Networking (134)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module EasyAntiCheatCommon (132)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module EasyAntiCheatClient (130)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module EasyAntiCheatServer (128)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module SteamController (126)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module AESHandlerComponent (120)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (118)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module PlatformCrypto (116)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module SummerCamp (114)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module ILLGameFramework (110)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (108)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module PhysXVehicles (106)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (104)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (102)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module UdpMessaging (100)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module TcpMessaging (98)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module FacialAnimation (96)
+[2023.09.05-15.35.20:040][443]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2023.09.05-15.35.20:041][443]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2023.09.05-15.35.20:041][443]LogModuleManager: Shutting down and abandoning module GameLiftServerSDK (90)
+[2023.09.05-15.35.20:041][443]LogModuleManager: Shutting down and abandoning module ApexDestruction (88)
+[2023.09.05-15.35.20:041][443]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (86)
+[2023.09.05-15.35.20:041][443]LogModuleManager: Shutting down and abandoning module WmfMedia (84)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module ImgMedia (82)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module PacketHandler (80)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (78)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module MediaAssets (76)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module Overlay (74)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module EnlightenCore (72)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module UMG (70)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module MRMesh (66)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module Messaging (64)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (62)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module XAudio2 (60)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module Networking (58)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module Core (56)
+[2023.09.05-15.35.20:081][443]LogModuleManager: Shutting down and abandoning module Media (54)
+[2023.09.05-15.35.20:087][443]LogModuleManager: Shutting down and abandoning module LevelSequence (52)
+[2023.09.05-15.35.20:087][443]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2023.09.05-15.35.20:087][443]LogModuleManager: Shutting down and abandoning module InputCore (46)
+[2023.09.05-15.35.20:087][443]LogModuleManager: Shutting down and abandoning module PhysXCooking (44)
+[2023.09.05-15.35.20:087][443]LogModuleManager: Shutting down and abandoning module OculusHMD (42)
+[2023.09.05-15.35.20:087][443]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (40)
+[2023.09.05-15.35.20:087][443]LogModuleManager: Shutting down and abandoning module AppleARKit (38)
+[2023.09.05-15.35.20:087][443]LogModuleManager: Shutting down and abandoning module AugmentedReality (37)
+[2023.09.05-15.35.20:087][443]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (32)
+[2023.09.05-15.35.20:087][443]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2023.09.05-15.35.20:087][443]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2023.09.05-15.35.20:136][443]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2023.09.05-15.35.20:136][443]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2023.09.05-15.35.20:136][443]LogOnline: Display: ILL: FILLOnlineSubsystem::Shutdown()
+[2023.09.05-15.35.20:136][443]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2023.09.05-15.35.20:136][443]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2023.09.05-15.35.20:136][443]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2023.09.05-15.35.20:136][443]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2023.09.05-15.35.20:136][443]LogModuleManager: Shutting down and abandoning module HTTP (27)
+[2023.09.05-15.35.20:137][443]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2023.09.05-15.35.20:137][443]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD98FDECE-438F-2CB7-988F-AA95089F6AEF%7D&AppID=UEGame.UnrealEngine.Release%7C0450271B402F970A2CE24B93AB39B29C%7CFriday%20the%2013th%3A%20The%20Game&AppVersion=4.18.3-39331%2B%2B%2BSummerCamp%2Bmain&UserID=ANON-%7B26273EA3-43CE-860E-F7AD-F89303345472%7D%7C%7C&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2023.09.05-15.35.20:137][443]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2023.09.05-15.35.20:638][443]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2023.09.05-15.35.21:139][443]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2023.09.05-15.35.21:646][443]LogModuleManager: Shutting down and abandoning module SSL (26)
+[2023.09.05-15.35.21:647][443]LogModuleManager: Shutting down and abandoning module ShaderCore (22)
+[2023.09.05-15.35.21:647][443]LogModuleManager: Shutting down and abandoning module Landscape (20)
+[2023.09.05-15.35.21:647][443]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (18)
+[2023.09.05-15.35.21:648][443]LogModuleManager: Shutting down and abandoning module OpenGLDrv (16)
+[2023.09.05-15.35.21:648][443]LogModuleManager: Shutting down and abandoning module D3D11RHI (14)
+[2023.09.05-15.35.21:648][443]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (12)
+[2023.09.05-15.35.21:648][443]LogModuleManager: Shutting down and abandoning module Renderer (10)
+[2023.09.05-15.35.21:648][443]LogModuleManager: Shutting down and abandoning module Engine (8)
+[2023.09.05-15.35.21:648][443]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2023.09.05-15.35.21:648][443]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2023.09.05-15.35.21:648][443]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2023.09.05-15.35.21:648][443]LogExit: Exiting.
+[2023.09.05-15.35.21:651][443]Log file closed, 09/05/23 21:35:21
