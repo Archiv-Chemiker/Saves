@@ -1,0 +1,18 @@
+Benchmark version: 1.3.0.4En (20 June 2007)
+
+Min: 52.22
+Max: 256.41
+Avg: 156.50
+
+[CPU] vendor: GenuineIntel, features: FPU CMOV TSC MMX SSE SSE2 SSE3 HTT, clock frequency: 4200.00MHz
+Graphics board: NVIDIA GeForce RTX 2070
+Video memory available: 3072 MB
+Resolution: 1920x1080x32
+Fullscreen: true
+Shadowmap size: 2048
+Shadow quality: 3
+Multisample anti-aliasing: off
+Supersampling: on (x4)
+
+frames rendered: 28081
+time: 02:59:43

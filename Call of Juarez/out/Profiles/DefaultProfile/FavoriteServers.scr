@@ -1,0 +1,8 @@
+!RefreshTime(s)
+!NetServerInfo(s,i,s,i,i,i,s,i,s,s,i,i,i,i,i)
+!Selected(i,i)
+
+RefreshTime("0")
+NetServerInfo("90.157.197.97",30500,"",0,0,-1,"0",10101,"","",0,1,-1,-1,0)
+Selected(-1,0)
+

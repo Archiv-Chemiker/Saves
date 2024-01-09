@@ -1,0 +1,219 @@
+>IyÏÓ&
+                    #include<Functions.hlsl>
+
+                    struct VS2GS
+          					{
+                         float4  vPosition   : SV_POSITION;
+                        #if defined(USE_COLOR0) || defined(USE_LIGHTING)
+                            float4  uvTexcoord0 : TEXCOORD0;
+                        #endif
+                        float4  vVertexColor : COLOR0;
+
+                        float4  vExtinction  : TEXCOORD1;
+                        float4  vInscattering : TEXCOORD2;
+                        float   vDepth       : TEXCOORD3;
+
+                        float4	vVP_XForm_Column0	: TEXCOORD7;
+                        float4	vVP_XForm_Column1	: TEXCOORD8;
+                        float4	vVP_XForm_Column2	: TEXCOORD9;
+                        float4	vVP_XForm_Column3	: TEXCOORD10;
+
+
+         					  };
+          					
+          					struct GS2PS
+                    {
+                         float4  vPosition           : SV_POSITION;
+
+                        #if defined(USE_FXCOLORTRANSLUCENCY)
+                            #define FLOAT_vExtinction float4
+                        #else
+                            #define FLOAT_vExtinction float3
+                        #endif
+
+                        #if defined(USE_BLENDMODEMUL)
+                            FLOAT_vExtinction  vExtinction     : TEXCOORD0; //TODO w to alphatestu
+                            float3  vInscattering   : TEXCOORD1;
+                            #if defined(USE_COLOR0)
+                                float2  uvTexcoord0     : TEXCOORD2;
+                                #if defined(USE_COLOR1)
+                                    float2  uvTexcoord1     : TEXCOORD3;
+                                    #if defined(USE_DEPTHBLENDING)
+                                        float vDepth        : TEXCOORD4;
+                                    #endif
+                                #elif defined(USE_DEPTHBLENDING)
+                                    float vDepth        : TEXCOORD3;
+                                #endif
+                            #elif defined(USE_DEPTHBLENDING)
+                                float vDepth        : TEXCOORD2;
+                            #endif
+                        #elif defined(USE_BLENDMODEADDRGBMULALPHA)
+                            float4  vExtinction     : TEXCOORD0;
+                            float4  vInscattering   : TEXCOORD1;
+                            #if defined(USE_COLOR0)
+                                float2  uvTexcoord0     : TEXCOORD2;
+                                #if defined(USE_COLOR1)
+                                    float2  uvTexcoord1     : TEXCOORD3;
+                                    #if defined(USE_DEPTHBLENDING)
+                                        float vDepth        : TEXCOORD4;
+                                    #endif
+                                #elif defined(USE_DEPTHBLENDING)
+                                    float vDepth        : TEXCOORD3;
+                                #endif
+                            #elif defined(USE_DEPTHBLENDING)
+                                float vDepth        : TEXCOORD2;
+                            #endif
+                        #elif defined(USE_BLENDMODEADD)
+                            float4  vExtinction     : COLOR0; //TODO w to alphatestu
+                            #if defined(USE_COLOR0)
+                                float2  uvTexcoord0     : TEXCOORD0;
+                                #if defined(USE_COLOR1)
+                                    float2  uvTexcoord1     : TEXCOORD1;
+                                    #if defined(USE_DEPTHBLENDING)
+                                        float vDepth        : TEXCOORD2;
+                                    #endif
+                                #elif defined(USE_DEPTHBLENDING)
+                                    float vDepth        : TEXCOORD1;
+                                #endif
+                            #elif defined(USE_DEPTHBLENDING)
+                                float vDepth        : TEXCOORD0;
+                            #endif
+                        #else
+                            float4  vExtinction     : COLOR0; //TODO w to alphatestu
+                            float4  vInscattering   : TEXCOORD0;
+                            #if defined(USE_COLOR0)
+                                float2  uvTexcoord0     : TEXCOORD1;
+                                #if defined(USE_COLOR1)
+                                    float2  uvTexcoord1     : TEXCOORD2;
+                                    #if defined(USE_DEPTHBLENDING)
+                                        float vDepth        : TEXCOORD3;
+                                    #endif
+                                #elif defined(USE_DEPTHBLENDING)
+                                    float vDepth        : TEXCOORD2;
+                                #endif
+                            #elif defined(USE_DEPTHBLENDING)
+                                float vDepth        : TEXCOORD1;
+                            #endif
+                        #endif
+                   };
+                    
+
+                    [maxvertexcount(4)]
+                    void main(point VS2GS input[1], inout TriangleStream<GS2PS> output)
+                    {
+                      GS2PS vertex;
+                      
+                      float2 v_pos[4] = 
+                      { 
+                        float2( -1, -1 ), 
+                        float2(  1, -1 ),
+                        float2( -1,  1 ),
+                        float2(  1,  1 )
+                      };
+                      
+                      #if defined(USE_COLOR0) || defined(USE_LIGHTING)
+                      
+                      float2 v_tcoords[4] = 
+                      {
+//                          float2(0.0f, 0.0f),
+//                          float2(1.0f, 0.0f),
+//                          float2(0.0f, 1.0f),
+//                          float2(1.0f, 1.0f),
+                          float2(input[0].uvTexcoord0.x,input[0].uvTexcoord0.y), 
+                          float2(input[0].uvTexcoord0.z,input[0].uvTexcoord0.y),
+                          float2(input[0].uvTexcoord0.x,input[0].uvTexcoord0.w),
+                          float2(input[0].uvTexcoord0.z,input[0].uvTexcoord0.w),
+                      };
+                      #endif
+
+                   
+                      float p_size = input[0].vPosition.w;
+                      
+                      
+                      float4 pExtinction;
+                      float4 pInscattering;
+                      float pDepth;
+                      
+                      pExtinction = input[0].vExtinction;
+                      pInscattering = input[0].vInscattering;
+                      pDepth = input[0].vDepth;
+
+                    
+                      // Emit two new triangles
+                      [unroll] for(int i=0; i<4; i++)
+                      {
+                          float4 pos = input[0].vPosition;
+                          pos.w = 1.0f;
+                          pos.xy += v_pos[i] * p_size;
+
+
+
+                          vertex.vPosition = mul( pos, float4x4( input[0].vVP_XForm_Column0, 
+																 input[0].vVP_XForm_Column1, 
+																 input[0].vVP_XForm_Column2, 
+																 input[0].vVP_XForm_Column3 ) );
+
+/*
+                        // [KeoZ]: CONST_24 and CONST_28 are not used? 
+                        
+                        float2 iTexCoord = v_tcoords[i];
+
+
+                        #if defined(USE_COLOR0)
+                            #if defined(USE_COLOR0XFORM)
+                                float4 uvTexcoord0 = float4( iTexCoord.xy, 0, 1 );
+                                vertex.uvTexcoord0.x = dot( uvTexcoord0, CONST_24[0] );
+                                vertex.uvTexcoord0.y = dot( uvTexcoord0, CONST_24[1] );
+                            #else
+                                 vertex.uvTexcoord0.xy = iTexCoord.xy;
+                            #endif
+                            #if defined(USE_COLOR1)
+                                #if defined(USE_COLOR1XFORM)
+                                    #if !defined(USE_COLOR0XFORM)
+                                        float4 uvTexcoord0 = float4( iTexCoord.xy, 0, 1 );
+                                    #endif
+                                    vertex.uvTexcoord1.x = dot( uvTexcoord0, CONST_28[0] );
+                                    vertex.uvTexcoord1.y = dot( uvTexcoord0, CONST_28[1] );
+                                #else
+                                     vertex.uvTexcoord1.xy = iTexCoord.xy;
+                                #endif
+                            #endif
+                        #endif
+*/
+
+                        #if defined(USE_COLOR0)
+                          vertex.uvTexcoord0 = v_tcoords[i];
+                          #if defined(USE_COLOR1)
+                            vertex.uvTexcoord1 = v_tcoords[i];
+                          #endif
+                        #endif
+                          
+                                     
+                        vertex.vExtinction = pExtinction;
+                        #if !defined(USE_BLENDMODEADD)
+                        vertex.vInscattering = pInscattering;
+                        #endif
+                        vertex.vDepth = pDepth;
+                        
+/*
+                        vertex.vExtinction.xyzw = float4(1.0f, 1.0f, 1.0f, 0.1f);            
+                        vertex.vInscattering.xyzw = float4(1.0f, 1.0f, 1.0f, 0.0f);
+                        vertex.vDepth = 1.0f;            
+*/
+                                   
+                        output.Append(vertex);
+                      }
+                      output.RestartStrip();                    }
+                  Ð  DXBCÈ1óù¹QÇæ4´\iË   Ð     4   |   ˜  <  X  RDEF@                   SG      Microsoft (R) HLSL Shader Compiler «ISGN  
+      ø                                                                                                                                               	                 
+          	     SV_POSITION TEXCOORD COLOR «OSGNœ         €                    Œ                    ’                    ’                  ’                  SV_POSITION COLOR TEXCOORD «SHDR  @  …  a  ò            _  ò        _  ò        _  ò        _          _  ò        _  ò        _  ò        _  ò     	   g  ò         e  ò     e  ò     e  2     e  B     h     ] \( ^        
+2      ö €A           F          8  ò     V     F         2  
+ò            F         F    2  ò      ¦          F         F        ò      F     F      	   6  ò      F     6  ò     F         6  ò     F         6  2      F         6  B      
+         6  r     F       2  ò      ö          @    €?  €¿  €¿  €?F          8  ò     V     F         2  
+ò           F         F    2  ò     ¦          F         F       ò     F    F      	   6  ò      F    6  ò     F         6  ò     F         6  2     f         6  B     
+         6  r     F      8  ò     ö     F         2  
+ò      ¦
+     F         F    2  ò      ¦          F         F        ò      F     F      	   6  ò      F     6  ò     F         6  ò     F         6  2      Æ         6  B      
+         6  r     F       2  2      ö          @    €?  €?        F          8  ò     V     F         2  
+ò            F         F    2  ò      ¦          F         F        ò      F     F      	   6  ò      F     6  ò     F         6  ò     F         6  2      æ         6  B      
+         6  r     F       	  >  STATp   1             	                                                                                        |   USE_LIGHTING 1 USE_DEPTHBLENDING 1.000000 USE_COLOR0 1 USE_BLENDMODELERP 1 SHADOW_QUALITY 3 HSM_MODE 1 DEPTHFACTOR 1.000000              !   *   5   7   I   K   Z   \   e   g   s              $@$               ÿ               ªªªª               |}                 Û°Û                                                                    

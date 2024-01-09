@@ -1,0 +1,43 @@
+!Resolution(i,i)
+!BPP(i)
+!FSAA(i)               // Full Screen AntiAliasing, 0 - none, higher is better
+!TexBPP(i)
+!TextureQuality(s)     // VeryLow, Low, Normal, High
+!Filtering(s)          // Bilinear, Trilinear, Anisotropic, AnisotropicTrilinear
+!Gamma(i)
+!MaxRefresh(i)
+!Shadows(s)            // None, Low, Normal, High, VeryHigh
+!ShadowMapSize(i)
+!Lightmaps()
+!Fullscreen()
+!ExtraQuality()
+!MaterialQuality(i)    // lower is better
+!WaterQuality(i)       // lower is better
+!GrassQuality(i)       // lower is better
+!TreesQuality(i)       // lower is better
+!FXQuality(i)          // higher is better
+!EnvQuality(s)         // FullDynamic, RareDynamic, Static
+!ShaderPath(i)         // 0 - 1.1, 1 - 1.4, 2 - 2.0, 3 - 3.0
+!PostProcess(s)        // None, Simple, Normal
+
+Resolution(3840,2160)
+BPP(32)
+FSAA(2)
+TexBPP(32)
+TextureQuality("Normal")
+Filtering("AnisotropicTrilinear")
+Fullscreen()
+ExtraQuality()
+Shadows("High")
+ShadowMapSize(2048)
+Lightmaps()
+Gamma(2)
+MaxRefresh(60)
+MaterialQuality(0)
+FXQuality(3)
+WaterQuality(0)
+GrassQuality(0)
+TreesQuality(0)
+EnvQuality("RareDynamic")
+ShaderPath(4)
+Postprocess("Benchmark_SS")

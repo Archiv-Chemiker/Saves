@@ -1,0 +1,9 @@
+!Admin( s, s, i )
+
+// Admin( sUserName, sPassword, iRights )
+// iRights:
+// 0 - standard
+// 1 - full
+// for example:
+// Admin( "nick", "pass", 0 )
+

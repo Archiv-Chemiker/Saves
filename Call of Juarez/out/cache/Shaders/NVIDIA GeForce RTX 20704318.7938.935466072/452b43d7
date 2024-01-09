@@ -1,0 +1,145 @@
+◊C+Ey 
+                    #include<Functions.hlsl>
+                    
+
+                    Texture2D sBackbuffer;
+                    SamplerState samBackbuffer;
+                    #if defined(USE_COLOR0)
+                        Texture2D     sColor0;
+                        SamplerState     samColor0;
+                        #if defined(USE_COLOR1)
+                            Texture2D     sColor1;
+                            SamplerState     samColor1;
+                        #endif
+                    #endif
+
+                    struct pixelInput
+                    {
+						float4  vPosition           : SV_POSITION;
+
+                        #if defined(USE_FXCOLORTRANSLUCENCY)
+                            #define HALF_vExtinction float4
+                        #else
+                            #define HALF_vExtinction float3
+                        #endif
+
+                        #if defined(USE_BLENDMODEMUL)
+                            HALF_vExtinction  vExtinction     : TEXCOORD0; //TODO w to alphatestu
+                            float3  vInscattering   : TEXCOORD1;
+                            #if defined(USE_COLOR0)
+                                float2  uvTexcoord0     : TEXCOORD2;
+                                #if defined(USE_COLOR1)
+                                    float2  uvTexcoord1     : TEXCOORD3;
+                                    #if defined(USE_DEPTHBLENDING)
+                                        float vDepth         : TEXCOORD4;
+                                    #endif
+                                #elif defined(USE_DEPTHBLENDING)
+                                    float vDepth        : TEXCOORD3;
+                                #endif
+                            #elif defined(USE_DEPTHBLENDING)
+                                float vDepth        : TEXCOORD2;
+                            #endif
+                        #elif defined(USE_BLENDMODEADDRGBMULALPHA)
+                            float4  vExtinction     : TEXCOORD0;
+                            float4  vInscattering   : TEXCOORD1;
+                            #if defined(USE_COLOR0)
+                                float2  uvTexcoord0     : TEXCOORD2;
+                                #if defined(USE_COLOR1)
+                                    float2  uvTexcoord1     : TEXCOORD3;
+                                    #if defined(USE_DEPTHBLENDING)
+                                        float vDepth         : TEXCOORD4;
+                                    #endif
+                                #elif defined(USE_DEPTHBLENDING)
+                                    float vDepth        : TEXCOORD3;
+                                #endif
+                            #elif defined(USE_DEPTHBLENDING)
+                                float vDepth        : TEXCOORD2;
+                            #endif
+                        #elif defined(USE_BLENDMODEADD)
+                            float4  vExtinction     : COLOR0; //TODO w to alphatestu
+                            #if defined(USE_COLOR0)
+                                float2  uvTexcoord0     : TEXCOORD0;
+                                #if defined(USE_COLOR1)
+                                    float2  uvTexcoord1     : TEXCOORD1;
+                                    #if defined(USE_DEPTHBLENDING)
+                                        float vDepth         : TEXCOORD2;
+                                    #endif
+                                #elif defined(USE_DEPTHBLENDING)
+                                    float vDepth        : TEXCOORD1;
+                                #endif
+                            #elif defined(USE_DEPTHBLENDING)
+                                float vDepth        : TEXCOORD0;
+                            #endif
+                        #else
+                            float4  vExtinction     : COLOR0; //TODO w to alphatestu
+                            float4  vInscattering   : TEXCOORD0;
+                            #if defined(USE_COLOR0)
+                                float2  uvTexcoord0     : TEXCOORD1;
+                                #if defined(USE_COLOR1)
+                                    float2  uvTexcoord1     : TEXCOORD2;
+                                    #if defined(USE_DEPTHBLENDING)
+                                        float vDepth         : TEXCOORD3;
+                                    #endif
+                                #elif defined(USE_DEPTHBLENDING)
+                                    float vDepth        : TEXCOORD2;
+                                #endif
+                            #elif defined(USE_DEPTHBLENDING)
+                                float vDepth        : TEXCOORD1;
+                            #endif
+                        #endif
+//                        float2 uvBackbuffer: VPOS;
+                        float4 uvBackbuffer: SV_POSITION;
+                    };
+
+                    void main( in pixelInput input, out float4 output : SV_TARGET )
+                    {
+                        float4 vDepthBack = sBackbuffer.Sample(samBackbuffer, (input.uvBackbuffer.xy + 0.5) * BACKBUFFER_PARAMS.xy );
+                        float vDepthMask = saturate( linearstep( 0, DEPTHFACTOR, vDepthBack.w - input.vDepth  ) );
+//vDepthMask = 1.0f;
+
+                        #if defined(USE_COLOR0)
+                            output = sColor0.Sample( samColor0, input.uvTexcoord0.xy );
+                            #if defined(USE_COLOR1)
+                                float4 vColor1 = sColor1.Sample( samColor1, input.uvTexcoord1.xy );
+                                #if defined(USE_MIXMODEMUL)
+                                    output *= vColor1;
+                                #elif defined(USE_BLENDMODEADD)
+                                    output += vColor1;
+                                #endif
+                            #endif
+                            #if defined(USE_BLENDMODEADD)
+                                output.xyz *= input.vExtinction.xyz;
+                                output.xyz *= vDepthMask;
+                                output.w = saturate(dot( float3(0.3333, 0.3333, 0.3333), output.xyz ) );
+                                #if defined(USE_FXCOLORTRANSLUCENCY)
+                                    output.w = saturate( output.w - input.vExtinction.w );
+                                #endif
+                            #elif defined(USE_BLENDMODEMUL)
+                                #if defined(USE_FXCOLORTRANSLUCENCY)
+                                    output.w = saturate(dot( float3(0.3333, 0.3333, 0.3333), output.xyz ) );
+                                    output.w = saturate(  input.vExtinction.w - output.w  );
+                                    output.xyz = saturate( output.xyz * input.vExtinction.xyz + input.vInscattering.xyz );
+                                #else
+                                    output.xyz = saturate( output.xyz * input.vExtinction.xyz + input.vInscattering.xyz );
+                                    output.w = saturate(dot( float3(1.0, 1.0, 1.0), output.xyz ) );
+                                #endif
+                            #elif defined(USE_BLENDMODEADDRGBMULALPHA)
+                                output = output * input.vExtinction + input.vInscattering;
+                                output.w = saturate( output.w ); //mul
+                            #else
+                                #if defined(USE_FXCOLORTRANSLUCENCY)
+                                    output.xyz = output.xyz * input.vExtinction.xyz + input.vInscattering.xyz;
+                                    clip( output.w - input.vInscattering.w );
+                                    output.w = saturate( output.w * input.vExtinction.w );
+                                #else
+                                    output = output * input.vExtinction + input.vInscattering;
+                                #endif
+//                                output.w *= vDepthMask;
+                                output.w = saturate(vDepthMask * output.w);
+                            #endif
+                        #else
+                            output = input.vExtinction;
+                        #endif
+                    }
+                  DXBC¬∞ôCÎ»+F¯czUÂÙ‰        4   –   p  §  ú  RDEFî                  ˇˇ   n   \                             f                          samColor0 sColor0 Microsoft (R) HLSL Shader Compiler ´´´ISGNò         Ä                    å                   å                  å                  å                   SV_POSITION TEXCOORD ´´´OSGN,                               SV_TARGET ´´SHDR   @   <   b Ú    b r    b 2    e  Ú      X  p     UU  Z   `     h     E  	Ú      F    F~      `       
+Ç      @  L¶™>L¶™>L¶™>    F     2  	r      F     F    F       Ç      : ÄA       :    >  STATp                                                                                                             ¶   WORLDSPACE 1 USE_FXCOLORTRANSLUCENCY input.vVertexColor.z USE_DEPTHBLENDING 1.000000 USE_COLOR0 1 USE_BLENDMODEMUL 1 SHADOW_QUALITY 3 HSM_MODE 1 DEPTHFACTOR 1.000000              %   :   L   U   `   b   s   u   Ñ   Ü   è   ë   ù                                                    °Ä               e r                        	 samColor0                               sColor0                              

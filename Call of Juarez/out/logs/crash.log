@@ -1,0 +1,1060 @@
+[PID] 8164
+[CRTTI::AddInterface] Interface <javax.swing.event.InternalFrameListener> not found
+[CRTTI::AddInterface] Interface <javax.swing.event.ChangeListener> not found
+[CRTTI::AddInterface] Interface <javax.swing.event.DocumentListener> not found
+[CRTTI::AddInterface] Interface <javax.swing.event.ChangeListener> not found
+[CRTTI::AddInterface] Interface <javax.swing.event.ListSelectionListener> not found
+[CRTTI::AddInterface] Interface <javax.swing.event.TreeSelectionListener> not found
+[CRTTI::AddInterface] Interface <javax.swing.event.InternalFrameListener> not found
+WARNING:  cannot find attribute described by fRangeInfo in class FXProximityEmitter
+WARNING:  cannot find attribute described by fFadeInOutTextInfo in class InstantFadeInOut
+[CFactory::CreateObject] WARNING! object of class <LawmanGame> creator_level==NULL!
+[CFactory::CreateObject] WARNING! object of class <SecretsManager> creator_level==NULL!
+[CPU] vendor: GenuineIntel, features: FPU CMOV TSC MMX SSE SSE2 SSE3 HTT, clock frequency: 4200.00MHz
+[CFactory::CreateObject] WARNING! object of class <Renderer> creator_level==NULL!
+VendorDesc: NVIDIA GeForce RTX 2070
+VendorID: 4318
+DeviceID: 7938
+D3DRenderer: supported display modes:
+ 800x600, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 800x600, bpp:32, hz:56, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1024x768, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1152x864, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1152x864, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1280x720, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 1280x768, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1280x768, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1280x800, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 1280x960, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1280x960, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1280x1024, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1360x768, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1360x768, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1366x768, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1366x768, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1440x900, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 1440x1080, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1440x1080, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1440x1080, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1440x1080, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1600x900, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 1600x1024, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1600x1024, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1600x1200, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1600x1200, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1680x1050, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 1920x1080, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 1920x1080, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 1920x1200, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 1920x1200, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 1920x1440, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 1920x1440, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 2048x1536, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 2048x1536, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: no
+ 2560x1440, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 2560x1600, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 2560x1600, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+ 3840x2160, bpp:32, hz:60, fmt: R8G8B8A8_UNORM, widescreen: yes
+VendorDesc: NVIDIA GeForce RTX 2070
+VendorID: 4318
+DeviceID: 7938
+VarScripted loaded: data/varlist.scr!
+LAWMAN Validating settings... OK
+WM_ACTIVATE activate
+FileArchive::Exists( 'lm/nomesh-1.msh' ): unable to open file due to archive '' not initialized!
+[CPPManager::CreateBuffers] Create local buffer 3840x2160 (3840x2160), rgb:48,a:16 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 1920x1080 (1920x1080), rgb:48,a:16 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 960x540 (960x540), rgb:48,a:16 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 1x540 (1x540), rgb:48,a:16 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 1x1 (1x1), rgb:48,a:16 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 3840x2160 (3840x2160), rgb:0,a:8 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 3840x2160 (3840x2160), rgb:0,a:8 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 1920x1080 (1920x1080), rgb:0,a:8 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 960x540 (960x540), rgb:0,a:8 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 960x540 (960x540), rgb:0,a:8 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 480x270 (480x270), rgb:0,a:8 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 240x135 (240x135), rgb:0,a:8 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 240x135 (240x135), rgb:0,a:8 in 'scene40simple.ppfx'
+[CPPManager::CreateBuffers] Create local buffer 240x135 (240x135), rgb:0,a:8 in 'scene40simple.ppfx'
+FileArchive::Exists( 'lm/bbox-1.msh' ): unable to open file due to archive '' not initialized!
+FileArchive::Exists( 'lm/bsphere-1.msh' ): unable to open file due to archive '' not initialized!
+FileArchive::Exists( 'lm/odebox-1.msh' ): unable to open file due to archive '' not initialized!
+FileArchive::Exists( 'lm/odesphere-1.msh' ): unable to open file due to archive '' not initialized!
+FileArchive::Exists( 'lm/odecylinder-1.msh' ): unable to open file due to archive '' not initialized!
+FileArchive::Exists( 'lm/odecone-1.msh' ): unable to open file due to archive '' not initialized!
+[CSoundMixerDS3D] 2d: 32, 3d: 32, hardware, 3d_quality: 2, fx: enabled
+[CSoundMixerDS3D] device 0 description: Первичный звуковой драйвер
+[CSoundMixerDS3D] device 0 module: 
+[CSoundMixerDS3D] device 1 guid: c493bef0-92a7-4d93-a10d30
+[CSoundMixerDS3D] device 1 description: Наушники (24288 Excellence Red Stereo)
+[CSoundMixerDS3D] device 1 module: {0.0.0.00000000}.{c493bef0-92a7-4d93-8ba9-dca98ed6ad97}
+[CSoundMixerDS3D] device 2 guid: 8c4cfff4-d691-44a8-a10a98
+[CSoundMixerDS3D] device 2 description: Speakers (NVIDIA RTX Voice)
+[CSoundMixerDS3D] device 2 module: {0.0.0.00000000}.{8c4cfff4-d691-44a8-9960-52dc3eaf126a}
+[CSoundMixerDS3D] caps PRIMARY16
+[CSoundMixerDS3D] caps PRIMARY8
+[CSoundMixerDS3D] caps PRIMARYMONO
+[CSoundMixerDS3D] caps PRIMARYSTEREO
+[CSoundMixerDS3D] caps SECONDARY16BIT
+[CSoundMixerDS3D] caps SECONDARY8BIT
+[CSoundMixerDS3D] caps SECONDARYMONO
+[CSoundMixerDS3D] caps SECONDARYSTEREO
+[CSoundMixerDS3D] caps Max hw static buffers: 1
+[CSoundMixerDS3D] caps Max hw 3d all buffers: 0 free 0
+[CSoundMixerDS3D] caps Max hw 3d static buffers: 0 free 0
+[CSoundMixerDS3D] caps Max hw 3d streaming buffers: 0 free 0
+[CSoundMixerDS3D] caps secondary freq from 100 to 200000
+[CSoundMixerDS3D] setting 44100:2:16 succeeded
+[CInetAddr::DetermineNetworkInterface] HostName=<Computer>
+[CNetworkSettings::Initialize] data/Network.scr does not exist
+[CInetAdder::DetermineNetworkInterface] address: 172.25.208.1
+Loading Profile <Out/Settings/settings.dat> ...
+... Profile Loaded
+Loading Profile <Out/Settings/settings.dat> ...
+... Profile Loaded
+[CFactory::CreateObject] WARNING! object of class <GameInputController> creator_level==NULL!
+[CFactory::CreateObject] WARNING! object of class <Cheat> creator_level==NULL!
+[CFactory::CreateObject] WARNING! object of class <FreeCamera> creator_level==NULL!
+[CFactory::CreateObject] WARNING! object of class <Module> creator_level==NULL!
+ERROR: |OcclusionManager| occluder configuration file 'Occluders.cfg' not found.
+[CFactory::CreateObject] WARNING! object of class <IntroModule> creator_level==NULL!
+ERROR: |OcclusionManager| occluder configuration file 'Occluders.cfg' not found.
+Ogg logical stream 51a7 is Theora 512x256 25.00 fps video
+Encoded frame content is 512x256 with 0x0 offset
+WARNING! Sprite <IntroModule.InitTexts(618):Sprite> referenced:
+WARNING! in rendering list of level <LawmanGame.RunLevelOrMenu(494):IntroModule>
+[CFactory::CreateObject] WARNING! object of class <MenuBackgroundModule> creator_level==NULL!
+ERROR: |OcclusionManager| occluder configuration file 'Occluders.cfg' not found.
+[CFactory::CreateObject] WARNING! object of class <MainMenuModule> creator_level==NULL!
+ERROR: |OcclusionManager| occluder configuration file 'Occluders.cfg' not found.
+[CFactory::CreateObject] WARNING! object of class <FadeOutModule> creator_level==NULL!
+ERROR: |OcclusionManager| occluder configuration file 'Occluders.cfg' not found.
+[CFactory::CreateObject] WARNING! object of class <MenuScene3DModule> creator_level==NULL!
+ERROR: |OcclusionManager| occluder configuration file 'Occluders.cfg' not found.
+Nie mozna zaladowac mesha o nazwie 
+[CFactory::CreateObject] WARNING! object of class <GameMarkModule> creator_level==NULL!
+ERROR: |OcclusionManager| occluder configuration file 'Occluders.cfg' not found.
+[SGController.IsValidSaveVersion] : <out/save/Quick01.CoJSave>
+[SGController.PreLoad] : <out/save/Quick01.CoJSave>
+[Level Loading] <Data/Maps/Juarez/Final02/final02.map>
+CGame::LoadGameModule(..): Loading static geometry (*.exp)
+[CFactory::CreateObject] WARNING! object of class <LawmanModuleSingle> creator_level==NULL!
+ERROR: |OcclusionManager| occluder configuration file 'Occluders.cfg' not found.
+[LoadMaterial] Default mat used instead of fx_long_trace.mat
+VarScripted loaded: data/maps/juarez/final02/final02.scr!
+Some variables were overwritten.
+*** Warning: MeshMgr::CreateSurface( 'cactusa.msh : CactusA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusa.msh : CactusA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusa.msh : CactusA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusa.msh : CactusA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'bushdesertc.msh : BushDesertC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'bushdesertc.msh : BushDesertC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'bushdesertc.msh : BushDesertC' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusb.msh : CactusB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusb.msh : CactusB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusb.msh : CactusB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone04.msh : Stone04' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone04.msh : Stone04' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone05.msh : Stone05' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone05.msh : Stone05' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone06.msh : Stone06' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone06.msh : Stone06' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone07.msh : Stone07' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone07.msh : Stone07' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone08.msh : Stone08' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone08.msh : Stone08' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone09.msh : Stone09' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'stone09.msh : Stone09' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusc.msh : CactusC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusc.msh : CactusC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusc.msh : CactusC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusc.msh : CactusC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountaina.msh : TreeMountainA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountaina.msh : TreeMountainA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountaina.msh : TreeMountainA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountaina.msh : TreeMountainA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountaina.msh : TreeMountainA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountainb.msh : TreeMountainB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountainb.msh : TreeMountainB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountainb.msh : TreeMountainB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountainb.msh : TreeMountainB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountainb.msh : TreeMountainB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountainc.msh : TreeMountainC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountainc.msh : TreeMountainC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountainc.msh : TreeMountainC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountainc.msh : TreeMountainC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusd.msh : CactusD' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusd.msh : CactusD' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'cactusd.msh : CactusD' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'bushdesertb.msh : BushDesertB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'bushdesertb.msh : BushDesertB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'bushdesertb.msh : BushDesertB' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountaind.msh : TreeMountainD' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountaind.msh : TreeMountainD' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountaind.msh : TreeMountainD' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountaind.msh : TreeMountainD' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'treemountaind.msh : TreeMountainD' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/billy/billy.msh : MedalionLow' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/billy/billy.msh : Thong' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/canon.msh : Canon_Body' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/canon.msh : Cannon_Barrel' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingd.msh : Door_WingD' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingd.msh : Door_WingD' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingd.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingd.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Stand' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Stand' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Barrels' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Barrels' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Drumm' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Drumm' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Gatling' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Gatling' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Trigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Trigger' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Holder' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/gatling.msh : Holder' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/characters/woman/ladies/lady.msh : Cap' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/characters/woman/ladies/lady.msh : Body' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/characters/man/boy/boy.msh : _Hair' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/characters/man/rayai/rayai.msh : RayCap' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/characters/man/rayai/rayai.msh : RayBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunDrum' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunDrum' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunDrum' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunHammer' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunHammer' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunHammer' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunHammer' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunLoader' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunLoader' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunLoader' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltwalker/coltwalker.msh : GunTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/characters/man/billyai/billyai.msh : MedalionLow' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/characters/man/billyai/billyai.msh : Thong' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingbs#01.msh : RailingBS#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingbs#01.msh : RailingBS#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingbm.msh : RailingBM' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingbm.msh : RailingBM' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingbs.msh : RailingBS' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingbs.msh : RailingBS' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ladderhooka.msh : LadderHookA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ladderhooka.msh : LadderHookA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ladderhooka.msh : LadderHookA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ladderhooka.msh : LadderHookA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'healthbottle.msh : HealthBottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'healthbottle.msh : HealthBottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/bencha.msh : BenchA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/boxwooden.msh : BoxWooden' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/boxwooden.msh : BoxWooden' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/cratesmall.msh : CrateSmall' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/barrel.msh : Barrel' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/barrel.msh : Barrel' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/barrel.msh : Barrel' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/cratemedium.msh : CrateMedium' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketc.msh : BasketC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/tank.msh : Tank' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/tank.msh : Tank' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/tank.msh : Tank' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketa#01.msh : BasketA#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketa#01.msh : BasketA#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketa.msh : BasketA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketa.msh : BasketA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketa.msh : BasketA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketa#02.msh : BasketA#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketa#02.msh : BasketA#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ladderhooka.msh : LadderHookA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ladderhooka.msh : LadderHookA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/wheel.msh : Wheel' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ladderhooka.msh : LadderHookA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ladderhooka.msh : LadderHookA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketb.msh : BasketB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketb.msh : BasketB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketb.msh : BasketB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/plankbig.msh : PlankBig' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/plankbig.msh : PlankBig' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/blanketrolled.msh : BlanketRolled' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/blanketrolled.msh : BlanketRolled' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basin.msh : Basin' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basin.msh : Basin' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/bow/bow.msh : Bow' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/bow/bowarrow.msh : ArrowA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/fort/forthole.msh : FortHole' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/fort/fortwallcgap.msh : FortWallCGap' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/fort/fortwallcgap.msh : FortWallCGap' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstonea.msh : TombstoneA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstonea.msh : TombstoneA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstoneb.msh : TombstoneB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstoneb.msh : TombstoneB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstonec.msh : TombstoneC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstonec.msh : TombstoneC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstoned.msh : TombstoneD' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstoned.msh : TombstoneD' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstonee.msh : TombstoneE' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstonef.msh : TombstoneF' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstonef.msh : TombstoneF' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstonefence.msh : TombstoneFence' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'tombstonefence.msh : TombstoneFence' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/sackful.msh : Sackful' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/sackful.msh : Sackful' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hay.msh : Hay' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hay.msh : Hay' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottle.msh : Bottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottle.msh : Bottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottle.msh : Bottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottle.msh : Bottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottle.msh : Bottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottle.msh : Bottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottleb.msh : BottleB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottleb.msh : BottleB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottleb.msh : BottleB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottleb.msh : BottleB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottleb.msh : BottleB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bottleb.msh : BottleB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/growler.msh : Growler' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/growler.msh : Growler' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bowl.msh : Bowl' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bowl.msh : Bowl' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bowl.msh : Bowl' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bowl.msh : Bowl' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bowl.msh : Bowl' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bowl.msh : Bowl' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/pile.msh : Pile' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/pile.msh : Pile' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/tincan.msh : TinCan' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/tincan.msh : TinCan' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/plank.msh : Plank' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/plank.msh : Plank' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/planksmall.msh : PlankSmall' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/planksmall.msh : PlankSmall' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/spiderweba.msh : Plane01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/spiderweba.msh : Plane01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/deerskull.msh : DeerSkull' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/deerskull.msh : DeerSkull' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/chesta_insider.msh : ChestA_Insider' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/chesta_insider.msh : Lid01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/chairb.msh : ChairB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bucket.msh : Bucket' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bucket.msh : Bucket' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bucket.msh : Bucket' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/broom.msh : Broom' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/broom.msh : Broom' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/broom.msh : Broom' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/broom.msh : Broom' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/broom.msh : Broom' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/broom.msh : Broom' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/shortglass.msh : ShortGlass' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/shortglass.msh : ShortGlass' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/chaira.msh : ChairA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bucketa.msh : BucketA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bucketa.msh : BucketA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/spade.msh : Spade' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/spade.msh : Spade' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/rake.msh : Rake' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/boxwoodenclosed.msh : BoxWooden' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/boxwoodenclosed.msh : Lid01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/wheelbarrow.msh : Wheelbarrow' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketc#01.msh : BasketC#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/mug.msh : Mug' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas.msh : RailingAS' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas.msh : RailingAS' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas#04.msh : RailingAS#04' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas#04.msh : RailingAS#04' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingam.msh : RailingAM' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingam.msh : RailingAM' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/spiderwebb.msh : SpiderWebB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/spiderwebb.msh : SpiderWebB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/spiderwebc.msh : SpiderWebC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/spiderwebc.msh : SpiderWebC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/cart.msh : Cart' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/schofield/schofield.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/schofield/schofield.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/schofield/schofield.msh : GunBarrel' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/schofield/schofield.msh : GunDrum' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/schofield/schofield.msh : GunReleaser' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/schofield/schofield.msh : GunCock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/schofield/schofield.msh : GunLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/schofield/schofield.msh : GunTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'waterholdbarrel.msh : WaterholdBarrel' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'waterholdbarrel.msh : WaterholdBarrel' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/lampa.msh : Lamp' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/lampa.msh : Lamp' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/lampa.msh : Glass' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/lampa.msh : Glass' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/constructions/crane.msh : Crane' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/constructions/crane.msh : Crane' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/constructions/cranearm.msh : CraneArm' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/constructions/cranearm.msh : CraneArm' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas#02.msh : RailingAS#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas#02.msh : RailingAS#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas#05.msh : RailingAS#05' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas#05.msh : RailingAS#05' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Body' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Body' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Breechblock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Clip' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Clip' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Cock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Cock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Lever' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Lever' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Loader' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Triger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/volcanic/volcanic.msh : Volcanic_Triger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammogauge.msh : AmmoGauge' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammogauge.msh : AmmoGauge' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/smallrock2.msh : SmallRock2' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/smallrock2.msh : SmallRock2' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/smallrock4.msh : SmallRock4' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/smallrock4.msh : SmallRock4' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/smallrock3.msh : SmallRock3' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/smallrock3.msh : SmallRock3' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/smallrock1.msh : SmallRock1' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/smallrock1.msh : SmallRock1' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/smallrock5.msh : SmallRock5' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/smallrock5.msh : SmallRock5' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/rock4.msh : Rock4' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'rollingrock.msh : RollingRock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'rollingrock.msh : RollingRock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/rock4.msh : Rock4' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/ray/ray.msh : RayBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/holybible/holybible.msh : HolyBible' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/metalbar.msh : MetalBar' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/metalbar.msh : MetalBar' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hookb.msh : HookB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hookb.msh : HookB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hookb.msh : HookB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hookb.msh : HookB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/rock4.msh : Rock4' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/nature/rock4.msh : Rock4' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/cemeterysign.msh : CemeterySign' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/cemeterysign.msh : CemeterySign' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/crossbig.msh : CrossBig' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/crossbig.msh : CrossBig' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/boxwoodenclosed.msh : BoxWooden' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/boxwoodenclosed.msh : BoxWooden' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/boxwoodenclosed.msh : Lid01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/boxwoodenclosed.msh : Lid01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/secret/secretscroll.msh : SecretScroll' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/secret/secretscroll.msh : SecretScroll' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/chestb_insider.msh : ChestB_Insider' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/chestb_insider.msh : Lid01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/chestb_insider.msh : Locker' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/secret/secretscroll.msh : SecretScroll' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/secret/secretscroll.msh : SecretScroll' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtBody' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtCock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtCock' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtDrum' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtDrum' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtLock' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtRelase' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtRelase' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtTrigger' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/booka.msh : BookA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/booka.msh : BookA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bookb.msh : BookB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bookb.msh : BookB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bookc.msh : BookC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bookc.msh : BookC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/interface/shadowcasterplane.msh : SecondSide' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/interface/shadowcasterplane.msh : SecondSide' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/interface/shadowcasterplane.msh : ShadowCasterPlane' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/interface/shadowcasterplane.msh : ShadowCasterPlane' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/ray/raycap.msh : RayCap' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/commode.msh : Commode' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/commode.msh : Commode' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/commode.msh : Drawer01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/commode.msh : Drawer01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/commode.msh : DrawerFront01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/commode.msh : DrawerFront01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/commode.msh : Drawer02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/commode.msh : Drawer02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/commode.msh : DrawerFront02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/commode.msh : DrawerFront02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/bayonet/bayonet.msh : Bayonet' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/hook.msh : Hook' ): no texcoord 2 stream!
+[CFactory::CreateObject] WARNING! object of class <Camera> creator_level==NULL!
+[CFactory::CreateObject] WARNING! object of class <Camera> creator_level==NULL!
+[CFactory::CreateObject] WARNING! object of class <Camera> creator_level==NULL!
+[CFactory::CreateObject] WARNING! object of class <Camera> creator_level==NULL!
+[StaticGeometry] Loading exp map: final02.s3d
+FXDefsManager@7124af.OnCreate mod LawmanModuleSingle@1f7708 Currently is 0 loaded FXes
+[CamerasManager.OnCreate()]
+Create Scope obj
+Nie mozna zaladowac mesha o nazwie 
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/scope/scope.msh : Scope' ): no texcoord 1 stream!
+Create Effect objs
+Nie mozna zaladowac mesha o nazwie 
+Nie mozna zaladowac mesha o nazwie 
+Nie mozna zaladowac mesha o nazwie 
+Nie mozna zaladowac mesha o nazwie 
+PRECACHE CREATE
+No GameMode on level! Creating a new one!
+Created GameMode object (GameModeSingle@c72243:1500200)
+Ilosc spawnpointow klasy SpawnPoint 0
+Ilosc spawnpointow klasy ControlPoint 0
+Nie mozna zaladowac mesha o nazwie 
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Stand' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Stand' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Barrels' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Barrels' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Drumm' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Drumm' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Gatling' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Gatling' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Trigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Trigger' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Holder' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'gatling.msh : Holder' ): no texcoord 2 stream!
+Nie mozna zaladowac mesha o nazwie 
+*** Warning: MeshMgr::CreateSurface( 'mexicanhat1.msh : MexicanHat1' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'mexicanhat3.msh : MexicanHat3' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'mexicanhat2.msh : MexicanHat2' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/whip/whip.msh : Whip' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/whip/whip.msh : Whip' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtCock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtCock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtCock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtDrum' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtDrum' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtDrum' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtRelase' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtRelase' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunBarrel' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunBarrel' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunHammerA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunHammerA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunHammerB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunHammerB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunTriggerA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/remingtonsawoff/remingtonsawoff.msh : GunTriggerB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchester/winchester.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchester/winchester.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchester/winchester.msh : GunCock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchester/winchester.msh : GunLever' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchester/winchester.msh : GunLoader' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchester/winchester.msh : GunLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchester/winchester.msh : GunSlider' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchester/winchester.msh : GunTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/holybible/holybible.msh : HolyBible' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchesterscope/winchesterscope.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchesterscope/winchesterscope.msh : GunBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchesterscope/winchesterscope.msh : GunCock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchesterscope/winchesterscope.msh : GunLever' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchesterscope/winchesterscope.msh : GunLoader' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchesterscope/winchesterscope.msh : GunLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchesterscope/winchesterscope.msh : GunSlider' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchesterscope/winchesterscope.msh : GunTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchesterscope/winchesterscope.msh : Scope' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/winchesterscope/winchesterscope.msh : Scope' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtBody' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtCock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtCock' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtDrum' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtDrum' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtLock' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtRelase' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtRelase' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtTrigger' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'ammoshort.msh : AmmoShort' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'ammoshort.msh : AmmoShort' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/holybible/holybible.msh : HolyBible' ): no texcoord 1 stream!
+[ObjectivesManager.Init]
+PRECACHE START
+[Level Loaded] <Data/Maps/Juarez/Final02/final02.map>
+---------------------------- 
+[SGController.Load] : <out/save/Quick01.CoJSave>
+---------------------------- 
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingd.msh : Door_WingD' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingd.msh : Door_WingD' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingd.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingd.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/tincan.msh : TinCan' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/tincan.msh : TinCan' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/deerskull.msh : DeerSkull' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/deerskull.msh : DeerSkull' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/furniture/chaira.msh : ChairA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/basketc#01.msh : BasketC#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas.msh : RailingAS' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas.msh : RailingAS' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas#04.msh : RailingAS#04' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas#04.msh : RailingAS#04' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingam.msh : RailingAM' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingam.msh : RailingAM' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/cart.msh : Cart' ): no texcoord 2 stream!
+WARNING: NULL fx name prefix in FXEmitter:SGController.LoadGameObjectRef(1534)!!!
+
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Door_WingMetal' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingmetal.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'waterholdbarrel.msh : WaterholdBarrel' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'waterholdbarrel.msh : WaterholdBarrel' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Door_WingA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_winga.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Door_WingC' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildingdetails/door_wingc.msh : Lock' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas#05.msh : RailingAS#05' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/buildings/hacienda/haciendarailingas#05.msh : RailingAS#05' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammogauge.msh : AmmoGauge' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammogauge.msh : AmmoGauge' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/holybible/holybible.msh : HolyBible' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/metalbar.msh : MetalBar' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/metalbar.msh : MetalBar' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'healthbottle.msh : HealthBottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'healthbottle.msh : HealthBottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtBody' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtBody' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtCock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtCock' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtDrum' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtDrum' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtLock' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtLock' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtRelase' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtRelase' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtTrigger' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/player/equipment/coltpeacemaker/coltpeacemaker.msh : ColtTrigger' ): no color 0 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/ammoshort.msh : AmmoShort' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/healthbottle.msh : HealthBottle' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/booka.msh : BookA' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/booka.msh : BookA' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bookb.msh : BookB' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bookb.msh : BookB' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bookc.msh : BookC' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'data/objects/bookc.msh : BookC' ): no texcoord 2 stream!
+WARNING: Set light type before using it! Setting OMNI type...
+WARNING: NULL fx name prefix in FXEmitter:SGController.LoadGameObjectRef(1534)!!!
+
+[LoadMaterial] Default mat used instead of material #25.mat
+*** Warning: MeshMgr::CreateSurface( 'parrot.msh : Parrot' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'butterfly.msh : Butterfly' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'butterfly.msh : Butterfly' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'butterfly.msh : Butterfly_WingL' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'butterfly.msh : Butterfly_WingL' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'butterfly.msh : Butterfly_WingR' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'butterfly.msh : Butterfly_WingR' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'lampa.msh : Lamp' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'lampa.msh : Lamp' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'lampa.msh : Glass' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'lampa.msh : Glass' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#01.msh : RailingBM#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#01.msh : RailingBM#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#02.msh : RailingBM#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#02.msh : RailingBM#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#02#01.msh : RailingBM#02#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#02#01.msh : RailingBM#02#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#02#02.msh : RailingBM#02#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#02#02.msh : RailingBM#02#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#03.msh : RailingBM#03' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#03.msh : RailingBM#03' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#03#01.msh : RailingBM#03#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#03#01.msh : RailingBM#03#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#03#02.msh : RailingBM#03#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#03#02.msh : RailingBM#03#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#04.msh : RailingBM#04' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#04.msh : RailingBM#04' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#04#01.msh : RailingBM#04#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#04#01.msh : RailingBM#04#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#04#02.msh : RailingBM#04#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#04#02.msh : RailingBM#04#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#05.msh : RailingBM#05' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#05.msh : RailingBM#05' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#05#01.msh : RailingBM#05#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#05#01.msh : RailingBM#05#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#06.msh : RailingBM#06' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#06.msh : RailingBM#06' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#06#01.msh : RailingBM#06#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#06#01.msh : RailingBM#06#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#07.msh : RailingBM#07' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#07.msh : RailingBM#07' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#07#01.msh : RailingBM#07#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#07#01.msh : RailingBM#07#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#07#02.msh : RailingBM#07#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#07#02.msh : RailingBM#07#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#08.msh : RailingBM#08' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#08.msh : RailingBM#08' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#08#01.msh : RailingBM#08#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#08#01.msh : RailingBM#08#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#08#02.msh : RailingBM#08#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#08#02.msh : RailingBM#08#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#09.msh : RailingBM#09' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#09.msh : RailingBM#09' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#09#01.msh : RailingBM#09#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#09#01.msh : RailingBM#09#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#09#02.msh : RailingBM#09#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#09#02.msh : RailingBM#09#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#10.msh : RailingBM#10' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#10.msh : RailingBM#10' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#10#01.msh : RailingBM#10#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#10#01.msh : RailingBM#10#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#10#02.msh : RailingBM#10#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbm#10#02.msh : RailingBM#10#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#01.msh : RailingBS#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#01.msh : RailingBS#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#02.msh : RailingBS#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#02.msh : RailingBS#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#02#01.msh : RailingBS#02#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#02#01.msh : RailingBS#02#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#02#02.msh : RailingBS#02#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#02#02.msh : RailingBS#02#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#03.msh : RailingBS#03' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#03.msh : RailingBS#03' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#03#01.msh : RailingBS#03#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#03#01.msh : RailingBS#03#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#03#02.msh : RailingBS#03#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#03#02.msh : RailingBS#03#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#04.msh : RailingBS#04' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#04.msh : RailingBS#04' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#04#01.msh : RailingBS#04#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#04#01.msh : RailingBS#04#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#04#02.msh : RailingBS#04#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#04#02.msh : RailingBS#04#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#05.msh : RailingBS#05' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#05.msh : RailingBS#05' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#05#01.msh : RailingBS#05#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#05#01.msh : RailingBS#05#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#06.msh : RailingBS#06' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#06.msh : RailingBS#06' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#06#01.msh : RailingBS#06#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#06#01.msh : RailingBS#06#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#07.msh : RailingBS#07' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#07.msh : RailingBS#07' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#07#01.msh : RailingBS#07#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#07#01.msh : RailingBS#07#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#07#02.msh : RailingBS#07#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#07#02.msh : RailingBS#07#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#08.msh : RailingBS#08' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#08.msh : RailingBS#08' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#08#01.msh : RailingBS#08#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#08#01.msh : RailingBS#08#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#08#02.msh : RailingBS#08#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingbs#08#02.msh : RailingBS#08#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'basketc#01.msh : BasketC#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'basketc#02.msh : BasketC#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'basketa#01.msh : BasketA#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'basketa#01.msh : BasketA#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'basketa#02.msh : BasketA#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'basketa#02.msh : BasketA#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#01.msh : Bottle#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#01.msh : Bottle#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#01.msh : Bottle#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#01.msh : Bottle#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#01.msh : Bottle#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#01.msh : Bottle#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#02.msh : Bottle#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#02.msh : Bottle#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#02.msh : Bottle#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#02.msh : Bottle#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#02.msh : Bottle#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'bottle#02.msh : Bottle#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'growler#01.msh : Growler#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'growler#01.msh : Growler#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'growler#02.msh : Growler#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'growler#02.msh : Growler#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'chairb#01.msh : ChairB#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'chairb#01.msh : ChairB#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'chairb#02.msh : ChairB#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'chairb#02.msh : ChairB#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'chairb#03.msh : ChairB#03' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'chairb#03.msh : ChairB#03' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'chairb#04.msh : ChairB#04' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'chairb#04.msh : ChairB#04' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'chairb#05.msh : ChairB#05' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'chairb#05.msh : ChairB#05' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'chaira#01.msh : ChairA#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'chaira#01.msh : ChairA#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'chaira#02.msh : ChairA#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'chaira#02.msh : ChairA#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'chaira#03.msh : ChairA#03' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'chaira#03.msh : ChairA#03' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'chaira#04.msh : ChairA#04' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'chaira#04.msh : ChairA#04' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'chaira#05.msh : ChairA#05' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'chaira#05.msh : ChairA#05' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#01.msh : RailingAS#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#01.msh : RailingAS#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#01#01.msh : RailingAS#01#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#01#01.msh : RailingAS#01#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#01#02.msh : RailingAS#01#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#01#02.msh : RailingAS#01#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#02.msh : RailingAS#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#02.msh : RailingAS#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#03.msh : RailingAS#03' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#03.msh : RailingAS#03' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#03#01.msh : RailingAS#03#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#03#01.msh : RailingAS#03#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#03#02.msh : RailingAS#03#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#03#02.msh : RailingAS#03#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#04.msh : RailingAS#04' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#04.msh : RailingAS#04' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#04#01.msh : RailingAS#04#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#04#01.msh : RailingAS#04#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#04#02.msh : RailingAS#04#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#04#02.msh : RailingAS#04#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#05.msh : RailingAS#05' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#05.msh : RailingAS#05' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#05#01.msh : RailingAS#05#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#05#01.msh : RailingAS#05#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#05#02.msh : RailingAS#05#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#05#02.msh : RailingAS#05#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#06.msh : RailingAS#06' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#06.msh : RailingAS#06' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#06#01.msh : RailingAS#06#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#06#01.msh : RailingAS#06#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#06#02.msh : RailingAS#06#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingas#06#02.msh : RailingAS#06#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#01.msh : RailingAM#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#01.msh : RailingAM#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#01#01.msh : RailingAM#01#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#01#01.msh : RailingAM#01#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#01#02.msh : RailingAM#01#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#01#02.msh : RailingAM#01#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#02.msh : RailingAM#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#02.msh : RailingAM#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#03.msh : RailingAM#03' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#03.msh : RailingAM#03' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#03#01.msh : RailingAM#03#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#03#01.msh : RailingAM#03#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#03#02.msh : RailingAM#03#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#03#02.msh : RailingAM#03#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#04.msh : RailingAM#04' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#04.msh : RailingAM#04' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#04#01.msh : RailingAM#04#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#04#01.msh : RailingAM#04#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#04#02.msh : RailingAM#04#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#04#02.msh : RailingAM#04#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#05.msh : RailingAM#05' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#05.msh : RailingAM#05' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#05#01.msh : RailingAM#05#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#05#01.msh : RailingAM#05#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#05#02.msh : RailingAM#05#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#05#02.msh : RailingAM#05#02' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#06.msh : RailingAM#06' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#06.msh : RailingAM#06' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#06#01.msh : RailingAM#06#01' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#06#01.msh : RailingAM#06#01' ): no texcoord 2 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#06#02.msh : RailingAM#06#02' ): no texcoord 1 stream!
+*** Warning: MeshMgr::CreateSurface( 'haciendarailingam#06#02.msh : RailingAM#06#02' ): no texcoord 2 stream!
+FXDefsManager@7124af.OnDestroy: Currently is 0 loaded FXes
+Destroy Scope obj
+Destroy Helmet obj
+VarScripted unloaded: data/maps/juarez/final02/final02.scr!
+[CFactory::CreateObject] WARNING! object of class <IntroModule> creator_level==NULL!
+ERROR: |OcclusionManager| occluder configuration file 'Occluders.cfg' not found.
+WM_ACTIVATE deactivate
+---------------------------------------------------------
+Time of playing game: 52.126303s
+Updated frames: 3104 Rendered frames: 3108
+Average FPS: 59.624411
+---------------------------------------------------------
+data/music/menu.ogg delete pending
+CFile3DAMgr::Shutdown(): File bbox.3da referenced (rc: 1)
+CFile3DAMgr::Shutdown(): File bsphere.3da referenced (rc: 1)
+CFile3DAMgr::Shutdown(): File odebox.3da referenced (rc: 1)
+CFile3DAMgr::Shutdown(): File odecone.3da referenced (rc: 1)
+CFile3DAMgr::Shutdown(): File odecylinder.3da referenced (rc: 1)
+CFile3DAMgr::Shutdown(): File odesphere.3da referenced (rc: 1)
+[CMaterialMgr::Shutdown] Material not freed! (colorred.mat)
+[CTextureManager::Shutdown] Texture not freed __GeneratedName__1DefaultTexture
+[CTextureManager::Shutdown] Texture not freed black.png
+[CTextureManager::Shutdown] Texture not freed data/logos/logo03.jpg
+[CTextureManager::Shutdown] Texture not freed hud.dds
+WARNING [~CSurfaceManager] Num nondeleted surfaces 1
+VarScripted unloaded: data/varlist.scr!

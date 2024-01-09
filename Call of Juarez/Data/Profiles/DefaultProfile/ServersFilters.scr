@@ -1,0 +1,7 @@
+!UseFilters()
+!Available()
+!WithoutPassword()
+!MaxLatency(i)
+!MinPlayers(i)
+
+

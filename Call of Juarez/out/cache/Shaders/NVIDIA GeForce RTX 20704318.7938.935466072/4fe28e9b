@@ -1,0 +1,216 @@
+›âOG!
+                    #include<Functions.hlsl>
+
+                    struct ModelInputData
+                    {
+                        float4  vPosition   : POSITION;
+                        #if defined(USE_COLOR0) || defined(USE_LIGHTING)
+                            float4  uvTexcoord0 : TEXCOORD0;
+                        #endif
+                        float4  uvTexcoord1 : TEXCOORD1;          // rotation angle and other params
+                        float4  vVertexColor : COLOR0;
+                    };
+
+                    struct vertexOutput
+                    {
+                        float4  vPosition   : SV_POSITION;
+                        #if defined(USE_COLOR0) || defined(USE_LIGHTING)
+                            float4  uvTexcoord0 : TEXCOORD0;
+                        #endif
+                        float4  vVertexColor : COLOR0;
+                        
+                        float4  vExtinction  : TEXCOORD1;
+                        float4  vInscattering : TEXCOORD2;
+                        float   vDepth       : TEXCOORD3;
+                        
+                        float4	vVP_XForm_Column0	: TEXCOORD7;
+                        float4	vVP_XForm_Column1	: TEXCOORD8;
+                        float4	vVP_XForm_Column2	: TEXCOORD9;
+                        float4	vVP_XForm_Column3	: TEXCOORD10;
+
+                        
+                    };
+
+                    void main(in ModelInputData input, out vertexOutput output)
+                    {
+                        output.vPosition = input.vPosition;
+//                        output.vPosition.w = 200.0f;
+                        #if defined(USE_COLOR0) || defined(USE_LIGHTING)
+                          output.uvTexcoord0 = input.uvTexcoord0;
+//                          output.uvTexcoord0 = float4(0, 0, 1, 1);
+                        #endif
+                        output.vVertexColor = input.vVertexColor;
+                        
+                        output.vExtinction.xyzw = float4(1.0f, 0.0f, 1.0f, 0.1f);            
+                        output.vInscattering.xyzw = float4(1.0f, 1.0f, 1.0f, 0.0f);
+                        output.vDepth = 1.0f;     
+                        
+                        
+                        float4 pExtinction;
+                        float4 pInscattering;
+                        float pDepth;
+                      
+
+                        //----------------------------------------------
+                        // Calculate Extinction, Inscattering and Depth
+                        // (per particle)
+                        //----------------------------------------------
+
+
+                        float2 iTexCoord = float2(0, 0);
+
+                         float4 pos = input.vPosition;
+                         pos.w = 1.0f;
+                            
+                         #if defined(WORLDSPACE)
+                            pos = mul( pos, VIEWPROJ_XFORM );
+                         #else
+                            pos = mul( pos, PROJECTION_XFORM );
+                         #endif
+  
+                          pExtinction.xyz = Extinction( -pos.w );
+                          pDepth = pos.w * DEPTHSCALE;
+  
+                          #if !defined(USE_BLENDMODEADD)
+                              float3 vSunDirCS = mul( vSunDir.xyz, (float3x3)VIEW_XFORM );
+                          #endif
+  
+                          #if defined(USE_BLENDMODEADD)
+                              #if defined(USE_FXCOLORTRANSLUCENCY)
+                                  pExtinction.w = USE_FXCOLORTRANSLUCENCY;
+                              #else
+                                  pExtinction.w = 1;
+                                  pExtinction *= input.vVertexColor;
+                              #endif
+  
+  //                            pExtinction.xyz *= input.vVertexColor.xyz;
+                              pExtinction.xyz *= fHDRSelfIlluminationIntensity;
+                              pExtinction.w = saturate(dot( float3(0.3333, 0.3333, 0.3333), pExtinction.xyz ) );
+                              pExtinction *= input.vVertexColor.w;
+                          #elif defined(USE_BLENDMODEMUL)
+  
+                              float3 vExtinctionOnly = pExtinction.xyz;
+                              pExtinction.xyz *= input.vVertexColor.w;
+                              
+                              pInscattering.xyz = pExtinction.xyz - Inscattering( vExtinctionOnly.xyz, float3( 0,0,1 ), vSunDirCS.xyz );
+  
+                              #if defined(USE_FXCOLORTRANSLUCENCY)
+                                  pExtinction.xyz = -pExtinction.xyz;
+                                  pExtinction.w = 1 - USE_FXCOLORTRANSLUCENCY;
+                              #else
+                                  pExtinction.xyz *= -input.vVertexColor.xyz;
+                              #endif
+                              
+                          #elif defined(USE_BLENDMODEADDRGBMULALPHA)
+  
+                              pExtinction.xyz *= input.vVertexColor.w;
+  
+                              float3 vInscattering = Inscattering( pExtinction.xyz, float3( 0,0,1 ), vSunDirCS.xyz );
+                              pInscattering.xyz = 0;
+  
+                              pInscattering.w = dot( float3( 0.3333, 0.3333, 0.3333 ),  pInscattering.xyz );
+                              pExtinction.w = dot( float3( 0.3333, 0.3333, 0.3333 ),  pExtinction.xyz );
+                          #else
+                              pInscattering.xyz = Inscattering( pExtinction.xyz, float3( 0,0,1 ), vSunDirCS.xyz );
+                              #if defined(USE_FXCOLORTRANSLUCENCY)
+                                  pInscattering.w = USE_FXCOLORTRANSLUCENCY;
+                              #else
+                                  pInscattering.w = 0.0;
+                              #endif
+                              pExtinction.w = input.vVertexColor.w;
+                              pExtinction.xyz *= input.vVertexColor.xyz;
+  
+                              #if defined(USE_LIGHTING)
+                                  #if defined(WORLDSPACE)
+                                      float3 vLightDir = vSunDir.xyz;
+                                  #else
+                                      float3 vLightDir = vSunDirCS;
+                                  #endif
+                                  //45
+  //                                      float vConst = 0.57735026918962576450914878050196;
+  //                                      float2 vConst2 = float2( 2 * vConst, -2 * vConst );
+  //                                    float3 vNormal = float3( iTexCoord.xy * vConst2 - vConst, vConst );
+                                  //90
+                                  float vConst = 0.70710678118654752440084436210485;
+                                  float2 vConst2 = float2( 2 * vConst, -2 * vConst );
+                                  float3 vNormal = float3( iTexCoord * vConst2 - vConst, 0 );
+  
+                                  float vShading = saturate( dot( vNormal.xyz, vLightDir.xyz ) * 0.5 + 0.5 ) * CONST_5.w;
+                                  pExtinction.xyz *= lerp( CONST_5.xyz, CONST_4.xyz, vShading );
+                              #else
+                                  pExtinction.xyz *= lerp( CONST_5.xyz, CONST_4.xyz, CONST_5.w );
+                              #endif
+                          #endif
+
+                        
+                        output.vExtinction.xyzw = pExtinction;            
+                        output.vInscattering.xyzw = pInscattering;
+                        output.vDepth = pDepth;     
+                        
+                       
+                        #if defined(WORLDSPACE)
+                					output.vVP_XForm_Column0 = VIEWPROJ_XFORM[0];
+                					output.vVP_XForm_Column1 = VIEWPROJ_XFORM[1];
+                					output.vVP_XForm_Column2 = VIEWPROJ_XFORM[2];
+                					output.vVP_XForm_Column3 = VIEWPROJ_XFORM[3];
+                				#else
+                					output.vVP_XForm_Column0 = PROJECTION_XFORM[0];
+                					output.vVP_XForm_Column1 = PROJECTION_XFORM[1];
+                					output.vVP_XForm_Column2 = PROJECTION_XFORM[2];
+                					output.vVP_XForm_Column3 = PROJECTION_XFORM[3];
+                				#endif
+                             
+                        
+                    }
+                L$  DXBC”İ‘L{(ášêš:Äs¬   L$     4   ü  „     Ô#  RDEFÀ     H          şÿ   š  <                              $Globals «««<   ®   `   P          °      @       È      Ø  @   @       È      ï  €   @       È        À   @       È           @       È      4  @  @       È      K  €         `      p           `      ‚            `        °  @       È      œ  ğ  @       È      ¬  0  @       È      »  p  @       È      Ç  °  @      È      Ò  ğ  @      È      ã  0  @       È      ò  p         `        €         `      	                 (                  7  °         `      D  À         `      S  Ğ         `      b  à         `      q  ğ  @       È      €  0  @       È      ‘  p  @       È      ¢  °  @       È      ³  ğ  @       È      Ç  0  @       È      İ  p  @       È      ó  °  @       È      	  ğ                                 %           `      2            `      A  0         `      P  @         `      _  P  @       È      n    @       È        Ğ  @       È          @       È      ¡  P  @       È      µ    @       È      Ë  Ğ  @       È      á    @       È      ÷  P                 `                 p                 €               -           `      ;            `      I  °         P      `  @	  @      l      |  €	         `      „  	         `      Œ   	         `      ”  °	         `      œ  À	        `      ¤  Ğ	        `      ¬  à	         `      ´  ğ	         `      ¼   
+         `      Ä  
+         `      Ì   
+         `      Õ  0
+         `      Ş  @
+         `      ç  P
+         `      ğ  `
+         `      ù  p
+         `        €
+         `        
+         `         
+  @       l        à
+         `      &  ğ
+         `      /     @       l      8  @  @       l      A  €  @       l      J  À  @       l      S            `      \           `      e            `      n  0         `      w  @         `      €  P         `      ™  `         `      ¯  p         `      Å  €         `      Û           `      ñ                    ¨               -  °               B  ¸               [  À               t  È                 Ğ         `      –  à         `      Ÿ  ğ         `      ¨            `      ±           `      º            `      Ò  0         `      İ  @         `      î  P         `      û  `         `        p  @       l        °               (  ´               6  ¸               D  ¼               R  À               b  Ä               r  È               ‚  Ì               “  Ğ               ¨  Ô               ¼  Ø               Í  Ü               ë  à         `      ÷  ğ         `                                                    4      D           4      T           4      f           4      w           4      Œ                             `      ¦  0         `      ¶  @         `      Æ  P         `      Ô  `         `      à  p               ò  t                 x                  |               ,  €               7  „               F  ˆ               W  Œ               d                 y  ”                 ˜               ¤  œ               º                  Ì  °               Ü  ¼               ï  À               ş  Ä                 È                 Ì               /  Ğ               A  Ô               S  Ø               e  Ü               w  à               ‰  ä               ›  è               ­  ì               ¿  ğ               É  ô               Ö  ø               è  ü               ú                                                    0                 B                 T                 f                 z            `      ˆ  0                @         `      SHADOW_XFORM_BIAS_WS_0 «           SHADOW_XFORM_BIAS_WS_1 SHADOW_XFORM_BIAS_WS_2 SHADOW_XFORM_BIAS_MS_0 SHADOW_XFORM_BIAS_MS_1 SHADOW_XFORM_BIAS_MS_2 POSITION_BIAS_SCALE «           NRM_TAN_TEX_SCALE FOG_PARAMS COMBINED_XFORM MODELVIEW_XFORM INVMODEL_XFORM MODEL_XFORM VIEW_XFORM PROJECTION_XFORM VIEWPROJ_XFORM BACKBUFFER_PARAMS TIME LIGHT_DIR_MS ««           LIGHT_DIR_MS_0 LIGHT_POS_MS LIGHT_POS_MS_0 LIGHT_POS_MS_1 LIGHT_POS_MS_2 LIGHT_XFORM_MS LIGHT_XFORM_MS_0 LIGHT_XFORM_MS_1 LIGHT_XFORM_MS_2 LIGHT_XFORM_BIAS_MS LIGHT_XFORM_BIAS_MS_0 LIGHT_XFORM_BIAS_MS_1 LIGHT_XFORM_BIAS_MS_2 LIGHT_DIR_WS LIGHT_DIR_WS_0 LIGHT_POS_WS LIGHT_POS_WS_0 LIGHT_POS_WS_1 LIGHT_POS_WS_2 LIGHT_XFORM_WS LIGHT_XFORM_WS_0 LIGHT_XFORM_WS_1 LIGHT_XFORM_WS_2 LIGHT_XFORM_BIAS_WS LIGHT_XFORM_BIAS_WS_0 LIGHT_XFORM_BIAS_WS_1 LIGHT_XFORM_BIAS_WS_2 LIGHT_COLOR LIGHT_COLOR_0 LIGHT_COLOR_1 LIGHT_COLOR_2 CAMERA_POS_MS CAMERA_POS_WS ENV_SH     	       SCATTERING «           CONST_0 CONST_1 CONST_2 CONST_3 CONST_4 CONST_5 CONST_6 CONST_7 CONST_8 CONST_9 CONST_10 CONST_11 CONST_12 CONST_13 CONST_14 CONST_15 CONST_16 CONST_17 CONST_18 CONST_22 CONST_23 CONST_24 CONST_28 CONST_32 CONST_36 CONST_40 CONST_41 CONST_42 CONST_43 CONST_90 TEX_INV_SIZE_NRM_sColor0 TEX_SIZE_NRM_sHeight0 TEX_SIZE_NRM_sHeight1 TEX_SIZE_NRM_sHeight2 TEX_SIZE_NRM_sHeight3 TEX_SIZE_sShadowMap0 ««           TEX_SIZE_sShadowMap1 TEX_SIZE_sShadowMap2 TEX_INV_SIZE_sShadowMap0 TEX_INV_SIZE_sShadowMap1 TEX_INV_SIZE_sShadowMap2 aNGQuad0 aNGQuad1 aNGQuad2 aNGQuad3 vNGRange grass_wind_force_params grass_wave grass_wind_force grass_params ngPlayerPos quad water_level             terrain_inv_x terrain_inv_y terrain_inv_z fShadowmap0Bias fShadowmap1Bias fShadowmap2Bias fHDRSunIntensity fhdrambientintensity fHDRLightsIntensity fHDRSkyIntensity fHDRSelfIlluminationIntensity vGlowParams vColorParams fBulletTime fPlayerDamage iUseWaterReflection ««            iUseWaterBorder iUseWaterSpecular iUseWaterFresnel iUseWaterWavesNumber fGrassSizeFactor vAmbient vTerrainDetail0 vTerrainDetail1 vTerrainCliff vWaterColor fWaterBaseOpacity fWaterReflDeformPower fWaterPlantsDeformPower fWaterDepth fWindPower fFakeBumpPower fRefractionPower fDiffuseGlow fGrassColormapScaleX fGrassColormapScaleY fGrassColormapOffsetX fGrassColormapOffsetY vWindCurrentForce vWindInitialDir fUndergrowthHeight fTopDetailSize fSideDetailSize fDetailsBorder fUndergrowthScale fWaterWave1ScaleX fWaterWave1ScaleY fWaterWave2ScaleX fWaterWave2ScaleY fWaterWave1SpeedX fWaterWave1SpeedY fWaterWave2SpeedX fWaterWave2SpeedY fSkyScale fSkyScaleHDR fSkyCloudsL0Scale fSkyCloudsL0Speed fSkyCloudsL1Scale fSkyCloudsL1Speed fSkyCloudsL2Scale fSkyCloudsL2Speed fSkyHorizonScaleH fSkyHorizonScaleV fSkyBackgroundScale vHorizonColor vSunDir vSunColor Microsoft (R) HLSL Shader Compiler «««ISGN€         h                    q                   q                   z                   POSITION TEXCOORD COLOR OSGN  
+      ø                                                                                                                                                     	                  
+          	      SV_POSITION TEXCOORD COLOR «SHDR,  @  ‹  _  ò     _  ò    _  ò    g  ò         e  ò     e  ò     e  ò     e  ò     e       e  ò     e  ò     e  ò     e  ò  	   Y  F      õ   h     6  ò      F     6  ò     F    6  ò     F      	      F‚      ó   F‚      +     	"      F‚      ó   F‚      ,     
+      @  ó5¿ó5¿        F      2  	      
+      @     ?@     ?8        
+      :€            
+â      ‰      œ   ‰ €A          2  
+r            –     F‚         6  r     F     6  ‚     @    €?  ‚      F    F      2   8       :      *€      •   8       :      @  
+×#<8  r          F‚      ”     r     F    8  r     F    F       r     F€A      @    €?  €?  €?    8  r     F     F    6  ‚     :      	      F‚      ó   F‚      -   6        
+ €A       2  "      €      •   
+      
+€      •   2  	      
+      
+      @    €?4  "            @  ·Ñ8  
+B      @    €?  €?  €?  €?      D  "            8  r     ¦
+     F‚      —   8  â      V     	    2  
+r      F‚      –         –     8  r     F    F     6  ‚     @      6       
+€      /   6  "     
+€      0   6  B     
+€      1   6  ‚     
+€      2   6       €      /   6  "     €      0   6  B     €      1   6  ‚     €      2   6       *€      /   6  "     *€      0   6  B     *€      1   6  ‚     *€      2   6    	   :€      /   6  "  	   :€      0   6  B  	   :€      1   6  ‚  	   :€      2   >  STATp   2                                                                                                          |   USE_LIGHTING 1 USE_DEPTHBLENDING 1.000000 USE_COLOR0 1 USE_BLENDMODELERP 1 SHADOW_QUALITY 3 HSM_MODE 1 DEPTHFACTOR 1.000000              !   *   5   7   I   K   Z   \   e   g   s    ï;    P  P  ®                         @                    @   @                    €   @                     À   @                       @                    @  @    2                 €      3                       '                                         °  @                     ğ  @           #          0  @            '          p  @           +          °  @          /          ğ  @          3          0  @    (       7          p      !       8          €      	       9                	       :                        ;          °             <          À             =         Ğ             >         à             ?          ğ  @           C          0  @           G         p  @           K         °  @           O          ğ  @           S          0  @           W         p  @           [         °  @    
+       _          ğ      
+       `                        a                       b                        c         0             d         @             e          P  @           i            @           m         Ğ  @           q           @           u          P  @           y            @           }         Ğ  @                      @           …          P             †          `             ‡         p             ˆ         €             ‰                       Š                        ‹   	       °      $       ”          @	  @   #       ˜          €	      #       ™         	      #       š          	      #       ›         °	      #       œ         À	     #                Ğ	     #                à	      #       Ÿ         ğ	      #                  
+      #       ¡      	   
+      #       ¢      
+    
+      #       £         0
+      #       ¤         @
+      #       ¥         P
+      #       ¦         `
+      #       §         p
+      #       ¨         €
+      #       ©         
+      #       ª          
+  @    #       ®         à
+      #       ¯         ğ
+      #       °            @    #       ´         @  @    #       ¸          €  @    #       ¼      $   À  @    #       À      (          #       Á      )         #       Â      *          #       Ã      +   0      #       Ä      Z   @      +       Å          P      ,       Æ          `      ,       Ç          p      ,       È          €      ,       É                0       Ê                 0       Ê          ¨      0       Ë          °      1       Ë          ¸      1       Ì          À      1       Ì          È      ÿÿÿÿ    angquad0    Í          Ğ     ÿÿÿÿ    angquad1    Î          à     ÿÿÿÿ    angquad2    Ï          ğ     ÿÿÿÿ    angquad3    Ğ                ÿÿÿÿ    vngrange    Ñ               ÿÿÿÿ    grass_wind_force_params    Ò                ÿÿÿÿ   
+ grass_wave    Ó          0     ÿÿÿÿ    grass_wind_force    Ô          @     ÿÿÿÿ    grass_params    Õ          P     ÿÿÿÿ    ngplayerpos    Ö          `     ÿÿÿÿ    quad    ×          p  @   ÿÿÿÿ    water_level    Û          °     ÿÿÿÿ    terrain_inv_x    Û          ´     ÿÿÿÿ    terrain_inv_y    Û          ¸     ÿÿÿÿ    terrain_inv_z    Û          ¼     ÿÿÿÿ    fshadowmap0bias    Ü          À     ÿÿÿÿ    fshadowmap1bias    Ü          Ä     ÿÿÿÿ    fshadowmap2bias    Ü          È     ÿÿÿÿ    fhdrsunintensity    Ü          Ì     ÿÿÿÿ    fhdrambientintensity    İ          Ğ     ÿÿÿÿ    fhdrlightsintensity    İ          Ô     ÿÿÿÿ    fhdrskyintensity    İ          Ø     ÿÿÿÿ    fhdrselfilluminationintensity    İ          Ü     ÿÿÿÿ    vglowparams    Ş          à     ÿÿÿÿ    vcolorparams    ß          ğ     ÿÿÿÿ    fbullettime    à                ÿÿÿÿ    fplayerdamage    à               ÿÿÿÿ    iusewaterreflection    à               ÿÿÿÿ    iusewaterborder    à               ÿÿÿÿ    iusewaterspecular    á               ÿÿÿÿ    iusewaterfresnel    á               ÿÿÿÿ    iusewaterwavesnumber    á               ÿÿÿÿ    fgrasssizefactor    á               ÿÿÿÿ    vambient    â                ÿÿÿÿ    vterraindetail0    ã          0     ÿÿÿÿ    vterraindetail1    ä          @     ÿÿÿÿ    vterraincliff    å          P     ÿÿÿÿ    vwatercolor    æ          `     ÿÿÿÿ    fwaterbaseopacity    ç          p     ÿÿÿÿ    fwaterrefldeformpower    ç          t     ÿÿÿÿ    fwaterplantsdeformpower    ç          x     ÿÿÿÿ    fwaterdepth    ç          |     ÿÿÿÿ   
+ fwindpower    è          €     ÿÿÿÿ    ffakebumppower    è          „     ÿÿÿÿ    frefractionpower    è          ˆ     ÿÿÿÿ    fdiffuseglow    è          Œ     ÿÿÿÿ    fgrasscolormapscalex    é               ÿÿÿÿ    fgrasscolormapscaley    é          ”     ÿÿÿÿ    fgrasscolormapoffsetx    é          ˜     ÿÿÿÿ    fgrasscolormapoffsety    é          œ     ÿÿÿÿ    vwindcurrentforce    ê                ÿÿÿÿ    vwindinitialdir    ë          °     ÿÿÿÿ    fundergrowthheight    ë          ¼     ÿÿÿÿ    ftopdetailsize    ì          À     ÿÿÿÿ    fsidedetailsize    ì          Ä     ÿÿÿÿ    fdetailsborder    ì          È     ÿÿÿÿ    fundergrowthscale    ì          Ì     ÿÿÿÿ    fwaterwave1scalex    í          Ğ     ÿÿÿÿ    fwaterwave1scaley    í          Ô     ÿÿÿÿ    fwaterwave2scalex    í          Ø     ÿÿÿÿ    fwaterwave2scaley    í          Ü     ÿÿÿÿ    fwaterwave1speedx    î          à     ÿÿÿÿ    fwaterwave1speedy    î          ä     ÿÿÿÿ    fwaterwave2speedx    î          è     ÿÿÿÿ    fwaterwave2speedy    î          ì     ÿÿÿÿ   	 fskyscale    ï          ğ     ÿÿÿÿ    fskyscalehdr    ï          ô     ÿÿÿÿ    fskycloudsl0scale    ï          ø     ÿÿÿÿ    fskycloudsl0speed    ï          ü     ÿÿÿÿ    fskycloudsl1scale    ğ                ÿÿÿÿ    fskycloudsl1speed    ğ               ÿÿÿÿ    fskycloudsl2scale    ğ               ÿÿÿÿ    fskycloudsl2speed    ğ               ÿÿÿÿ    fskyhorizonscaleh    ñ               ÿÿÿÿ    fskyhorizonscalev    ñ               ÿÿÿÿ    fskybackgroundscale    ñ               ÿÿÿÿ    vhorizoncolor    ò                ÿÿÿÿ    vsundir    ó          0     ÿÿÿÿ   	 vsuncolor    ô          @                                                                        d€                                                                                   ÿÿÿÿ                      ÿÿÿÿ                     ÿÿÿÿ                      ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ        	              ÿÿÿÿ                

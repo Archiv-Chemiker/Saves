@@ -1,0 +1,7 @@
+!ViewDistance(i)
+!DepthOfField(i)
+!QuickBodyDisappear(i)
+
+ViewDistance(8)
+DepthOfField(1)
+QuickBodyDisappear(0)

@@ -1,0 +1,256 @@
+!Dр{.
+                        float4 RENDER_TARGET_PARAMS;
+                        #include<Functions.hlsl>
+
+
+                        Texture2D     sBackbuffer;
+                        SamplerState     samBackbuffer;
+                        Texture2D     sBackbufferBlur;
+                        SamplerState     samBackbufferBlur;
+
+                        #if defined(USE_WATERREFLECTION)
+                            Texture2D     sReflection;
+                            SamplerState     samReflection;
+                        #endif
+                        #if defined(USE_WATERBORDER)
+                            Texture2D     sWaterBorder;
+                            SamplerState     samWaterBorder;
+                        #endif
+                        #if defined(USE_NORMALS)
+                            TextureCube sCubemap;
+                            SamplerState samCubemap;
+                        #endif
+                        #if defined(USE_WATERREFLECTION) || defined(USE_NORMALS) || defined(USE_WATERSPECULAR)
+                            Texture2D     sNormal0;
+                            SamplerState     samNormal0;
+                        #endif
+                        #if defined(USE_WATERSPECULAR)
+                            Texture2D     sGloss;
+                            SamplerState     samGloss;
+                        #endif
+
+
+                        struct pixelInput
+                        {
+                            float4 vPosition    : SV_POSITION;
+
+                            float4 vExtinction  : TEXCOORD0_centroid;
+                            float4 vInscattering: TEXCOORD1_centroid;
+                            #if defined(USE_WATERREFLECTION)
+                                float4  uvReflection    : TEXCOORD2_centroid;
+                            #endif
+                            #if defined(USE_WATERBORDER)
+                                float2  uvWaterBorder   : TEXCOORD3_centroid;
+                            #endif
+                            #if defined(USE_WATERREFLECTION) || defined(USE_NORMALS) || defined(USE_WATERSPECULAR)
+                                float3  vCameraDirWS    : TEXCOORD4_centroid;
+                            #endif
+                            #if defined(USE_NORMAL0)
+                                float2  uvWave0         : TEXCOORD5_centroid;
+                            #endif
+                            #if defined(USE_NORMAL1)
+                                float2  uvWave1         : TEXCOORD6_centroid;
+                            #endif
+                            #if defined(USE_NORMAL2)
+                                float2  uvWave2         : TEXCOORD7_centroid;
+                            #endif
+                            #if defined(USE_NORMAL3)
+                                float2  uvWave3         : TEXCOORD8_centroid;
+                            #endif
+    //                        float2 uvScreen: VPOS;
+                        };
+
+                        void main( in pixelInput input, out float4 output : SV_TARGET )
+                        {
+                            #if defined(USE_WATERBORDER)
+                                float4 vWaterBorder = sWaterBorder.Sample( samWaterBorder, input.uvWaterBorder.xy );
+                            #endif
+
+                            #if defined(USE_NORMALS)
+                                #if defined(USE_NORMAL0)
+                                    float4 vNormalSource = sNormal0.Sample( samNormal0, input.uvWave0.xy );
+                                #endif
+                                #if defined(USE_NORMAL1)
+                                    vNormalSource += sNormal0.Sample( samNormal0, input.uvWave1.xy );
+                                #endif
+                                #if defined(USE_NORMAL2)
+                                    vNormalSource += sNormal0.Sample( samNormal0, input.uvWave2.xy );
+                                #endif
+                                #if defined(USE_NORMAL3)
+                                    vNormalSource += sNormal0.Sample( samNormal0, input.uvWave3.xy );
+                                #endif
+
+                                #if defined(USE_NORMAL3)
+                                    vNormalSource *= 0.25;
+                                #elif defined(USE_NORMAL2)
+                                    vNormalSource *= 0.3333;
+                                #elif defined(USE_NORMAL1)
+                                    vNormalSource *= 0.5;
+                                #endif
+
+                                float3 vNormal = vNormalSource.xyz;
+                                vNormal.z = sqrt( 1.0 - vNormalSource.x * vNormalSource.x - vNormalSource.y * vNormalSource.y );
+                          #endif
+
+    //                        float2 uvTexcoord0 = (input.uvScreen.xy + 0.5) * RENDER_TARGET_PARAMS.xy;
+                            float2 uvTexcoord0 = (input.vPosition.xy + 0.5) * RENDER_TARGET_PARAMS.xy;
+
+                            float4 vBack = sBackbuffer.Sample( samBackbuffer, uvTexcoord0.xy );
+                            float vDepth = vBack.w - input.vInscattering.w;
+                            float vDepthMask =  saturate( linearstep( 0, fWaterDepth, vDepth ) );
+
+                            #if defined(USE_NORMALS)
+                                uvTexcoord0 -= vNormalSource.xy * fRefractionPower * vDepthMask;
+                            #endif
+
+                            #if defined(FILTERING_16BPP)
+                                float4 vBackDeformed = sBackbufferBlur.Sample( samBackbufferBlur, uvTexcoord0.xy );
+                            #else
+                                float4 vBackDeformed = sBackbuffer.Sample( samBackbuffer, uvTexcoord0.xy );
+                            #endif
+
+                            float vBorderMask =  saturate( linearstep( 0, 0.1, vDepth ) );
+
+                            output = lerp( vBack, vBackDeformed, vBorderMask );
+
+                            #if defined(USE_WATERREFLECTION) || defined(USE_NORMALS) || defined(USE_WATERSPECULAR)
+                                float3 vCameraDirN = normalize( input.vCameraDirWS );
+                            #endif
+
+/*
+                          float3 vDeepWaterColor = lerp( 1, vWaterColor.xyz, vDepthMask );
+                          vDeepWaterColor = ( 1.0 - vDeepWaterColor.xyz ) * input.vExtinction.xyz - input.vInscattering.xyz;
+                          output.xyz *= 1.0-vDeepWaterColor.xyz;
+*/
+
+                          float3 vDeepWaterColor = ( 1.0 - vWaterColor.xyz ) * input.vExtinction.xyz - input.vInscattering.xyz;
+                          vDeepWaterColor = lerp( 1.0, 1.0 - vDeepWaterColor, vDepthMask );
+                          output.xyz *= vDeepWaterColor.xyz;
+
+
+//                          vDeepWaterColor = vDeepWaterColor.xyz * input.vExtinction.xyz + input.vInscattering.xyz;
+//                          output.xyz *= vDeepWaterColor.xyz;
+//                            float3 vDeepWaterColor = vWaterColor.xyz * input.vExtinction.xyz + input.vInscattering.xyz;
+//                        float3 vDepthColor = lerp( 1, vDeepWaterColor.xyz, vDepthMask );
+//                        output.xyz *= vDepthColor.xyz;
+//                        output.xyz = lerp( output.xyz, vDeepWaterColor.xyz, vDepthMask );
+
+
+                            float vOpacityMask = vDepthMask;
+
+                            #if defined(USE_WATERFRESNEL)
+                                #if defined(USE_NORMALS)
+                                    float vFresnelMask = dot( vNormal.xzy, vCameraDirN );
+                                #else
+                                    float vFresnelMask = vCameraDirN.y;
+                                #endif
+                                vFresnelMask = 1 - vFresnelMask;
+                                vFresnelMask *= vFresnelMask;
+                                vOpacityMask *= vFresnelMask;
+                            #endif
+
+                            #if defined(USE_WATERREFLECTION)
+                                #if defined(USE_NORMALS)
+                                    input.uvReflection.xy += vNormal.xy * fWaterReflDeformPower.xx;
+                                #endif
+                                float4 vReflectionFlat = sReflection.Sample( samReflection, input.uvReflection.xy/input.uvReflection.z);
+                            #endif
+
+                            #if defined(USE_NORMALS)
+                                float3 vReflect = reflect( input.vCameraDirWS, vNormal.xzy );
+                                float4 vCubemap = sCubemap.Sample( samCubemap, vReflect );
+                                #if defined(USE_WATERBORDER)
+                                    vCubemap.xyz *= lerp( vAmbient.xyz, vSunColor.xyz * fHDRSunIntensity, vWaterBorder.y  );
+                                #else
+                                    vCubemap.xyz *= vSunColor.xyz * fHDRSunIntensity;
+                                #endif
+                            #endif
+
+                            #if defined(USE_NORMALS) && defined(USE_WATERREFLECTION)
+                                float vReflectionBlendMask = vCameraDirN.y;
+                                vReflectionBlendMask = 1.0 - vReflectionBlendMask;
+                                vReflectionBlendMask *= vReflectionBlendMask; //power
+                                vReflectionBlendMask *= vReflectionBlendMask; //power
+                                float4 vReflection = lerp( vCubemap, vReflectionFlat, vReflectionBlendMask );
+                            #elif defined(USE_NORMALS)
+                                float4 vReflection = vCubemap;
+                            #elif defined(USE_WATERREFLECTION)
+                                float4 vReflection = vReflectionFlat;
+                            #endif
+
+                            #if defined(USE_NORMALS) || defined(USE_WATERREFLECTION)
+                                output.xyz += vReflection.xyz * vOpacityMask * input.vExtinction;
+                            #endif
+
+
+                            #if defined(USE_WATERSPECULAR)
+                                float SpecularBlinnShading = saturate( dot( normalize( vSunDir.xyz + vCameraDirN.xyz ), vNormal.xzy ) );
+                                float Gloss = saturate( pow( SpecularBlinnShading * 1.05 - 0.025 , 100.0 ) );
+    /*
+                                #if defined(USE_NORMALS)
+                                    float3 vGlossUV = normalize( vNormal.xzy * float3( -5, -5, 2 ) + vSunDir.xyz + vCameraDirN.xyz );
+                                #else
+                                    float3 vGlossUV = normalize( vSunDir.xyz + vCameraDirN.xyz );
+                                #endif
+                                float4 vGloss = sGloss.Sample( samGloss, vGlossUV.xz );
+    */
+                                #if defined(USE_WATERBORDER)
+                                    Gloss *= vWaterBorder.y;
+                                #endif
+
+    //                            float3 vSpecular = vSunColor * fHDRSunIntensity * vGloss.x  * vOpacityMask * input.vExtinction;
+                                float3 vSpecular = vSunColor * fHDRSunIntensity * Gloss  * vOpacityMask * input.vExtinction;
+                                output.xyz += vSpecular.xyz;
+                            #endif
+
+    //                        output.xyz = output.xyz * input.vExtinction.xyz * input.vInscattering.xyz;
+    //                        output.xyz = output.xyz * input.vExtinction * input.vInscattering.xyz;
+                            output.w = input.vInscattering.w;
+    //                        output = float4(1.0f, 1.0f, 1.0f, 1.0f);
+                        }
+                    Р#  DXBCe °G]}VIБ9SНЕ   Р#     4   ,  ф    #  RDEFЁ     H              ╩  №                             
+                                                                                ,        	                5                        >                             samBackbuffer samCubemap samNormal0 sBackbuffer sCubemap sNormal0 $Globals л>  п   `  `          ╚            р      Ё     @               P   @             /  Р   @             F  ╨   @             ]    @             t  P  @             Л  Р         р      Я  а         р      ▒  ░         р      ╝  └  @             ╦     @             █  @  @             ъ  А  @             Ў  └  @                  @               @  @             !  А         р      3  Р         р      8  а         H      X  ░         H      g  └         р      t  ╨         р      Г  р         р      Т  Ё         р      б     @             ░  @  @             ┴  А  @             ╥  └  @             у     @             ў  @  @               А  @             #  └  @             9            H      F           H      U            р      b  0         р      q  @         р      А  P         р      П  `  @             Ю  а  @             п  р  @             └     @             ╤  `  @             х  а  @             √  р  @                  @             '  `         H      3  p         H      A  А         H      O  Р         H      ]  а         р      k  ░         р      y  └  Р       А      Р  P	  @       Ь      м  Р	         р      ┤  а	         р      ╝  ░	         р      ─  └	         р      ╠  ╨	         р      ╘  р	         р      ▄  Ё	         р      ф   
+         р      ь  
+         р      Ї   
+         р      №  0
+         р        @
+         р        P
+         р        `
+         р         p
+         р      )  А
+         р      2  Р
+         р      ;  а
+         р      D  ░
+  @       Ь      M  Ё
+         р      V            р      _    @       Ь      h  P  @       Ь      q  Р  @       Ь      z  ╨  @       Ь      Г           р      М            р      Х  0         р      Ю  @         р      з  P         р      ░  `         р      ╔  p         р      ▀  А         р      ї  Р         р        а         р      !  ░         8      H  ╕         8      ]  └         8      r  ╚         8      Л  ╨         8      д  ╪         8      ╜  р         р      ╞  Ё         р      ╧            р      ╪           р      с            р      ъ  0         р        @         р        P         р        `         р      +  p         р      7  А  @       Ь      <  └         H      X  ─         H      f  ╚         H      t  ╠         H      В  ╨         H      Т  ╘         H      в  ╪         H      ▓  ▄        H      ├  р         H      ╪  ф         H      ь  ш         H      ¤  ь         H        Ё         р      '            р      4           H      @           H      N           d      t           d      Д            d      Ц  $         d      з  (         d      ╝  ,         H      ═  0         р      ╓  @         р      ц  P         р      Ў  `         р        p        р        А         H      "  Д         H      8  И         H      P  М        H      \  Р         H      g  Ф         H      v  Ш        H      З  Ь         H      Ф  а         H      й  д         H      ╛  и         H      ╘  м         H      ъ  ░         H      №  └         H        ╠         H        ╨         H      .  ╘         H      >  ╪         H      M  ▄         H      _  р         H      q  ф         H      Г  ш         H      Х  ь         H      з  Ё         H      ╣  Ї         H      ╦  °         H      ▌  №         H      я            H      ∙           H                 H                 H      *           H      <           H      N           H      `           H      r            H      Д  $         H      Ц  (         H      к  0         р      ╕  @         H      └  P        р      RENDER_TARGET_PARAMS ллл           SHADOW_XFORM_BIAS_WS_0 л           SHADOW_XFORM_BIAS_WS_1 SHADOW_XFORM_BIAS_WS_2 SHADOW_XFORM_BIAS_MS_0 SHADOW_XFORM_BIAS_MS_1 SHADOW_XFORM_BIAS_MS_2 POSITION_BIAS_SCALE NRM_TAN_TEX_SCALE FOG_PARAMS COMBINED_XFORM MODELVIEW_XFORM INVMODEL_XFORM MODEL_XFORM VIEW_XFORM PROJECTION_XFORM VIEWPROJ_XFORM BACKBUFFER_PARAMS TIME LIGHT_DIR_MS ллл           LIGHT_DIR_MS_0 LIGHT_POS_MS LIGHT_POS_MS_0 LIGHT_POS_MS_1 LIGHT_POS_MS_2 LIGHT_XFORM_MS LIGHT_XFORM_MS_0 LIGHT_XFORM_MS_1 LIGHT_XFORM_MS_2 LIGHT_XFORM_BIAS_MS LIGHT_XFORM_BIAS_MS_0 LIGHT_XFORM_BIAS_MS_1 LIGHT_XFORM_BIAS_MS_2 LIGHT_DIR_WS LIGHT_DIR_WS_0 LIGHT_POS_WS LIGHT_POS_WS_0 LIGHT_POS_WS_1 LIGHT_POS_WS_2 LIGHT_XFORM_WS LIGHT_XFORM_WS_0 LIGHT_XFORM_WS_1 LIGHT_XFORM_WS_2 LIGHT_XFORM_BIAS_WS LIGHT_XFORM_BIAS_WS_0 LIGHT_XFORM_BIAS_WS_1 LIGHT_XFORM_BIAS_WS_2 LIGHT_COLOR LIGHT_COLOR_0 LIGHT_COLOR_1 LIGHT_COLOR_2 CAMERA_POS_MS CAMERA_POS_WS ENV_SH     	       SCATTERING л           CONST_0 CONST_1 CONST_2 CONST_3 CONST_4 CONST_5 CONST_6 CONST_7 CONST_8 CONST_9 CONST_10 CONST_11 CONST_12 CONST_13 CONST_14 CONST_15 CONST_16 CONST_17 CONST_18 CONST_22 CONST_23 CONST_24 CONST_28 CONST_32 CONST_36 CONST_40 CONST_41 CONST_42 CONST_43 CONST_90 TEX_INV_SIZE_NRM_sColor0 TEX_SIZE_NRM_sHeight0 TEX_SIZE_NRM_sHeight1 TEX_SIZE_NRM_sHeight2 TEX_SIZE_NRM_sHeight3 TEX_SIZE_sShadowMap0 лл           TEX_SIZE_sShadowMap1 TEX_SIZE_sShadowMap2 TEX_INV_SIZE_sShadowMap0 TEX_INV_SIZE_sShadowMap1 TEX_INV_SIZE_sShadowMap2 aNGQuad0 aNGQuad1 aNGQuad2 aNGQuad3 vNGRange grass_wind_force_params grass_wave grass_wind_force grass_params ngPlayerPos quad water_level             terrain_inv_x terrain_inv_y terrain_inv_z fShadowmap0Bias fShadowmap1Bias fShadowmap2Bias fHDRSunIntensity fhdrambientintensity fHDRLightsIntensity fHDRSkyIntensity fHDRSelfIlluminationIntensity vGlowParams vColorParams fBulletTime fPlayerDamage iUseWaterReflection лл            iUseWaterBorder iUseWaterSpecular iUseWaterFresnel iUseWaterWavesNumber fGrassSizeFactor vAmbient vTerrainDetail0 vTerrainDetail1 vTerrainCliff vWaterColor fWaterBaseOpacity fWaterReflDeformPower fWaterPlantsDeformPower fWaterDepth fWindPower fFakeBumpPower fRefractionPower fDiffuseGlow fGrassColormapScaleX fGrassColormapScaleY fGrassColormapOffsetX fGrassColormapOffsetY vWindCurrentForce vWindInitialDir fUndergrowthHeight fTopDetailSize fSideDetailSize fDetailsBorder fUndergrowthScale fWaterWave1ScaleX fWaterWave1ScaleY fWaterWave2ScaleX fWaterWave2ScaleY fWaterWave1SpeedX fWaterWave1SpeedY fWaterWave2SpeedX fWaterWave2SpeedY fSkyScale fSkyScaleHDR fSkyCloudsL0Scale fSkyCloudsL0Speed fSkyCloudsL1Scale fSkyCloudsL1Speed fSkyCloudsL2Scale fSkyCloudsL2Speed fSkyHorizonScaleH fSkyHorizonScaleV fSkyBackgroundScale vHorizonColor vSunDir vSunColor Microsoft (R) HLSL Shader Compiler лллISGN░         Ш                   д                   д                  д                  д                  д                  SV_POSITION TEXCOORD лллOSGN,                               SV_TARGET ллSHDR°  @   >  d  2        b r    b Є    b r    b 2    b ┬    e  Є      Y  FО      Ў   X  p     UU  Z   `     X0  p    UU  Z   `    X  p    UU  Z   `    h     E  	Є      F    F~     `    E  	Є     ц    F~     `       2      F      F     8  
+R           @     ?       ?    2  
+В      
+ АA       
+      @    А?2  
+В      * АA       *      :      K  "      :        В      F    F        В      :      :      2  
+r     F     ЎАA       F    8  2      Ж      жК      щ   E  	Є     F    F~     `    8  	r     ЎП      ▌   FВ      ї   8  r     F    F       
+┬           @             ?   ?8  ┬      ж     Д          E  	Є     ц
+     F~      `        В     :     :АA        В     :     :А      ш   8  В     :     @     A8  r     F    Ў    8  r     F    F    2  
+2      F АA       Ў    ц
+     E  	Є      F      F~      `        r      FАA      F     2  	r      Ў    F     F       r     FВ АA       ч   @    А?  А?  А?    2  
+r     F    F    FАA      2  r     Ў    FАA      @    А?  А?  А?    2  	r      F     F    F    6  В      :    >  STATp                                                                                                             F   USE_NORMALS 1 USE_NORMAL1 1 USE_NORMAL0 1 SHADOW_QUALITY 3 HSM_MODE 1                    (   *   9   ;   D    я{    `  `  п   )                                             @                    P   @           	         Р   @                     ╨   @                      @                    P  @    2                 Р      3                 а      '                 ░                       └  @                         @           $          @  @            (          А  @           ,          └  @           0             @           4          @  @    (       8          А      !       9          Р      	       :          а      	       ;          ░             <          └             =          ╨             >         р             ?         Ё             @             @           D          @  @           H         А  @           L         └  @           P             @           T          @  @           X         А  @           \         └  @    
+       `                 
+       a                       b                        c          0             d         @             e         P             f          `  @           j          а  @           n         р  @           r            @           v          `  @           z          а  @           ~         р  @           В            @           Ж          `             З          p             И         А             Й         Р             К          а             Л          ░             М   	       └  Р    $       Х          P	  @    #       Щ          Р	      #       Ъ         а	      #       Ы         ░	      #       Ь         └	      #       Э         ╨	      #       Ю         р	      #       Я         Ё	      #       а          
+      #       б         
+      #       в      	    
+      #       г      
+   0
+      #       д         @
+      #       е         P
+      #       ж         `
+      #       з         p
+      #       и         А
+      #       й         Р
+      #       к         а
+      #       л         ░
+  @    #       п         Ё
+      #       ░                #       ▒           @    #       ╡         P  @    #       ╣          Р  @    #       ╜      $   ╨  @    #       ┴      (         #       ┬      )          #       ├      *   0      #       ─      +   @      #       ┼      Z   P      +       ╞          `      ,       ╟          p      ,       ╚          А      ,       ╔          Р      ,       ╩          а      0       ╦          ░      0       ╦          ╕      0       ╠          └      1       ╠          ╚      1       ═          ╨      1       ═          ╪              angquad0    ╬          р             angquad1    ╧          Ё             angquad2    ╨                        angquad3    ╤                       vngrange    ╥                        grass_wind_force_params    ╙          0            
+ grass_wave    ╘          @             grass_wind_force    ╒          P             grass_params    ╓          `             ngplayerpos    ╫          p             quad    ╪          А  @           water_level    ▄          └             terrain_inv_x    ▄          ─             terrain_inv_y    ▄          ╚             terrain_inv_z    ▄          ╠             fshadowmap0bias    ▌          ╨             fshadowmap1bias    ▌          ╘             fshadowmap2bias    ▌          ╪             fhdrsunintensity    ▌          ▄             fhdrambientintensity    ▐          р             fhdrlightsintensity    ▐          ф             fhdrskyintensity    ▐          ш             fhdrselfilluminationintensity    ▐          ь             vglowparams    ▀          Ё             vcolorparams    р                        fbullettime    с                       fplayerdamage    с                       iusewaterreflection    с                       iusewaterborder    с                       iusewaterspecular    т                        iusewaterfresnel    т          $             iusewaterwavesnumber    т          (             fgrasssizefactor    т          ,             vambient    у          0             vterraindetail0    ф          @             vterraindetail1    х          P             vterraincliff    ц          `             vwatercolor    ч          p             fwaterbaseopacity    ш          А             fwaterrefldeformpower    ш          Д             fwaterplantsdeformpower    ш          И             fwaterdepth    ш          М            
+ fwindpower    щ          Р             ffakebumppower    щ          Ф             frefractionpower    щ          Ш             fdiffuseglow    щ          Ь             fgrasscolormapscalex    ъ          а             fgrasscolormapscaley    ъ          д             fgrasscolormapoffsetx    ъ          и             fgrasscolormapoffsety    ъ          м             vwindcurrentforce    ы          ░             vwindinitialdir    ь          └             fundergrowthheight    ь          ╠             ftopdetailsize    э          ╨             fsidedetailsize    э          ╘             fdetailsborder    э          ╪             fundergrowthscale    э          ▄             fwaterwave1scalex    ю          р             fwaterwave1scaley    ю          ф             fwaterwave2scalex    ю          ш             fwaterwave2scaley    ю          ь             fwaterwave1speedx    я          Ё             fwaterwave1speedy    я          Ї             fwaterwave2speedx    я          °             fwaterwave2speedy    я          №            	 fskyscale    Ё                        fskyscalehdr    Ё                       fskycloudsl0scale    Ё                       fskycloudsl0speed    Ё                       fskycloudsl1scale    ё                       fskycloudsl1speed    ё                       fskycloudsl2scale    ё                       fskycloudsl2speed    ё                       fskyhorizonscaleh    Є                        fskyhorizonscalev    Є          $             fskybackgroundscale    Є          (             vhorizoncolor    є          0             vsundir    Ї          @            	 vsuncolor    ї          P                                                      ,_Ь                        samBackbuffer
+ samCubemap
+ samNormal0                           sBackbuffer sCubemap sNormal0                          

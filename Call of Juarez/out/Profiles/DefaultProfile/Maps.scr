@@ -1,0 +1,10 @@
+!include("../../Level.def")
+
+!LevelMapNet(s,s)
+
+
+!NoMaps()
+
+NoMaps()
+
+

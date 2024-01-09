@@ -1,0 +1,23 @@
+!API(s)            // DS3D, OpenAL, NoSound
+!MixFrequency(i)
+!Channels(i)
+!ForceSoftware()
+!ForceSoftwareEAX()
+!ForceNoFXes()
+!Quality3D(s)      // low, medium, high
+!UseEAX()
+!ExtraSounds01()
+!CDVolume(i)
+!SpeechVolume(i)
+!FXVolume(i)
+!WaveVolume(i)
+
+API("DS3D")
+MixFrequency(44100)
+Channels(32)
+Quality3D("high")
+FXVolume(1)
+WaveVolume(1)
+CDVolume(10)
+SpeechVolume(5)
+
