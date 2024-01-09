@@ -1,0 +1,1725 @@
+  <NXUSTREAM2>
+    <NxuPhysicsCollection id="saves/save013/tv_tower/tv_tower_00.xml" sdkVersion="272" nxuVersion="103">
+      <NxPhysicsSDKDesc id="SDK"/>
+      <NxSceneDesc id="Scene_0">
+        <NxGroupsMask id="groupMask0"/>
+        <NxGroupsMask id="groupMask1"/>
+        <NxSceneLimits id="limits"/>
+        <NxActorDesc id="Actor_0" userProperties="_castType_2_objType_1_objIndex_33" hasBody="true" name="testActorName">
+          <globalPose>-1 0 -0.000000087  0 1 0  0.000000087 0 -1  26.450016022 151.244918823 -43.394371033</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  -1.520000219 1.050000191 0.030000003</massLocalPose>
+            <massSpaceInertia>16666.66796875 16666.66796875 16666.66796875</massSpaceInertia>
+            <mass>999.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <NxActorFlag id="flags">
+            <NX_AF_DISABLE_COLLISION>true</NX_AF_DISABLE_COLLISION>
+            <NX_AF_DISABLE_RESPONSE>true</NX_AF_DISABLE_RESPONSE>
+            <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+            <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+            <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+            <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+            <NX_AF_USER_ACTOR_PAIR_FILTERING>false</NX_AF_USER_ACTOR_PAIR_FILTERING>
+          </NxActorFlag>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="5 5 5">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.519999981 1.049999952 0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_1" userProperties="_castType_2_objType_6_objIndex_0" hasBody="true" name="testActorName">
+          <globalPose>-0.999848127 -0 -0.017452462  -0 1 -0  0.017452462 -0 -0.999848127  10.150677681 36.75484848 -45.45160675</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.999958575 -0.002125427 0.008853552  0.001041964 0.992697239 0.120627835  -0.009045283 -0.120613605 0.992658317  -0.020862246 -0.226159245 0.153989211</massLocalPose>
+            <massSpaceInertia>669.899169922 311.981781006 584.920349121</massSpaceInertia>
+            <mass>300</mass>
+            <linearVelocity>0.000012223 -0.000050089 0.000061826</linearVelocity>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.98999995 0.07 1.199999928">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -1.529999971 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.98999995 0.07 1.199999928">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 1.309999943 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.969999969 0.649999976 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.849999964 1.110000014</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.75999999 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.909999967 0.539999962 1.120000005</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.75999999 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.909999967 0.539999962 1.120000005</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.399999976 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.909999967 -0.119999997 -1.120000005</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.399999976 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.909999967 -0.119999997 -1.120000005</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 1.129999995">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.909999967 -0.119999997 0.02</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 0.889999986">
+            <NxShapeDesc>
+              <localPose>0.000000179 0 0.999999881  0 1 0  -0.999999881 0 0.000000179  0 -0.119999997 -1.120000005</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_2" userProperties="_castType_2_objType_1_objIndex_1" hasBody="true" name="testActorName">
+          <globalPose>0.061024368 0 0.998136282  0 1 0  -0.998136282 0 0.061024368  10.031005859 136.372558594 -43.143623352</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.930756032 -0.365554571 -0.007939702  0.365149975 0.928162813 0.071966648  -0.018938402 -0.069882572 0.997375429  -0.027784383 -0.145883575 0.1551653</massLocalPose>
+            <massSpaceInertia>795.589233398 593.196594238 498.731201172</massSpaceInertia>
+            <mass>900</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.289999992 0.07 1.169999957">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.239999995 0.620000005 0.109999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.199999988 0.07 1.209999919">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.409999996 0 -0.049999997</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.089999996 0.07 1.159999967">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.50999999 -0.879999995 0.01</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 1.279999971">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.419999987 -0.949999988 0.01</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 0.689999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.059999999 -0.949999988 -0.579999983</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 0.550000012">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.219999999 -0.930000007 -0.889999986</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 0.569999993">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.159999996 -0.930000007 0.839999974</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 1.25999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.280000001 0 0.079999998</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.079999998 0.07 0.469999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.449999988 0 -0.819999993</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.079999998 0.07 0.469999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.449999988 0 0.769999981</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 1.069999933">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.569999993 -0.839999974 0.189999998</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 1.199999928">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.569999993 -0.419999987 0.059999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 1.079999924">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.579999983 -0.029999999 0.179999992</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.059999943 0.089999996">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.550000012 -0.07 0.109999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.919999957 0.089999996">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.550000012 -0.209999993 1.029999971</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.449999988 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.599999964 -0.669999957 0.810000002</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.680000007 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.889999986 0.669999957</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.680000007 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.889999986 -0.469999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.680000007 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.029999999 -0.449999988</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.569999993 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.059999999 0.029999999 -0.049999997</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.659999967 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.01 0.029999999 0.649999976</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.560000002 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.639999986 1.029999971</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.610000014 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.059999999 0.649999976 0.099999994</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.599999964 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.049999997 0.649999976 -0.620000005</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.129999995 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.579999983 0.01 -0.610000014</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.049999952 0.199999988">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.579999983 -0.089999996 0.930000007</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.709999979 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.766044497 0.642787576  0 -0.642787576 0.766044497  -0.620000005 0.519999981 -0.25999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.599999964 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.766044497 -0.642787576  0 0.642787576 0.766044497  -0.589999974 0.5 0.469999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.649999976 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.848048091 0.529919267 0  -0.529919267 0.848048091 0  0 0 1  -0.02 -0.569999993 -0.629999995</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.649999976 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.848048091 0.529919267 0  -0.529919267 0.848048091 0  0 0 1  -0.02 -0.569999993 1.049999952</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.649999976 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.882947624 -0.469471544 0  0.469471544 0.882947624 0  0 0 1  -0.02 -0.569999993 0.810000002</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_3" userProperties="_castType_2_objType_1_objIndex_2" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  14.154019356 148.944534302 -45.252677917</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_4" userProperties="_castType_2_objType_1_objIndex_3" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  20.922363281 136.00819397 -58.041801453</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_5" userProperties="_castType_2_objType_6_objIndex_4" hasBody="true" name="testActorName">
+          <globalPose>-0.99996686 0 -0.00813562  0 1 0  0.00813562 0 -0.99996686  10.039675713 36.289382935 -46.551319122</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0.000000002 -0.000003185 -0.000002995</massLocalPose>
+            <massSpaceInertia>0.000037031 0.000016647 0.000037031</massSpaceInertia>
+            <mass>0.005096</mass>
+            <linearVelocity>0.000001004 0.000028751 -0.000037467</linearVelocity>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.07 0.129999995 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.000000002 -0.000003185 -0.000002995</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_6" userProperties="_castType_2_objType_1_objIndex_6" hasBody="true" name="testActorName">
+          <globalPose>0.190808952 -0.000000015 0.981627285  0.000000012 1 0.000000013  -0.981627285 0.00000001 0.190808952  -4.199999809 36.5 -49.899997711</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.98565352 -0.165908307 0.031008694  0.129231781 0.860019803 0.493624479  -0.108564496 -0.482535392 0.869122148  -0.006578947 -0.020986842 0.032894742</massLocalPose>
+            <massSpaceInertia>0.472466141 0.119037434 0.506035328</massSpaceInertia>
+            <mass>55</mass>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxCapsuleShapeDesc radius="0.050000001" height="0.07">
+            <NxShapeDesc>
+              <localPose>0.000000358 0.000000012 0.999999881  0.000000013 1 -0.000000012  -0.999999881 0.000000013 0.000000358  0.020003052 -0.090000153 0.069999598</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxCapsuleShapeDesc>
+          <NxSphereShapeDesc radius="0.050000001">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.02 0.07 -0.049999997</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxSphereShapeDesc>
+          <NxCapsuleShapeDesc radius="0.050000001" height="0.170000002">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.920504808 0.390731215  0 -0.390731215 0.920504808  -0.02 0 0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxCapsuleShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_7" userProperties="_castType_2_objType_1_objIndex_8" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  14.411649704 166.327651978 -37.409091949</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_8" userProperties="_castType_2_objType_1_objIndex_9" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  10.347074509 136.055618286 -41.80443573</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_9" userProperties="_castType_2_objType_1_objIndex_10" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  1.390058994 136.245788574 -42.03578949</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.930756032 -0.365554571 -0.007939702  0.365149975 0.928162813 0.071966648  -0.018938402 -0.069882572 0.997375429  -0.027784383 -0.145883575 0.1551653</massLocalPose>
+            <massSpaceInertia>795.589233398 593.196594238 498.731201172</massSpaceInertia>
+            <mass>900</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.289999992 0.07 1.169999957">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.239999995 0.620000005 0.109999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.199999988 0.07 1.209999919">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.409999996 0 -0.049999997</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.089999996 0.07 1.159999967">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.50999999 -0.879999995 0.01</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 1.279999971">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.419999987 -0.949999988 0.01</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 0.689999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.059999999 -0.949999988 -0.579999983</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 0.550000012">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.219999999 -0.930000007 -0.889999986</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 0.569999993">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.159999996 -0.930000007 0.839999974</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 1.25999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.280000001 0 0.079999998</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.079999998 0.07 0.469999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.449999988 0 -0.819999993</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.079999998 0.07 0.469999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.449999988 0 0.769999981</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 1.069999933">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.569999993 -0.839999974 0.189999998</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 1.199999928">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.569999993 -0.419999987 0.059999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 1.079999924">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.579999983 -0.029999999 0.179999992</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.059999943 0.089999996">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.550000012 -0.07 0.109999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.919999957 0.089999996">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.550000012 -0.209999993 1.029999971</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.449999988 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.599999964 -0.669999957 0.810000002</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.680000007 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.889999986 0.669999957</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.680000007 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.889999986 -0.469999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.680000007 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.029999999 -0.449999988</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.569999993 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.059999999 0.029999999 -0.049999997</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.659999967 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.01 0.029999999 0.649999976</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.560000002 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.639999986 1.029999971</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.610000014 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.059999999 0.649999976 0.099999994</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.599999964 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.049999997 0.649999976 -0.620000005</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.129999995 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.579999983 0.01 -0.610000014</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.049999952 0.199999988">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.579999983 -0.089999996 0.930000007</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.709999979 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.766044497 0.642787576  0 -0.642787576 0.766044497  -0.620000005 0.519999981 -0.25999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.599999964 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.766044497 -0.642787576  0 0.642787576 0.766044497  -0.589999974 0.5 0.469999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.649999976 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.848048091 0.529919267 0  -0.529919267 0.848048091 0  0 0 1  -0.02 -0.569999993 -0.629999995</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.649999976 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.848048091 0.529919267 0  -0.529919267 0.848048091 0  0 0 1  -0.02 -0.569999993 1.049999952</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.649999976 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.882947624 -0.469471544 0  0.469471544 0.882947624 0  0 0 1  -0.02 -0.569999993 0.810000002</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_10" userProperties="_castType_2_objType_1_objIndex_11" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  1.347682714 136.245788574 -46.099319458</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.930756032 -0.365554571 -0.007939702  0.365149975 0.928162813 0.071966648  -0.018938402 -0.069882572 0.997375429  -0.027784383 -0.145883575 0.1551653</massLocalPose>
+            <massSpaceInertia>795.589233398 593.196594238 498.731201172</massSpaceInertia>
+            <mass>900</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.289999992 0.07 1.169999957">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.239999995 0.620000005 0.109999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.199999988 0.07 1.209999919">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.409999996 0 -0.049999997</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.089999996 0.07 1.159999967">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.50999999 -0.879999995 0.01</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 1.279999971">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.419999987 -0.949999988 0.01</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 0.689999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.059999999 -0.949999988 -0.579999983</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 0.550000012">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.219999999 -0.930000007 -0.889999986</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 0.569999993">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.159999996 -0.930000007 0.839999974</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 1.25999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.280000001 0 0.079999998</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.079999998 0.07 0.469999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.449999988 0 -0.819999993</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.079999998 0.07 0.469999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.449999988 0 0.769999981</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 1.069999933">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.569999993 -0.839999974 0.189999998</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 1.199999928">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.569999993 -0.419999987 0.059999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 1.079999924">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.579999983 -0.029999999 0.179999992</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.059999943 0.089999996">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.550000012 -0.07 0.109999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.919999957 0.089999996">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.550000012 -0.209999993 1.029999971</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.449999988 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.599999964 -0.669999957 0.810000002</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.680000007 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.889999986 0.669999957</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.680000007 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.889999986 -0.469999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.680000007 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.029999999 -0.449999988</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.569999993 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.059999999 0.029999999 -0.049999997</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.659999967 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.01 0.029999999 0.649999976</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.560000002 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.639999986 1.029999971</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.610000014 0.07 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.059999999 0.649999976 0.099999994</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.599999964 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.049999997 0.649999976 -0.620000005</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.129999995 0.079999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.579999983 0.01 -0.610000014</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 1.049999952 0.199999988">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.579999983 -0.089999996 0.930000007</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.709999979 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.766044497 0.642787576  0 -0.642787576 0.766044497  -0.620000005 0.519999981 -0.25999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.599999964 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.766044497 -0.642787576  0 0.642787576 0.766044497  -0.589999974 0.5 0.469999999</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.649999976 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.848048091 0.529919267 0  -0.529919267 0.848048091 0  0 0 1  -0.02 -0.569999993 -0.629999995</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.649999976 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.848048091 0.529919267 0  -0.529919267 0.848048091 0  0 0 1  -0.02 -0.569999993 1.049999952</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.649999976 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.882947624 -0.469471544 0  0.469471544 0.882947624 0  0 0 1  -0.02 -0.569999993 0.810000002</localPose>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_11" userProperties="_castType_2_objType_1_objIndex_12" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  1.469457388 136.013183594 -44.107368469</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_12" userProperties="_castType_2_objType_1_objIndex_19" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  15.040795326 166.327651978 -47.307460785</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_13" userProperties="_castType_2_objType_1_objIndex_25" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  9.273730278 166.393829346 -47.981884003</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_14" userProperties="_castType_2_objType_1_objIndex_26" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  12.346391678 166.430526733 -41.150566101</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_15" userProperties="_castType_2_objType_1_objIndex_27" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  12.883946419 166.327651978 -54.148498535</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_16" userProperties="_castType_2_objType_1_objIndex_28" hasBody="true" name="testActorName">
+          <globalPose>0.026923835 -0.999637485 0  0.999637485 0.026923835 0  0 0 1  11.371922493 166.010498047 -54.05348587</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_17" userProperties="_castType_2_objType_1_objIndex_29" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  -1.250223041 166.327651978 -54.161838531</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_18" userProperties="_castType_2_objType_1_objIndex_30" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  -5.16648674 166.327651978 -49.387031555</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_19" userProperties="_castType_2_objType_1_objIndex_31" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  -5.037893772 166.327651978 -39.908763885</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_20" userProperties="_castType_2_objType_1_objIndex_32" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  3.690596342 166.327651978 -34.22076416</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>184.977035522 66.20400238 184.977005005</massSpaceInertia>
+            <mass>809.999938965</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.50000006 0 0.866025329  0 1 0  -0.866025329 0 0.50000006  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.340000004 0.75 0.359999985">
+            <NxShapeDesc>
+              <localPose>-0.500000119 0 0.866025329  0 1 0  -0.866025329 0 -0.500000119  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+      </NxSceneDesc>
+    </NxuPhysicsCollection>
+  </NXUSTREAM2>

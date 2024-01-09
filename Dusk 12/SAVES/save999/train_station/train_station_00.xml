@@ -1,0 +1,3185 @@
+  <NXUSTREAM2>
+    <NxuPhysicsCollection id="saves/save014/train_station/train_station_00.xml" sdkVersion="272" nxuVersion="103">
+      <NxPhysicsSDKDesc id="SDK"/>
+      <NxSceneDesc id="Scene_0">
+        <NxGroupsMask id="groupMask0"/>
+        <NxGroupsMask id="groupMask1"/>
+        <NxSceneLimits id="limits"/>
+        <NxActorDesc id="Actor_0" userProperties="_castType_2_objType_6_objIndex_0" hasBody="true" name="testActorName">
+          <globalPose>0.000000358 0 0.99999994  0 1 0  -0.99999994 0 0.000000358  57.949996948 -0.26000008 -117.729995728</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0 -0.560000002 0</massLocalPose>
+            <massSpaceInertia>61.066669464 138.113342285 81.366668701</massSpaceInertia>
+            <mass>200</mass>
+            <linearVelocity>0 -0.00000091 0</linearVelocity>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="1.090000033 0.179999992 0.939999998">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.560000002 0</localPose>
+              <group>2</group>
+              <materialIndex>4</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_1" userProperties="_castType_2_objType_1_objIndex_1" hasBody="true" name="testActorName">
+          <globalPose>0.681998193 0 -0.731353819  0 1 0  0.731353819 0 0.681998193  52.649997711 13.319999695 -178.779998779</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>56.360416412 30.760417938 51.413337708</massSpaceInertia>
+            <mass>200</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.439999998 0.75999999 0.517499983">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>22</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_2" userProperties="_castType_2_objType_1_objIndex_6" hasBody="true" name="testActorName">
+          <globalPose>-0.999390841 0 -0.034899384  0 1 0  0.034899384 0 -0.999390841  14.63999939 4.683873177 -116.209999084</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.930978119 -0.165678948 -0.325315505  -0.069260821 0.794754207 -0.602966487  0.358444721 0.583880246 0.728423715  0.026885888 0.006686545 0.053941831</massLocalPose>
+            <massSpaceInertia>0.004773621 0.00575112 0.003063261</massSpaceInertia>
+            <mass>0.119324163</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.239999995 0.192000002 0.072000004">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.024 -0.059999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.252000004 0.072000004 0.168000013">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.788010597 -0.61566174  0 0.61566174 0.788010597  0 0.048 0.096000001</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.252000004 0.096000001 0.156000003">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.084000006 0.131999999</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.131999999 0.072000004 0.192000002">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.777145922 -0.629320443  0 0.629320443 0.777145922  0.119999997 0.131999999 0.119999997</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.131999999 0.108000003 0.108000003">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.192000002 0.216000006</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 0.072000004">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.920504868 -0.390731096  0 0.390731096 0.920504868  0.084000006 0.204000011 -0.192000002</localPose>
+              <group>2</group>
+              <materialIndex>11</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 0.072000004">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.121869266 0.992546201  0 -0.992546201 0.121869266  0.084000006 0.144000009 -0.288000017</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 0.072000004">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.121869266 0.992546201  0 -0.992546201 0.121869266  0.168000013 0.144000009 -0.288000017</localPose>
+              <group>2</group>
+              <materialIndex>20</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 0.072000004">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 0.920504868 -0.390731096  0 0.390731096 0.920504868  0.179999992 0.204000011 -0.192000002</localPose>
+              <group>2</group>
+              <materialIndex>20</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_3" userProperties="_castType_2_objType_1_objIndex_7" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 0.000000894 0.999999881  0 -0.999999881 0.000000894  14.479999542 4.920000076 -116.290000916</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0 0 0.096000001</massLocalPose>
+            <massSpaceInertia>0.110426657 0.110426657 0.065333337</massSpaceInertia>
+            <mass>20</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.07 0.07 0.108000003">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0 0.096000001</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_4" userProperties="_castType_2_objType_1_objIndex_8" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 0.000000894 0.999999881  0 -0.999999881 0.000000894  14.559999466 4.923872948 -116.290000916</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0 0 0.096000001</massLocalPose>
+            <massSpaceInertia>0.110426657 0.110426657 0.065333337</massSpaceInertia>
+            <mass>20</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.07 0.07 0.108000003">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0 0.096000001</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_5" userProperties="_castType_2_objType_1_objIndex_11" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  -6.468138695 0.919999957 -190.75138855</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.980557442 -0.196232244 -0.000000754  0.196232215 0.980557323 -0.000467213  0.000092421 0.000457981 0.999999881  0.055738673 -0.097301468 -0.029627813</massLocalPose>
+            <massSpaceInertia>44.525371552 43.449039459 87.876220703</massSpaceInertia>
+            <mass>29.999998093</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="2.049999952 1.419999957 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.059999999 -0.669999957 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="2.089999914 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.049999997 1.75999999 -0.02</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.02 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.25999999 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.379999995 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.699999988 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.159999967 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.610000014 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  2.079999924 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.829999924 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.199999988 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.419999987 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.649999976 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.870000005 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.100000024 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.329999924 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.769999981 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -2.019999981 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_6" userProperties="_castType_2_objType_1_objIndex_12" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  -2.2281394 0.849999964 -190.791381836</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.998448491 -0.05568343 -0.000006757  0.055683423 0.998448372 -0.000467224  0.000032763 0.000466122 0.999999881  -0.062033635 -0.097301468 -0.029627813</massLocalPose>
+            <massSpaceInertia>44.48903656 42.84066391 87.231513977</massSpaceInertia>
+            <mass>29.999998093</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="2.049999952 1.419999957 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.059999999 -0.669999957 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="2.089999914 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.039999999 1.75999999 -0.02</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.039999999 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.199999988 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.419999987 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.639999986 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.100000024 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.559999943 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  2.019999981 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.789999962 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.25999999 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.5 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.699999988 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.939999998 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.149999976 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.389999986 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.839999914 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -2.069999933 1.5 -0.029999999</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_7" userProperties="_castType_2_objType_1_objIndex_14" hasBody="true" name="testActorName">
+          <globalPose>0.571303368 0 -0.820738971  0 1 0  0.820738971 0 0.571303368  1.341805339 -5.387229919 4.130921841</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.998448491 -0.05568343 -0.000006757  0.055683423 0.998448372 -0.000467224  0.000032763 0.000466122 0.999999881  -0.062033635 -0.097301468 -0.029627813</massLocalPose>
+            <massSpaceInertia>44.48903656 42.84066391 87.231513977</massSpaceInertia>
+            <mass>29.999998093</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <NxActorFlag id="flags">
+            <NX_AF_DISABLE_COLLISION>true</NX_AF_DISABLE_COLLISION>
+            <NX_AF_DISABLE_RESPONSE>true</NX_AF_DISABLE_RESPONSE>
+            <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+            <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+            <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+            <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+            <NX_AF_USER_ACTOR_PAIR_FILTERING>false</NX_AF_USER_ACTOR_PAIR_FILTERING>
+          </NxActorFlag>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="2.049999952 1.419999957 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.059999999 -0.669999957 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="2.089999914 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.039999999 1.75999999 -0.02</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.039999999 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.199999988 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.419999987 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.639999986 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.100000024 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.559999943 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  2.019999981 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.789999962 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.25999999 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.5 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.699999988 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.939999998 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.149999976 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.389999986 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.839999914 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -2.069999933 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_8" userProperties="_castType_2_objType_1_objIndex_16" hasBody="true" name="testActorName">
+          <globalPose>-0.99984777 0.000000043 -0.017452646  -0.003278014 0.982202351 0.187797159  0.017142039 0.187825769 -0.982052863  23.718832016 -6.925182819 -75.052627563</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.984012365 0.171011031 0.049748387  -0.156342685 0.963205695 -0.218613178  -0.085303187 0.20734027 0.974542618  0.096436806 0.519945145 -0.021849794</massLocalPose>
+            <massSpaceInertia>152.301559448 356.008911133 240.660476685</massSpaceInertia>
+            <mass>57.205631256</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="2.419999838 0.779999971 1.339999914">
+            <NxShapeDesc>
+              <localPose>0.031496808 0.534121275 -0.844821036  -0.088645056 0.843402326 0.529919446  0.995565236 0.058198392 0.073911667  2.139999866 0.129999995 -0.219999999</localPose>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="2.400979996 0.644259989 2.425194979">
+            <NxShapeDesc>
+              <localPose>0.99304533 0.086747274 0.079598539  -0.080965385 0.99402529 -0.073200949  -0.085472934 0.066247128 0.994135678  -1.066129923 0.982763946 -0.320961982</localPose>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="2.398984909 0.302668482 1.106719971">
+            <NxShapeDesc>
+              <localPose>0.988276124 -0.148302525 0.036285162  0.084644757 0.334414512 -0.938617229  0.127065018 0.930684328 0.343046904  -1.090370059 -0.409321994 2.016489983</localPose>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.804359972 0.073459499 0.25127551">
+            <NxShapeDesc>
+              <localPose>0.372493625 -0.158335567 0.914429247  0.912467837 -0.117240667 -0.391996741  0.169273198 0.98040235 0.100803033  2.149790049 0.529327989 1.523130059</localPose>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.883864939 0.07 0.407676995">
+            <NxShapeDesc>
+              <localPose>0.218790591 -0.548048496 -0.807324946  0.047601938 0.832380295 -0.552156746  0.974610031 0.082376465 0.208205163  2.814479828 0.342132002 0.0416895</localPose>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.911584973 0.07 0.41118148">
+            <NxShapeDesc>
+              <localPose>0.647796214 0.725141168 -0.233517379  0.714658022 -0.68461436 -0.143412337  -0.263863534 -0.073983103 -0.961718559  1.88714993 0.565030992 -1.516939998</localPose>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_9" userProperties="_castType_2_objType_1_objIndex_17" hasBody="true" name="testActorName">
+          <globalPose>0.258819342 0 0.965925753  0 1 0  -0.965925753 0 0.258819342  -3.720000029 -5.196452618 4.289999962</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.980557442 -0.196232244 -0.000000754  0.196232215 0.980557323 -0.000467213  0.000092421 0.000457981 0.999999881  0.055738673 -0.097301468 -0.029627813</massLocalPose>
+            <massSpaceInertia>44.525371552 43.449039459 87.876220703</massSpaceInertia>
+            <mass>29.999998093</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <NxActorFlag id="flags">
+            <NX_AF_DISABLE_COLLISION>true</NX_AF_DISABLE_COLLISION>
+            <NX_AF_DISABLE_RESPONSE>true</NX_AF_DISABLE_RESPONSE>
+            <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+            <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+            <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+            <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+            <NX_AF_USER_ACTOR_PAIR_FILTERING>false</NX_AF_USER_ACTOR_PAIR_FILTERING>
+          </NxActorFlag>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="2.049999952 1.419999957 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.059999999 -0.669999957 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="2.089999914 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.049999997 1.75999999 -0.02</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.02 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.25999999 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.379999995 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.699999988 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.159999967 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.610000014 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  2.079999924 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  1.829999924 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.199999988 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.419999987 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.649999976 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.870000005 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.100000024 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.329999924 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -1.769999981 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.779999971 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -2.019999981 1.5 -0.029999999</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_10" userProperties="_castType_2_objType_1_objIndex_43" hasBody="true" name="testActorName">
+          <globalPose>0.000001371 0 -0.999999881  0 1 0  0.999999881 0 0.000001371  16.088651657 4.180788994 -123.002304077</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.857047856 0.514415622 -0.029076833  -0.514144659 0.857540727 0.016707044  0.033528935 0.000630962 0.999437511  0.073892049 -0.033556227 -0.002035983</massLocalPose>
+            <massSpaceInertia>4.639686584 2.314731598 4.438548088</massSpaceInertia>
+            <mass>29.999998093</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.319999993 0.07 0.280000001">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.049999997 0</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 0.219999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.269999981 -0.179999992 0</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.07 0.219999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.239999995 -0.179999992 0</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.189999998 0.229999989">
+            <NxShapeDesc>
+              <localPose>0.99619472 0.087155774 0  -0.087155774 0.99619472 0  0 0 1  0.289999992 0.449999988 0</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.239999995 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.01 -0.179999992 -0.239999995</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.239999995 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.02 -0.179999992 0.239999995</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.649999976 0.07">
+            <NxShapeDesc>
+              <localPose>0.999390841 0.034899496 0  -0.034899496 0.999390841 0  0 0 1  0.280000001 0 0.239999995</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.649999976 0.07">
+            <NxShapeDesc>
+              <localPose>0.999390841 0.034899496 0  -0.034899496 0.999390841 0  0 0 1  0.280000001 0 -0.25</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.319999993 0.07">
+            <NxShapeDesc>
+              <localPose>0.997564018 0.069756471 0  -0.069586553 0.995133996 0.069756471  0.004865965 -0.069586553 0.997564018  -0.280000001 -0.329999983 0.239999995</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.319999993 0.07">
+            <NxShapeDesc>
+              <localPose>0.999390841 0.034899496 0  -0.034814484 0.996956348 -0.069756478  -0.002434466 0.06971398 0.997564077  -0.280000001 -0.329999983 -0.25</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_11" userProperties="_castType_2_objType_1_objIndex_47" hasBody="true" name="testActorName">
+          <globalPose>0.107945383 -0.87914449 -0.464168906  0.992546141 0.121869385 0.000000045  0.056567922 -0.460709035 0.885746717  13.720809937 3.738866806 -128.366287231</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.899572194 0.010934653 -0.436635196  -0.007655254 0.999927759 0.009269542  0.436704993 -0.00499607 0.899590909  0.004641801 -0.018626405 0.000497335</massLocalPose>
+            <massSpaceInertia>0.924120307 0.670492291 0.883779705</massSpaceInertia>
+            <mass>20</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.089999996 0.280000001 0.07">
+            <NxShapeDesc>
+              <localPose>0.838670433 0.07579913 -0.539338768  0.000000007 0.990268052 0.13917312  0.54463917 -0.116720386 0.83050859  0.099999994 0 -0.149999991</localPose>
+              <group>2</group>
+              <materialIndex>19</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.280000001 0.07">
+            <NxShapeDesc>
+              <localPose>0.034898497 0.139088422 0.989664853  0.000000037 0.990268052 -0.13917318  -0.9993909 0.004856966 0.034558833  0.170000002 0 0</localPose>
+              <group>2</group>
+              <materialIndex>19</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.089999996 0.280000001 0.07">
+            <NxShapeDesc>
+              <localPose>0.838670433 -0.07579913 -0.539338768  -0.000000007 0.990268052 -0.13917312  0.54463917 0.116720386 0.83050859  -0.089999996 0 0.159999996</localPose>
+              <group>2</group>
+              <materialIndex>19</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.089999996 0.280000001 0.07">
+            <NxShapeDesc>
+              <localPose>0.034898497 -0.139088422 0.989664853  -0.000000037 0.990268052 0.13917318  -0.9993909 -0.004856966 0.034558833  -0.170000002 0 0</localPose>
+              <group>2</group>
+              <materialIndex>19</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.280000001 0.07">
+            <NxShapeDesc>
+              <localPose>0.874619663 -0.067472458 0.480091542  -0.000000007 0.990268052 0.13917309  -0.484809667 -0.121723533 0.866107941  -0.07 0 -0.149999991</localPose>
+              <group>2</group>
+              <materialIndex>19</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.089999996 0.280000001 0.07">
+            <NxShapeDesc>
+              <localPose>0.857167363 0.071679428 0.51002574  -0.000000007 0.990268111 -0.13917309  -0.515038013 0.119294621 0.848825455  0.079999998 0 0.159999996</localPose>
+              <group>2</group>
+              <materialIndex>19</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.109999999 0.07 0.109999999">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.25999999 0</localPose>
+              <group>2</group>
+              <materialIndex>19</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_12" userProperties="_castType_2_objType_1_objIndex_54" hasBody="true" name="testActorName">
+          <globalPose>-0.976243615 0 0.216675505  0 1 0  -0.216675505 0 -0.976243615  55.297012329 -1.824312449 -61.151565552</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>0.272666603 0.203999981 0.272666633</massSpaceInertia>
+            <mass>20</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.149999991 0.159999996 0.089999996">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.149999991 0.159999996 0.089999996">
+            <NxShapeDesc>
+              <localPose>0.500000179 0 0.866025269  0 1 0  -0.866025269 0 0.500000179  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.149999991 0.159999996 0.089999996">
+            <NxShapeDesc>
+              <localPose>0.500000179 0 -0.866025269  0 1 0  0.866025269 0 0.500000179  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_13" userProperties="_castType_2_objType_1_objIndex_55" hasBody="true" name="testActorName">
+          <globalPose>0.330468237 0 -0.943817079  0 1 0  0.943817079 0 0.330468237  56.293319702 0.090127125 -62.471637726</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>0.272666603 0.203999981 0.272666633</massSpaceInertia>
+            <mass>20</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.149999991 0.159999996 0.089999996">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.149999991 0.159999996 0.089999996">
+            <NxShapeDesc>
+              <localPose>0.500000179 0 0.866025269  0 1 0  -0.866025269 0 0.500000179  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.149999991 0.159999996 0.089999996">
+            <NxShapeDesc>
+              <localPose>0.500000179 0 -0.866025269  0 1 0  0.866025269 0 0.500000179  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_14" userProperties="_castType_2_objType_1_objIndex_56" hasBody="true" name="testActorName">
+          <globalPose>0.720167994 0.693799615 0.000338823  0.000000209 0.000488073 -0.99999994  -0.693799734 0.720168054 0.000351325  56.388278961 0.04193306 -60.950740814</globalPose>
+          <NxBodyDesc id="body">
+            <massSpaceInertia>0.220333308 0.099333338 0.220333323</massSpaceInertia>
+            <mass>20</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.099999994 0.159999996 0.07">
+            <NxShapeDesc>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.159999996 0.07">
+            <NxShapeDesc>
+              <localPose>0.500000179 0 0.866025269  0 1 0  -0.866025269 0 0.500000179  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.099999994 0.159999996 0.07">
+            <NxShapeDesc>
+              <localPose>0.500000179 0 -0.866025269  0 1 0  0.866025269 0 0.500000179  0 0 0</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_15" userProperties="_castType_2_objType_1_objIndex_82" hasBody="true" name="testActorName">
+          <globalPose>0.000000007 0.832567215 0.553923845  0.999999881 0.000000305 0  -0.000000119 0.553923845 -0.832567036  15.72247982 3.858837843 -117.343193054</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.916196048 -0.080884762 0.39248237  0.097171299 0.995029509 -0.021772301  -0.388770491 0.058085717 0.919501781  0.001066162 0.124483556 0</massLocalPose>
+            <massSpaceInertia>1.943083405 1.915071487 1.95149827</massSpaceInertia>
+            <mass>29.999998093</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.07 0.319999993 0.07">
+            <NxShapeDesc>
+              <localPose>0.999390841 -0.034899496 0  0.03485167 0.998021185 0.052335963  -0.001826499 -0.052304082 0.99862951  0.199999988 0 0.199999988</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.319999993 0.07">
+            <NxShapeDesc>
+              <localPose>0.99862951 0.052335978 0  -0.052264251 0.997260928 0.052335978  0.002739054 -0.052264251 0.99862951  -0.199999988 0 0.199999988</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.319999993 0.07">
+            <NxShapeDesc>
+              <localPose>0.99862951 -0.052335978 0  0.052264251 0.997260928 -0.052335978  0.002739054 0.052264251 0.99862951  0.209999993 0 -0.199999988</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.319999993 0.07">
+            <NxShapeDesc>
+              <localPose>0.99862951 0.052335978 -0.000000001  -0.052208491 0.996196926 -0.069756508  -0.003650774 0.069660902 0.997564077  -0.199999988 0 -0.199999988</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.269999981 0.07 0.269999981">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.299999982 0</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.170000002 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.089999996 0.189999998</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.170000002 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.089999996 -0.199999988</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.170000002 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.000000894 0 0.999999881  0 1 0  -0.999999881 0 0.000000894  -0.189999998 0.089999996 0</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.170000002 0.07 0.07">
+            <NxShapeDesc>
+              <localPose>0.000000894 0 0.999999881  0 1 0  -0.999999881 0 0.000000894  0.189999998 0.089999996 0.01</localPose>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_16" userProperties="_castType_2_objType_1_objIndex_85" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  16.535953522 4.15528965 -118.79964447</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  -0.01 0.039999999 0</massLocalPose>
+            <massSpaceInertia>0.224499986 0.327999979 0.152500004</massSpaceInertia>
+            <mass>14.999999046</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.159999996 0.07 0.199999988">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.01 0.039999999 0</localPose>
+              <group>2</group>
+              <materialIndex>18</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_17" userProperties="_castType_2_objType_1_objIndex_86" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 0.958836555 -0.283958465  0 0.283958465 0.958836555  16.535953522 4.21132946 -118.524108887</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  -0.01 0.039999999 0</massLocalPose>
+            <massSpaceInertia>0.224499986 0.327999979 0.152500004</massSpaceInertia>
+            <mass>14.999999046</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.159999996 0.07 0.199999988">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.01 0.039999999 0</localPose>
+              <group>2</group>
+              <materialIndex>18</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_18" userProperties="_castType_2_objType_1_objIndex_140" hasBody="true" name="testActorName">
+          <globalPose>0.000000894 0 0.999999881  0 1 0  -0.999999881 0 0.000000894  16.235280991 0.115982316 -82.093513489</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0 -0.051336266 0.000000006</massLocalPose>
+            <massSpaceInertia>2.412033081 2.339360476 2.848619223</massSpaceInertia>
+            <mass>25</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 0.104528435 0  -0.104528435 0.994521916 0  0 0 1  0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 -0.104528435 0  0.104528435 0.994521916 0  0 0 1  -0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 -0.000000045 0.999999821  0.069756411 0.997564077 -0.000000045  -0.997563899 0.069756411 0.000001431  0 0 0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 0.000000045 0.999999821  -0.069756411 0.997564077 0.000000045  -0.997563899 -0.069756411 0.000001431  0 0 -0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.319999993 0.07 0.229999989">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.379999995 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_19" userProperties="_castType_2_objType_1_objIndex_142" hasBody="true" name="testActorName">
+          <globalPose>0.000000894 0 0.999999881  0 1 0  -0.999999881 0 0.000000894  16.235280991 0.115982316 -87.112060547</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0 -0.051336266 0.000000006</massLocalPose>
+            <massSpaceInertia>2.412033081 2.339360476 2.848619223</massSpaceInertia>
+            <mass>25</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 0.104528435 0  -0.104528435 0.994521916 0  0 0 1  0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 -0.104528435 0  0.104528435 0.994521916 0  0 0 1  -0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 -0.000000045 0.999999821  0.069756411 0.997564077 -0.000000045  -0.997563899 0.069756411 0.000001431  0 0 0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 0.000000045 0.999999821  -0.069756411 0.997564077 0.000000045  -0.997563899 -0.069756411 0.000001431  0 0 -0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.319999993 0.07 0.229999989">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.379999995 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_20" userProperties="_castType_2_objType_1_objIndex_144" hasBody="true" name="testActorName">
+          <globalPose>0.000000894 0 0.999999881  0 1 0  -0.999999881 0 0.000000894  21.73679924 0.115982316 -87.112060547</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0 -0.051336266 0.000000006</massLocalPose>
+            <massSpaceInertia>2.412033081 2.339360476 2.848619223</massSpaceInertia>
+            <mass>25</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 0.104528435 0  -0.104528435 0.994521916 0  0 0 1  0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 -0.104528435 0  0.104528435 0.994521916 0  0 0 1  -0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 -0.000000045 0.999999821  0.069756411 0.997564077 -0.000000045  -0.997563899 0.069756411 0.000001431  0 0 0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 0.000000045 0.999999821  -0.069756411 0.997564077 0.000000045  -0.997563899 -0.069756411 0.000001431  0 0 -0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.319999993 0.07 0.229999989">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.379999995 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_21" userProperties="_castType_2_objType_1_objIndex_146" hasBody="true" name="testActorName">
+          <globalPose>0.000000894 0 0.999999881  0 1 0  -0.999999881 0 0.000000894  21.73679924 0.115982316 -82.072517395</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0 -0.051336266 0.000000006</massLocalPose>
+            <massSpaceInertia>2.412033081 2.339360476 2.848619223</massSpaceInertia>
+            <mass>25</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 0.104528435 0  -0.104528435 0.994521916 0  0 0 1  0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 -0.104528435 0  0.104528435 0.994521916 0  0 0 1  -0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 -0.000000045 0.999999821  0.069756411 0.997564077 -0.000000045  -0.997563899 0.069756411 0.000001431  0 0 0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 0.000000045 0.999999821  -0.069756411 0.997564077 0.000000045  -0.997563899 -0.069756411 0.000001431  0 0 -0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.319999993 0.07 0.229999989">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.379999995 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_22" userProperties="_castType_2_objType_1_objIndex_148" hasBody="true" name="testActorName">
+          <globalPose>0.000000894 0 0.999999881  0 1 0  -0.999999881 0 0.000000894  10.737006187 0.115982316 -82.093513489</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0 -0.051336266 0.000000006</massLocalPose>
+            <massSpaceInertia>2.412033081 2.339360476 2.848619223</massSpaceInertia>
+            <mass>25</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 0.104528435 0  -0.104528435 0.994521916 0  0 0 1  0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 -0.104528435 0  0.104528435 0.994521916 0  0 0 1  -0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 -0.000000045 0.999999821  0.069756411 0.997564077 -0.000000045  -0.997563899 0.069756411 0.000001431  0 0 0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 0.000000045 0.999999821  -0.069756411 0.997564077 0.000000045  -0.997563899 -0.069756411 0.000001431  0 0 -0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.319999993 0.07 0.229999989">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.379999995 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_23" userProperties="_castType_2_objType_1_objIndex_150" hasBody="true" name="testActorName">
+          <globalPose>0.000000894 0 0.999999881  0 1 0  -0.999999881 0 0.000000894  10.737006187 0.115982316 -87.127510071</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0 -0.051336266 0.000000006</massLocalPose>
+            <massSpaceInertia>2.412033081 2.339360476 2.848619223</massSpaceInertia>
+            <mass>25</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 0.104528435 0  -0.104528435 0.994521916 0  0 0 1  0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.994521916 -0.104528435 0  0.104528435 0.994521916 0  0 0 1  -0.280000001 0 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 -0.000000045 0.999999821  0.069756411 0.997564077 -0.000000045  -0.997563899 0.069756411 0.000001431  0 0 0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.07 0.379999995 0.359999985">
+            <NxShapeDesc>
+              <localPose>0.000001419 0.000000045 0.999999821  -0.069756411 0.997564077 0.000000045  -0.997563899 -0.069756411 0.000001431  0 0 -0.229999989</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.319999993 0.07 0.229999989">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 -0.379999995 0</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_24" userProperties="_castType_2_objType_1_objIndex_151" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  20.732883453 -0.909078062 -127.806396484</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.997741342 0.05288605 -0.041417103  -0.052767742 0.998599052 0.003945264  0.041567732 -0.001750866 0.999134183  -0.005031114 1.163811803 -0.109210268</massLocalPose>
+            <massSpaceInertia>302.332824707 96.014068604 259.495483398</massSpaceInertia>
+            <mass>450</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.095999993 1.087499857 0.579999924">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  -0.251999974 1.087499857 -0.101499997</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.383999974 1.087499857 0.115999989">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.035999998 1.087499857 -0.565499961</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.34799999 1.087499857 0.115999989">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 1.087499857 0.362499982</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.383999974 0.115999989 0.579999924">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.035999998 2.087999821 -0.086999997</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.383999974 0.115999989 0.579999924">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.035999998 0.115999989 -0.086999997</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.095999993 0.579999924 0.579999924">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0.323999971 1.623999953 -0.115999989</localPose>
+              <group>2</group>
+              <materialIndex>15</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>3</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_25" userProperties="_castType_2_objType_1_objIndex_187" hasBody="true" name="testActorName">
+          <globalPose>0.004480392 -0.999989986 -0.00000006  -0.339439362 -0.001520962 0.94062674  -0.940617323 -0.004214436 -0.339442849  1.320910215 -1.590966821 -137.001724243</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.978150785 0.207896635 0  -0.207896635 0.978150785 0  0 0 1  0.07 0.765695691 -0.01</massLocalPose>
+            <massSpaceInertia>11.323396683 11.335999489 0.187396511</massSpaceInertia>
+            <mass>29.999998093</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <NxActorFlag id="flags">
+            <NX_AF_DISABLE_COLLISION>true</NX_AF_DISABLE_COLLISION>
+            <NX_AF_DISABLE_RESPONSE>true</NX_AF_DISABLE_RESPONSE>
+            <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+            <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+            <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+            <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+            <NX_AF_USER_ACTOR_PAIR_FILTERING>false</NX_AF_USER_ACTOR_PAIR_FILTERING>
+          </NxActorFlag>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.099999994 0.093486108 1.059999943">
+            <NxShapeDesc>
+              <localPose>0.978147566 0.20791173 0  -0.20791173 0.978147566 0  0 0 1  0.07 0.765695691 -0.01</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_26" userProperties="_castType_2_objType_1_objIndex_174" hasBody="true" name="testActorName">
+          <globalPose>-1 0 -0.000000087  0 1 0  0.000000087 0 -1  2.506199598 -1.892945528 5.721693039</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  3.514999866 1.629999995 -0.25999999</massLocalPose>
+            <massSpaceInertia>1816.333129883 10486.5859375 12212.784179688</massSpaceInertia>
+            <mass>1999.99987793</mass>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="1.959999919 1.629999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.908952951 0.077642344 -0.409604967  0.039859697 0.961818695 0.270769298  0.414988875 -0.262443304 0.871153116  1.453377843 1.64915967 0.403186917</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="1.959999919 1.629999995 0.25999999">
+            <NxShapeDesc>
+              <localPose>0.236976504 0 0.971515298  -0 1 -0  -0.971515298 -0 0.236976504  6.430343628 1.629999995 1.271921277</localPose>
+              <group>2</group>
+              <materialIndex>14</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_27" userProperties="_castType_2_objType_1_objIndex_180" hasBody="true" name="testActorName">
+          <globalPose>1 0 0  0 1 0  0 0 1  -28.054628372 0.428160429 39.001533508</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  0 0.129999995 0.009999998</massLocalPose>
+            <massSpaceInertia>7.352006435 9.607319832 2.281789064</massSpaceInertia>
+            <mass>3.282047987</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="1.439999938 0.109999999 2.589999914">
+            <NxShapeDesc>
+              <localPose>1 0 0  0 1 0  0 0 1  0 0.129999995 0.01</localPose>
+              <group>2</group>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_28" userProperties="_castType_2_objType_1_objIndex_181" hasBody="true" name="testActorName">
+          <globalPose>-1 0 -0.000000087  0 1 0  0.000000087 0 -1  0.000000002 0 0.000000007</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>1 0 0  0 1 0  0 0 1  -0.079999998 0.919999957 -2.789999962</massLocalPose>
+            <massSpaceInertia>1943.08996582 1890.180053711 169.87399292</massSpaceInertia>
+            <mass>59.999996185</mass>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <NxBodyFlag id="flags">
+              <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+              <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+              <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+              <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+              <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+              <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+              <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+              <NX_BF_KINEMATIC>true</NX_BF_KINEMATIC>
+              <NX_BF_VISUALIZATION>true</NX_BF_VISUALIZATION>
+              <NX_BF_POSE_SLEEP_TEST>false</NX_BF_POSE_SLEEP_TEST>
+              <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+              <NX_BF_ENERGY_SLEEP_TEST>true</NX_BF_ENERGY_SLEEP_TEST>
+            </NxBodyFlag>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="1.709999919 2.359999895 9.569999695">
+            <NxShapeDesc>
+              <localPose>1 0 -0.00000018  -0 1 -0  0.00000018 0 1  4.380000114 0.919999957 124.250717163</localPose>
+              <group>2</group>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_29" userProperties="_castType_2_objType_1_objIndex_188" hasBody="true" name="testActorName">
+          <globalPose>-0.296911359 0 -0.954905033  0 1 0  0.954905033 0 -0.296911359  0.513923228 -1.196334243 -137.340606689</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.997564137 -0.069755003 0  0.069755003 0.997564137 0  0 0 1  0.040000003 0.297643632 -0.005927898</massLocalPose>
+            <massSpaceInertia>3.997327089 4.048327446 0.149000034</massSpaceInertia>
+            <mass>29.999998093</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <NxActorFlag id="flags">
+            <NX_AF_DISABLE_COLLISION>true</NX_AF_DISABLE_COLLISION>
+            <NX_AF_DISABLE_RESPONSE>true</NX_AF_DISABLE_RESPONSE>
+            <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+            <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+            <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+            <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+            <NX_AF_USER_ACTOR_PAIR_FILTERING>false</NX_AF_USER_ACTOR_PAIR_FILTERING>
+          </NxActorFlag>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.099999994 0.07 0.628357172">
+            <NxShapeDesc>
+              <localPose>0.997564077 -0.069756471 0  0.069756471 0.997564077 0  0 0 1  0.039999999 0.297643632 -0.005927898</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>21</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+        <NxActorDesc id="Actor_30" userProperties="_castType_2_objType_1_objIndex_186" hasBody="true" name="testActorName">
+          <globalPose>-0.239401191 -0.479578346 0.844210684  0 0.869494975 0.493941784  -0.970920742 0.118250251 -0.208158135  0.306871444 -2.098446608 -136.161819458</globalPose>
+          <NxBodyDesc id="body">
+            <massLocalPose>0.987888992 0.151283965 0.034474589  -0.140226141 0.965591371 -0.219020411  -0.066422649 0.211533621 0.975111008  0.050118204 0.18272081 -0.007985101</massLocalPose>
+            <massSpaceInertia>0.694775939 1.894155979 1.384116292</massSpaceInertia>
+            <mass>2.372745275</mass>
+            <wakeUpCounter>0</wakeUpCounter>
+            <maxAngularVelocity>7</maxAngularVelocity>
+            <sleepLinearVelocity>0.150000006</sleepLinearVelocity>
+            <sleepAngularVelocity>0.140000001</sleepAngularVelocity>
+          </NxBodyDesc>
+          <NxActorFlag id="flags">
+            <NX_AF_DISABLE_COLLISION>true</NX_AF_DISABLE_COLLISION>
+            <NX_AF_DISABLE_RESPONSE>true</NX_AF_DISABLE_RESPONSE>
+            <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+            <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+            <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+            <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+            <NX_AF_USER_ACTOR_PAIR_FILTERING>false</NX_AF_USER_ACTOR_PAIR_FILTERING>
+          </NxActorFlag>
+          <group>2</group>
+          <NxBoxShapeDesc dimensions="0.912924886 0.274534255 0.41168201">
+            <NxShapeDesc>
+              <localPose>0.031496808 0.534121275 -0.844821036  -0.088645056 0.843402326 0.529919446  0.995565236 0.058198392 0.073911667  0.80729717 0.04575571 -0.067589581</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.905749738 0.226758271 0.745081484">
+            <NxShapeDesc>
+              <localPose>0.99304533 0.086747274 0.079598539  -0.080965385 0.99402529 -0.073200949  -0.085472934 0.066247128 0.994135678  -0.402188629 0.345900476 -0.098607659</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.90499711 0.106529318 0.340012461">
+            <NxShapeDesc>
+              <localPose>0.988276124 -0.148302525 0.036285162  0.084644757 0.334414512 -0.938617229  0.127065018 0.930684328 0.343046904  -0.411332995 -0.144067839 0.619516909</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.303438097 0.07 0.077198207">
+            <NxShapeDesc>
+              <localPose>0.372493625 -0.158335567 0.914429247  0.912467837 -0.117240667 -0.391996741  0.169273198 0.98040235 0.100803033  0.810990334 0.186306 0.467944175</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.333430707 0.07 0.125248715">
+            <NxShapeDesc>
+              <localPose>0.218790591 -0.548048496 -0.807324946  0.047601938 0.832380295 -0.552156746  0.974610031 0.082376465 0.208205163  1.061739087 0.120419174 0.012808072</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <NxBoxShapeDesc dimensions="0.343887866 0.07 0.126325384">
+            <NxShapeDesc>
+              <localPose>0.647796214 0.725141168 -0.233517379  0.714658022 -0.68461436 -0.143412337  -0.263863534 -0.073983103 -0.961718559  0.711911619 0.198872283 -0.466042459</localPose>
+              <NxShapeFlag id="shapeFlags">
+                <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+                <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+                <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+                <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+                <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+                <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+                <NX_SF_DISABLE_RAYCASTING>true</NX_SF_DISABLE_RAYCASTING>
+                <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+                <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+                <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+                <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+                <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+                <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+                <NX_SF_DISABLE_SCENE_QUERIES>false</NX_SF_DISABLE_SCENE_QUERIES>
+                <NX_SF_CLOTH_DRAIN>false</NX_SF_CLOTH_DRAIN>
+                <NX_SF_CLOTH_DISABLE_COLLISION>false</NX_SF_CLOTH_DISABLE_COLLISION>
+                <NX_SF_CLOTH_TWOWAY>false</NX_SF_CLOTH_TWOWAY>
+                <NX_SF_SOFTBODY_DRAIN>false</NX_SF_SOFTBODY_DRAIN>
+                <NX_SF_SOFTBODY_DISABLE_COLLISION>false</NX_SF_SOFTBODY_DISABLE_COLLISION>
+                <NX_SF_SOFTBODY_TWOWAY>false</NX_SF_SOFTBODY_TWOWAY>
+              </NxShapeFlag>
+              <group>2</group>
+              <materialIndex>9</materialIndex>
+              <skinWidth>0.025</skinWidth>
+              <NxGroupsMask id="groupsMask"/>
+            </NxShapeDesc>
+          </NxBoxShapeDesc>
+          <dominanceGroup>2</dominanceGroup>
+        </NxActorDesc>
+      </NxSceneDesc>
+    </NxuPhysicsCollection>
+  </NXUSTREAM2>
