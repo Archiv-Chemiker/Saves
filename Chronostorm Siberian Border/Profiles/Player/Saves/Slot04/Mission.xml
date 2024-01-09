@@ -1,0 +1,1243 @@
+<Mission Name="Mission">
+    <Triggers />
+    <SpawnPoints>
+        <SpawnPoint Name="BP_1">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="55826.9" y="360" z="33744.1" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="ChinesePS" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_2">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="59805.4" y="360" z="39374.5" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="ChineseBarrack" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_3">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="59120.4" y="360" z="34203.8" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="ChineseFactory" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_4">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="52144.2" y="360" z="40208.8" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="ChinesePS" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_5">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="63898.4" y="360" z="39343.6" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="ChinesePS" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_6">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="62984.8" y="376.72" z="33840.7" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="ChineseLaboratory" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_01">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="13105.7" y="544.64" z="41942.3" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="RussianBarrack" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_02">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="12981.3" y="642.8" z="37865.3" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="RussianPS" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_03">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="9306.31" y="624" z="39086.3" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="RussianPS" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_04">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="16389.2" y="432" z="42410.1" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="RussianFactory" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_05">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="21849.2" y="337.36" z="40782.5" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="RussianLaboratory" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+        <SpawnPoint Name="BP_06">
+            <Entity Name="Entity" ObjectName="SpawnPoint/SpawnPoint.pro">
+                <Position x="16710.6" y="520.56" z="37982" />
+                <Rotation x="0" y="0" z="0" />
+                <Scale x="100" y="100" z="100" />
+                <Breakable x="0" />
+                <Broken x="0" />
+                <BaseObject>
+                    <AnimationSpeed x="0.01" />
+                    <AnimAutoKill x="0" />
+                    <NeedWaterMirror x="0" />
+                    <ShadowCaster x="0" />
+                    <ShadowReceiver x="0" />
+                </BaseObject>
+            </Entity>
+            <BuildPlacePoint>
+                <BuildingClass Class="RussianHelipad" />
+            </BuildPlacePoint>
+        </SpawnPoint>
+    </SpawnPoints>
+    <CheckPoints />
+    <Groups>
+        <Group Name="Units">
+            <Number x="1" />
+            <Active x="0" />
+            <State Id="86">
+                <Active x="0" />
+            </State>
+        </Group>
+        <Group Name="Units1">
+            <Number x="2" />
+            <Active x="0" />
+            <State Id="87">
+                <Active x="0" />
+            </State>
+        </Group>
+        <Group Name="Main_Russian">
+            <Number x="0" />
+            <Active x="0" />
+            <State Id="88">
+                <Active x="3" />
+            </State>
+        </Group>
+        <Group Name="Main_Chinese">
+            <Number x="3" />
+            <Active x="0" />
+            <State Id="89">
+                <Active x="1" />
+            </State>
+        </Group>
+        <Group Name="01_Rus_UOG">
+            <Number x="4" />
+            <Active x="0" />
+            <State Id="91">
+                <Active x="3" />
+            </State>
+        </Group>
+        <Group Name="MainIdleGroup_1">
+            <Number x="5" />
+            <Active x="0" />
+            <State Id="92">
+                <Active x="3" />
+            </State>
+        </Group>
+        <Group Name="BornSquadGroup">
+            <Number x="8" />
+            <Active x="0" />
+            <State Id="97">
+                <Active x="0" />
+            </State>
+        </Group>
+        <Group Name="GuardGroup_18">
+            <Number x="23" />
+            <Active x="0" />
+            <State Id="124">
+                <Active x="3" />
+            </State>
+        </Group>
+        <Group Name="BunkerCapture_117">
+            <Number x="122" />
+            <Active x="0" />
+            <State Id="122">
+                <Active x="3" />
+            </State>
+        </Group>
+        <Group Name="BunkerCapture_125">
+            <Number x="130" />
+            <Active x="0" />
+            <State Id="105">
+                <Active x="3" />
+            </State>
+        </Group>
+        <Group Name="BunkerCapture_127">
+            <Number x="132" />
+            <Active x="0" />
+            <State Id="107">
+                <Active x="3" />
+            </State>
+        </Group>
+    </Groups>
+    <Squads Count="17" />
+    <Events />
+    <EventTimes />
+    <MissionTimers />
+    <Actions />
+    <DeadGroups>
+        <DeadGroup Name="DG_chi_base">
+            <Active x="0" />
+            <Groups>
+                <Group Name="Main_Chinese" />
+            </Groups>
+            <Function x="1" />
+            <State>
+                <Active x="1" />
+            </State>
+        </DeadGroup>
+        <DeadGroup Name="DG_rus_base">
+            <Active x="0" />
+            <Groups>
+                <Group Name="Main_Russian" />
+            </Groups>
+            <Function x="2" />
+            <State>
+                <Active x="1" />
+            </State>
+        </DeadGroup>
+    </DeadGroups>
+    <CameraMoves />
+    <Players>
+        <Player Name="PLAYER_HUMAN">
+            <State>
+                <Minerals x="1270" />
+                <CombatSide side="demons" />
+                <MineralsToRestore x="0" />
+                <UnitsMoveTogether x="0" />
+                <TimeReturnAvailable x="0" />
+                <Upgrades>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="1" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="1" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="1" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="1" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                </Upgrades>
+                <UnitClasses>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="0" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="0" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                </UnitClasses>
+                <Statistics>
+                    <fGameTime x="789.84" />
+                    <nUnitsBuilt x="39" />
+                    <nUnitsLost x="37" />
+                    <nEnemiesKilled x="30" />
+                    <nBuildingsBuilt x="5" />
+                    <nBuildingsLost x="0" />
+                    <nEnemiesBuildingsKilled x="0" />
+                </Statistics>
+                <SpecAbilityCooldowns>
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="32.0154" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                </SpecAbilityCooldowns>
+            </State>
+        </Player>
+        <Player Name="PLAYER_COMPUTER">
+            <State>
+                <Minerals x="593" />
+                <CombatSide side="humans" />
+                <MineralsToRestore x="0" />
+                <UnitsMoveTogether x="0" />
+                <TimeReturnAvailable x="0" />
+                <Upgrades>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                    <Upgrade>
+                        <IsComplete x="0" />
+                        <IsEnabled x="1" />
+                        <IsOrdered x="0" />
+                    </Upgrade>
+                </Upgrades>
+                <UnitClasses>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="0" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="0" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                    <UnitClass>
+                        <IsEnabled x="1" />
+                        <IsScriptOverlay x="0" />
+                        <IsEnabledHier x="1" />
+                    </UnitClass>
+                </UnitClasses>
+                <Statistics>
+                    <fGameTime x="789.84" />
+                    <nUnitsBuilt x="42" />
+                    <nUnitsLost x="30" />
+                    <nEnemiesKilled x="37" />
+                    <nBuildingsBuilt x="4" />
+                    <nBuildingsLost x="0" />
+                    <nEnemiesBuildingsKilled x="0" />
+                </Statistics>
+                <SpecAbilityCooldowns>
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="0" />
+                    <m_SpecAbilityCooldown x="41.7503" />
+                    <m_SpecAbilityCooldown x="0" />
+                </SpecAbilityCooldowns>
+            </State>
+            <Brain Id="75">
+                <m_attack.cur_group_size x="8" />
+                <m_attack.debug.groups_ready x="0" />
+                <m_attack.debug.units_ready_in_last x="0" />
+                <m_attack.enemy_zone.center x="60529.5" y="363.707" z="36825.6" />
+                <m_attack.enemy_zone.radius x="11797.1" />
+                <m_attack.estimation.asked_number x="6" />
+                <m_attack.estimation.near_to_pt x="0" y="0" z="0" />
+                <m_attack.force_time_to_attack x="262.65" />
+                <m_attack.sended_units x="0" />
+                <m_attack.state x="1" />
+                <m_bEnable x="1" />
+                <m_bUnitOrderAvailable x="1" />
+                <m_enBrainTactic x="1" />
+                <m_enBuildingOrderNeedClass x="54" />
+                <m_enUnitOrderNeedClass x="2" />
+                <m_gen_group_number x="130" />
+                <m_pUnitOrderGroup Id="91" />
+                <m_spec_ability_props.fForceTimeToApply x="45" />
+                <m_spec_ability_props.gs_to_time_0.next_time x="0" />
+                <m_spec_ability_props.gs_to_time_0.units x="7" />
+                <m_spec_ability_props.gs_to_time_1.next_time x="25" />
+                <m_spec_ability_props.gs_to_time_1.units x="5" />
+                <m_spec_ability_props.gs_to_time_2.next_time x="45" />
+                <m_spec_ability_props.gs_to_time_2.units x="0" />
+                <m_spec_ability_props.nSpecAbilityGroupSize x="2" />
+                <GatherPoints>
+                    <Point x="33936.5" y="1001.92" z="40125.4" />
+                </GatherPoints>
+                <AttackGroups />
+                <Estimation>
+                    <Prop x="0" />
+                    <Prop x="1" />
+                    <Prop x="0" />
+                </Estimation>
+                <IdleGroups>
+                    <IdleGroup>
+                        <fStayTime x="0" />
+                        <pGroup id="92" />
+                    </IdleGroup>
+                </IdleGroups>
+                <BunkerGroups>
+                    <BunkerGroup>
+                        <Bunker id="83" />
+                        <pGroup id="122" />
+                        <group_point x="44416" y="180.48" z="54144" />
+                        <States>
+                            <Unit id="100" state="2" />
+                            <Unit id="120" state="2" />
+                            <Unit id="123" state="2" />
+                            <Unit id="125" state="2" />
+                        </States>
+                    </BunkerGroup>
+                    <BunkerGroup>
+                        <Bunker id="82" />
+                        <pGroup id="105" />
+                        <group_point x="46720" y="888.16" z="15744" />
+                        <States>
+                            <Unit id="99" state="0" />
+                            <Unit id="111" state="0" />
+                            <Unit id="135" state="0" />
+                            <Unit id="136" state="0" />
+                            <Unit id="138" state="0" />
+                        </States>
+                    </BunkerGroup>
+                    <BunkerGroup>
+                        <Bunker id="78" />
+                        <pGroup id="107" />
+                        <group_point x="38016" y="1678.56" z="34176" />
+                        <States>
+                            <Unit id="106" state="0" />
+                        </States>
+                    </BunkerGroup>
+                </BunkerGroups>
+                <DisabledForBuildingGroups />
+                <BattleZones />
+                <SpecAbilities>
+                    <flags x="0" />
+                    <flags x="0" />
+                    <flags x="0" />
+                    <flags x="0" />
+                    <flags x="0" />
+                    <flags x="0" />
+                    <flags x="0" />
+                    <flags x="0" />
+                    <flags x="0" />
+                    <flags x="0" />
+                </SpecAbilities>
+                <GuardGroups>
+                    <GuardGroup>
+                        <pGroup Name="GuardGroup_18" />
+                        <our_base.center x="15291.9" y="558.64" z="40574.8" />
+                        <our_base.radius x="11680.6" />
+                        <state x="0" />
+                        <flags x="0" />
+                        <zone_unit id="76" />
+                        <zone_unit id="94" />
+                        <zone_unit id="95" />
+                        <zone_unit id="132" />
+                        <zone_unit id="110" />
+                    </GuardGroup>
+                </GuardGroups>
+            </Brain>
+        </Player>
+    </Players>
+    <VisibleAreas />
+    <MissionState Name="level62">
+        <State>
+            <MainGroup Name="Main_Chinese" />
+            <AIMainGroup Name="Main_Russian" />
+            <Messages />
+            <StateVars Id="90">
+                <m_fBrainDonationTimeRemain x="37.5888" />
+            </StateVars>
+            <UIObjectives />
+            <BaseObject>
+                <AnimationSpeed x="0.01" />
+                <AnimAutoKill x="0" />
+                <NeedWaterMirror x="0" />
+                <ShadowCaster x="0" />
+                <ShadowReceiver x="0" />
+            </BaseObject>
+        </State>
+    </MissionState>
+</Mission>

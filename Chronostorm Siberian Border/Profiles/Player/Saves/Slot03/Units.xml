@@ -1,0 +1,3019 @@
+<Units DifficultLevel="0">
+    <Unit Name="" Type="RussianInfantry">
+        <Position x="53563.3" y="360" z="30860.8" />
+        <Rotation x="0" y="180" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <AttackRadiusFar x="4000" />
+        <State Bunker="193" Id="76">
+            <Active x="1" />
+            <UnitState x="1" />
+            <SquadNumber x="0" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="25" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="0" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <fGrenadeTimeRemain x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianInfantry">
+        <Position x="53563.3" y="360" z="31260.8" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <AttackRadiusFar x="4000" />
+        <State Bunker="193" Id="77">
+            <Active x="1" />
+            <UnitState x="1" />
+            <SquadNumber x="0" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="25" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <fGrenadeTimeRemain x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianInfantry">
+        <Position x="53763.3" y="360" z="31060.8" />
+        <Rotation x="0" y="90" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <AttackRadiusFar x="4000" />
+        <State Bunker="193" Id="78">
+            <Active x="1" />
+            <UnitState x="1" />
+            <SquadNumber x="0" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="25" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="2" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <fGrenadeTimeRemain x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianInfantry">
+        <Position x="53363.3" y="360" z="31060.8" />
+        <Rotation x="0" y="-90" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <AttackRadiusFar x="4000" />
+        <State Bunker="193" Id="79">
+            <Active x="1" />
+            <UnitState x="1" />
+            <SquadNumber x="0" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="25" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="3" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <fGrenadeTimeRemain x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianInfantry">
+        <Position x="50972.9" y="141.68" z="22650.6" />
+        <Rotation x="0" y="179.384" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State Id="81">
+            <Active x="1" />
+            <UnitState x="2" />
+            <MoveType x="4" />
+            <FinishPoint x="52864" y="408" z="9856" />
+            <SquadNumber x="10" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <SquadMousePointUnit id="179" />
+            <m_bImmortal x="0" />
+            <fGrenadeTimeRemain x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianInfantry">
+        <Position x="50979.9" y="159.44" z="22579.1" />
+        <Rotation x="0" y="179.422" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State Id="86">
+            <Active x="1" />
+            <UnitState x="2" />
+            <MoveType x="4" />
+            <FinishPoint x="53120" y="469.6" z="10880" />
+            <SquadNumber x="10" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <IterPointNumber x="1" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <SquadMousePointUnit id="179" />
+            <m_bImmortal x="0" />
+            <fGrenadeTimeRemain x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianInfantry">
+        <Position x="50973.1" y="108" z="23074.8" />
+        <Rotation x="0" y="179.412" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State Id="88">
+            <Active x="1" />
+            <UnitState x="2" />
+            <MoveType x="4" />
+            <FinishPoint x="53120" y="472.48" z="11136" />
+            <SquadNumber x="10" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <SquadMousePointUnit id="179" />
+            <m_bImmortal x="0" />
+            <fGrenadeTimeRemain x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianInfantry">
+        <Position x="50975.8" y="108" z="23050" />
+        <Rotation x="0" y="179.427" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State Id="90">
+            <Active x="1" />
+            <UnitState x="2" />
+            <MoveType x="4" />
+            <FinishPoint x="52864" y="408" z="9856" />
+            <SquadNumber x="10" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <SquadMousePointUnit id="179" />
+            <m_bImmortal x="0" />
+            <fGrenadeTimeRemain x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianAngel">
+        <Position x="31065.4" y="360" z="13219.2" />
+        <Rotation x="0" y="21.9891" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State Id="96">
+            <Active x="1" />
+            <UnitState x="1" />
+            <SquadNumber x="6" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="1" />
+            <Armor x="2" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianAngel">
+        <Position x="30752.3" y="360" z="12409.4" />
+        <Rotation x="0" y="21.7875" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State Id="97">
+            <Active x="1" />
+            <UnitState x="1" />
+            <SquadNumber x="6" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="1" />
+            <Armor x="2" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianAngel">
+        <Position x="30155.6" y="360" z="14354.5" />
+        <Rotation x="0" y="53.3125" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State Id="101">
+            <Active x="1" />
+            <UnitState x="1" />
+            <SquadNumber x="8" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="1" />
+            <Armor x="2" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianIvan">
+        <Position x="29032.7" y="360" z="13939.8" />
+        <Rotation x="0" y="-163.427" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State CurrentEnemy="85" Id="102">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentHealth x="888.957" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="1" />
+            <Armor x="5" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianBMP">
+        <Position x="33714.5" y="1159.6" z="36470.2" />
+        <Rotation x="1.42615" y="-110.595" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State Id="103" SquadPlacesCount="4">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+            <m_iNumMines x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianShershen">
+        <Position x="30702.6" y="360" z="14042.4" />
+        <Rotation x="-0" y="-42.5968" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State CurrentEnemy="85" Id="107" SquadPlacesCount="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <IterPointNumber x="1" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianShershen">
+        <Position x="32258.8" y="360" z="12099.6" />
+        <Rotation x="-0" y="-5.91735" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State CurrentEnemy="85" Id="108" SquadPlacesCount="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <IterPointNumber x="6" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianShershen">
+        <Position x="31618.8" y="360" z="12181.8" />
+        <Rotation x="-0" y="-73.8925" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State CurrentEnemy="85" Id="109" SquadPlacesCount="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <IterPointNumber x="1" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianHelo">
+        <Position x="13614.6" y="2010.96" z="12437.4" />
+        <Rotation x="0" y="-137.067" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State MotherBuildingUnit="264" Id="153">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianHelo">
+        <Position x="13898.7" y="1969.36" z="10933.7" />
+        <Rotation x="0" y="-152.128" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State MotherBuildingUnit="264" Id="121">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianHelo">
+        <Position x="13011.3" y="2056.88" z="11569.4" />
+        <Rotation x="0" y="-161.724" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State MotherBuildingUnit="264" Id="80">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentHealth x="468.565" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianMedic">
+        <Position x="36467.6" y="1428" z="36475.8" />
+        <Rotation x="-0.895256" y="71.1673" z="0" />
+        <GroupNumber x="0" />
+        <PlayerNumber x="0" />
+        <State Id="111" SquadPlacesCount="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <IterPointNumber x="5" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianCC">
+        <Position x="57902" y="360" z="38737.2" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="2" />
+        <PlayerNumber x="0" />
+        <State Id="113">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianBarrack">
+        <Position x="61018.6" y="360" z="38584.6" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="2" />
+        <PlayerNumber x="0" />
+        <State Id="114">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianFactory">
+        <Position x="64202.8" y="360" z="38659.3" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="2" />
+        <PlayerNumber x="0" />
+        <State Id="115">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianPS">
+        <Position x="60892.1" y="360" z="33788.1" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="2" />
+        <PlayerNumber x="0" />
+        <State Id="116">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianPS">
+        <Position x="63616" y="402.88" z="33664" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="2" />
+        <PlayerNumber x="0" />
+        <State Id="276">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianPS">
+        <Position x="57984" y="360" z="33920" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="2" />
+        <PlayerNumber x="0" />
+        <State Id="87">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="RussianHelipad">
+        <Position x="54912" y="360" z="39296" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="2" />
+        <PlayerNumber x="0" />
+        <State Id="264">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BuildingTasks>
+                <Task>
+                    <TaskType x="1" />
+                    <UnitClass x="54" />
+                    <Time x="30" />
+                    <Price x="500" />
+                    <Started x="1" />
+                    <GroupName str="" />
+                    <Upgrade str="Air Recon" />
+                </Task>
+                <Task>
+                    <TaskType x="0" />
+                    <UnitClass x="11" />
+                    <Time x="30" />
+                    <Price x="500" />
+                    <Started x="0" />
+                    <GroupName str="" />
+                </Task>
+                <Task>
+                    <TaskType x="0" />
+                    <UnitClass x="11" />
+                    <Time x="30" />
+                    <Price x="500" />
+                    <Started x="0" />
+                    <GroupName str="" />
+                </Task>
+                <Task>
+                    <TaskType x="0" />
+                    <UnitClass x="11" />
+                    <Time x="30" />
+                    <Price x="500" />
+                    <Started x="0" />
+                    <GroupName str="" />
+                </Task>
+                <Task>
+                    <TaskType x="0" />
+                    <UnitClass x="11" />
+                    <Time x="30" />
+                    <Price x="500" />
+                    <Started x="0" />
+                    <GroupName str="" />
+                </Task>
+            </BuildingTasks>
+            <BeginTaskTimeRel x="11.1548" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="51178.3" y="360" z="64367.3" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="185" CaptureUnit="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="39169.1" y="336" z="55616.8" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="186" CaptureUnit="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="43970" y="284.88" z="42130.7" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="181" CaptureUnit="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="32826.2" y="408" z="21597.2" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="182" CaptureUnit="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="37206" y="1498.15" z="35529.4" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="178" CaptureUnit="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="53563.3" y="360" z="31060.8" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.sandbags/sandbags_circle.X" />
+        <State Id="193" CaptureUnit="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits>
+                <UnitId id="76" />
+                <UnitId id="77" />
+                <UnitId id="78" />
+                <UnitId id="79" />
+            </LoadedUnits>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="0" />
+                <Position x="53563.3" y="360" z="30860.8" />
+                <PosDelta x="0" y="0" z="0" />
+                <Rotation x="180" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="1" />
+                <Position x="53563.3" y="360" z="31260.8" />
+                <PosDelta x="0" y="0" z="0" />
+                <Rotation x="0" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="2" />
+                <Position x="53763.3" y="360" z="31060.8" />
+                <PosDelta x="0" y="0" z="0" />
+                <Rotation x="90" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="3" />
+                <Position x="53363.3" y="360" z="31060.8" />
+                <PosDelta x="0" y="0" z="0" />
+                <Rotation x="-90" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="43446.8" y="316.72" z="53790.5" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.sandbags/sandbags_circle.X" />
+        <State Id="198" CaptureUnit="0">
+            <Active x="1" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="1" />
+            <PlayerNumberState x="0" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseInfantry">
+        <Position x="21756.5" y="360" z="39255" />
+        <Rotation x="0" y="180" z="0" />
+        <GroupNumber x="1" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="4000" />
+        <State Bunker="196" Id="117">
+            <Active x="3" />
+            <UnitState x="1" />
+            <SquadNumber x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="25" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="0" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseInfantry">
+        <Position x="21756.5" y="360" z="39655" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="1" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="4000" />
+        <State Bunker="196" Id="118">
+            <Active x="3" />
+            <UnitState x="1" />
+            <SquadNumber x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="25" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseInfantry">
+        <Position x="21956.5" y="360" z="39455" />
+        <Rotation x="0" y="90" z="0" />
+        <GroupNumber x="1" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="4000" />
+        <State Bunker="196" Id="119">
+            <Active x="3" />
+            <UnitState x="1" />
+            <SquadNumber x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="25" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="2" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseInfantry">
+        <Position x="21556.5" y="360" z="39455" />
+        <Rotation x="0" y="-90" z="0" />
+        <GroupNumber x="1" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="4000" />
+        <State Bunker="196" Id="120">
+            <Active x="3" />
+            <UnitState x="1" />
+            <SquadNumber x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="25" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="3" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="20056.8" y="420" z="38299.3" />
+        <Rotation x="0" y="124.781" z="0" />
+        <GroupNumber x="1" />
+        <PlayerNumber x="1" />
+        <State Id="131">
+            <Active x="3" />
+            <UnitState x="1" />
+            <SquadNumber x="5" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="20477.8" y="408" z="38095" />
+        <Rotation x="0" y="124.781" z="0" />
+        <GroupNumber x="1" />
+        <PlayerNumber x="1" />
+        <State Id="132">
+            <Active x="3" />
+            <UnitState x="1" />
+            <SquadNumber x="5" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="17868.6" y="1498.83" z="34275.7" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Bunker="191" Id="133">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="13" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="25" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="0" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="18103.7" y="1498.83" z="34275.7" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Bunker="191" Id="134">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="13" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="25" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="18103.7" y="1498.83" z="34275.7" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Id="135">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="14" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="17987.4" y="1498.83" z="34156.8" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Id="136">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="14" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="22157.1" y="284.56" z="29878.4" />
+        <Rotation x="0" y="45" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Bunker="183" Id="137">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="15" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="35" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="0" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="22157.1" y="274.56" z="29724.8" />
+        <Rotation x="0" y="135" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Bunker="183" Id="138">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="15" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="35" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="22003.5" y="272.24" z="29878.4" />
+        <Rotation x="0" y="-45" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Id="139">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="16" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="22003.5" y="262.24" z="29724.8" />
+        <Rotation x="0" y="-135" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Id="140">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="16" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="28188.9" y="253.52" z="26130.1" />
+        <Rotation x="0" y="122.997" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Bunker="188" Id="141">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="17" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="35" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="0" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="28188.9" y="221.36" z="25976.5" />
+        <Rotation x="0" y="121.248" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Bunker="188" Id="143">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="17" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="35" />
+            <InTransport x="1" />
+            <BunkerPlaceNumber x="1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="28188.9" y="221.6" z="25976.5" />
+        <Rotation x="0" y="128.501" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Id="142">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="18" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="28035.3" y="211.68" z="25976.5" />
+        <Rotation x="0" y="127.328" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <AttackRadiusFar x="5200" />
+        <State Id="144">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="18" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGrenade">
+        <Position x="32216.9" y="144.48" z="27952.8" />
+        <Rotation x="0" y="73.1587" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <State Id="146">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <SquadNumber x="20" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseFlametank">
+        <Position x="19220.8" y="394.24" z="39472.1" />
+        <Rotation x="-2.59443" y="133.213" z="0" />
+        <GroupNumber x="1" />
+        <PlayerNumber x="1" />
+        <State Id="151" SquadPlacesCount="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseFlametank">
+        <Position x="11935.4" y="399.76" z="46087.6" />
+        <Rotation x="3.05883" y="-4.08998" z="0" />
+        <GroupNumber x="1" />
+        <PlayerNumber x="1" />
+        <State Id="152" SquadPlacesCount="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseType11">
+        <Position x="19261.1" y="367.12" z="42229.1" />
+        <Rotation x="1.77795" y="110.744" z="0" />
+        <GroupNumber x="1" />
+        <PlayerNumber x="1" />
+        <State Id="154" SquadPlacesCount="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseType11">
+        <Position x="19110.5" y="360" z="41466.5" />
+        <Rotation x="0.895256" y="110.744" z="0" />
+        <GroupNumber x="1" />
+        <PlayerNumber x="1" />
+        <State Id="155" SquadPlacesCount="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGeneral">
+        <Position x="19110.9" y="374.56" z="30806.5" />
+        <Rotation x="0" y="0.852479" z="0" />
+        <GroupNumber x="15" />
+        <PlayerNumber x="1" />
+        <State Id="159">
+            <Active x="0" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGreatMao">
+        <Position x="19847.5" y="360" z="31470.9" />
+        <Rotation x="-0.674637" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <State Id="160" SquadPlacesCount="0">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGreatMao">
+        <Position x="27805" y="440.08" z="24705.9" />
+        <Rotation x="12.4188" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <State Id="161" SquadPlacesCount="0">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGreatMao">
+        <Position x="26486.4" y="534.16" z="28547.3" />
+        <Rotation x="-0.847653" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <State Id="162" SquadPlacesCount="0">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseGreatMao">
+        <Position x="18678.4" y="360" z="31336.7" />
+        <Rotation x="-0" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <State Id="163" SquadPlacesCount="0">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <LoadedUnits />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseCC">
+        <Position x="13515" y="640.08" z="39050.6" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="5" />
+        <PlayerNumber x="1" />
+        <State Id="166">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseCC">
+        <Position x="11355.6" y="387.84" z="16258" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="14" />
+        <PlayerNumber x="1" />
+        <State Id="167">
+            <Active x="0" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseBarrack">
+        <Position x="14180.5" y="216.8" z="22760.2" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="10" />
+        <PlayerNumber x="1" />
+        <State Id="168">
+            <Active x="0" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseBarrack">
+        <Position x="17588.4" y="348" z="20168.6" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="11" />
+        <PlayerNumber x="1" />
+        <State Id="169">
+            <Active x="0" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseBarrack">
+        <Position x="9798.08" y="408" z="13362.6" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="12" />
+        <PlayerNumber x="1" />
+        <State Id="170">
+            <Active x="0" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseBarrack">
+        <Position x="13253.3" y="312" z="12418.2" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="13" />
+        <PlayerNumber x="1" />
+        <State Id="171">
+            <Active x="0" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseBarrack">
+        <Position x="15696.5" y="544.24" z="40371.5" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="5" />
+        <PlayerNumber x="1" />
+        <State Id="255">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="325.585" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseBarrack">
+        <Position x="27911.5" y="392.8" z="10172.3" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="5" />
+        <PlayerNumber x="1" />
+        <State Id="85">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentHealth x="1390" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4825.4" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseLaboratory">
+        <Position x="26144.6" y="214.88" z="25831.3" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <State Id="172">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseLaboratory">
+        <Position x="28399.8" y="268" z="29405.3" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <State Id="173">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseLaboratory">
+        <Position x="12767.2" y="492" z="31218.7" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="16" />
+        <PlayerNumber x="1" />
+        <State Id="174">
+            <Active x="4" />
+            <UnitState x="1" />
+            <Hold x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChineseFactory">
+        <Position x="9255.05" y="600" z="39882.4" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="5" />
+        <PlayerNumber x="1" />
+        <State Id="275">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChinesePS">
+        <Position x="7283.91" y="228.64" z="10957.9" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="17" />
+        <PlayerNumber x="1" />
+        <State Id="175">
+            <Active x="0" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChinesePS">
+        <Position x="15161.2" y="310.72" z="25494.9" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="17" />
+        <PlayerNumber x="1" />
+        <State Id="176">
+            <Active x="0" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="ChinesePS">
+        <Position x="19378.5" y="324" z="28333.4" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="17" />
+        <PlayerNumber x="1" />
+        <State Id="177">
+            <Active x="0" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="0" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="22080.3" y="274.56" z="29801.6" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="183" CaptureUnit="0">
+            <Active x="4" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits>
+                <UnitId id="137" />
+                <UnitId id="138" />
+            </LoadedUnits>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="0" />
+                <Position x="22157.1" y="284.56" z="29878.4" />
+                <PosDelta x="0.3" y="0" z="0.3" />
+                <Rotation x="3.40282e+038" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="1" />
+                <Position x="22157.1" y="274.56" z="29724.8" />
+                <PosDelta x="0.3" y="0" z="-0.3" />
+                <Rotation x="3.40282e+038" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="28112.1" y="247" z="26053.3" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="188" CaptureUnit="0">
+            <Active x="4" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits>
+                <UnitId id="141" />
+                <UnitId id="143" />
+            </LoadedUnits>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="0" />
+                <Position x="28188.9" y="253.52" z="26130.1" />
+                <PosDelta x="0.3" y="0" z="0.3" />
+                <Rotation x="3.40282e+038" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="1" />
+                <Position x="28188.9" y="221.36" z="25976.5" />
+                <PosDelta x="0.3" y="0" z="-0.3" />
+                <Rotation x="3.40282e+038" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="11169.1" y="377.36" z="47616.8" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="187" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="25173.2" y="360" z="40664" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="184" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="21756.5" y="360" z="39455" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.sandbags/sandbags_circle.X" />
+        <State Id="196" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits>
+                <UnitId id="117" />
+                <UnitId id="118" />
+                <UnitId id="119" />
+                <UnitId id="120" />
+            </LoadedUnits>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="0" />
+                <Position x="21756.5" y="360" z="39255" />
+                <PosDelta x="0" y="0" z="0" />
+                <Rotation x="180" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="1" />
+                <Position x="21756.5" y="360" z="39655" />
+                <PosDelta x="0" y="0" z="0" />
+                <Rotation x="0" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="2" />
+                <Position x="21956.5" y="360" z="39455" />
+                <PosDelta x="0" y="0" z="0" />
+                <Rotation x="90" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="3" />
+                <Position x="21556.5" y="360" z="39455" />
+                <PosDelta x="0" y="0" z="0" />
+                <Rotation x="-90" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="34996.1" y="360" z="18567.1" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.sandbags/sandbags_circle.X" />
+        <State Id="194" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="36043" y="360" z="56330.9" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.sandbags/sandbags_circle.X" />
+        <State Id="195" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="17984.6" y="402.08" z="34273.8" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.watchtower/chiwatchtower01.X" />
+        <State Id="191" CaptureUnit="0">
+            <Active x="4" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="0" />
+            <PlayerNumberState x="1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="0" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits>
+                <UnitId id="133" />
+                <UnitId id="134" />
+            </LoadedUnits>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="0" />
+                <Position x="17868.6" y="1498.83" z="34275.7" />
+                <PosDelta x="0" y="0" z="0" />
+                <Rotation x="0" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="0" />
+                <Number x="1" />
+                <Position x="18103.7" y="1498.83" z="34275.7" />
+                <PosDelta x="0" y="0" z="0" />
+                <Rotation x="0" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="52445.3" y="409.04" z="10622.9" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="179" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="2" />
+            <PlayerNumberState x="-1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralBunker">
+        <Position x="12257.4" y="287.04" z="20537.7" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <State Id="180" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="100" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="2" />
+            <PlayerNumberState x="-1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="55362.4" y="360" z="69307.9" />
+        <Rotation x="0" y="-179.878" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.fences/accesspoint01_02.X" />
+        <State Id="189" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="2" />
+            <PlayerNumberState x="-1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="35765.5" y="1476.88" z="33699.4" />
+        <Rotation x="0" y="82.8795" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.watchtower/chiwatchtower01.X" />
+        <State Id="190" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="2" />
+            <PlayerNumberState x="-1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="7696.24" y="793.92" z="34384.5" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.watchtower/chiwatchtower01.X" />
+        <State Id="192" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="2" />
+            <PlayerNumberState x="-1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="49622.2" y="228" z="49856.6" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.sandbags/sandbags_circle.X" />
+        <State Id="197" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="2" />
+            <PlayerNumberState x="-1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="41066.7" y="314.64" z="17898.1" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.sandbags/sandbags_circle.X" />
+        <State Id="199" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="2" />
+            <PlayerNumberState x="-1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="14892.9" y="480" z="46315.1" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.sandbags/sandbags_circle.X" />
+        <State Id="200" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="2" />
+            <PlayerNumberState x="-1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="30477.7" y="304.4" z="29182.8" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.sandbags/sandbags_circle.X" />
+        <State Id="201" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="2" />
+            <PlayerNumberState x="-1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <Unit Name="" Type="NeutralCover">
+        <Position x="17880.3" y="428.515" z="42787.2" />
+        <Rotation x="0" y="0" z="0" />
+        <GroupNumber x="-1" />
+        <PlayerNumber x="-1" />
+        <CoverObject Name="obj.fences/accesspoint01_01.X" />
+        <State Id="202" CaptureUnit="0">
+            <Active x="3" />
+            <UnitState x="1" />
+            <CurrentMana x="100" />
+            <ManaRegenSpeed x="0" />
+            <Armor x="45" />
+            <InTransport x="0" />
+            <BunkerPlaceNumber x="-1" />
+            <BackupGroup x="-1" />
+            <CombatSideState x="2" />
+            <PlayerNumberState x="-1" />
+            <bSetNoWalkAsSoonAsPossible x="0" />
+            <StasisState x="0" />
+            <StasisStateTime x="0" />
+            <StasisStateAlphaTime x="0" />
+            <bScriptBlink x="0" />
+            <bNotEnemy x="1" />
+            <m_bImmortal x="0" />
+            <BeginTaskTimeRel x="4326.52" />
+            <LoadedUnits />
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <BunkerPlace>
+                <IsFree x="1" />
+            </BunkerPlace>
+            <NeedCapture x="0" />
+        </State>
+    </Unit>
+    <SquareTargets />
+</Units>
