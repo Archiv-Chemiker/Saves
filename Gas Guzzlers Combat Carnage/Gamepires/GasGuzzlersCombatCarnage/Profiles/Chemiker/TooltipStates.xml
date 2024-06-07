@@ -1,0 +1,78 @@
+<TooltipStates>
+
+    <TooltipState
+        StringId="301"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="302"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="303"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="304"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="305"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="306"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="307"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="308"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="309"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="310"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="311"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="312"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="313"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="314"
+        OccurrencesCount="2" />
+    <TooltipState
+        StringId="315"
+        OccurrencesCount="2" />
+    <TooltipState
+        StringId="318"
+        OccurrencesCount="2" />
+    <TooltipState
+        StringId="331"
+        OccurrencesCount="2" />
+    <TooltipState
+        StringId="332"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="386"
+        OccurrencesCount="2" />
+    <TooltipState
+        StringId="387"
+        OccurrencesCount="2" />
+    <TooltipState
+        StringId="520"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="521"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="522"
+        OccurrencesCount="3" />
+    <TooltipState
+        StringId="524"
+        OccurrencesCount="2" />
+    <TooltipState
+        StringId="525"
+        OccurrencesCount="3" />
+</TooltipStates>
