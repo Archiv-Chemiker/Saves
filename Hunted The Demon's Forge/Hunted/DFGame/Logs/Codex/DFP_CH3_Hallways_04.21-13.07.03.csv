@@ -1,0 +1,8 @@
+PC,Release,CL#95581
+Condition,Value,Description
+SpawnCount,TRUE,Spawn Count <= 6
+FramerateMinimum,TRUE,Minimum Framerate > 25: num frames below: 0
+FramerateAverage,TRUE,Average Framerate >= 24: current avg: 60.00
+Checkpoint,TRUE,Checkpoint is present/functional
+SpawnFailed,TRUE,Spawn Failed
+SpawnFailedLOS,TRUE,Spawn Failed (LOS)
