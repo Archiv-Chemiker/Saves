@@ -1,0 +1,223 @@
+<ActionConfig VERSION="1">
+	<ActionList Name="DrivingBindings" State="ON">
+		<Action Name="Brake" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="S" />
+		</Action>
+		<Action Name="Throttle" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="Z" />
+		</Action>
+		<Action Name="SteerLeft" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="Q" />
+		</Action>
+		<Action Name="SteerRight" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="D" />
+		</Action>
+		<Action Name="LeanForward" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="RSHIFT" />
+		</Action>
+		<Action Name="LeanBackward" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="RCTRL" />
+		</Action>
+		<Action Name="HandBrake" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="SPACE" />
+		</Action>
+		<Action Name="Nitro" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="LSHIFT" />
+		</Action>
+		<Action Name="Ignition" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="Clutch" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="C" />
+		</Action>
+		<Action Name="GearUp" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="E" />
+		</Action>
+		<Action Name="GearDown" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="A" />
+		</Action>
+		<Action Name="GearReverse" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="Gear1" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="Gear2" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="Gear3" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="Gear4" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="Gear5" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="Gear6" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="Gear7" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="LightCallHorn" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="W" />
+		</Action>
+		<Action Name="Windows" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="X" />
+		</Action>
+		<Action Name="BackOnTrack" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="R" />
+		</Action>
+		<Action Name="NextCam" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="V" />
+		</Action>
+		<Action Name="OneShotLookL" IsAnalog="1" RateUp="1000" RateDown="1000" />
+		<Action Name="OneShotLookR" IsAnalog="1" RateUp="1000" RateDown="1000" />
+		<Action Name="LookLeft" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="LEFT" />
+		</Action>
+		<Action Name="LookRight" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="RIGHT" />
+		</Action>
+		<Action Name="LookUp" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="UP" />
+		</Action>
+		<Action Name="LookDown" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="DOWN" />
+		</Action>
+		<Action Name="LookBehind" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="SmartPhone" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="ESCAPE" />
+		</Action>
+		<Action Name="Map" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="," />
+		</Action>
+		<Action Name="FriendList" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="F" />
+		</Action>
+		<Action Name="EnlargeMiniMap" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="X" />
+		</Action>
+		<Action Name="DPAD_Right" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="NotificationDeploy" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="Y" />
+		</Action>
+		<Action Name="LaunchFreedriveChallenge" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name=";" />
+		</Action>
+		<Action Name="LaunchFreedriveStunts" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name=":" />
+		</Action>
+		<Action Name="LaunchPhotoMode" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="P" />
+		</Action>
+		<Action Name="MouseAutoCenter" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="L" />
+		</Action>
+	</ActionList>
+	<ActionList Name="HudBindings" State="ON">
+		<Action Name="Valid" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Operator Type="OR" />
+			<Channel Device="KEYBOARD" Name="RETURN" />
+			<Channel Device="KEYBOARD" Name="NUM_RETURN" />
+		</Action>
+		<Action Name="Cancel" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="ESCAPE" />
+		</Action>
+		<Action Name="AlternateAction" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="B" />
+		</Action>
+		<Action Name="MapValid" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Operator Type="OR" />
+			<Channel Device="KEYBOARD" Name="NUM_RETURN" />
+			<Channel Device="KEYBOARD" Name="RETURN" />
+		</Action>
+		<Action Name="Prev" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="^" />
+		</Action>
+		<Action Name="Next" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="$" />
+		</Action>
+		<Action Name="Help" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="F1" />
+		</Action>
+		<Action Name="Toggle" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="TAB" />
+		</Action>
+		<Action Name="NavigationLeft" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="Q" />
+		</Action>
+		<Action Name="NavigationRight" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="D" />
+		</Action>
+		<Action Name="NavigationUp" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="Z" />
+		</Action>
+		<Action Name="NavigationDown" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="S" />
+		</Action>
+		<Action Name="DrivingNavigationLeft" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="LEFT" />
+		</Action>
+		<Action Name="DrivingNavigationRight" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="RIGHT" />
+		</Action>
+		<Action Name="DrivingNavigationUp" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="UP" />
+		</Action>
+		<Action Name="DrivingNavigationDown" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="DOWN" />
+		</Action>
+		<Action Name="NavigationDPADLeft" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="NUM4" />
+		</Action>
+		<Action Name="NavigationDPADRight" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="NUM6" />
+		</Action>
+		<Action Name="NavigationDPADUp" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="NUM8" />
+		</Action>
+		<Action Name="NavigationDPADDown" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="NUM2" />
+		</Action>
+		<Action Name="SnapLeft" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<ActionRef Name="DrivingNavigationLeft" />
+		</Action>
+		<Action Name="SnapRight" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<ActionRef Name="DrivingNavigationRight" />
+		</Action>
+		<Action Name="SnapUp" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<ActionRef Name="DrivingNavigationUp" />
+		</Action>
+		<Action Name="SnapDown" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<ActionRef Name="DrivingNavigationDown" />
+		</Action>
+		<Action Name="ZoomIn" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="=" />
+		</Action>
+		<Action Name="ZoomOut" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name=")" />
+		</Action>
+		<Action Name="LeftDoor" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="M" />
+		</Action>
+		<Action Name="RightDoor" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="%" />
+		</Action>
+		<Action Name="OpenWindows" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="!" />
+		</Action>
+		<Action Name="DeletePreset" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="CamZoom" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="VirtualKeyboard" IsAnalog="0" RateUp="1000" RateDown="1000" />
+		<Action Name="TouchNavUp" IsAnalog="1" RateUp="1000" RateDown="1000" />
+		<Action Name="TouchNavDown" IsAnalog="1" RateUp="1000" RateDown="1000" />
+		<Action Name="TouchNavLeft" IsAnalog="1" RateUp="1000" RateDown="1000" />
+		<Action Name="TouchNavRight" IsAnalog="1" RateUp="1000" RateDown="1000" />
+		<Action Name="PCChat" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="T" />
+		</Action>
+	</ActionList>
+	<ActionList Name="Camera" State="ON">
+		<Action Name="CamZoom" IsAnalog="0" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="F11" />
+		</Action>
+	</ActionList>
+	<ActionList Name="DevicesConfigCinematic" State="ON">
+		<Action Name="CameraLeft" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="Q" />
+		</Action>
+		<Action Name="CameraRight" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="D" />
+		</Action>
+		<Action Name="CameraUp" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="Z" />
+		</Action>
+		<Action Name="CameraDown" IsAnalog="1" RateUp="1000" RateDown="1000">
+			<Channel Device="KEYBOARD" Name="S" />
+		</Action>
+	</ActionList>
+</ActionConfig>

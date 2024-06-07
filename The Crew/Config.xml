@@ -1,0 +1,32 @@
+<Config>
+	<ConfigSection name="Audio">
+		<ConfigValue name="CarSounds" value="0.25" />
+		<ConfigValue name="CurrentRadioStation" value="7" />
+		<ConfigValue name="FXVolume" value="0.625" />
+		<ConfigValue name="GlobalVolume" value="0.5" />
+		<ConfigValue name="LastTrackNumber" value="61" />
+		<ConfigValue name="MusicVolume" value="0.625" />
+		<ConfigValue name="RadioStationsPlayedFirstTime" value="255" />
+		<ConfigValue name="RadioVolume" value="1" />
+		<ConfigValue name="UIVolume" value="0.75" />
+		<ConfigValue name="VoicesVolume" value="1.125" />
+	</ConfigSection>
+	<ConfigSection name="Controls">
+		<ConfigValue name="ChatContentTextSize" value="1" />
+	</ConfigSection>
+	<ConfigSection name="Game">
+		<ConfigValue name="AudioLanguage" value="22" />
+		<ConfigValue name="EnableProfanityFilter" value="1" />
+		<ConfigValue name="KeyboardLayout" value="English" />
+		<ConfigValue name="Language" value="22" />
+		<ConfigValue name="MouseAlwaysVisible" value="0" />
+		<ConfigValue name="RadioNotScore" value="0" />
+		<ConfigValue name="TextChatCurrentFilterID" value="1" />
+		<ConfigValue name="TextChatMutedPlayerNames" value="" />
+		<ConfigValue name="TextChatWindowHeight" value="196" />
+		<ConfigValue name="TextChatWindowPosX" value="602" />
+		<ConfigValue name="TextChatWindowPosY" value="883" />
+		<ConfigValue name="TextChatWindowWidth" value="680" />
+		<ConfigValue name="UnitsMetric" value="1" />
+	</ConfigSection>
+</Config>
