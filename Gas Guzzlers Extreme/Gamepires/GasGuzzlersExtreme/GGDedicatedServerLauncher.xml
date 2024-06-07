@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--engine config file-->
+<Config>
+
+    <VarSet
+        name="GasGuzzlers">
+
+        <Var
+            name="Language"
+            type="String"
+            value="en" />
+    </VarSet>
+    <VarSet
+        name="Engine">
+
+        <Var
+            name="Name"
+            type="String"
+            value="GGDedicatedServerLauncher" />
+        <Var
+            name="Version"
+            type="String"
+            value="1.0.0.0" />
+        <Var
+            name="ProjectDataPath"
+            type="String"
+            value="Data/GasGuzzlers/" />
+    </VarSet>
+</Config>
