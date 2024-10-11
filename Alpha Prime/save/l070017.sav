@@ -1,0 +1,10 @@
+DifficultyLevel = "2"
+CurrentWeapon = "1"
+BulletTime = "40"
+Health = "5000"
+Oxygen = "100"
+Flashlight = "20"
+Weapons = 1 2 3 4 5 6 7 8 9
+Ammo = 0 22 23 57 24 2 253 7 0
+AmmoInMagazines = 0 2 8 28 2 1 0 1 0
+Checksum = -114881
