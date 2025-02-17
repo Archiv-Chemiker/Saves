@@ -1,0 +1,183 @@
+Log: Log file open, 02/17/25 01:14:25
+Init: Memory Profiling : Disabled
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Init: Version: 7258
+Init: Epic Internal: 0
+Init: Compiled (32-bit): May 20 2013 12:47:20
+Init: Changelist: 641002
+Init: Command line: 
+Init: Base directory: D:\SteamLibrary\steamapps\common\Red Orchestra 2\binaries\win32\
+[0000.29] Init: Computer: COMPUTER
+[0000.29] Init: User: TeMeR
+[0000.29] Init: CPU Page size=4096, Processors=16
+[0000.29] Init: High frequency timer resolution =10.000000 MHz
+[0000.29] Init: Memory total: Physical=63.9GB Pagefile=71.9GB Virtual=4.0GB
+[0000.39] Log: STEAMWORKS initialized 1
+[0000.42] Init: WinSock: I am Computer (172.25.144.1:0)
+[0000.42] Init: Presizing for 132448 objects not considered by GC, pre-allocating 0 bytes.
+[0000.42] Init: Object subsystem initialized
+[0000.43] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0001.83] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:CheckIfFileExistsLocally
+[0001.83] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:DownloadSubscribedFile
+[0001.83] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:RegisterLocalTalker
+[0001.84] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ResetStats
+[0001.86] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ReadGlobalStat
+[0001.86] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ReadUserStat
+[0001.94] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:GetNumberOfCurrentPlayers
+[0001.94] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasSPLicenseClient
+[0001.95] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:GetCurrentVOIPLevel
+[0001.96] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO1License
+[0001.96] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO2Preorder
+[0001.96] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRisingStorm
+[0001.96] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO1License
+[0001.96] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO2Preorder
+[0001.96] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRisingStorm
+[0003.25] Warning: Warning, Failed to compile Material EngineDebugMaterials.LightingModels.M_TextureDefinedSpecularReflection for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.25] Warning: Warning, Failed to compile Material EngineDebugMaterials.LightmapResolutionMaterial for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.25] Warning: Warning, Failed to compile Material EngineDebugMaterials.Testing.M_Sand_Master_VertPaint for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.25] Warning: Warning, Failed to compile Material EngineDebugMaterials.TexturePaint_2Tex_Color for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.25] Warning: Warning, Failed to compile Material EngineDebugMaterials.VertexPaint_2Tex_Color for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.25] Warning: Warning, Failed to compile Material EngineDebugMaterials.VertexPaint_4Tex for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.26] Warning: Warning, Failed to load 'Texture2D EngineMaterials.RandomMirrorDisc': Failed to find object 'Texture2D EngineMaterials.RandomMirrorDisc'
+[0005.16] DevMemory: Virtual  memory allocation size: 240.80 MByte (252502016 Bytes)
+[0039.07] DevMemory: Virtual  memory allocation size: 281.94 MByte (295632896 Bytes)
+[0049.04] DevPhysics: Error (1) in file ..\..\Cooking\src\ConvexMeshBuilder.cpp, line 77: Supplied NxConvexMeshDesc::checkValid() returned 1.
+[0049.04] DevPhysics: Error (4) in file ..\..\src\ExtensionQuickLoad.cpp, line 818: Failed to perform standard cooking of convex mesh.
+[0050.19] Error: Can't start an online game that hasn't been created
+[0054.16] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-1145.371 Y=-7165.042 Z=91.403] for [RODroppedPickup]
+[0054.16] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-1145.371 Y=-7165.042 Z=91.403] for [RODroppedPickup]
+[0054.16] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-1145.371 Y=-7165.042 Z=91.403] for [RODroppedPickup]
+[0054.17] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-1754.865 Y=-7370.861 Z=95.639] for [RODroppedPickup]
+[0054.17] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-1754.865 Y=-7370.861 Z=95.639] for [RODroppedPickup]
+[0054.17] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-1754.865 Y=-7370.861 Z=95.639] for [RODroppedPickup]
+[0067.13] Warning: Failed to find notify Prone_TO_Stand_rifle on ROAlliedPawnLevel1Commander_0
+[0112.19] Warning: Failed to find function TurnOffOverheadMapUpdates for timer in actor ROPlayerController_1
+[0245.42] Warning: Failed to find notify Prone_TO_Stand_rifle on ROAlliedPawnLevel1Commander_0
+[0345.27] DevMemory: Virtual  memory allocation size: 372.38 MByte (390463488 Bytes)
+[0369.10] Error: Can't start an online game that hasn't been created
+[0370.98] Warning: Failed to find function TurnOffOverheadMapUpdates for timer in actor ROPlayerController_2
+[0432.02] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0432.02] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0432.02] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0485.16] Warning: ROPawn::FitCollision() failed to find a good spot for ROAlliedPawnLevel1CommanderW_0
+[0485.18] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0485.18] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0485.18] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0485.18] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0485.18] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0573.89] DevMemory: Virtual  memory allocation size: 376.48 MByte (394772480 Bytes)
+[0582.16] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 245: Actor::setLinearVelocity: Actor must be (non-kinematic) dynamic!
+[0582.16] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 255: Actor::setAngularVelocity: Actor must be (non-kinematic) dynamic!
+[0582.17] Error: Can't start an online game that hasn't been created
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0639.87] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'Exhaust' in 'Ger_PZIV_Destroyed_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Destroyed_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0651.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'Camera_Periscope' in 'Sov_T34_76_Destroyed_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0657.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Destroyed_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'Camera_PeriscopeGunner' in 'Sov_T34_76_Destroyed_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0662.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Sov_T3476_Rig_Master'
+[0675.64] DevMemory: Virtual  memory allocation size: 301.06 MByte (315686912 Bytes)
+[0691.29] DevMemory: Virtual  memory allocation size: 354.98 MByte (372224000 Bytes)
+[0710.24] Error: Can't start an online game that hasn't been created
+[0712.04] Warning: Failed to find function TurnOffOverheadMapUpdates for timer in actor ROPlayerController_5
+[0972.60] DevMemory: Virtual  memory allocation size: 427.21 MByte (447959040 Bytes)
+[0985.54] Error: Can't start an online game that hasn't been created
+[0985.54] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-12411.755 Y=-1735.788 Z=512.354] for [ROVehicle_T3476_Winter_Content]
+[0985.60] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2911.093 Y=-4760.469 Z=1069.000] for [ROVehicle_PanzerIVG_Winter_Content]
+[1093.59] DevMemory: Virtual  memory allocation size: 454.76 MByte (476852224 Bytes)
+[1105.66] DevPhysics: Error (1) in file ..\..\Physics\src\cloth\NpCloth.cpp, line 82: NxCloth::setStretchingStiffness: stiffness must be 0-1!
+[1109.74] Error: Can't start an online game that hasn't been created
+[1111.60] Warning: Failed to find function TurnOffOverheadMapUpdates for timer in actor ROPlayerController_7
+[1178.54] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'Ger_PZIV_Rig_Master'
+[1466.44] Exit: Preparing to exit.
+[1466.79] Exit: Game engine shut down
+[1466.88] Exit: Windows client shut down
+[1466.91] Exit: XAudio2 Device shut down.
+[1467.04] Exit: Object subsystem successfully closed.
+[1467.12] DevDataBase: Spent 0.000036 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[1467.12] Exit: Exiting.

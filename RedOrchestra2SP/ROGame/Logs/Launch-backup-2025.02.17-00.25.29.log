@@ -1,0 +1,84 @@
+Log: Log file open, 02/17/25 00:21:45
+Init: Memory Profiling : Disabled
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Init: Version: 7258
+Init: Epic Internal: 0
+Init: Compiled (32-bit): May 20 2013 12:47:20
+Init: Changelist: 641002
+Init: Command line: 
+Init: Base directory: D:\SteamLibrary\steamapps\common\Red Orchestra 2\binaries\win32\
+[0000.29] Init: Computer: COMPUTER
+[0000.29] Init: User: TeMeR
+[0000.29] Init: CPU Page size=4096, Processors=16
+[0000.29] Init: High frequency timer resolution =10.000000 MHz
+[0000.29] Init: Memory total: Physical=63.9GB Pagefile=71.9GB Virtual=4.0GB
+[0000.39] Log: STEAMWORKS initialized 1
+[0000.43] Init: WinSock: I am Computer (172.25.144.1:0)
+[0000.43] Init: Presizing for 132448 objects not considered by GC, pre-allocating 0 bytes.
+[0000.43] Init: Object subsystem initialized
+[0000.44] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0001.70] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:CheckIfFileExistsLocally
+[0001.70] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:DownloadSubscribedFile
+[0001.70] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:RegisterLocalTalker
+[0001.71] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ResetStats
+[0001.73] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ReadGlobalStat
+[0001.73] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ReadUserStat
+[0001.81] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:GetNumberOfCurrentPlayers
+[0001.81] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasSPLicenseClient
+[0001.82] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:GetCurrentVOIPLevel
+[0001.83] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO1License
+[0001.83] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO2Preorder
+[0001.83] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRisingStorm
+[0001.83] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO1License
+[0001.83] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO2Preorder
+[0001.83] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRisingStorm
+[0003.03] Warning: Warning, Failed to compile Material EngineDebugMaterials.LightingModels.M_TextureDefinedSpecularReflection for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.03] Warning: Warning, Failed to compile Material EngineDebugMaterials.LightmapResolutionMaterial for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.03] Warning: Warning, Failed to compile Material EngineDebugMaterials.Testing.M_Sand_Master_VertPaint for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.03] Warning: Warning, Failed to compile Material EngineDebugMaterials.TexturePaint_2Tex_Color for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.03] Warning: Warning, Failed to compile Material EngineDebugMaterials.VertexPaint_2Tex_Color for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.03] Warning: Warning, Failed to compile Material EngineDebugMaterials.VertexPaint_4Tex for platform PC-D3D-SM3, Default Material will be used in game.
+[0003.05] Warning: Warning, Failed to load 'Texture2D EngineMaterials.RandomMirrorDisc': Failed to find object 'Texture2D EngineMaterials.RandomMirrorDisc'
+[0004.99] DevMemory: Virtual  memory allocation size: 240.80 MByte (252502016 Bytes)
+[0009.24] Warning: InsertScene: Duplicate scene tag (ROUIScene_MainMenu) detected: NewScene 'ROUISceneMainMenu ROGameMenus.MainMenu.ROUIScene_MainMenu' ExistingScene 'ROUISceneMainMenu Transient.ROUIScene_MainMenu_0'
+[0014.86] OfficialGameServer: Removing ranked status: IS_RANKED_UPDATE returning FALSE
+[0027.78] DevMemory: Virtual  memory allocation size: 285.72 MByte (299597824 Bytes)
+[0043.78] Error: Can't start an online game that hasn't been created
+[0048.03] Warning: Failed to find function TurnOffOverheadMapUpdates for timer in actor ROPlayerController_1
+[0112.32] Warning: ROParticleSystemComponent_39 (template: None) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0112.32] Warning: ROParticleSystemComponent_39 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_7_92x57_Single) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0113.44] Warning: ROParticleSystemComponent_39 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_7_92x57_Single) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0114.61] Warning: ROParticleSystemComponent_39 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_7_92x57_Single) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0115.80] Warning: ROParticleSystemComponent_39 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_7_92x57_Single) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0116.95] Warning: ROParticleSystemComponent_39 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_7_92x57_Single) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0127.61] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_8
+[0139.86] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_17
+[0147.63] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_19
+[0151.12] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-7872.280 Y=-1391.380 Z=76.432] for [RODroppedPickup]
+[0151.12] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-7872.280 Y=-1391.380 Z=76.432] for [RODroppedPickup]
+[0151.12] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-7872.280 Y=-1391.380 Z=76.432] for [RODroppedPickup]
+[0163.56] Warning: ROParticleSystemComponent_57 (template: None) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0163.56] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0167.79] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0168.98] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0170.25] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0171.37] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0172.51] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0173.64] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0176.06] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0177.23] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0178.49] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0179.93] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0181.05] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0182.25] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0183.47] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0184.73] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0185.86] Warning: ROParticleSystemComponent_57 (template: FX_WEP_Gun_Two.ShellEjects.FX_Wep_A_ShellEject_PhysX_Ger_Kar98) needs update but can't be because it's in TG_DuringAsnycWork and indirectly attached!
+[0195.84] Exit: Preparing to exit.
+[0196.14] Exit: Game engine shut down
+[0196.23] Exit: Windows client shut down
+[0196.25] Exit: XAudio2 Device shut down.
+[0196.39] Exit: Object subsystem successfully closed.
+[0196.45] DevDataBase: Spent 0.000030 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0196.45] Exit: Exiting.

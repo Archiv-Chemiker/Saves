@@ -1,0 +1,51 @@
+Log: Log file open, 02/17/25 00:09:45
+Init: Memory Profiling : Disabled
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Init: Version: 7258
+Init: Epic Internal: 0
+Init: Compiled (32-bit): May 20 2013 12:47:20
+Init: Changelist: 641002
+Init: Command line: 
+Init: Base directory: D:\SteamLibrary\steamapps\common\Red Orchestra 2\binaries\win32\
+[0000.99] Init: Computer: COMPUTER
+[0001.00] Init: User: TeMeR
+[0001.00] Init: CPU Page size=4096, Processors=16
+[0001.00] Init: High frequency timer resolution =10.000000 MHz
+[0001.00] Init: Memory total: Physical=63.9GB Pagefile=71.9GB Virtual=4.0GB
+[0001.16] Log: STEAMWORKS initialized 1
+[0001.20] Init: WinSock: I am Computer (172.25.144.1:0)
+[0001.20] Init: Presizing for 132448 objects not considered by GC, pre-allocating 0 bytes.
+[0001.20] Init: Object subsystem initialized
+[0001.25] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0008.55] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:CheckIfFileExistsLocally
+[0008.55] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:DownloadSubscribedFile
+[0008.55] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:RegisterLocalTalker
+[0008.55] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ResetStats
+[0008.57] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ReadGlobalStat
+[0008.57] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ReadUserStat
+[0008.65] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:GetNumberOfCurrentPlayers
+[0008.65] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasSPLicenseClient
+[0008.66] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:GetCurrentVOIPLevel
+[0008.67] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO1License
+[0008.67] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO2Preorder
+[0008.67] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRisingStorm
+[0008.67] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO1License
+[0008.67] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO2Preorder
+[0008.67] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRisingStorm
+[0012.49] Warning: Warning, Failed to compile Material EngineDebugMaterials.LightingModels.M_TextureDefinedSpecularReflection for platform PC-D3D-SM3, Default Material will be used in game.
+[0012.49] Warning: Warning, Failed to compile Material EngineDebugMaterials.LightmapResolutionMaterial for platform PC-D3D-SM3, Default Material will be used in game.
+[0012.49] Warning: Warning, Failed to compile Material EngineDebugMaterials.Testing.M_Sand_Master_VertPaint for platform PC-D3D-SM3, Default Material will be used in game.
+[0012.49] Warning: Warning, Failed to compile Material EngineDebugMaterials.TexturePaint_2Tex_Color for platform PC-D3D-SM3, Default Material will be used in game.
+[0012.49] Warning: Warning, Failed to compile Material EngineDebugMaterials.VertexPaint_2Tex_Color for platform PC-D3D-SM3, Default Material will be used in game.
+[0012.49] Warning: Warning, Failed to compile Material EngineDebugMaterials.VertexPaint_4Tex for platform PC-D3D-SM3, Default Material will be used in game.
+[0012.58] Warning: Warning, Failed to load 'Texture2D EngineMaterials.RandomMirrorDisc': Failed to find object 'Texture2D EngineMaterials.RandomMirrorDisc'
+[0015.68] DevMemory: Virtual  memory allocation size: 240.86 MByte (252563456 Bytes)
+[0027.81] OfficialGameServer: Removing ranked status: IS_RANKED_UPDATE returning FALSE
+[0048.69] Exit: Preparing to exit.
+[0048.93] Exit: Game engine shut down
+[0049.00] Exit: Windows client shut down
+[0049.01] Exit: XAudio2 Device shut down.
+[0049.05] Exit: Object subsystem successfully closed.
+[0049.11] DevDataBase: Spent 0.000463 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0049.11] Exit: Exiting.

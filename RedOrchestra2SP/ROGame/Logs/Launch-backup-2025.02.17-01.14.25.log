@@ -1,0 +1,137 @@
+Log: Log file open, 02/17/25 00:37:50
+Init: Memory Profiling : Disabled
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Init: Version: 7258
+Init: Epic Internal: 0
+Init: Compiled (32-bit): May 20 2013 12:47:20
+Init: Changelist: 641002
+Init: Command line: 
+Init: Base directory: D:\SteamLibrary\steamapps\common\Red Orchestra 2\binaries\win32\
+[0000.29] Init: Computer: COMPUTER
+[0000.29] Init: User: TeMeR
+[0000.29] Init: CPU Page size=4096, Processors=16
+[0000.29] Init: High frequency timer resolution =10.000000 MHz
+[0000.29] Init: Memory total: Physical=63.9GB Pagefile=71.9GB Virtual=4.0GB
+[0000.37] Log: STEAMWORKS initialized 1
+[0000.40] Init: WinSock: I am Computer (172.25.144.1:0)
+[0000.40] Init: Presizing for 132448 objects not considered by GC, pre-allocating 0 bytes.
+[0000.40] Init: Object subsystem initialized
+[0000.41] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0001.64] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:CheckIfFileExistsLocally
+[0001.64] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:DownloadSubscribedFile
+[0001.64] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:RegisterLocalTalker
+[0001.64] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ResetStats
+[0001.66] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ReadGlobalStat
+[0001.66] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ReadUserStat
+[0001.74] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:GetNumberOfCurrentPlayers
+[0001.74] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasSPLicenseClient
+[0001.75] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:GetCurrentVOIPLevel
+[0001.77] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO1License
+[0001.77] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO2Preorder
+[0001.77] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRisingStorm
+[0001.77] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO1License
+[0001.77] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRO2Preorder
+[0001.77] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:HasRisingStorm
+[0002.89] Warning: Warning, Failed to compile Material EngineDebugMaterials.LightingModels.M_TextureDefinedSpecularReflection for platform PC-D3D-SM3, Default Material will be used in game.
+[0002.89] Warning: Warning, Failed to compile Material EngineDebugMaterials.LightmapResolutionMaterial for platform PC-D3D-SM3, Default Material will be used in game.
+[0002.90] Warning: Warning, Failed to compile Material EngineDebugMaterials.Testing.M_Sand_Master_VertPaint for platform PC-D3D-SM3, Default Material will be used in game.
+[0002.90] Warning: Warning, Failed to compile Material EngineDebugMaterials.TexturePaint_2Tex_Color for platform PC-D3D-SM3, Default Material will be used in game.
+[0002.90] Warning: Warning, Failed to compile Material EngineDebugMaterials.VertexPaint_2Tex_Color for platform PC-D3D-SM3, Default Material will be used in game.
+[0002.90] Warning: Warning, Failed to compile Material EngineDebugMaterials.VertexPaint_4Tex for platform PC-D3D-SM3, Default Material will be used in game.
+[0002.91] Warning: Warning, Failed to load 'Texture2D EngineMaterials.RandomMirrorDisc': Failed to find object 'Texture2D EngineMaterials.RandomMirrorDisc'
+[0004.38] DevMemory: Virtual  memory allocation size: 240.86 MByte (252563456 Bytes)
+[0011.90] OfficialGameServer: Removing ranked status: IS_RANKED_UPDATE returning FALSE
+[0017.79] DevMemory: Virtual  memory allocation size: 299.40 MByte (313946112 Bytes)
+[0027.23] DevPhysics: Error (1) in file ..\..\Physics\src\cloth\NpCloth.cpp, line 82: NxCloth::setStretchingStiffness: stiffness must be 0-1!
+[0027.23] DevPhysics: Error (1) in file ..\..\Physics\src\cloth\NpCloth.cpp, line 82: NxCloth::setStretchingStiffness: stiffness must be 0-1!
+[0027.23] DevPhysics: Error (1) in file ..\..\Physics\src\cloth\NpCloth.cpp, line 82: NxCloth::setStretchingStiffness: stiffness must be 0-1!
+[0099.45] Error: Can't start an online game that hasn't been created
+[0145.24] Warning: Failed to find function StandToProneComplete for timer in actor ROAlliedPawnLevel1Rifleman_0
+[0159.66] Warning: Failed to find notify Prone_TO_Stand_rifle on ROAlliedPawnLevel1EliteRifleman_1
+[0197.20] DevSpawn: SpawnActor failed because of collision at the spawn location [X=8632.097 Y=-1042.262 Z=40.211] for [RODroppedPickup]
+[0197.20] DevSpawn: SpawnActor failed because of collision at the spawn location [X=8632.097 Y=-1042.262 Z=40.211] for [RODroppedPickup]
+[0197.20] DevSpawn: SpawnActor failed because of collision at the spawn location [X=8632.097 Y=-1042.262 Z=40.211] for [RODroppedPickup]
+[0212.28] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_27
+[0240.44] Warning: Failed to find function TurnOffOverheadMapUpdates for timer in actor ROPlayerController_1
+[0271.80] DevSpawn: SpawnActor failed because of collision at the spawn location [X=8621.055 Y=-981.819 Z=55.159] for [RODroppedPickup]
+[0271.80] DevSpawn: SpawnActor failed because of collision at the spawn location [X=8621.055 Y=-981.819 Z=55.159] for [RODroppedPickup]
+[0271.80] DevSpawn: SpawnActor failed because of collision at the spawn location [X=8621.055 Y=-981.819 Z=55.159] for [RODroppedPickup]
+[0280.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=8602.086 Y=-963.354 Z=35.092] for [RODroppedPickup]
+[0280.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=8602.086 Y=-963.354 Z=35.092] for [RODroppedPickup]
+[0280.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=8602.086 Y=-963.354 Z=35.092] for [RODroppedPickup]
+[0402.73] Warning: ROPawn::FitCollision() failed to find a good spot for ROAlliedPawnLevel1Assault_10
+[0414.51] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4084.810 Y=-1522.784 Z=25.579] for [RODroppedPickup]
+[0414.51] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4084.810 Y=-1522.784 Z=25.579] for [RODroppedPickup]
+[0414.51] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4084.810 Y=-1522.784 Z=25.579] for [RODroppedPickup]
+[0430.07] DevSpawn: SpawnActor failed because of collision at the spawn location [X=3680.708 Y=-1657.333 Z=19.150] for [RODroppedPickup]
+[0430.07] DevSpawn: SpawnActor failed because of collision at the spawn location [X=3680.708 Y=-1657.333 Z=19.150] for [RODroppedPickup]
+[0430.07] DevSpawn: SpawnActor failed because of collision at the spawn location [X=3680.708 Y=-1657.333 Z=19.150] for [RODroppedPickup]
+[0460.59] Warning: Failed to find notify Prone_TO_Stand_rifle on ROAlliedPawnLevel1Assault_17
+[0472.38] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4052.647 Y=116.643 Z=-16.284] for [RODroppedPickup]
+[0472.38] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4052.647 Y=116.643 Z=-16.284] for [RODroppedPickup]
+[0472.38] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4052.647 Y=116.643 Z=-16.284] for [RODroppedPickup]
+[0489.30] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4028.424 Y=-475.169 Z=-17.279] for [RODroppedPickup]
+[0489.30] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4028.424 Y=-475.169 Z=-17.279] for [RODroppedPickup]
+[0489.30] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4028.424 Y=-475.169 Z=-17.279] for [RODroppedPickup]
+[0492.47] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_5
+[0493.70] Warning: Failed to find notify Prone_TO_Stand_rifle on ROAlliedPawnLevel1Rifleman_14
+[0542.03] Warning: Failed to find function TurnOffOverheadMapUpdates for timer in actor ROPlayerController_1
+[0560.27] Warning: Failed to find notify Prone_TO_Stand_rifle on ROAlliedPawnLevel1Assault_23
+[0580.64] Warning: Failed to find notify Prone_TO_Stand_rifle on ROAlliedPawnLevel1Assault_19
+[0629.48] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2682.970 Y=80.341 Z=53.720] for [RODroppedPickup]
+[0629.48] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2682.970 Y=80.341 Z=53.720] for [RODroppedPickup]
+[0629.48] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2682.970 Y=80.341 Z=53.720] for [RODroppedPickup]
+[0654.98] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2945.025 Y=-847.702 Z=-51.057] for [RODroppedPickup]
+[0654.98] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2945.025 Y=-847.702 Z=-51.057] for [RODroppedPickup]
+[0654.98] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2945.025 Y=-847.702 Z=-51.057] for [RODroppedPickup]
+[0671.70] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_6
+[0697.06] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_22
+[0698.31] Warning: ROPawn::FitCollision() failed to find a good spot for ROAxisPawnLevel1SquadLeader_2
+[0721.87] DevSpawn: SpawnActor failed because of collision at the spawn location [X=238.635 Y=3789.632 Z=264.383] for [RODroppedPickup]
+[0721.87] DevSpawn: SpawnActor failed because of collision at the spawn location [X=238.635 Y=3789.632 Z=264.383] for [RODroppedPickup]
+[0721.87] DevSpawn: SpawnActor failed because of collision at the spawn location [X=238.635 Y=3789.632 Z=264.383] for [RODroppedPickup]
+[0795.92] Warning: Failed to find function TurnOffOverheadMapUpdates for timer in actor ROPlayerController_1
+[0876.75] DevSpawn: SpawnActor failed because of collision at the spawn location [X=907.759 Y=3577.128 Z=2.920] for [RODroppedPickup]
+[0876.75] DevSpawn: SpawnActor failed because of collision at the spawn location [X=907.759 Y=3577.128 Z=2.920] for [RODroppedPickup]
+[0876.75] DevSpawn: SpawnActor failed because of collision at the spawn location [X=907.759 Y=3577.128 Z=2.920] for [RODroppedPickup]
+[0890.32] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_10
+[0931.74] DevMemory: Virtual  memory allocation size: 462.93 MByte (485412864 Bytes)
+[0932.44] DevPhysics: Error (1) in file ..\..\Physics\src\cloth\NpCloth.cpp, line 82: NxCloth::setStretchingStiffness: stiffness must be 0-1!
+[0941.20] DevPhysics: Error (1) in file ..\..\Physics\src\cloth\NpCloth.cpp, line 82: NxCloth::setStretchingStiffness: stiffness must be 0-1!
+[0941.20] DevPhysics: Error (1) in file ..\..\Physics\src\cloth\NpCloth.cpp, line 82: NxCloth::setStretchingStiffness: stiffness must be 0-1!
+[0941.20] DevPhysics: Error (1) in file ..\..\Physics\src\cloth\NpCloth.cpp, line 82: NxCloth::setStretchingStiffness: stiffness must be 0-1!
+[0975.27] Error: Can't start an online game that hasn't been created
+[0992.63] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_53
+[1022.08] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-154.595 Y=3061.411 Z=250.317] for [RODroppedPickup]
+[1022.08] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-154.595 Y=3061.411 Z=250.317] for [RODroppedPickup]
+[1022.08] DevSpawn: SpawnActor failed because of collision at the spawn location [X=-154.595 Y=3061.411 Z=250.317] for [RODroppedPickup]
+[1032.67] Warning: ROPawn::FitCollision() failed to find a good spot for ROAlliedPawnLevel1Rifleman_1
+[1033.85] DevSpawn: SpawnActor failed because of collision at the spawn location [X=728.636 Y=2288.790 Z=-6.055] for [RODroppedPickup]
+[1033.85] DevSpawn: SpawnActor failed because of collision at the spawn location [X=728.636 Y=2288.790 Z=-6.055] for [RODroppedPickup]
+[1033.85] DevSpawn: SpawnActor failed because of collision at the spawn location [X=728.636 Y=2288.790 Z=-6.055] for [RODroppedPickup]
+[1055.23] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_39
+[1075.97] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_39
+[1081.41] Warning: Failed to find function EnemyNotVisibleTimer for timer in actor ROAIController_34
+[1089.63] Warning: Failed to find function StandToProneComplete for timer in actor ROAxisPawnLevel1Rifleman_1
+[1133.23] Warning: Failed to find function StandToProneComplete for timer in actor ROAxisPawnLevel1Assault_5
+[1164.42] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4687.746 Y=33.491 Z=22.964] for [RODroppedPickup]
+[1164.42] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4687.746 Y=33.491 Z=22.964] for [RODroppedPickup]
+[1164.42] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4687.746 Y=33.491 Z=22.964] for [RODroppedPickup]
+[1167.72] Warning: ROPawn::FitCollision() failed to find a good spot for ROAlliedPawnLevel1Rifleman_11
+[1167.75] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4426.765 Y=133.247 Z=-2.488] for [RODroppedPickup]
+[1167.75] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4426.765 Y=133.247 Z=-2.488] for [RODroppedPickup]
+[1167.75] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4426.765 Y=133.247 Z=-2.488] for [RODroppedPickup]
+[1178.30] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2904.270 Y=3092.981 Z=-100.476] for [RODroppedPickup]
+[1178.30] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2904.270 Y=3092.981 Z=-100.476] for [RODroppedPickup]
+[1178.30] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2904.270 Y=3092.981 Z=-100.476] for [RODroppedPickup]
+[1221.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4261.991 Y=665.936 Z=208.054] for [RODroppedPickup]
+[1221.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4261.991 Y=665.936 Z=208.054] for [RODroppedPickup]
+[1221.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4261.991 Y=665.936 Z=208.054] for [RODroppedPickup]
+[1221.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4847.385 Y=2062.728 Z=3.979] for [RODroppedPickup]
+[1221.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4847.385 Y=2062.728 Z=3.979] for [RODroppedPickup]
+[1221.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4847.385 Y=2062.728 Z=3.979] for [RODroppedPickup]
+[1221.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4562.114 Y=2065.143 Z=227.265] for [RODroppedPickup]
+[1221.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4562.114 Y=2065.143 Z=227.265] for [RODroppedPickup]
+[1221.01] DevSpawn: SpawnActor failed because of collision at the spawn location [X=4562.114 Y=2065.143 Z=227.265] for [RODroppedPickup]
+[1221.01] DevS
