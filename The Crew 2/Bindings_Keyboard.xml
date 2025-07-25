@@ -1,0 +1,314 @@
+<ActionConfig VERSION="2">
+	<ActionBinding Name="ShortcutBindingsChannel" State="ON">
+		<Action Name="BackOnTrack">
+			<Channel Device="KEYBOARD" Name="BACKSPACE" />
+		</Action>
+		<Action Name="FeedbackLogger" />
+		<Action Name="MainMenu">
+			<Channel Device="KEYBOARD" Name="ESCAPE" />
+		</Action>
+		<Action Name="GoogleMap">
+			<Channel Device="KEYBOARD" Name="," />
+		</Action>
+		<Action Name="Nitro">
+			<Channel Device="KEYBOARD" Name="LSHIFT" />
+		</Action>
+		<Action Name="LightCallHorn">
+			<Channel Device="KEYBOARD" Name="H" />
+		</Action>
+		<Action Name="EmotePanel">
+			<Channel Device="KEYBOARD" Name="R" />
+		</Action>
+		<Action Name="Minimap">
+			<Channel Device="KEYBOARD" Name="PREV" />
+		</Action>
+		<Action Name="LaunchPhotoMode">
+			<Channel Device="KEYBOARD" Name="P" />
+		</Action>
+		<Action Name="ToolMenu">
+			<Channel Device="KEYBOARD" Name="B" />
+		</Action>
+		<Action Name="PaintBallMissile" />
+		<Action Name="FastFav1">
+			<Channel Device="KEYBOARD" Name="D1" />
+		</Action>
+		<Action Name="FastFav2">
+			<Channel Device="KEYBOARD" Name="D2" />
+		</Action>
+		<Action Name="FastFav3">
+			<Channel Device="KEYBOARD" Name="D3" />
+		</Action>
+	</ActionBinding>
+	<ActionBinding Name="WheelBindings" State="ON">
+		<Action Name="Clutch" />
+		<Action Name="GearReverse" />
+		<Action Name="Gear1" />
+		<Action Name="Gear2" />
+		<Action Name="Gear3" />
+		<Action Name="Gear4" />
+		<Action Name="Gear5" />
+		<Action Name="Gear6" />
+		<Action Name="Gear7" />
+	</ActionBinding>
+	<ActionBinding Name="CameraBindings" State="ON">
+		<Action Name="NextCam">
+			<Channel Device="KEYBOARD" Name="C" />
+		</Action>
+		<Action Name="OneShotLookL" DeadZone="19.9999981" />
+		<Action Name="OneShotLookR" DeadZone="19.9999981" />
+		<Action Name="LookLeft" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="Q" />
+		</Action>
+		<Action Name="LookRight" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="D" />
+		</Action>
+		<Action Name="LookUp" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="Z" />
+		</Action>
+		<Action Name="LookDown" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="S" />
+		</Action>
+		<Action Name="LookBehind" DeadZone="19.9999981" />
+		<Action Name="CameraTrackIRLR" />
+		<Action Name="CameraTrackIRUD" />
+	</ActionBinding>
+	<ActionBinding Name="DrivingBindings" State="ON">
+		<Action Name="RoadThrottle">
+			<Channel Device="KEYBOARD" Name="UP" />
+		</Action>
+		<Action Name="RoadBrake">
+			<Channel Device="KEYBOARD" Name="DOWN" />
+		</Action>
+		<Action Name="RoadSteerLeft">
+			<Channel Device="KEYBOARD" Name="LEFT" />
+		</Action>
+		<Action Name="RoadSteerRight">
+			<Channel Device="KEYBOARD" Name="RIGHT" />
+		</Action>
+		<Action Name="RoadLeanForward" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="RSHIFT" />
+		</Action>
+		<Action Name="RoadLeanBackward" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="RCTRL" />
+		</Action>
+		<Action Name="RoadHandBrake">
+			<Channel Device="KEYBOARD" Name="SPACE" />
+		</Action>
+		<Action Name="RoadGearUp">
+			<Channel Device="KEYBOARD" Name="E" />
+		</Action>
+		<Action Name="RoadGearDown">
+			<Channel Device="KEYBOARD" Name="A" />
+		</Action>
+		<Action Name="BoatThrottle">
+			<Channel Device="KEYBOARD" Name="UP" />
+		</Action>
+		<Action Name="BoatBrake">
+			<Channel Device="KEYBOARD" Name="DOWN" />
+		</Action>
+		<Action Name="BoatSteerLeft">
+			<Channel Device="KEYBOARD" Name="LEFT" />
+		</Action>
+		<Action Name="BoatSteerRight">
+			<Channel Device="KEYBOARD" Name="RIGHT" />
+		</Action>
+		<Action Name="BoatLeanForward" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="RSHIFT" />
+		</Action>
+		<Action Name="BoatLeanBackward" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="RCTRL" />
+		</Action>
+		<Action Name="AirplaneThrottle">
+			<Channel Device="KEYBOARD" Name="UP" />
+		</Action>
+		<Action Name="AirplaneBrake">
+			<Channel Device="KEYBOARD" Name="DOWN" />
+		</Action>
+		<Action Name="AirplaneSteerLeft">
+			<Channel Device="KEYBOARD" Name="LEFT" />
+		</Action>
+		<Action Name="AirplaneSteerRight">
+			<Channel Device="KEYBOARD" Name="RIGHT" />
+		</Action>
+		<Action Name="AirplaneLeanForward" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="RSHIFT" />
+		</Action>
+		<Action Name="AirplaneLeanBackward" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="RCTRL" />
+		</Action>
+		<Action Name="AirplaneYawLeft" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="A" />
+		</Action>
+		<Action Name="AirplaneYawRight" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="E" />
+		</Action>
+		<Action Name="AirplaneAero">
+			<Channel Device="KEYBOARD" Name="SPACE" />
+		</Action>
+		<Action Name="AirplaneToggleSmoke">
+			<Channel Device="KEYBOARD" Name="W" />
+		</Action>
+		<Action Name="AirplaneToggleLandingGear">
+			<Channel Device="KEYBOARD" Name="X" />
+		</Action>
+	</ActionBinding>
+	<ActionBinding Name="FPSBindings" State="ON">
+		<Action Name="FpsLookLeft" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="LEFT" />
+		</Action>
+		<Action Name="FpsLookRight" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="RIGHT" />
+		</Action>
+		<Action Name="FpsLookUp" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="UP" />
+		</Action>
+		<Action Name="FpsLookDown" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="DOWN" />
+		</Action>
+		<Action Name="FpsMoveLeft" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="Q" />
+		</Action>
+		<Action Name="FpsMoveRight" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="D" />
+		</Action>
+		<Action Name="FpsMoveForward" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="Z" />
+		</Action>
+		<Action Name="FpsMoveBackward" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="S" />
+		</Action>
+		<Action Name="FpsLeanLeft" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="A" />
+		</Action>
+		<Action Name="FpsLeanRight" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="E" />
+		</Action>
+		<Action Name="FpsAccelerate">
+			<Channel Device="KEYBOARD" Name="LSHIFT" />
+		</Action>
+		<Action Name="FpsModeToggle">
+			<Channel Device="KEYBOARD" Name="RCTRL" />
+		</Action>
+		<Action Name="FpsCameraZoomIn" DeadZone="19.9999981" />
+		<Action Name="FpsCameraZoomOut" DeadZone="19.9999981" />
+		<Action Name="FpsLeave" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="BACKSPACE" />
+		</Action>
+		<Action Name="FpsReset">
+			<Channel Device="KEYBOARD" Name="SPACE" />
+		</Action>
+	</ActionBinding>
+	<ActionBinding Name="HudBindings" State="ON">
+		<Action Name="A">
+			<Operator Type="OR" />
+			<Channel Device="KEYBOARD" Name="RETURN" />
+			<Channel Device="KEYBOARD" Name="NUM_RETURN" />
+		</Action>
+		<Action Name="B">
+			<Channel Device="KEYBOARD" Name="ESCAPE" />
+		</Action>
+		<Action Name="X">
+			<Channel Device="KEYBOARD" Name="B" />
+		</Action>
+		<Action Name="Y">
+			<Channel Device="KEYBOARD" Name="N" />
+		</Action>
+		<Action Name="LB">
+			<Channel Device="KEYBOARD" Name="^" />
+		</Action>
+		<Action Name="RB">
+			<Channel Device="KEYBOARD" Name="$" />
+		</Action>
+		<Action Name="START">
+			<Channel Device="KEYBOARD" Name="F10" />
+		</Action>
+		<Action Name="LPAD_CLIK">
+			<Channel Device="KEYBOARD" Name="TAB" />
+		</Action>
+		<Action Name="LPAD_LEFT" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="Q" />
+		</Action>
+		<Action Name="LPAD_RIGHT" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="D" />
+		</Action>
+		<Action Name="LPAD_UP" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="Z" />
+		</Action>
+		<Action Name="LPAD_DOWN" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="S" />
+		</Action>
+		<Action Name="RPAD_CLIK">
+			<Channel Device="KEYBOARD" Name="F" />
+		</Action>
+		<Action Name="RPAD_LEFT" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="LEFT" />
+		</Action>
+		<Action Name="RPAD_RIGHT" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="RIGHT" />
+		</Action>
+		<Action Name="RPAD_UP" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="UP" />
+		</Action>
+		<Action Name="RPAD_DOWN" DeadZone="19.9999981">
+			<Channel Device="KEYBOARD" Name="DOWN" />
+		</Action>
+		<Action Name="DPAD_LEFT">
+			<Channel Device="KEYBOARD" Name="NUM4" />
+		</Action>
+		<Action Name="DPAD_RIGHT">
+			<Channel Device="KEYBOARD" Name="NUM6" />
+		</Action>
+		<Action Name="DPAD_UP">
+			<Channel Device="KEYBOARD" Name="NUM8" />
+		</Action>
+		<Action Name="DPAD_DOWN">
+			<Channel Device="KEYBOARD" Name="NUM2" />
+		</Action>
+		<Action Name="RT">
+			<Channel Device="KEYBOARD" Name="RSHIFT" />
+		</Action>
+		<Action Name="LT">
+			<Channel Device="KEYBOARD" Name="RCTRL" />
+		</Action>
+		<Action Name="SELECT">
+			<Channel Device="KEYBOARD" Name="F9" />
+		</Action>
+		<Action Name="PLAY" />
+		<Action Name="PAUSE" />
+		<Action Name="PS4_SHARE" />
+		<Action Name="PCQuitGame">
+			<Channel Device="KEYBOARD" Name="A" />
+		</Action>
+	</ActionBinding>
+	<ActionBinding Name="TextChatBindings" State="ON">
+		<Action Name="SwitchChatState">
+			<Channel Device="KEYBOARD" Name="F3" />
+		</Action>
+		<Action Name="OpenInput">
+			<Channel Device="KEYBOARD" Name="T" />
+		</Action>
+		<Action Name="ShowFilterFriend">
+			<Channel Device="KEYBOARD" Name="F7" />
+		</Action>
+		<Action Name="ShowFilterCrew">
+			<Channel Device="KEYBOARD" Name="F6" />
+		</Action>
+		<Action Name="ShowFilterSession">
+			<Channel Device="KEYBOARD" Name="F5" />
+		</Action>
+		<Action Name="PrevFilter">
+			<Channel Device="KEYBOARD" Name="F4" />
+		</Action>
+		<Action Name="NextFilter">
+			<Channel Device="KEYBOARD" Name="F9" />
+		</Action>
+		<Action Name="SendMessage">
+			<Operator Type="OR" />
+			<Channel Device="KEYBOARD" Name="RETURN" />
+			<Channel Device="KEYBOARD" Name="NUM_RETURN" />
+		</Action>
+		<Action Name="Deactive">
+			<Channel Device="KEYBOARD" Name="ESCAPE" />
+		</Action>
+	</ActionBinding>
+</ActionConfig>

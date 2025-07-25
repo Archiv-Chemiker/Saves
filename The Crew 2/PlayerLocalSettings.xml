@@ -1,0 +1,52 @@
+<Config>
+	<ConfigSection name="Audio">
+		<ConfigValue name="CarSounds" value="0.200000003" />
+		<ConfigValue name="FXVolume" value="0.200000003" />
+		<ConfigValue name="GlobalVolume" value="0.600000024" />
+		<ConfigValue name="MusicVolume" value="0.300000012" />
+		<ConfigValue name="RadioVolume" value="0.300000012" />
+		<ConfigValue name="UIVolume" value="0.800000012" />
+		<ConfigValue name="VoicesVolume" value="0.5" />
+	</ConfigSection>
+	<ConfigSection name="Game">
+		<ConfigValue name="GameAvatarMandatoryGloves" value="1" />
+		<ConfigValue name="GameAvatarMandatoryHelmets" value="1" />
+		<ConfigValue name="HiddenRecommendation" value="1" />
+		<ConfigValue name="Recommendation" value="1" />
+		<ConfigValue name="TextChatCurrentFilterID" value="0" />
+		<ConfigValue name="TextChatMutedPlayerNames" value="" />
+		<ConfigValue name="TextChatWindowHeight" value="284" />
+		<ConfigValue name="TextChatWindowPosX" value="0" />
+		<ConfigValue name="TextChatWindowPosY" value="0" />
+		<ConfigValue name="TextChatWindowWidth" value="506" />
+	</ConfigSection>
+	<ConfigSection name="HQ_NPC">
+		<ConfigValue name="TalkElapsedSec" value="8762.79688" />
+	</ConfigSection>
+	<ConfigSection name="House">
+		<ConfigValue name="TVAudio" value="1" />
+	</ConfigSection>
+	<ConfigSection name="PhotoMode">
+		<ConfigValue name="Colorize" value="0" />
+		<ConfigValue name="ColorizeIndex" value="0" />
+		<ConfigValue name="ColorizeIntensity" value="1" />
+		<ConfigValue name="FilterBrightness" value="1" />
+		<ConfigValue name="FilterContrast" value="1" />
+		<ConfigValue name="FilterSaturation" value="1" />
+		<ConfigValue name="FrameOpacity" value="10" />
+		<ConfigValue name="FrameType" value="0" />
+		<ConfigValue name="LogoMode" value="2" />
+		<ConfigValue name="LogoPosition" value="1" />
+		<ConfigValue name="Noise" value="0" />
+		<ConfigValue name="NoiseIntensity" value="1" />
+		<ConfigValue name="Style" value="0" />
+		<ConfigValue name="StyleIntensity" value="1" />
+		<ConfigValue name="TagMode" value="0" />
+		<ConfigValue name="TagPositoin" value="0" />
+		<ConfigValue name="TagSize" value="0" />
+		<ConfigValue name="VignetteValue" value="0" />
+	</ConfigSection>
+	<ConfigSection name="Video">
+		<ConfigValue name="GammaRampNewWR" value="1" />
+	</ConfigSection>
+</Config>

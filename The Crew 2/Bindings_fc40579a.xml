@@ -1,0 +1,128 @@
+<ActionConfig VERSION="2">
+	<ActionBinding Name="ShortcutBindingsChannel" State="ON">
+		<Action Name="BackOnTrack" IsAnalog="0" />
+		<Action Name="FeedbackLogger" IsAnalog="0" />
+		<Action Name="MainMenu" IsAnalog="0" />
+		<Action Name="GoogleMap" IsAnalog="0" />
+		<Action Name="Nitro" IsAnalog="0" />
+		<Action Name="LightCallHorn" IsAnalog="0" />
+		<Action Name="EmotePanel" IsAnalog="0" />
+		<Action Name="Minimap" IsAnalog="0" />
+		<Action Name="LaunchPhotoMode" IsAnalog="0" />
+		<Action Name="ToolMenu" IsAnalog="0" />
+		<Action Name="PaintBallMissile" IsAnalog="0" />
+		<Action Name="FastFav1" IsAnalog="0" />
+		<Action Name="FastFav2" IsAnalog="0" />
+		<Action Name="FastFav3" IsAnalog="0" />
+	</ActionBinding>
+	<ActionBinding Name="WheelBindings" State="ON">
+		<Action Name="Clutch" IsAnalog="1" />
+		<Action Name="GearReverse" IsAnalog="0" />
+		<Action Name="Gear1" IsAnalog="0" />
+		<Action Name="Gear2" IsAnalog="0" />
+		<Action Name="Gear3" IsAnalog="0" />
+		<Action Name="Gear4" IsAnalog="0" />
+		<Action Name="Gear5" IsAnalog="0" />
+		<Action Name="Gear6" IsAnalog="0" />
+		<Action Name="Gear7" IsAnalog="0" />
+	</ActionBinding>
+	<ActionBinding Name="CameraBindings" State="ON">
+		<Action Name="NextCam" IsAnalog="0" />
+		<Action Name="OneShotLookL" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="OneShotLookR" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="LookLeft" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="LookRight" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="LookUp" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="LookDown" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="LookBehind" IsAnalog="0" DeadZone="19.9999981" />
+		<Action Name="CameraTrackIRLR" IsAnalog="1" />
+		<Action Name="CameraTrackIRUD" IsAnalog="1" />
+	</ActionBinding>
+	<ActionBinding Name="DrivingBindings" State="ON">
+		<Action Name="RoadThrottle" IsAnalog="1" />
+		<Action Name="RoadBrake" IsAnalog="1" />
+		<Action Name="RoadSteerLeft" IsAnalog="1" />
+		<Action Name="RoadSteerRight" IsAnalog="1" />
+		<Action Name="RoadLeanForward" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="RoadLeanBackward" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="RoadHandBrake" IsAnalog="1" />
+		<Action Name="RoadGearUp" IsAnalog="0" />
+		<Action Name="RoadGearDown" IsAnalog="0" />
+		<Action Name="BoatThrottle" IsAnalog="1" />
+		<Action Name="BoatBrake" IsAnalog="1" />
+		<Action Name="BoatSteerLeft" IsAnalog="1" />
+		<Action Name="BoatSteerRight" IsAnalog="1" />
+		<Action Name="BoatLeanForward" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="BoatLeanBackward" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="AirplaneThrottle" IsAnalog="1" />
+		<Action Name="AirplaneBrake" IsAnalog="1" />
+		<Action Name="AirplaneSteerLeft" IsAnalog="1" />
+		<Action Name="AirplaneSteerRight" IsAnalog="1" />
+		<Action Name="AirplaneLeanForward" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="AirplaneLeanBackward" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="AirplaneYawLeft" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="AirplaneYawRight" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="AirplaneAero" IsAnalog="1" />
+		<Action Name="AirplaneToggleSmoke" IsAnalog="0" />
+		<Action Name="AirplaneToggleLandingGear" IsAnalog="0" />
+	</ActionBinding>
+	<ActionBinding Name="FPSBindings" State="ON">
+		<Action Name="FpsLookLeft" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsLookRight" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsLookUp" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsLookDown" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsMoveLeft" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsMoveRight" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsMoveForward" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsMoveBackward" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsLeanLeft" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsLeanRight" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsAccelerate" IsAnalog="1" />
+		<Action Name="FpsModeToggle" IsAnalog="1" />
+		<Action Name="FpsCameraZoomIn" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsCameraZoomOut" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="FpsLeave" IsAnalog="0" DeadZone="19.9999981" />
+		<Action Name="FpsReset" IsAnalog="0" />
+	</ActionBinding>
+	<ActionBinding Name="HudBindings" State="ON">
+		<Action Name="A" IsAnalog="0" />
+		<Action Name="B" IsAnalog="0" />
+		<Action Name="X" IsAnalog="0" />
+		<Action Name="Y" IsAnalog="0" />
+		<Action Name="LB" IsAnalog="0" />
+		<Action Name="RB" IsAnalog="0" />
+		<Action Name="START" IsAnalog="0" />
+		<Action Name="LPAD_CLIK" IsAnalog="0" />
+		<Action Name="LPAD_LEFT" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="LPAD_RIGHT" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="LPAD_UP" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="LPAD_DOWN" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="RPAD_CLIK" IsAnalog="0" />
+		<Action Name="RPAD_LEFT" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="RPAD_RIGHT" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="RPAD_UP" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="RPAD_DOWN" IsAnalog="1" DeadZone="19.9999981" />
+		<Action Name="DPAD_LEFT" IsAnalog="0" />
+		<Action Name="DPAD_RIGHT" IsAnalog="0" />
+		<Action Name="DPAD_UP" IsAnalog="0" />
+		<Action Name="DPAD_DOWN" IsAnalog="0" />
+		<Action Name="RT" IsAnalog="1" />
+		<Action Name="LT" IsAnalog="1" />
+		<Action Name="SELECT" IsAnalog="0" />
+		<Action Name="PLAY" IsAnalog="0" />
+		<Action Name="PAUSE" IsAnalog="0" />
+		<Action Name="PS4_SHARE" IsAnalog="0" />
+		<Action Name="PCQuitGame" IsAnalog="0" />
+	</ActionBinding>
+	<ActionBinding Name="TextChatBindings" State="ON">
+		<Action Name="SwitchChatState" IsAnalog="0" />
+		<Action Name="OpenInput" IsAnalog="0" />
+		<Action Name="ShowFilterFriend" IsAnalog="0" />
+		<Action Name="ShowFilterCrew" IsAnalog="0" />
+		<Action Name="ShowFilterSession" IsAnalog="0" />
+		<Action Name="PrevFilter" IsAnalog="0" />
+		<Action Name="NextFilter" IsAnalog="0" />
+		<Action Name="SendMessage" IsAnalog="0" />
+		<Action Name="Deactive" IsAnalog="0" />
+	</ActionBinding>
+</ActionConfig>
