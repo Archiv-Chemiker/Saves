@@ -1,0 +1,41 @@
+"bonus_map_saved_data"
+{
+	"bonusfiles"
+	{
+		"scripts/challenges/challenges.bns"
+		{
+			"#Bonus_Map_TC13Challenges"
+			{
+				"lock"		"0"
+				"#Bonus_Map_ChallengeTime"		"280"
+			}
+			"#Bonus_Map_TC14Challenges"
+			{
+				"lock"		"0"
+			}
+			"#Bonus_Map_TC15Challenges"
+			{
+				"lock"		"0"
+			}
+			"#Bonus_Map_TC16Challenges"
+			{
+				"lock"		"0"
+			}
+			"#Bonus_Map_TC17Challenges"
+			{
+				"lock"		"0"
+			}
+			"#Bonus_Map_TC18Challenges"
+			{
+				"lock"		"0"
+			}
+		}
+		"scripts/advanced_chambers"
+		{
+			"#Bonus_Map_AdvancedChambers"
+			{
+				"lock"		"0"
+			}
+		}
+	}
+}
