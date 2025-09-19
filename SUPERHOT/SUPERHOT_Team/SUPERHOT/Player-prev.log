@@ -1,0 +1,946 @@
+Mono path[0] = 'W:/SteamLibrary/steamapps/common/SUPERHOT/SH_Data/Managed'
+Mono config path = 'W:/SteamLibrary/steamapps/common/SUPERHOT/MonoBleedingEdge/etc'
+The command-line parameter 'adapter' has been removed. Please use 'monitor' instead.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path W:/SteamLibrary/steamapps/common/SUPERHOT/SH_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti SUPER (ID=0x2705)
+    Vendor:   
+    VRAM:     16063 MB
+    Driver:   32.0.15.7216
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.098 seconds
+OnLevelWasLoaded was found on LevelSetup
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.851700 ms
+Backup creation result: Successful
+Shader warmup: 8 shaders 54 combinations 0.004s
+https://api.killterest.com/api/Uploader/getUser/COMPUTER-TeMeR2009e11f5858131c765728d7a9aa9ead395496d8
+Starting WebRequest for acquiring KillstagramId
+Achievement System initialization result: OK, User stats init result: OK
+WebRequest resolved
+The referenced script (SHRLDebugWindow) on this Behaviour is missing!
+The referenced script (DebugWindowDisplay) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'BaseSystems(Clone)') is missing!
+The referenced script on this Behaviour (Game Object 'BaseSystems(Clone)') is missing!
+The referenced script on this Behaviour (Game Object 'prober') is missing!
+The referenced script on this Behaviour (Game Object 'AchivManager') is missing!
+The referenced script on this Behaviour (Game Object 'AchivManager') is missing!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Acquired Killstagram ID HardCoordinatedBisqueMosquito with claim token a7c2b5da-8356-427f-af53-526645ebb33f
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 50dc -> priority: 1 
+  Thread -> id: 464c -> priority: 1 
+  Thread -> id: 983c -> priority: 1 
+  Thread -> id: 3ccc -> priority: 1 
+  Thread -> id: 14c -> priority: 1 
+  Thread -> id: 777c -> priority: 1 
+  Thread -> id: 8140 -> priority: 1 
+  Thread -> id: 5ff0 -> priority: 1 
+UnloadTime: 0.208300 ms
+Shader warmup: 59 shaders 318 combinations 0.018s
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3951.
+Total: 4.416200 ms (FindLiveObjects: 0.133500 ms CreateObjectMapping: 0.186400 ms MarkObjects: 3.463400 ms  DeleteObjects: 0.632500 ms)
+
+Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for W:/SteamLibrary/steamapps/common/SUPERHOT/SH_Data/resources.resource
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.671300 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 20449.
+Total: 9.430300 ms (FindLiveObjects: 0.622300 ms CreateObjectMapping: 0.413800 ms MarkObjects: 8.350900 ms  DeleteObjects: 0.042900 ms)
+
+Shader warmup: 94 shaders 1343 combinations 0.075s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.692800 ms
+
+Unloading 216 unused Assets to reduce memory usage. Loaded Objects now: 14600.
+Total: 10.795900 ms (FindLiveObjects: 0.500000 ms CreateObjectMapping: 0.539800 ms MarkObjects: 9.543800 ms  DeleteObjects: 0.211900 ms)
+
+Shader warmup: 98 shaders 1386 combinations 0.006s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.323300 ms
+
+Unloading 280 unused Assets to reduce memory usage. Loaded Objects now: 16052.
+Total: 6.985300 ms (FindLiveObjects: 0.356600 ms CreateObjectMapping: 0.231200 ms MarkObjects: 6.122000 ms  DeleteObjects: 0.275100 ms)
+
+Shader warmup: 98 shaders 1386 combinations 0.002s
+Couldn't create a Convex Mesh from source mesh "Cube" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.569600 ms
+
+Unloading 189 unused Assets to reduce memory usage. Loaded Objects now: 19595.
+Total: 7.326900 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.165900 ms MarkObjects: 6.446000 ms  DeleteObjects: 0.312800 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.004s
+old audio! plase remove the atmSoundFader.cs script and attach the audio to the ambience mixer
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.901100 ms
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 19656.
+Total: 14.376000 ms (FindLiveObjects: 0.531100 ms CreateObjectMapping: 0.252200 ms MarkObjects: 13.337200 ms  DeleteObjects: 0.255100 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+old audio! plase remove the atmSoundFader.cs script and attach the audio to the ambience mixer
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.714100 ms
+
+Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 19694.
+Total: 9.217200 ms (FindLiveObjects: 0.385100 ms CreateObjectMapping: 0.157100 ms MarkObjects: 8.493400 ms  DeleteObjects: 0.181200 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+old audio! plase remove the atmSoundFader.cs script and attach the audio to the ambience mixer
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.722500 ms
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 19733.
+Total: 9.237800 ms (FindLiveObjects: 0.499700 ms CreateObjectMapping: 0.249400 ms MarkObjects: 8.334900 ms  DeleteObjects: 0.153600 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+old audio! plase remove the atmSoundFader.cs script and attach the audio to the ambience mixer
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.992700 ms
+
+Unloading 116 unused Assets to reduce memory usage. Loaded Objects now: 19800.
+Total: 8.327200 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.162800 ms MarkObjects: 7.589100 ms  DeleteObjects: 0.166300 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+old audio! plase remove the atmSoundFader.cs script and attach the audio to the ambience mixer
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.041600 ms
+
+Unloading 367 unused Assets to reduce memory usage. Loaded Objects now: 17772.
+Total: 7.080700 ms (FindLiveObjects: 0.430800 ms CreateObjectMapping: 0.179000 ms MarkObjects: 6.088800 ms  DeleteObjects: 0.381700 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.928300 ms
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 17818.
+Total: 8.851900 ms (FindLiveObjects: 0.397600 ms CreateObjectMapping: 0.158500 ms MarkObjects: 8.073200 ms  DeleteObjects: 0.222000 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.003s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.761300 ms
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 17950.
+Total: 10.631900 ms (FindLiveObjects: 0.379700 ms CreateObjectMapping: 0.151900 ms MarkObjects: 9.947900 ms  DeleteObjects: 0.151800 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.180800 ms
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 18068.
+Total: 11.282600 ms (FindLiveObjects: 0.382300 ms CreateObjectMapping: 0.150400 ms MarkObjects: 10.558700 ms  DeleteObjects: 0.190900 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.003s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.416300 ms
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 18103.
+Total: 8.372400 ms (FindLiveObjects: 0.381700 ms CreateObjectMapping: 0.151800 ms MarkObjects: 7.705600 ms  DeleteObjects: 0.133000 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.126700 ms
+
+Unloading 628 unused Assets to reduce memory usage. Loaded Objects now: 8934.
+Total: 8.270100 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.129700 ms MarkObjects: 6.613900 ms  DeleteObjects: 1.292100 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.003s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.530400 ms
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 15308.
+Total: 6.256200 ms (FindLiveObjects: 0.373900 ms CreateObjectMapping: 0.175300 ms MarkObjects: 5.661700 ms  DeleteObjects: 0.044800 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+car started
+car stopped
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.991600 ms
+
+Unloading 225 unused Assets to reduce memory usage. Loaded Objects now: 15357.
+Total: 11.536900 ms (FindLiveObjects: 0.669100 ms CreateObjectMapping: 0.310300 ms MarkObjects: 10.096800 ms  DeleteObjects: 0.460100 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.003s
+car started
+The referenced script (SHRLDebugWindow) on this Behaviour is missing!
+The referenced script (DebugWindowDisplay) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'BaseSystems(Clone)') is missing!
+The referenced script on this Behaviour (Game Object 'BaseSystems(Clone)') is missing!
+The referenced script on this Behaviour (Game Object 'prober') is missing!
+The referenced script on this Behaviour (Game Object 'AchivManager') is missing!
+The referenced script on this Behaviour (Game Object 'AchivManager') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.404100 ms
+
+Unloading 1892 unused Assets to reduce memory usage. Loaded Objects now: 7826.
+Total: 5.949900 ms (FindLiveObjects: 0.222200 ms CreateObjectMapping: 0.130000 ms MarkObjects: 4.070300 ms  DeleteObjects: 1.527100 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.312200 ms
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 15412.
+Total: 6.417800 ms (FindLiveObjects: 0.409900 ms CreateObjectMapping: 0.155600 ms MarkObjects: 5.812600 ms  DeleteObjects: 0.039300 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+car started
+car stopped
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.856500 ms
+
+Unloading 224 unused Assets to reduce memory usage. Loaded Objects now: 15456.
+Total: 8.074200 ms (FindLiveObjects: 0.389700 ms CreateObjectMapping: 0.155300 ms MarkObjects: 7.256300 ms  DeleteObjects: 0.272200 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+car started
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.640000 ms
+
+Unloading 223 unused Assets to reduce memory usage. Loaded Objects now: 15492.
+Total: 7.391500 ms (FindLiveObjects: 0.413600 ms CreateObjectMapping: 0.167900 ms MarkObjects: 6.537300 ms  DeleteObjects: 0.272300 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+car started
+car stopped
+The referenced script on this Behaviour (Game Object 'chair') is missing!
+The referenced script on this Behaviour (Game Object 'chair') is missing!
+The referenced script on this Behaviour (Game Object 'bottleThrown') is missing!
+The referenced script on this Behaviour (Game Object 'bottleThrown') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.785400 ms
+
+Unloading 629 unused Assets to reduce memory usage. Loaded Objects now: 32321.
+Total: 14.287100 ms (FindLiveObjects: 0.974500 ms CreateObjectMapping: 0.393000 ms MarkObjects: 12.457400 ms  DeleteObjects: 0.462000 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'chair') is missing!
+The referenced script on this Behaviour (Game Object 'chair') is missing!
+The referenced script on this Behaviour (Game Object 'bottleThrown') is missing!
+The referenced script on this Behaviour (Game Object 'bottleThrown') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.559600 ms
+
+Unloading 175 unused Assets to reduce memory usage. Loaded Objects now: 32372.
+Total: 13.686300 ms (FindLiveObjects: 0.781900 ms CreateObjectMapping: 0.269800 ms MarkObjects: 12.368400 ms  DeleteObjects: 0.265400 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.034900 ms
+
+Unloading 540 unused Assets to reduce memory usage. Loaded Objects now: 15753.
+Total: 7.558100 ms (FindLiveObjects: 0.395900 ms CreateObjectMapping: 0.208800 ms MarkObjects: 6.206500 ms  DeleteObjects: 0.746400 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.757700 ms
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 15808.
+Total: 11.595100 ms (FindLiveObjects: 0.393800 ms CreateObjectMapping: 0.193900 ms MarkObjects: 10.913700 ms  DeleteObjects: 0.093400 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.680600 ms
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 15842.
+Total: 9.390000 ms (FindLiveObjects: 0.407700 ms CreateObjectMapping: 0.152900 ms MarkObjects: 8.725400 ms  DeleteObjects: 0.103600 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.852800 ms
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 15886.
+Total: 9.958600 ms (FindLiveObjects: 0.409200 ms CreateObjectMapping: 0.171400 ms MarkObjects: 9.211000 ms  DeleteObjects: 0.166300 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.500700 ms
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 15920.
+Total: 8.977900 ms (FindLiveObjects: 0.600400 ms CreateObjectMapping: 0.166300 ms MarkObjects: 8.091900 ms  DeleteObjects: 0.119000 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.385700 ms
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 15957.
+Total: 8.224900 ms (FindLiveObjects: 0.544300 ms CreateObjectMapping: 0.226700 ms MarkObjects: 7.351400 ms  DeleteObjects: 0.102200 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.433700 ms
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 15994.
+Total: 9.038400 ms (FindLiveObjects: 0.406300 ms CreateObjectMapping: 0.199300 ms MarkObjects: 8.350900 ms  DeleteObjects: 0.081400 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.688100 ms
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 16032.
+Total: 8.938800 ms (FindLiveObjects: 0.431800 ms CreateObjectMapping: 0.162700 ms MarkObjects: 8.249200 ms  DeleteObjects: 0.094800 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.219400 ms
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 16074.
+Total: 16.176800 ms (FindLiveObjects: 0.472900 ms CreateObjectMapping: 0.157200 ms MarkObjects: 15.167600 ms  DeleteObjects: 0.378700 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.052700 ms
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 16109.
+Total: 9.633300 ms (FindLiveObjects: 0.429500 ms CreateObjectMapping: 0.246000 ms MarkObjects: 8.855100 ms  DeleteObjects: 0.102300 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.576100 ms
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 16146.
+Total: 9.686900 ms (FindLiveObjects: 0.454800 ms CreateObjectMapping: 0.168600 ms MarkObjects: 8.907800 ms  DeleteObjects: 0.155300 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.003s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.886200 ms
+
+Unloading 428 unused Assets to reduce memory usage. Loaded Objects now: 30316.
+Total: 12.219100 ms (FindLiveObjects: 0.998400 ms CreateObjectMapping: 0.566300 ms MarkObjects: 10.144100 ms  DeleteObjects: 0.509500 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.003s
+Trying to update IK solver before initiating it. If you intended to disable the IK component to manage it's updating, use ik.Disable() instead of ik.enabled = false, the latter does not guarantee solver initiation.
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/Throwable Tomek Womens Shoe Prefab (1)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/Throwable Tomek Womens Shoe Prefab"
+Kinematic body only supports Speculative Continuous collision detection
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.738600 ms
+
+Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 30381.
+Total: 14.690300 ms (FindLiveObjects: 0.897700 ms CreateObjectMapping: 0.392000 ms MarkObjects: 13.272100 ms  DeleteObjects: 0.128300 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/Throwable Tomek Womens Shoe Prefab (1)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/Throwable Tomek Womens Shoe Prefab"
+Kinematic body only supports Speculative Continuous collision detection
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.424400 ms
+
+Unloading 132 unused Assets to reduce memory usage. Loaded Objects now: 30431.
+Total: 19.628000 ms (FindLiveObjects: 0.675600 ms CreateObjectMapping: 0.241700 ms MarkObjects: 18.432600 ms  DeleteObjects: 0.277600 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/Throwable Tomek Womens Shoe Prefab (1)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/Throwable Tomek Womens Shoe Prefab"
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.008300 ms
+
+Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 30466.
+Total: 12.229800 ms (FindLiveObjects: 1.019200 ms CreateObjectMapping: 0.372800 ms MarkObjects: 10.723500 ms  DeleteObjects: 0.114100 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/Throwable Tomek Womens Shoe Prefab (1)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/Throwable Tomek Womens Shoe Prefab"
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.700900 ms
+
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 30505.
+Total: 12.601100 ms (FindLiveObjects: 1.038000 ms CreateObjectMapping: 0.484000 ms MarkObjects: 10.937700 ms  DeleteObjects: 0.141100 ms)
+
+Shader warmup: 100 shaders 1414 combinations 0.002s
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/Throwable Tomek Womens Shoe Prefab (1)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/Throwable Tomek Womens Shoe Prefab"
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.787200 ms
+
+Unloading 524 unused Assets to reduce memory usage. Loaded Objects now: 24262.
+Total: 9.628400 ms (FindLiveObjects: 0.788400 ms CreateObjectMapping: 0.323000 ms MarkObjects: 8.002000 ms  DeleteObjects: 0.514600 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.010s
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.551900 ms
+
+Unloading 119 unused Assets to reduce memory usage. Loaded Objects now: 24306.
+Total: 10.417200 ms (FindLiveObjects: 0.722600 ms CreateObjectMapping: 0.280800 ms MarkObjects: 9.206400 ms  DeleteObjects: 0.207000 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.020800 ms
+
+Unloading 197 unused Assets to reduce memory usage. Loaded Objects now: 24356.
+Total: 11.462000 ms (FindLiveObjects: 0.768500 ms CreateObjectMapping: 0.306800 ms MarkObjects: 10.152000 ms  DeleteObjects: 0.234300 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.003s
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.896000 ms
+
+Unloading 228 unused Assets to reduce memory usage. Loaded Objects now: 24407.
+Total: 13.885700 ms (FindLiveObjects: 0.615600 ms CreateObjectMapping: 0.231400 ms MarkObjects: 12.731700 ms  DeleteObjects: 0.306600 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.003s
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControlNormal') is missing!
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.600700 ms
+
+Unloading 229 unused Assets to reduce memory usage. Loaded Objects now: 24481.
+Total: 13.100000 ms (FindLiveObjects: 0.598300 ms CreateObjectMapping: 0.215500 ms MarkObjects: 11.990500 ms  DeleteObjects: 0.295100 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.003s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/KatanaPickup(Clone)/Offset/collider"
+Kinematic body only supports Speculative Continuous collision detection
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/KatanaPickup(Clone)/Offset/collider"
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/KatanaPickup(Clone)/Offset/collider"
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.863600 ms
+
+Unloading 609 unused Assets to reduce memory usage. Loaded Objects now: 16284.
+Total: 10.277600 ms (FindLiveObjects: 0.523000 ms CreateObjectMapping: 0.308500 ms MarkObjects: 8.115300 ms  DeleteObjects: 1.330300 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.003s
+car started
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.228600 ms
+
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 16322.
+Total: 7.643000 ms (FindLiveObjects: 0.465600 ms CreateObjectMapping: 0.213000 ms MarkObjects: 6.727500 ms  DeleteObjects: 0.236400 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+car started
+car stopped
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.596100 ms
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 16365.
+Total: 8.334500 ms (FindLiveObjects: 0.472600 ms CreateObjectMapping: 0.216000 ms MarkObjects: 7.506100 ms  DeleteObjects: 0.139300 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+car started
+car stopped
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.615100 ms
+
+Unloading 1671 unused Assets to reduce memory usage. Loaded Objects now: 9325.
+Total: 11.410400 ms (FindLiveObjects: 0.336200 ms CreateObjectMapping: 0.173400 ms MarkObjects: 8.731800 ms  DeleteObjects: 2.168700 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.402200 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 9352.
+Total: 6.142600 ms (FindLiveObjects: 0.324100 ms CreateObjectMapping: 0.138700 ms MarkObjects: 5.643600 ms  DeleteObjects: 0.035800 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.329500 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 26574.
+Total: 10.364200 ms (FindLiveObjects: 0.944300 ms CreateObjectMapping: 0.391900 ms MarkObjects: 8.978600 ms  DeleteObjects: 0.049000 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'Script') is missing!
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.130900 ms
+
+Unloading 165 unused Assets to reduce memory usage. Loaded Objects now: 26661.
+Total: 14.534900 ms (FindLiveObjects: 0.777100 ms CreateObjectMapping: 0.260200 ms MarkObjects: 13.195200 ms  DeleteObjects: 0.302100 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.003s
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.406400 ms
+
+Unloading 1162 unused Assets to reduce memory usage. Loaded Objects now: 10767.
+Total: 12.034400 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.229900 ms MarkObjects: 6.577100 ms  DeleteObjects: 4.821400 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.004s
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.321100 ms
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 20927.
+Total: 11.411500 ms (FindLiveObjects: 0.545500 ms CreateObjectMapping: 0.222500 ms MarkObjects: 10.600000 ms  DeleteObjects: 0.043200 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.930000 ms
+
+Unloading 847 unused Assets to reduce memory usage. Loaded Objects now: 24651.
+Total: 9.397100 ms (FindLiveObjects: 0.696400 ms CreateObjectMapping: 0.312100 ms MarkObjects: 7.849300 ms  DeleteObjects: 0.539100 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.515200 ms
+
+Unloading 86 unused Assets to reduce memory usage. Loaded Objects now: 24705.
+Total: 8.914500 ms (FindLiveObjects: 0.633800 ms CreateObjectMapping: 0.203100 ms MarkObjects: 7.874400 ms  DeleteObjects: 0.202900 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.977900 ms
+
+Unloading 803 unused Assets to reduce memory usage. Loaded Objects now: 22487.
+Total: 9.940300 ms (FindLiveObjects: 0.673500 ms CreateObjectMapping: 0.245300 ms MarkObjects: 8.131900 ms  DeleteObjects: 0.889200 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.918100 ms
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 22536.
+Total: 12.477700 ms (FindLiveObjects: 0.924600 ms CreateObjectMapping: 0.268900 ms MarkObjects: 11.183000 ms  DeleteObjects: 0.100800 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.359000 ms
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 22582.
+Total: 13.654600 ms (FindLiveObjects: 0.846000 ms CreateObjectMapping: 0.274900 ms MarkObjects: 12.432000 ms  DeleteObjects: 0.101500 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.455700 ms
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 22621.
+Total: 12.135900 ms (FindLiveObjects: 0.659800 ms CreateObjectMapping: 0.317400 ms MarkObjects: 11.062300 ms  DeleteObjects: 0.096100 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.404100 ms
+
+Unloading 215 unused Assets to reduce memory usage. Loaded Objects now: 21282.
+Total: 12.791600 ms (FindLiveObjects: 0.726500 ms CreateObjectMapping: 0.390600 ms MarkObjects: 10.754300 ms  DeleteObjects: 0.919500 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.127400 ms
+
+Unloading 1368 unused Assets to reduce memory usage. Loaded Objects now: 19081.
+Total: 10.517100 ms (FindLiveObjects: 0.614500 ms CreateObjectMapping: 0.263400 ms MarkObjects: 8.481900 ms  DeleteObjects: 1.157000 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.004s
+Kinematic body only supports Speculative Continuous collision detection
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/KatanaPickup(Clone)/Offset/collider"
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.516500 ms
+
+Unloading 352 unused Assets to reduce memory usage. Loaded Objects now: 19124.
+Total: 13.053700 ms (FindLiveObjects: 0.646000 ms CreateObjectMapping: 0.314500 ms MarkObjects: 11.843900 ms  DeleteObjects: 0.249000 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/KatanaPickup(Clone)/Offset/collider"
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.519400 ms
+
+Unloading 504 unused Assets to reduce memory usage. Loaded Objects now: 19713.
+Total: 11.182100 ms (FindLiveObjects: 1.016300 ms CreateObjectMapping: 0.324000 ms MarkObjects: 9.128500 ms  DeleteObjects: 0.712700 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.856700 ms
+
+Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 19759.
+Total: 9.778100 ms (FindLiveObjects: 0.642100 ms CreateObjectMapping: 0.242200 ms MarkObjects: 8.724500 ms  DeleteObjects: 0.168800 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.371600 ms
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 19796.
+Total: 9.532100 ms (FindLiveObjects: 0.572800 ms CreateObjectMapping: 0.210800 ms MarkObjects: 8.569600 ms  DeleteObjects: 0.178600 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.197600 ms
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 19835.
+Total: 9.559200 ms (FindLiveObjects: 0.710400 ms CreateObjectMapping: 0.253300 ms MarkObjects: 8.419200 ms  DeleteObjects: 0.175900 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.083200 ms
+
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 19873.
+Total: 8.299100 ms (FindLiveObjects: 0.559900 ms CreateObjectMapping: 0.179200 ms MarkObjects: 7.389100 ms  DeleteObjects: 0.170500 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.766300 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 19910.
+Total: 8.792600 ms (FindLiveObjects: 0.575100 ms CreateObjectMapping: 0.252800 ms MarkObjects: 7.687900 ms  DeleteObjects: 0.276500 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.027500 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 19949.
+Total: 9.302900 ms (FindLiveObjects: 0.655000 ms CreateObjectMapping: 0.237100 ms MarkObjects: 8.249700 ms  DeleteObjects: 0.160800 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.021000 ms
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 19987.
+Total: 11.045500 ms (FindLiveObjects: 0.608600 ms CreateObjectMapping: 0.202200 ms MarkObjects: 9.992500 ms  DeleteObjects: 0.241900 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.583200 ms
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 20024.
+Total: 11.110700 ms (FindLiveObjects: 0.599600 ms CreateObjectMapping: 0.246200 ms MarkObjects: 9.970000 ms  DeleteObjects: 0.294300 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.881400 ms
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 20061.
+Total: 10.893500 ms (FindLiveObjects: 0.713600 ms CreateObjectMapping: 0.244700 ms MarkObjects: 9.725000 ms  DeleteObjects: 0.210000 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.247800 ms
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 20098.
+Total: 10.623000 ms (FindLiveObjects: 0.685900 ms CreateObjectMapping: 0.359300 ms MarkObjects: 9.426400 ms  DeleteObjects: 0.151200 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.594200 ms
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 20137.
+Total: 11.522300 ms (FindLiveObjects: 0.672400 ms CreateObjectMapping: 0.275000 ms MarkObjects: 10.365500 ms  DeleteObjects: 0.209100 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.199800 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 20174.
+Total: 9.217500 ms (FindLiveObjects: 0.592300 ms CreateObjectMapping: 0.198100 ms MarkObjects: 8.256200 ms  DeleteObjects: 0.170500 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.454700 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 20215.
+Total: 10.951000 ms (FindLiveObjects: 0.645100 ms CreateObjectMapping: 0.355600 ms MarkObjects: 9.770300 ms  DeleteObjects: 0.179800 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.480300 ms
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 20254.
+Total: 10.246300 ms (FindLiveObjects: 0.637500 ms CreateObjectMapping: 0.226900 ms MarkObjects: 9.182600 ms  DeleteObjects: 0.198700 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.842600 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 22024.
+Total: 10.483300 ms (FindLiveObjects: 0.722100 ms CreateObjectMapping: 0.325500 ms MarkObjects: 8.329300 ms  DeleteObjects: 1.106000 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.026800 ms
+
+Unloading 2092 unused Assets to reduce memory usage. Loaded Objects now: 10809.
+Total: 9.070800 ms (FindLiveObjects: 0.559300 ms CreateObjectMapping: 0.214300 ms MarkObjects: 5.684500 ms  DeleteObjects: 2.612100 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Couldn't create a Convex Mesh from source mesh "Cylinder" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.367600 ms
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 20912.
+Total: 12.942900 ms (FindLiveObjects: 0.505400 ms CreateObjectMapping: 0.188000 ms MarkObjects: 12.189000 ms  DeleteObjects: 0.060200 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Kinematic body only supports Speculative Continuous collision detection
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/KatanaPickup(Clone)/Offset/collider"
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/KatanaPickup(Clone)/Offset/collider"
+Kinematic body only supports Speculative Continuous collision detection
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Omni/Folders/Pickups/KatanaPickup(Clone)/Offset/collider"
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+The referenced script on this Behaviour (Game Object 'LevelFlowControl') is missing!
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.032300 ms
+
+Unloading 761 unused Assets to reduce memory usage. Loaded Objects now: 24537.
+Total: 9.794700 ms (FindLiveObjects: 0.678500 ms CreateObjectMapping: 0.231600 ms MarkObjects: 8.279400 ms  DeleteObjects: 0.604800 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+Can not play a disabled audio source
+The referenced script on this Behaviour (Game Object 'SecurityCamera') is missing!
+The referenced script on this Behaviour (Game Object 'SecurityCamera') is missing!
+The referenced script on this Behaviour (Game Object 'EnemyBody') is missing!
+The referenced script on this Behaviour (Game Object 'Enemy') is missing!
+The referenced script on this Behaviour (Game Object 'Enemy') is missing!
+The referenced script on this Behaviour (Game Object 'Enemy') is missing!
+The referenced script on this Behaviour (Game Object 'Enemy') is missing!
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.758500 ms
+
+Unloading 1347 unused Assets to reduce memory usage. Loaded Objects now: 39795.
+Total: 12.793100 ms (FindLiveObjects: 1.363700 ms CreateObjectMapping: 0.547400 ms MarkObjects: 9.283300 ms  DeleteObjects: 1.598200 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.004s
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.243700 ms
+
+Unloading 654 unused Assets to reduce memory usage. Loaded Objects now: 12262.
+Total: 9.823700 ms (FindLiveObjects: 0.705600 ms CreateObjectMapping: 0.282700 ms MarkObjects: 6.867600 ms  DeleteObjects: 1.967500 ms)
+
+Shader warmup: 101 shaders 1493 combinations 0.002s
+QUITTING VIA APPinstantquit
+Curl error 42: Callback aborted
