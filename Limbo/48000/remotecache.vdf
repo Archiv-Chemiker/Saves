@@ -1,0 +1,17 @@
+"48000"
+{
+	"ChangeNumber"		"1"
+	"ostype"		"0"
+	"savegame.txt"
+	{
+		"root"		"0"
+		"size"		"112"
+		"localtime"		"1758384312"
+		"time"		"1758384312"
+		"remotetime"		"1758384312"
+		"sha"		"a5566f26c01d8aeec257ed7e3e0862e06d1b457c"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+}
