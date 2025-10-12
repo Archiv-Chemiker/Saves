@@ -1,0 +1,61 @@
+[0000.49] Log: Log file open, 07/22/25 01:36:06
+[0000.49] Log:  ... running in INSTALLED mode
+[0000.49] Init: Computer: COMPUTER
+[0000.49] Init: User: TeMeR
+[0000.49] Init: CPU Page size=4096, Processors=16
+[0000.49] Init: High frequency timer resolution =10.000000 MHz
+[0000.49] Init: Memory total: Physical=63.9GB Pagefile=71.9GB Virtual=4.0GB
+[0000.49] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.53] Init: WinSock: I am Computer (172.26.176.1:0)
+[0000.53] Init: Presizing for 90984 objects not considered by GC, pre-allocating 0 bytes.
+[0000.53] Init: Object subsystem initialized
+[0000.54] Init: Version: 6699
+[0000.54] Init: Epic Internal: 0
+[0000.54] Init: Compiled (32-bit): Apr 26 2011 11:41:54
+[0000.54] Init: Changelist: 95581
+[0000.54] Init: Command line:  -DEFENGINEINI=..\..\DFGame\Config\DefaultEngineGameSpy.ini
+[0000.54] Init: Base directory: S:\SteamLibrary\steamapps\common\Hunted\BINARIES\WIN32\
+[0000.54] Init: INXILE_CURRENTLANGUAGESET: INXILE_LANGUAGESET_EFS(2)
+[0003.23] Log: *** Dumping Known Language Extensions:
+[0003.23] Log: 	 0: INT
+[0003.23] Log: 	 1: FRA
+[0003.23] Log: 	 2: ESN
+[0003.23] Log: *** Determining the current language index...
+[0003.23] Warning: Warning, 	Found INT at index 0
+[0003.23] Log: 	Found language INT at index  0!
+[0003.46] Warning: Warning, Failed to load Outer for resource 'ReturnValue': Function OnlineSubsystemGameSpy.OnlineSubsystemGameSpy:GetPlayerNickname
+[0005.72] DevOnline: Codec Info: SamplesPerFrame (320), EncodedFrameSize (32), BitsPerSecond(12800)
+[0005.81] DevOnline: Found 3 capture devices:
+[0005.81] DevOnline: Found device (8:@>D>= (NVIDIA Broadcast)) of type capture
+[0005.81] DevOnline: Found device (8:@>D>= (Usb Audio Device)) of type capture
+[0005.81] DevOnline: Found device (8:@>D>= (Steam Streaming Microphone)) of type capture
+[0005.82] DevOnline: Using voice capture device (8:@>D>= (NVIDIA Broadcast))
+[0005.82] DevOnline: Found 7 playback devices:
+[0005.82] DevOnline: Found device (0CH=8:8 (24288 Excellence Red Stereo)) of type playback
+[0005.82] DevOnline: Found device (8=0<8:8 (Realtek(R) Audio)) of type playback
+[0005.82] DevOnline: Found device (Speakers (NVIDIA Broadcast)) of type playback
+[0005.82] DevOnline: Found device (8=0<8:8 (Steam Streaming Microphone)) of type playback
+[0005.82] DevOnline: Found device (8=0<8:8 (Steam Streaming Speakers)) of type playback
+[0005.82] DevOnline: Found device (Realtek HD Audio 2nd output (Realtek(R) Audio)) of type playback
+[0005.82] DevOnline: Found device (Realtek Digital Output (Realtek(R) Audio)) of type playback
+[0005.83] DevOnline: Using voice playback device (0CH=8:8 (24288 Excellence Red Stereo))
+[0005.84] DevOnline: VolumeThreshold is set to 0.200000
+[0005.84] DevOnline: Initializing GameSpy
+[0006.25] DevOnline: GameSpy availability check returned 0x00000001
+[0006.25] DevOnline: gpInitialize() returned 0x00000000
+[0006.25] DevOnline: sakeStartup() returned 0x00000000
+[0006.25] DevOnline: scInitialize() returned 0x00000000
+[0006.25] DevOnline: Initialization of GameSpy successful
+[0006.25] DevOnline: Signing into the local profile Player
+[0006.28] Warning: Warning, Failed to load 'Class DFGame.DataStoreDFFlat': Failed to find object 'Class DFGame.DataStoreDFFlat'
+[0006.28] Warning: Warning, Failed to find object 'Class DFGame.DataStoreDFFlat'
+[0006.28] Warning: Failed to load GlobalDataStoreClass 'DFGame.DataStoreDFFlat'
+[0006.29] Warning: Warning, Failed to load 'Class Engine.PlayerOwnerDataStore': Failed to find object 'Class Engine.PlayerOwnerDataStore'
+[0006.29] Warning: Warning, Failed to find object 'Class Engine.PlayerOwnerDataStore'
+[0006.29] Warning: Failed to load player data store class 'Engine.PlayerOwnerDataStore'
+[0006.29] Log: UinXileUGCManager::Init(PlayerControllerID=0)
+[0006.34] Log: LoadMap: MainMenu?Name=Player?team=255
+[0006.34] DevMemory: Virtual  memory allocation size: 295.61 MByte (309964800 Bytes)
+[0006.62] Log: Game class is 'DFMenuGame'
+[0006.64] Log: Creating Primary PhysX Scene.
+[0006.64] Log
