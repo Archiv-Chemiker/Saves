@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="821" ID_CLUSTER="9" LAYER="587" LOAD="false" NAME="page_diary_161" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="72217" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>witch_page1</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui witch_dairy_p1.png" VISIBLE="true">
+        <POSITION>498 366</POSITION>
+        <CONTEXT>
+            <PANEL ENABLE="true" ID="5" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>110 -243</POSITION>
+                <TRANSFORM>110 -243 0 0 0 0 0 0 0.08726388961076736 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="6" TEXT="" TEXT_ID="697" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-36 -19</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+            <PANEL ENABLE="true" ID="3" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>-293 -235</POSITION>
+                <TRANSFORM>-293 -235 0 0 0 0 0 0 0.08726388961076736 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="4" TEXT="" TEXT_ID="696" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-36 -17</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/pages_diary/page_diary_161</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

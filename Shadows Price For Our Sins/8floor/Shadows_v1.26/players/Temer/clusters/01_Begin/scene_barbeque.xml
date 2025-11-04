@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<SCENE ID="102" ID_CLUSTER="1" LAYER="100" LOAD="false" OPEN="false" NAME="scene_barbeque" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="94054" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="37">
+			<NAME>hog_p_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles star.png" frequency="2" gravity="-6.337 -51.612" maxCount="10" multiply="true" spreadAngle="1.74533" area="276.000000 61.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>8.000000</tangent>
+				<radial>31.000000</radial>
+				<startSize>42.000000</startSize>
+				<endSize>11.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>112b0097</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>715.000 446.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="94053" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="36">
+			<NAME>hog_p_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="15" gravity="231.820 -162.322" maxCount="145" multiply="true" spreadAngle="5.18363" area="230.000000 192.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>-311.000000</tangent>
+				<radial>5.000000</radial>
+				<startSize>3.000000</startSize>
+				<endSize>4.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>11ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>728.000 433.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="81570" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="35">
+			<NAME>area_object_81570</NAME>
+			<CENTER>580.000 320.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="81571" />
+		</OBJECT>
+		<OBJECT ID="34135" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="34">
+			<NAME>area_start_mg_donkey</NAME>
+			<CENTER>790.000 290.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_start_mg_donkey_34135_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="34136" />
+		</OBJECT>
+		<OBJECT ID="31198" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="33">
+			<NAME>area_goto_mg_donkey</NAME>
+			<CENTER>785.000 270.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_barbeque_area_goto_mg_donkey_31198_in()" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_goto_mg_donkey_31198_click()" OUTPUT_SCRIPT_ID="void scene_barbeque_area_goto_mg_donkey_31198_out()" />
+			<POINT_LIST ID="31197" />
+		</OBJECT>
+		<OBJECT ID="5169" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="32">
+			<NAME>area_goto_mg_pumpkin_and_skulls</NAME>
+			<CENTER>575.000 325.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_barbeque_area_goto_mg_pumpkin_and_skulls_5169_in()" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_goto_mg_pumpkin_and_skulls_5169_click()" OUTPUT_SCRIPT_ID="void scene_barbeque_area_goto_mg_pumpkin_and_skulls_5169_out()" />
+			<POINT_LIST ID="5168" />
+		</OBJECT>
+		<OBJECT ID="14473" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="31">
+			<NAME>area_fb_dog_lay</NAME>
+			<CENTER>523.000 111.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_fb_dog_lay_14473_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="14474" />
+		</OBJECT>
+		<OBJECT ID="14369" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="30">
+			<NAME>iskry</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles firespark.png" frequency="1" gravity="0.000 0.000" maxCount="110" multiply="true" spreadAngle="1.13446" area="126.000000 0.000000" start_after_loading="false">
+				<lifetime>1.000000</lifetime>
+				<velocity>0.000 -515.000</velocity>
+				<tangent>-221.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>1.000000</startSize>
+				<endSize>52.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ffff4e00</averColor>
+				<endColor>ff973b67</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>351.000 323.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="14368" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="29">
+			<NAME>plamy_barb</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles firepart.png" frequency="57" gravity="10.000 0.000" maxCount="110" multiply="true" spreadAngle="0.471239" area="92.000000 0.000000" start_after_loading="false">
+				<lifetime>0.600000</lifetime>
+				<velocity>-37.082 -114.127</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>62.000000</startSize>
+				<endSize>1.000000</endSize>
+				<startColor>11ffffff</startColor>
+				<averColor>77ffffff</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>352.000 322.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="14367" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="28">
+			<NAME>leaf_barb</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles leaf2.png" frequency="3" gravity="-0.733 13.981" maxCount="10" multiply="false" spreadAngle="1.8675" area="400.000000 19.000000" start_after_loading="true">
+				<lifetime>6.000000</lifetime>
+				<velocity>0.349 4.988</velocity>
+				<tangent>8.000000</tangent>
+				<radial>60.000000</radial>
+				<startSize>14.000000</startSize>
+				<endSize>31.000000</endSize>
+				<startColor>ff6798be</startColor>
+				<averColor>ffb2a184</averColor>
+				<endColor>2275b6</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>933.000 -1.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="14366" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="27">
+			<NAME>par</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles par.png" frequency="3" gravity="-19.081 -98.163" maxCount="15" multiply="true" spreadAngle="0.837758" area="138.000000 0.000000" start_after_loading="false">
+				<lifetime>3.000000</lifetime>
+				<velocity>10.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>186.000000</startSize>
+				<endSize>382.000000</endSize>
+				<startColor>ffcd21</startColor>
+				<averColor>ffc7a286</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>351.000 322.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="220620" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="26">
+			<NAME>area_lock_barbeque</NAME>
+			<CENTER>577.000 308.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_barbeque_area_lock_barbeque_220620_in()" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_lock_barbeque_220620_click()" OUTPUT_SCRIPT_ID="void scene_barbeque_area_lock_barbeque_220620_out()" />
+			<POINT_LIST ID="220619" />
+		</OBJECT>
+		<OBJECT ID="5187" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="25">
+			<NAME>area_lock_barbeque_1</NAME>
+			<CENTER>570.000 315.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_barbeque_area_lock_barbeque_1_5187_in()" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_lock_barbeque_1_5187_click()" OUTPUT_SCRIPT_ID="void scene_barbeque_area_lock_barbeque_1_5187_out()" />
+			<POINT_LIST ID="5186" />
+		</OBJECT>
+		<OBJECT ID="5165" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="24">
+			<NAME>area_goto_mg_clover</NAME>
+			<CENTER>570.000 310.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_barbeque_area_goto_mg_clover_5165_in()" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_goto_mg_clover_5165_click()" OUTPUT_SCRIPT_ID="void scene_barbeque_area_goto_mg_clover_5165_out()" />
+			<POINT_LIST ID="5164" />
+		</OBJECT>
+		<OBJECT ID="2977" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="23">
+			<NAME>area_cheet_10</NAME>
+			<CENTER>29.000 39.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_cheet_10_2977_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2978" />
+		</OBJECT>
+		<OBJECT ID="2844" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="22" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_donkey</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>682.000 122.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="31" QUALITY="">images/clusters/01_Begin/scene_barbeque ani_donkey_brake.png</TEXTURE>
+			<SIZE>244 356</SIZE>
+			<ANIM>1 0 0 0 8 5 40 11.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2225" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="21">
+			<NAME>area_goto_hog_donkey</NAME>
+			<CENTER>750.000 430.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_goto_hog_donkey_2225_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2224" />
+		</OBJECT>
+		<OBJECT ID="2133" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="20">
+			<NAME>area_goto_cu_tree</NAME>
+			<CENTER>935.000 300.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_goto_cu_tree_2133_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2132" />
+		</OBJECT>
+		<OBJECT ID="2009" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="19">
+			<NAME>area_cu_barbecue</NAME>
+			<CENTER>360.000 360.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_cu_barbecue_2009_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2008" />
+		</OBJECT>
+		<OBJECT ID="1534" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="18">
+			<NAME>area_goto_scene_vineyard</NAME>
+			<CENTER>575.000 315.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_goto_scene_vineyard_1534_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1533" />
+		</OBJECT>
+		<OBJECT ID="1423" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="17">
+			<NAME>area_goto_scene_porch</NAME>
+			<CENTER>510.000 725.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_goto_scene_porch_1423_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1422" />
+		</OBJECT>
+		<OBJECT ID="1419" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="16">
+			<NAME>area_goto_grate_drain</NAME>
+			<CENTER>140.000 590.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_goto_grate_drain_1419_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1418" />
+		</OBJECT>
+		<OBJECT ID="1396" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="15">
+			<NAME>area_goto_cu_top</NAME>
+			<CENTER>925.000 515.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_goto_cu_top_1396_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1395" />
+		</OBJECT>
+		<OBJECT ID="1385" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="14">
+			<NAME>area_goto_cu_cloth</NAME>
+			<CENTER>720.000 560.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_barbeque_area_goto_cu_cloth_1385_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1384" />
+		</OBJECT>
+		<OBJECT ID="1350" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="13" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>donkey_broken</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>802.000 245.000 0.000 98.000 123.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque donkey_broken.png</TEXTURE>
+			<SIZE>197 247</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1351" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>donkey_items</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>787.000 447.000 0.000 74.000 31.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque donkey_items.png</TEXTURE>
+			<SIZE>149 062</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1352" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>donkey</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>794.000 247.000 0.000 99.000 126.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque donkey.png</TEXTURE>
+			<SIZE>199 252</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1353" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>wire</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>904.000 299.000 0.000 16.000 10.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque wire.png</TEXTURE>
+			<SIZE>032 021</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1354" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>wire_cutted</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>909.000 312.000 0.000 20.000 20.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque wire_cutted.png</TEXTURE>
+			<SIZE>040 041</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1355" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>scythe</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>927.000 292.000 0.000 62.000 151.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque scythe.png</TEXTURE>
+			<SIZE>125 303</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1356" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>brbq_cap_pos1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>922.000 523.000 0.000 95.000 61.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque brbq_cap_pos1.png</TEXTURE>
+			<SIZE>190 122</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1357" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>brbq_cap_pos2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>935.000 497.000 0.000 85.000 55.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque brbq_cap_pos2.png</TEXTURE>
+			<SIZE>171 110</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1358" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>brbq_wire</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>316.000 214.000 0.000 179.000 157.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque brbq_wire.png</TEXTURE>
+			<SIZE>359 315</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1359" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gate_to_05_closed</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>576.000 313.000 0.000 108.000 103.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque gate_to_05_closed.png</TEXTURE>
+			<SIZE>216 206</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1360" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gate_to_05_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>579.000 309.000 0.000 109.000 109.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque gate_to_05_open.png</TEXTURE>
+			<SIZE>218 218</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1361" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>phone_light</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>136.000 526.000 0.000 69.000 77.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque phone_light.png</TEXTURE>
+			<SIZE>138 154</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1362" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bgnd_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque bgnd_1.jpg</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="1384" NAME="point_list_1384" TYPE="600">
+			<POINT>593.000 493.000</POINT>
+			<POINT>801.000 514.000</POINT>
+			<POINT>925.000 616.000</POINT>
+			<POINT>833.000 646.000</POINT>
+			<POINT>714.000 631.000</POINT>
+			<POINT>586.000 596.000</POINT>
+			<POINT>504.000 550.000</POINT>
+			<POINT>581.000 538.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1395" NAME="point_list_1395" TYPE="600">
+			<POINT>863.000 477.000</POINT>
+			<POINT>911.000 457.000</POINT>
+			<POINT>967.000 458.000</POINT>
+			<POINT>1012.000 491.000</POINT>
+			<POINT>1009.000 564.000</POINT>
+			<POINT>890.000 575.000</POINT>
+			<POINT>816.000 513.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1418" NAME="point_list_1418" TYPE="600">
+			<POINT>101.000 545.000</POINT>
+			<POINT>189.000 553.000</POINT>
+			<POINT>177.000 640.000</POINT>
+			<POINT>71.000 633.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1422" NAME="point_list_1422" TYPE="600">
+			<POINT>198.000 700.000</POINT>
+			<POINT>266.000 650.000</POINT>
+			<POINT>551.000 622.000</POINT>
+			<POINT>710.000 632.000</POINT>
+			<POINT>789.000 640.000</POINT>
+			<POINT>877.000 767.000</POINT>
+			<POINT>128.000 767.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1533" NAME="point_list_1533" TYPE="600">
+			<POINT>486.000 207.000</POINT>
+			<POINT>683.000 226.000</POINT>
+			<POINT>660.000 412.000</POINT>
+			<POINT>554.000 405.000</POINT>
+			<POINT>477.000 363.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2008" NAME="point_list_2008" TYPE="600">
+			<POINT>246.000 266.000</POINT>
+			<POINT>477.000 275.000</POINT>
+			<POINT>466.000 435.000</POINT>
+			<POINT>243.000 420.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2132" NAME="point_list_2132" TYPE="600">
+			<POINT>877.000 164.000</POINT>
+			<POINT>1022.000 169.000</POINT>
+			<POINT>1024.000 445.000</POINT>
+			<POINT>893.000 428.000</POINT>
+			<POINT>873.000 273.000</POINT>
+			<POINT>858.000 215.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2224" NAME="point_list_2224" TYPE="600">
+			<POINT>660.000 361.000</POINT>
+			<POINT>869.000 389.000</POINT>
+			<POINT>834.000 494.000</POINT>
+			<POINT>625.000 469.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2978" NAME="point_list_2978" TYPE="600">
+			<POINT>15.000 37.000</POINT>
+			<POINT>30.000 12.000</POINT>
+			<POINT>44.000 40.000</POINT>
+			<POINT>28.000 66.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="5164" NAME="point_list_5164" TYPE="600">
+			<POINT>489.000 205.000</POINT>
+			<POINT>683.000 226.000</POINT>
+			<POINT>663.000 408.000</POINT>
+			<POINT>561.000 405.000</POINT>
+			<POINT>479.000 362.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="5168" NAME="point_list_5168" TYPE="600">
+			<POINT>484.000 205.000</POINT>
+			<POINT>677.000 229.000</POINT>
+			<POINT>659.000 408.000</POINT>
+			<POINT>557.000 404.000</POINT>
+			<POINT>474.000 358.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="5186" NAME="point_list_5186" TYPE="600">
+			<POINT>486.000 207.000</POINT>
+			<POINT>680.000 228.000</POINT>
+			<POINT>661.000 410.000</POINT>
+			<POINT>560.000 407.000</POINT>
+			<POINT>473.000 365.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14474" NAME="point_list_14474" TYPE="600">
+			<POINT>319.000 10.000</POINT>
+			<POINT>487.000 1.000</POINT>
+			<POINT>753.000 4.000</POINT>
+			<POINT>845.000 52.000</POINT>
+			<POINT>860.000 150.000</POINT>
+			<POINT>706.000 140.000</POINT>
+			<POINT>694.000 221.000</POINT>
+			<POINT>502.000 198.000</POINT>
+			<POINT>355.000 179.000</POINT>
+			<POINT>186.000 173.000</POINT>
+			<POINT>187.000 137.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="31197" NAME="point_list_31197" TYPE="600">
+			<POINT>717.000 147.000</POINT>
+			<POINT>761.000 153.000</POINT>
+			<POINT>868.000 272.000</POINT>
+			<POINT>887.000 389.000</POINT>
+			<POINT>714.000 352.000</POINT>
+			<POINT>723.000 244.000</POINT>
+			<POINT>692.000 231.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="34136" NAME="point_list_34136" TYPE="600">
+			<POINT>697.000 231.000</POINT>
+			<POINT>718.000 149.000</POINT>
+			<POINT>760.000 151.000</POINT>
+			<POINT>870.000 272.000</POINT>
+			<POINT>892.000 393.000</POINT>
+			<POINT>712.000 358.000</POINT>
+			<POINT>724.000 249.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="81571" NAME="point_list_81571" TYPE="600">
+			<POINT>66.000 39.000</POINT>
+			<POINT>86.000 33.000</POINT>
+			<POINT>95.000 33.000</POINT>
+			<POINT>91.000 49.000</POINT>
+			<POINT>74.000 55.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="220619" NAME="point_list_220619" TYPE="600">
+			<POINT>485.000 206.000</POINT>
+			<POINT>680.000 231.000</POINT>
+			<POINT>662.000 410.000</POINT>
+			<POINT>561.000 408.000</POINT>
+			<POINT>474.000 358.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/01_Begin/scene_barbeque</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_barbeque_102_init()" OPEN_SCRIPT_ID="void scene_barbeque_102_open()" />
+</SCENE>

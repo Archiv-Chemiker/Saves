@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<SCENE ID="643" ID_CLUSTER="10" LAYER="7022" LOAD="false" OPEN="false" NAME="dialog_padre_start" TYPE="303">
+	<OBJECTS>
+		<OBJECT ID="38246" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>object_38246</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>779.000 400.000 0.000 220.000 329.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/dialogs/dialog_padre dialog_padre_start/monk.png</TEXTURE>
+			<SIZE>440 658</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="38245" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="5">
+			<NAME>dialog_padre_start_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/clusters/dialogs/dialog_padre</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_ghost_l.png" MOVABLE="false">
+					<POSITION>389 343</POSITION>
+					<TRANSFORM>389.000 343.000 0.000 388.000 343.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>-137 174</POSITION>
+							<TRANSFORM>-137.000 174.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_1753441397_3699658_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>-194 171</POSITION>
+							<TRANSFORM>-194.000 171.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Доброй ночи! Меня зовут &#10;Вилиам. Когда-то давно я &#10;служил в этом храме &#10;Господа. " TEXT_ID="468" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-267 -235</POSITION>
+							<TRANSFORM>-267.000 -235.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="38244" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="4">
+			<NAME>dialog_padre_start_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/clusters/dialogs/dialog_padre</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_ghost_l.png" MOVABLE="false">
+					<POSITION>389 343</POSITION>
+					<TRANSFORM>389.000 343.000 0.000 388.000 343.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>-137 174</POSITION>
+							<TRANSFORM>-137.000 174.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_1674952621_508047443_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>-194 171</POSITION>
+							<TRANSFORM>-194.000 171.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Я был монахом при большом &#10;монастыре Европы, но &#10;взгляды мои были слишком &#10;прогрессивны, и мне &#10;пришлось переехать сюда. " TEXT_ID="469" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-267 -235</POSITION>
+							<TRANSFORM>-267.000 -235.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="38243" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="3">
+			<NAME>dialog_padre_start_3</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/clusters/dialogs/dialog_padre</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_ghost_l.png" MOVABLE="false">
+					<POSITION>389 343</POSITION>
+					<TRANSFORM>389.000 343.000 0.000 388.000 343.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>-137 174</POSITION>
+							<TRANSFORM>-137.000 174.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_1975826261_2141113613_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>-194 171</POSITION>
+							<TRANSFORM>-194.000 171.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Здесь я обрел дом и &#10;замечательных друзей, &#10;таких как Джек. Но за его &#10;преданную дружбу я &#10;расплатился с ним тем, &#10;что обрек его и души &#10;наших друзей на вечные &#10;муки в Царстве тьмы. " TEXT_ID="470" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-267 -235</POSITION>
+							<TRANSFORM>-267.000 -235.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="38242" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="2">
+			<NAME>dialog_padre_start_4</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/clusters/dialogs/dialog_padre</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_ghost_l.png" MOVABLE="false">
+					<POSITION>389 343</POSITION>
+					<TRANSFORM>389.000 343.000 0.000 388.000 343.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>-137 174</POSITION>
+							<TRANSFORM>-137.000 174.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_1796533274_568953286_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>-194 171</POSITION>
+							<TRANSFORM>-194.000 171.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Мой грех - моя тяга к &#10;изучению древних религий &#10;и таинств. " TEXT_ID="471" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-267 -235</POSITION>
+							<TRANSFORM>-267.000 -235.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="38241" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="1">
+			<NAME>dialog_padre_start_5</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/gui</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_ghost_l.png" MOVABLE="false">
+					<POSITION>389 343</POSITION>
+					<TRANSFORM>389.000 343.000 0.000 388.000 343.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>-137 174</POSITION>
+							<TRANSFORM>-137.000 174.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_2127417328_2146724061_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>-194 171</POSITION>
+							<TRANSFORM>-194.000 171.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Найдите старинную книгу &#10;ритуалов, она расскажет &#10;Вам о том, что я &#10;натворил. Мне же более &#10;нет места в этом святом &#10;месте " TEXT_ID="472" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-267 -235</POSITION>
+							<TRANSFORM>-267.000 -235.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING />
+	<FILES_PATH>images/clusters/dialogs/dialog_padre</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="" />
+	<LP_INTERFACE_CLOSE />
+	<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+		<VERTICES>1 0 1023 0 1023 767 0 766 </VERTICES>
+		<INDEXES>0 1 2 0 2 3 </INDEXES>
+	</RASTER>
+</SCENE>

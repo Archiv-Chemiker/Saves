@@ -1,0 +1,455 @@
+<?xml version="1.0"?>
+<SCENE ID="125" ID_CLUSTER="5" LAYER="100" LOAD="false" OPEN="false" NAME="scene_stable" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="95860" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="35">
+			<NAME>berd_stable</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles birdfly.png" frequency="5" gravity="0.000 0.000" maxCount="5" multiply="false" spreadAngle="1.67552" area="215.000000 0.000000" start_after_loading="true">
+				<lifetime>0.600000</lifetime>
+				<velocity>-576.673 360.345</velocity>
+				<tangent>293.000000</tangent>
+				<radial>97.000000</radial>
+				<startSize>62.000000</startSize>
+				<endSize>1.000000</endSize>
+				<startColor>0</startColor>
+				<averColor>99000000</averColor>
+				<endColor>0</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>1018.000 -21.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="78022" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="34">
+			<NAME>area_feedback_ring_stable</NAME>
+			<CENTER>215.000 298.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_stable_area_feedback_ring_stable_78022_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="78023" />
+		</OBJECT>
+		<OBJECT ID="220645" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="33">
+			<NAME>area_mg_balance</NAME>
+			<CENTER>218.000 411.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_stable_area_mg_balance_220645_in()" MOUSECLICK_SCRIPT_ID="void scene_stable_area_mg_balance_220645_click()" OUTPUT_SCRIPT_ID="void scene_stable_area_mg_balance_220645_out()" />
+			<POINT_LIST ID="220644" />
+		</OBJECT>
+		<OBJECT ID="11897" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="32">
+			<NAME>area_mg_balance_1</NAME>
+			<CENTER>200.000 420.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_stable_area_mg_balance_1_11897_in()" MOUSECLICK_SCRIPT_ID="void scene_stable_area_mg_balance_1_11897_click()" OUTPUT_SCRIPT_ID="void scene_stable_area_mg_balance_1_11897_out()" />
+			<POINT_LIST ID="11896" />
+		</OBJECT>
+		<OBJECT ID="10275" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="31">
+			<NAME>area_hog_stable</NAME>
+			<CENTER>510.000 380.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_stable_area_hog_stable_10275_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10274" />
+		</OBJECT>
+		<OBJECT ID="9383" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="29">
+			<NAME>area_ring_take</NAME>
+			<CENTER>440.000 620.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_stable_area_ring_take_9383_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="9384" />
+		</OBJECT>
+		<OBJECT ID="9381" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="28">
+			<NAME>area_scene_mg_balance</NAME>
+			<CENTER>200.000 420.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_stable_area_scene_mg_balance_9381_in()" MOUSECLICK_SCRIPT_ID="void scene_stable_area_scene_mg_balance_9381_click()" OUTPUT_SCRIPT_ID="void scene_stable_area_scene_mg_balance_9381_out()" />
+			<POINT_LIST ID="9380" />
+		</OBJECT>
+		<OBJECT ID="9349" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="27">
+			<NAME>area_scene_cu_spears</NAME>
+			<CENTER>510.000 380.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_stable_area_scene_cu_spears_9349_in()" MOUSECLICK_SCRIPT_ID="void scene_stable_area_scene_cu_spears_9349_click()" OUTPUT_SCRIPT_ID="void scene_stable_area_scene_cu_spears_9349_out()" />
+			<POINT_LIST ID="9348" />
+		</OBJECT>
+		<OBJECT ID="9129" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="26">
+			<NAME>area_cu_lock_stable</NAME>
+			<CENTER>750.000 335.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_stable_area_cu_lock_stable_9129_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="9128" />
+		</OBJECT>
+		<OBJECT ID="8099" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="25">
+			<NAME>area_goto_scene_garden</NAME>
+			<CENTER>750.000 335.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_stable_area_goto_scene_garden_8099_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="8098" />
+		</OBJECT>
+		<OBJECT ID="9154" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="23" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cost_25</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>494.000 394.000 0.000 67.000 147.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable cost_25.png</TEXTURE>
+			<SIZE>128 330</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7202" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="22">
+			<NAME>area_bags</NAME>
+			<CENTER>290.000 605.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_stable_area_bags_7202_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="7203" />
+		</OBJECT>
+		<OBJECT ID="9155" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="21" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bucket</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>888.000 456.000 0.000 44.000 64.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable bucket.png</TEXTURE>
+			<SIZE>088 128</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7200" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="20">
+			<NAME>area_bucket_stable</NAME>
+			<CENTER>890.000 465.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_stable_area_bucket_stable_7200_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="7201" />
+		</OBJECT>
+		<OBJECT ID="9156" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="19" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bucket_25</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>910.000 480.000 0.000 72.000 89.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable bucket_25.png</TEXTURE>
+			<SIZE>125 140</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9157" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="18" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ring_25</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>435.000 624.000 0.000 23.000 13.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable ring_25.png</TEXTURE>
+			<SIZE>046 026</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9158" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="16" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>board_25_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>205.000 276.000 0.000 24.000 32.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable board_25_1.png</TEXTURE>
+			<SIZE>052 068</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9159" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="15" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>board_25</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>207.000 285.000 0.000 24.000 41.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable board_25.png</TEXTURE>
+			<SIZE>050 086</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7189" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="14">
+			<NAME>area_goto_sceen_well</NAME>
+			<CENTER>520.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_stable_area_goto_sceen_well_7189_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="7188" />
+		</OBJECT>
+		<OBJECT ID="9160" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="13" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bags</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>287.000 609.000 0.000 53.000 34.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable bags.png</TEXTURE>
+			<SIZE>106 068</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9161" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bags_25</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>296.000 612.000 0.000 97.000 39.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable bags_25.png</TEXTURE>
+			<SIZE>194 078</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9165" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>scales_25_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>137.000 402.000 0.000 91.000 172.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable scales_25_1.png</TEXTURE>
+			<SIZE>173 345</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9166" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>scales_25</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>141.000 415.000 0.000 94.000 183.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable scales_25.png</TEXTURE>
+			<SIZE>172 366</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="75315" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>stenka</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>157.000 245.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable wall.png</TEXTURE>
+			<SIZE>287 296</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="96831" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="8">
+			<NAME>p_s_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles star.png" frequency="2" gravity="-6.337 -51.612" maxCount="10" multiply="true" spreadAngle="1.74533" area="276.000000 61.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>8.000000</tangent>
+				<radial>31.000000</radial>
+				<startSize>42.000000</startSize>
+				<endSize>11.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>112b0097</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>480.000 448.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="96830" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="7">
+			<NAME>p_s_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="15" gravity="231.820 -162.322" maxCount="145" multiply="true" spreadAngle="5.18363" area="230.000000 192.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>-311.000000</tangent>
+				<radial>5.000000</radial>
+				<startSize>3.000000</startSize>
+				<endSize>4.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>11ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>471.000 444.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="95859" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="6">
+			<NAME>tuman_stable</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud4.png" frequency="0" gravity="0.000 0.000" maxCount="20" multiply="true" spreadAngle="1.74533" area="126.000000 11.000000" start_after_loading="true">
+				<lifetime>6.000000</lifetime>
+				<velocity>0.262 14.998</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>52.000000</startSize>
+				<endSize>300.000000</endSize>
+				<startColor>1e6c83</startColor>
+				<averColor>ff159dca</averColor>
+				<endColor>1e6c83</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>729.000 407.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="9167" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>stable_25</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable stable_25.png</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9162" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gate_25_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>756.000 333.000 0.000 86.000 86.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable gate_25_2.png</TEXTURE>
+			<SIZE>161 165</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9163" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gate_25_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>753.000 325.000 0.000 88.000 87.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable gate_25_1.png</TEXTURE>
+			<SIZE>177 174</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9164" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gate_25</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>750.000 321.000 0.000 86.000 88.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable gate_25.png</TEXTURE>
+			<SIZE>172 197</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9168" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sky_25</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>809.000 209.000 0.000 512.000 210.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_stable sky_25.jpg</TEXTURE>
+			<SIZE>578 428</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="7188" NAME="point_list_7188" TYPE="600">
+			<POINT>306.000 646.000</POINT>
+			<POINT>735.000 651.000</POINT>
+			<POINT>811.000 767.000</POINT>
+			<POINT>229.000 768.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="7201" NAME="point_list_7201" TYPE="600">
+			<POINT>840.000 424.000</POINT>
+			<POINT>885.000 377.000</POINT>
+			<POINT>906.000 379.000</POINT>
+			<POINT>940.000 424.000</POINT>
+			<POINT>940.000 524.000</POINT>
+			<POINT>840.000 524.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="7203" NAME="point_list_7203" TYPE="600">
+			<POINT>228.000 603.000</POINT>
+			<POINT>314.000 560.000</POINT>
+			<POINT>351.000 581.000</POINT>
+			<POINT>318.000 643.000</POINT>
+			<POINT>226.000 645.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="8098" NAME="point_list_8098" TYPE="600">
+			<POINT>660.000 283.000</POINT>
+			<POINT>682.000 242.000</POINT>
+			<POINT>803.000 236.000</POINT>
+			<POINT>837.000 285.000</POINT>
+			<POINT>831.000 409.000</POINT>
+			<POINT>659.000 416.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="9128" NAME="point_list_9128" TYPE="600">
+			<POINT>664.000 287.000</POINT>
+			<POINT>833.000 285.000</POINT>
+			<POINT>835.000 414.000</POINT>
+			<POINT>659.000 418.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="9348" NAME="point_list_9348" TYPE="600">
+			<POINT>438.000 253.000</POINT>
+			<POINT>560.000 276.000</POINT>
+			<POINT>568.000 466.000</POINT>
+			<POINT>440.000 533.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="9380" NAME="point_list_9380" TYPE="600">
+			<POINT>47.000 226.000</POINT>
+			<POINT>231.000 228.000</POINT>
+			<POINT>265.000 365.000</POINT>
+			<POINT>384.000 435.000</POINT>
+			<POINT>409.000 549.000</POINT>
+			<POINT>21.000 599.000</POINT>
+			<POINT>30.000 333.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="9384" NAME="point_list_9384" TYPE="600">
+			<POINT>399.000 579.000</POINT>
+			<POINT>497.000 588.000</POINT>
+			<POINT>482.000 664.000</POINT>
+			<POINT>366.000 645.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10274" NAME="point_list_10274" TYPE="600">
+			<POINT>435.000 258.000</POINT>
+			<POINT>565.000 279.000</POINT>
+			<POINT>571.000 470.000</POINT>
+			<POINT>436.000 533.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="11896" NAME="point_list_11896" TYPE="600">
+			<POINT>23.000 495.000</POINT>
+			<POINT>49.000 228.000</POINT>
+			<POINT>230.000 231.000</POINT>
+			<POINT>269.000 370.000</POINT>
+			<POINT>384.000 437.000</POINT>
+			<POINT>414.000 550.000</POINT>
+			<POINT>23.000 595.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="78023" NAME="point_list_78023" TYPE="600">
+			<POINT>165.000 248.000</POINT>
+			<POINT>265.000 248.000</POINT>
+			<POINT>265.000 348.000</POINT>
+			<POINT>165.000 348.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="220644" NAME="point_list_220644" TYPE="600">
+			<POINT>21.000 495.000</POINT>
+			<POINT>46.000 232.000</POINT>
+			<POINT>233.000 227.000</POINT>
+			<POINT>266.000 372.000</POINT>
+			<POINT>388.000 436.000</POINT>
+			<POINT>416.000 548.000</POINT>
+			<POINT>21.000 595.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/05_Blacksmith_gardener_cook/scene_stable</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_stable_125_init()" OPEN_SCRIPT_ID="void scene_stable_125_open()" />
+</SCENE>

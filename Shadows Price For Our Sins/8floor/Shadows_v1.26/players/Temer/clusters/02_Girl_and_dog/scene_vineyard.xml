@@ -1,0 +1,781 @@
+<?xml version="1.0"?>
+<SCENE ID="104" ID_CLUSTER="2" LAYER="100" LOAD="false" OPEN="false" NAME="scene_vineyard" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="5634" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="60">
+			<NAME>area_run</NAME>
+			<CENTER>600.000 370.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_run_5634_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="5635" />
+		</OBJECT>
+		<OBJECT ID="94056" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="59">
+			<NAME>hog_gb_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles star.png" frequency="2" gravity="-6.337 -51.612" maxCount="10" multiply="true" spreadAngle="1.74533" area="276.000000 61.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>8.000000</tangent>
+				<radial>31.000000</radial>
+				<startSize>42.000000</startSize>
+				<endSize>11.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>112b0097</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>421.000 377.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="94055" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="58">
+			<NAME>hog_gb_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="15" gravity="231.820 -162.322" maxCount="145" multiply="true" spreadAngle="5.18363" area="230.000000 192.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>-311.000000</tangent>
+				<radial>5.000000</radial>
+				<startSize>3.000000</startSize>
+				<endSize>4.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>11ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>395.000 376.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="83340" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="57">
+			<NAME>area_mase_fake</NAME>
+			<CENTER>260.000 170.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="83341" />
+		</OBJECT>
+		<OBJECT ID="83337" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="56">
+			<NAME>area_object_83337</NAME>
+			<CENTER>260.000 180.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_object_83337_83337_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="83338" />
+		</OBJECT>
+		<OBJECT ID="2626" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="55">
+			<NAME>area_bone</NAME>
+			<CENTER>260.000 180.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_bone_2626_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2625" />
+		</OBJECT>
+		<OBJECT ID="31988" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="54">
+			<NAME>area_mg_cage_maze</NAME>
+			<CENTER>270.000 185.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_vineyard_area_mg_cage_maze_31988_in()" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_mg_cage_maze_31988_click()" OUTPUT_SCRIPT_ID="void scene_vineyard_area_mg_cage_maze_31988_out()" />
+			<POINT_LIST ID="31987" />
+		</OBJECT>
+		<OBJECT ID="15223" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="53">
+			<NAME>area_object_15223</NAME>
+			<CENTER>787.000 88.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_object_15223_15223_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="15224" />
+		</OBJECT>
+		<OBJECT ID="15221" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="52">
+			<NAME>area_object_15221</NAME>
+			<CENTER>556.000 117.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_object_15221_15221_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="15222" />
+		</OBJECT>
+		<OBJECT ID="15202" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="51">
+			<NAME>leafs_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles leaf.png" frequency="3" gravity="2.099 10.798" maxCount="20" multiply="false" spreadAngle="1.44862" area="400.000000 80.000000" start_after_loading="false">
+				<lifetime>6.000000</lifetime>
+				<velocity>6.691 7.431</velocity>
+				<tangent>-9.000000</tangent>
+				<radial>10.000000</radial>
+				<startSize>28.000000</startSize>
+				<endSize>29.000000</endSize>
+				<startColor>774d6b91</startColor>
+				<averColor>ff5555ff</averColor>
+				<endColor>4d6b91</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>253.000 4.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="14807" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="50">
+			<NAME>area_mg_maze_scene</NAME>
+			<CENTER>255.000 175.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_vineyard_area_mg_maze_scene_14807_in()" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_mg_maze_scene_14807_click()" OUTPUT_SCRIPT_ID="void scene_vineyard_area_mg_maze_scene_14807_out()" />
+			<POINT_LIST ID="14806" />
+		</OBJECT>
+		<OBJECT ID="63945" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="49">
+			<NAME>area_scene_puzzle</NAME>
+			<CENTER>780.000 340.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_vineyard_area_scene_puzzle_63945_in()" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_scene_puzzle_63945_click()" OUTPUT_SCRIPT_ID="void scene_vineyard_area_scene_puzzle_63945_out()" />
+			<POINT_LIST ID="63944" />
+		</OBJECT>
+		<OBJECT ID="220624" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="48">
+			<NAME>area_goto_mg_puzzle</NAME>
+			<CENTER>781.000 340.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_vineyard_area_goto_mg_puzzle_220624_in()" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_goto_mg_puzzle_220624_click()" OUTPUT_SCRIPT_ID="void scene_vineyard_area_goto_mg_puzzle_220624_out()" />
+			<POINT_LIST ID="220623" />
+		</OBJECT>
+		<OBJECT ID="5380" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="47">
+			<NAME>area_goto_mg_puzzle_1</NAME>
+			<CENTER>770.000 340.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_vineyard_area_goto_mg_puzzle_1_5380_in()" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_goto_mg_puzzle_1_5380_click()" OUTPUT_SCRIPT_ID="void scene_vineyard_area_goto_mg_puzzle_1_5380_out()" />
+			<POINT_LIST ID="5379" />
+		</OBJECT>
+		<OBJECT ID="5599" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="46" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_13</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>586.000 428.000 0.000 11.000 9.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_13.png</TEXTURE>
+			<SIZE>022 018</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5600" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="45" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_12</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>591.000 426.000 0.000 10.000 12.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_12.png</TEXTURE>
+			<SIZE>020 024</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5601" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="44" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_11</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>594.000 421.000 0.000 13.000 14.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_11.png</TEXTURE>
+			<SIZE>026 028</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5602" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="42" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_10</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>601.000 419.000 0.000 14.000 18.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_10.png</TEXTURE>
+			<SIZE>028 036</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5603" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="40" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_09</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>605.000 418.000 0.000 15.000 21.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_09.png</TEXTURE>
+			<SIZE>030 042</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5604" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="39" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_08</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>614.000 422.000 0.000 16.000 23.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_08.png</TEXTURE>
+			<SIZE>032 046</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1938" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="38">
+			<NAME>area_goto_scene_winery</NAME>
+			<CENTER>810.000 335.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_goto_scene_winery_1938_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1937" />
+		</OBJECT>
+		<OBJECT ID="5605" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="37" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_07</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>622.000 430.000 0.000 18.000 26.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_07.png</TEXTURE>
+			<SIZE>036 052</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5606" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="36" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_06</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>620.000 441.000 0.000 19.000 29.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_06.png</TEXTURE>
+			<SIZE>038 058</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1742" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="35">
+			<NAME>area_scene_slope</NAME>
+			<CENTER>600.000 320.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_scene_slope_1742_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1741" />
+		</OBJECT>
+		<OBJECT ID="5607" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="34" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_05</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>625.000 448.000 0.000 20.000 30.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_05.png</TEXTURE>
+			<SIZE>040 060</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1727" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="33">
+			<NAME>area_goto_cu_newspaper</NAME>
+			<CENTER>870.000 480.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_goto_cu_newspaper_1727_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1726" />
+		</OBJECT>
+		<OBJECT ID="5608" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="32" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_04</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>623.000 454.000 0.000 28.000 30.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_04.png</TEXTURE>
+			<SIZE>056 060</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1712" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="31">
+			<NAME>area_goto_is_newsapper</NAME>
+			<CENTER>0.000 0.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_goto_is_newsapper_1712_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+		</OBJECT>
+		<OBJECT ID="5609" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="30" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_03</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>627.000 461.000 0.000 34.000 36.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_03.png</TEXTURE>
+			<SIZE>068 072</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5610" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="29" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_02</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>635.000 471.000 0.000 44.000 39.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_02.png</TEXTURE>
+			<SIZE>088 078</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5611" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="28" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sparky_at_vineyard</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>642.000 473.000 0.000 36.000 39.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard sparky_at_vineyard.png</TEXTURE>
+			<SIZE>072 078</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5612" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="27" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ivy_open_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>371.000 148.000 0.000 52.000 148.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard ivy_open_1.png</TEXTURE>
+			<SIZE>104 296</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1600" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="26">
+			<NAME>area_goto_cask</NAME>
+			<CENTER>140.000 480.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_goto_cask_1600_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1599" />
+		</OBJECT>
+		<OBJECT ID="5613" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="25" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ivy_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>114.000 138.000 0.000 43.000 138.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard ivy_open.png</TEXTURE>
+			<SIZE>087 276</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5614" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="24" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ivy_close_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>238.000 142.000 0.000 185.000 142.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard ivy_close_1.png</TEXTURE>
+			<SIZE>370 284</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1592" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="23">
+			<NAME>area_goto_scene_barbeque</NAME>
+			<CENTER>515.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_goto_scene_barbeque_1592_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1591" />
+		</OBJECT>
+		<OBJECT ID="5615" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="22" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ivy_close</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>246.000 147.000 0.000 152.000 147.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard ivy_close.png</TEXTURE>
+			<SIZE>305 294</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5616" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="21" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bone_found</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>248.000 209.000 0.000 44.000 48.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard bone_found.png</TEXTURE>
+			<SIZE>088 097</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1588" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="20">
+			<NAME>area_goto_hog_garden_bench</NAME>
+			<CENTER>415.000 385.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_vineyard_area_goto_hog_garden_bench_1588_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1587" />
+		</OBJECT>
+		<OBJECT ID="5617" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="19" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cage_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>270.000 172.000 0.000 80.000 80.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cage_open.png</TEXTURE>
+			<SIZE>160 160</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5618" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="18" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cage_close</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>269.000 181.000 0.000 79.000 70.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cage_close.png</TEXTURE>
+			<SIZE>158 140</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5619" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="17" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bone</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>249.000 205.000 0.000 41.000 44.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard bone.png</TEXTURE>
+			<SIZE>082 088</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5620" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="16" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cage_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>248.000 158.000 0.000 120.000 145.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cage_2.png</TEXTURE>
+			<SIZE>240 290</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5621" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="15" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cage_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>785.000 100.000 0.000 150.000 100.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cage_1.png</TEXTURE>
+			<SIZE>300 200</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5622" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="14" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cage</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>555.000 122.000 0.000 49.000 79.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cage.png</TEXTURE>
+			<SIZE>098 158</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="15205" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="13">
+			<NAME>pil_vineyard</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_3.png" frequency="50" gravity="1.997 0.105" maxCount="30" multiply="true" spreadAngle="0.785398" area="203.000000 334.000000" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>7.000000</startSize>
+				<endSize>7.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>ff5555ff</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>644.000 126.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="5623" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>valve</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>126.000 360.000 0.000 13.000 5.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard valve.png</TEXTURE>
+			<SIZE>026 010</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5624" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bag_newspaper</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>860.000 488.000 0.000 83.000 54.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard bag_newspaper.png</TEXTURE>
+			<SIZE>166 108</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5625" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bag_close</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>879.000 476.000 0.000 51.000 36.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard bag_close.png</TEXTURE>
+			<SIZE>102 072</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5626" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>keys</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>861.000 491.000 0.000 19.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard keys.png</TEXTURE>
+			<SIZE>038 032</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5627" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bag_cut</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>874.000 476.000 0.000 67.000 38.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard bag_cut.png</TEXTURE>
+			<SIZE>134 076</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5628" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>winerydoor_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>884.000 333.000 0.000 33.000 120.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard winerydoor_open.png</TEXTURE>
+			<SIZE>066 240</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5629" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>winerydoor_closed</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>806.000 342.000 0.000 65.000 121.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard winerydoor_closed.png</TEXTURE>
+			<SIZE>130 242</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5630" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>watercan</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>142.000 455.000 0.000 57.000 69.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard watercan.png</TEXTURE>
+			<SIZE>114 138</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5631" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>back_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard back_2.png</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="15204" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="3">
+			<NAME>tuman_2_vineyard</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud_big.png" frequency="5" gravity="4.000 0.000" maxCount="20" multiply="true" spreadAngle="2.70526" area="400.000000 0.000000" start_after_loading="true">
+				<lifetime>8.000000</lifetime>
+				<velocity>5.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>2.000000</radial>
+				<startSize>351.000000</startSize>
+				<endSize>588.000000</endSize>
+				<startColor>1e6c83</startColor>
+				<averColor>55159dca</averColor>
+				<endColor>1e6c83</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>576.000 225.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="15203" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="2">
+			<NAME>tuman_at_vineyard</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud_big.png" frequency="5" gravity="4.000 0.000" maxCount="20" multiply="true" spreadAngle="2.70526" area="400.000000 0.000000" start_after_loading="true">
+				<lifetime>8.000000</lifetime>
+				<velocity>5.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>2.000000</radial>
+				<startSize>351.000000</startSize>
+				<endSize>588.000000</endSize>
+				<startColor>1e6c83</startColor>
+				<averColor>55159dca</averColor>
+				<endColor>1e6c83</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>563.000 312.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="5632" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>back</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 230.000 0.000 512.000 229.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard back.jpg</TEXTURE>
+			<SIZE>1024 459</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="1587" NAME="point_list_1587" TYPE="600">
+			<POINT>335.000 311.000</POINT>
+			<POINT>444.000 300.000</POINT>
+			<POINT>497.000 357.000</POINT>
+			<POINT>532.000 427.000</POINT>
+			<POINT>352.000 476.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1591" NAME="point_list_1591" TYPE="600">
+			<POINT>268.000 625.000</POINT>
+			<POINT>773.000 615.000</POINT>
+			<POINT>847.000 770.000</POINT>
+			<POINT>192.000 768.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1599" NAME="point_list_1599" TYPE="600">
+			<POINT>1.000 327.000</POINT>
+			<POINT>278.000 323.000</POINT>
+			<POINT>293.000 652.000</POINT>
+			<POINT>6.000 655.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1726" NAME="point_list_1726" TYPE="600">
+			<POINT>806.000 472.000</POINT>
+			<POINT>850.000 447.000</POINT>
+			<POINT>888.000 437.000</POINT>
+			<POINT>952.000 436.000</POINT>
+			<POINT>951.000 532.000</POINT>
+			<POINT>770.000 528.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1741" NAME="point_list_1741" TYPE="600">
+			<POINT>533.000 268.000</POINT>
+			<POINT>573.000 208.000</POINT>
+			<POINT>674.000 191.000</POINT>
+			<POINT>636.000 260.000</POINT>
+			<POINT>658.000 435.000</POINT>
+			<POINT>558.000 435.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1937" NAME="point_list_1937" TYPE="600">
+			<POINT>760.000 226.000</POINT>
+			<POINT>864.000 219.000</POINT>
+			<POINT>869.000 347.000</POINT>
+			<POINT>873.000 427.000</POINT>
+			<POINT>825.000 449.000</POINT>
+			<POINT>749.000 450.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2625" NAME="point_list_2625" TYPE="600">
+			<POINT>197.000 118.000</POINT>
+			<POINT>320.000 118.000</POINT>
+			<POINT>328.000 241.000</POINT>
+			<POINT>203.000 250.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="5379" NAME="point_list_5379" TYPE="600">
+			<POINT>728.000 290.000</POINT>
+			<POINT>828.000 290.000</POINT>
+			<POINT>828.000 390.000</POINT>
+			<POINT>728.000 390.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="5635" NAME="point_list_5635" TYPE="600">
+			<POINT>4.000 3.000</POINT>
+			<POINT>1022.000 3.000</POINT>
+			<POINT>1024.000 702.000</POINT>
+			<POINT>0.000 766.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14806" NAME="point_list_14806" TYPE="600">
+			<POINT>175.000 91.000</POINT>
+			<POINT>342.000 91.000</POINT>
+			<POINT>358.000 263.000</POINT>
+			<POINT>189.000 268.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="15222" NAME="point_list_15222" TYPE="600">
+			<POINT>513.000 60.000</POINT>
+			<POINT>607.000 34.000</POINT>
+			<POINT>599.000 139.000</POINT>
+			<POINT>585.000 200.000</POINT>
+			<POINT>506.000 185.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="15224" NAME="point_list_15224" TYPE="600">
+			<POINT>637.000 6.000</POINT>
+			<POINT>737.000 6.000</POINT>
+			<POINT>906.000 6.000</POINT>
+			<POINT>937.000 81.000</POINT>
+			<POINT>747.000 170.000</POINT>
+			<POINT>692.000 156.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="31987" NAME="point_list_31987" TYPE="600">
+			<POINT>176.000 92.000</POINT>
+			<POINT>342.000 94.000</POINT>
+			<POINT>363.000 266.000</POINT>
+			<POINT>190.000 270.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="63944" NAME="point_list_63944" TYPE="600">
+			<POINT>731.000 291.000</POINT>
+			<POINT>831.000 291.000</POINT>
+			<POINT>831.000 391.000</POINT>
+			<POINT>731.000 391.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="83338" NAME="point_list_83338" TYPE="600">
+			<POINT>153.000 79.000</POINT>
+			<POINT>359.000 76.000</POINT>
+			<POINT>381.000 271.000</POINT>
+			<POINT>169.000 291.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="83341" NAME="point_list_83341" TYPE="600">
+			<POINT>12.000 11.000</POINT>
+			<POINT>46.000 14.000</POINT>
+			<POINT>36.000 28.000</POINT>
+			<POINT>16.000 59.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="220623" NAME="point_list_220623" TYPE="600">
+			<POINT>731.000 290.000</POINT>
+			<POINT>831.000 290.000</POINT>
+			<POINT>831.000 390.000</POINT>
+			<POINT>731.000 390.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/02_Girl_and_dog/scene_vineyard</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_vineyard_104_init()" OPEN_SCRIPT_ID="void scene_vineyard_104_open()" />
+</SCENE>

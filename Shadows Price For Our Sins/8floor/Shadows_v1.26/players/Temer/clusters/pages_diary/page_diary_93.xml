@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="753" ID_CLUSTER="9" LAYER="519" LOAD="false" NAME="page_diary_93" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="159066" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>is_i_have_studied_in_diary</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="5" MOVABLE="false" TEXTURE="images/gui list_stul.png" VISIBLE="true">
+        <POSITION>304 360</POSITION>
+        <CONTEXT>
+            <PANEL ENABLE="true" ID="6" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>0 -132</POSITION>
+                <TRANSFORM>0 -132 0 0 0 0 0 0 -0.10471666604280472 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="8" LETTER_SPACE="0" TEXT="" TEXT_ID="643" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-5 -4</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/pages_diary/page_diary_93</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

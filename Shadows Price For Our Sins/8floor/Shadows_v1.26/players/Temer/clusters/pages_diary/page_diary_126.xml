@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="786" ID_CLUSTER="9" LAYER="552" LOAD="false" NAME="page_diary_126" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="42668" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>diary_page_72</NAME>
+<GUI>
+    <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="6" ID="544" LETTER_SPACE="0" MID_DIV="1" TEXT="" TEXT_ID="672" VISIBLE="true">
+        <CONTEXT/>
+        <POSITION>720 65</POSITION>
+    </WLABEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="68352" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>photo_4_in_diary</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui photo_4.png" VISIBLE="true">
+        <POSITION>442 459</POSITION>
+		<TRANSFORM>442 459 0 0 0 0 0 0 0 0.6 0.6 1.0</TRANSFORM>
+        <CONTEXT>
+            <PANEL ENABLE="true" ID="4" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>-164 125</POSITION>
+                <TRANSFORM>-164 125 0 0 0 0 0 0 -0.05235833302140236 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui octoberEN_RU_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui octoberEN_RU_20_0.png" HOT_SPOT="1" ID="5" MID_DIV="-1" TEXT="" TEXT_ID="670" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-34 -18</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="68353" LAYER="3" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>photo_5_in_diary</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui photo_5.png" VISIBLE="true">
+        <POSITION>703 414</POSITION>
+		<TRANSFORM>703 414 0 0 0 0 0 0 0 0.6 0.6 1.0</TRANSFORM>
+        <CONTEXT>
+            <PANEL ENABLE="true" ID="4" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>-165 118</POSITION>
+                <TRANSFORM>-165 118 0 0 0 0 0 0 0 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui octoberEN_RU_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui octoberEN_RU_20_0.png" HOT_SPOT="1" ID="5" MID_DIV="-1" TEXT="" TEXT_ID="671" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-35 -18</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/pages_diary/page_diary_126</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

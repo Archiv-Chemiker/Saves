@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<SCENE ID="355" ID_CLUSTER="5" LAYER="1219" LOAD="false" OPEN="false" NAME="cu_grinding_wheel" TYPE="303">
+	<OBJECTS>
+		<OBJECT ID="13361" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cu_frame_70</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>516.000 324.000 0.000 366.000 282.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/icons cu_frame.png</TEXTURE>
+			<SIZE>732 565</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH>images/icons</FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="95874" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="11">
+			<NAME>spark</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_2_2.png" frequency="2960" gravity="0.000 0.000" maxCount="220" multiply="true" spreadAngle="0.541052" area="11.000000 0.000000" start_after_loading="false">
+				<lifetime>0.400000</lifetime>
+				<velocity>105.899 544.803</velocity>
+				<tangent>400.000000</tangent>
+				<radial>100.000000</radial>
+				<startSize>21.000000</startSize>
+				<endSize>11.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ffff4e00</averColor>
+				<endColor>973b67</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>608.000 304.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="95873" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="10">
+			<NAME>flame_27</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles firepart.png" frequency="67" gravity="0.000 0.000" maxCount="150" multiply="true" spreadAngle="0.471239" area="146.000000 0.000000" start_after_loading="false">
+				<lifetime>1.000000</lifetime>
+				<velocity>11.776 -224.692</velocity>
+				<tangent>0.000000</tangent>
+				<radial>100.000000</radial>
+				<startSize>124.000000</startSize>
+				<endSize>1.000000</endSize>
+				<startColor>11ac67d4</startColor>
+				<averColor>77ffffff</averColor>
+				<endColor>11ff5400</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>782.000 177.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="13683" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="9">
+			<NAME>object_13683</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/gui</FILES_PATH>
+			<GUI>
+				<BUTTON5 ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui exitbutton.png" TEXTURE_LOCAL_ID="0">
+					<POSITION>840 077</POSITION>
+					<TRANSFORM>840.000 77.000 0.000 24.000 23.500 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS>
+						<SCRIPT EVENT="UP">void gui_902832547_JC_GUI_Button5_2_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+					</SCRIPTS>
+				</BUTTON5>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="9512" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="7">
+			<NAME>area_object_9512</NAME>
+			<CENTER>255.000 150.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_grinding_wheel_area_object_9512_9512_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="9513" />
+		</OBJECT>
+		<OBJECT ID="9506" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="6">
+			<NAME>area_boom_wheel</NAME>
+			<CENTER>540.000 320.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_grinding_wheel_area_boom_wheel_9506_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="9507" />
+		</OBJECT>
+		<OBJECT ID="9500" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>27_boom_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>482.000 226.000 0.000 144.000 88.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_smithy cu_grinding_wheel/27_boom_2.png</TEXTURE>
+			<SIZE>288 176</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9501" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>27_boom</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>478.000 225.000 0.000 141.000 87.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_smithy cu_grinding_wheel/27_boom.png</TEXTURE>
+			<SIZE>282 174</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9504" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_wheel</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>447.000 348.000 0.000 244.000 220.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_smithy cu_grinding_wheel/grinding_whee.png</TEXTURE>
+			<SIZE>488 440</SIZE>
+			<ANIM>1 0 1 0 3 3 9 8.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9502" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>any</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>465.000 351.000 0.000 222.000 215.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_smithy cu_grinding_wheel/any.png</TEXTURE>
+			<SIZE>445 431</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9503" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>back</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 326.000 0.000 320.000 240.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_smithy cu_grinding_wheel/back.jpg</TEXTURE>
+			<SIZE>640 480</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="9507" NAME="point_list_9507" TYPE="600">
+			<POINT>421.000 150.000</POINT>
+			<POINT>489.000 128.000</POINT>
+			<POINT>594.000 128.000</POINT>
+			<POINT>672.000 194.000</POINT>
+			<POINT>701.000 310.000</POINT>
+			<POINT>661.000 482.000</POINT>
+			<POINT>484.000 519.000</POINT>
+			<POINT>388.000 404.000</POINT>
+			<POINT>380.000 255.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="9513" NAME="point_list_9513" TYPE="600">
+			<POINT>205.000 100.000</POINT>
+			<POINT>305.000 100.000</POINT>
+			<POINT>243.000 143.000</POINT>
+			<POINT>205.000 200.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/05_Blacksmith_gardener_cook/scene_smithy</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void cu_grinding_wheel_355_init()" OPEN_SCRIPT_ID="" />
+	<LP_INTERFACE_CLOSE />
+	<RASTER AMOUNT_INDEX="135" AMOUNT_VERTEX="47">
+		<VERTICES>165 58 205 51 224 50 237 61 267 58 289 47 302 61 329 52 348 52 361 68 643 70 688 29 773 30 869 30 880 69 883 113 860 114 855 151 864 175 856 227 854 246 859 283 868 301 848 302 853 373 863 384 858 402 849 432 857 458 881 486 852 542 897 574 865 587 803 593 782 600 768 585 673 584 359 585 269 610 157 591 147 485 164 454 168 350 161 248 163 155 145 148 162 123 </VERTICES>
+		<INDEXES>0 1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0 7 8 0 8 9 0 9 10 0 10 11 0 11 12 0 12 13 0 13 14 0 14 15 0 15 16 0 16 17 0 17 18 0 18 19 0 19 20 0 20 21 0 21 22 0 22 23 0 23 24 0 24 25 0 25 26 0 26 27 0 27 28 0 28 29 0 29 30 0 30 31 0 31 32 0 32 33 0 33 34 0 34 35 0 35 36 0 36 37 0 37 38 0 38 39 0 39 40 0 40 41 0 41 42 0 42 43 0 43 44 0 44 45 0 45 46 </INDEXES>
+	</RASTER>
+</SCENE>

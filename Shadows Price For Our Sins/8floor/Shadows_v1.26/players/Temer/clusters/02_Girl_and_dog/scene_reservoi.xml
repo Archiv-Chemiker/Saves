@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<SCENE ID="171" ID_CLUSTER="2" LAYER="100" LOAD="false" OPEN="false" NAME="scene_reservoi" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="32912" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="16">
+			<NAME>area_airon_1</NAME>
+			<CENTER>430.000 400.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_reservoi_area_airon_1_32912_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="32913" />
+		</OBJECT>
+		<OBJECT ID="32904" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="15">
+			<NAME>area_start_dialog_airon</NAME>
+			<CENTER>440.000 375.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_reservoi_area_start_dialog_airon_32904_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="32905" />
+		</OBJECT>
+		<OBJECT ID="31998" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="14">
+			<NAME>area_mg_fetters</NAME>
+			<CENTER>453.000 421.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_reservoi_area_mg_fetters_31998_in()" MOUSECLICK_SCRIPT_ID="void scene_reservoi_area_mg_fetters_31998_click()" OUTPUT_SCRIPT_ID="void scene_reservoi_area_mg_fetters_31998_out()" />
+			<POINT_LIST ID="31997" />
+		</OBJECT>
+		<OBJECT ID="31994" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="13">
+			<NAME>area_airon</NAME>
+			<CENTER>430.000 400.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_reservoi_area_airon_31994_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="31995" />
+		</OBJECT>
+		<OBJECT ID="15539" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="12">
+			<NAME>blue_stars</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_3.png" frequency="40" gravity="24.000 0.000" maxCount="40" multiply="true" spreadAngle="1.01229" area="219.000000 211.000000" start_after_loading="false">
+				<lifetime>4.000000</lifetime>
+				<velocity>-5.724 -29.449</velocity>
+				<tangent>3.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>11.000000</startSize>
+				<endSize>11.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>ff5555ff</averColor>
+				<endColor>c00ff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>405.000 359.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="3769" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="11">
+			<NAME>area_cheet_27</NAME>
+			<CENTER>27.000 53.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_reservoi_area_cheet_27_3769_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3770" />
+		</OBJECT>
+		<OBJECT ID="2287" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>found_lantern</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>457.000 437.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="3" QUALITY="">images/icons icons_06_Slope.png</TEXTURE>
+			<SIZE>064 064</SIZE>
+			<ANIM>1 0 1 0 3 2 4 1.000000</ANIM>
+			<FILES_PATH>images/icons</FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2285" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="8">
+			<NAME>area_lantern</NAME>
+			<CENTER>480.000 460.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_reservoi_area_lantern_2285_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2284" />
+		</OBJECT>
+		<OBJECT ID="1847" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="7">
+			<NAME>area_goto_scene_slope</NAME>
+			<CENTER>510.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_reservoi_area_goto_scene_slope_1847_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1846" />
+		</OBJECT>
+		<OBJECT ID="1836" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>front</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>498.000 336.000 0.000 412.000 333.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_slope scene_reservoi/front.png</TEXTURE>
+			<SIZE>824 666</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1837" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>airon_click</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>454.000 414.000 0.000 162.000 234.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_slope scene_reservoi/airon_click.png</TEXTURE>
+			<SIZE>324 468</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1838" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>airon_idle</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>454.000 414.000 0.000 162.000 234.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_slope scene_reservoi/airon_idle.png</TEXTURE>
+			<SIZE>324 468</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1839" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>lantern</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>486.000 474.000 0.000 49.000 66.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_slope scene_reservoi/lantern.png</TEXTURE>
+			<SIZE>098 132</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="15538" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="2">
+			<NAME>tuman_reservoir</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud2.png" frequency="20" gravity="5.000 0.000" maxCount="60" multiply="true" spreadAngle="0.767945" area="326.000000 346.000000" start_after_loading="true">
+				<lifetime>3.000000</lifetime>
+				<velocity>39.781 4.181</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>145.000000</startSize>
+				<endSize>412.000000</endSize>
+				<startColor>12345f</startColor>
+				<averColor>55117899</averColor>
+				<endColor>483cbc</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>364.000 185.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="1840" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>background</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_slope scene_reservoi/background.jpg</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="1846" NAME="point_list_1846" TYPE="600">
+			<POINT>195.000 675.000</POINT>
+			<POINT>833.000 680.000</POINT>
+			<POINT>837.000 768.000</POINT>
+			<POINT>193.000 768.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2284" NAME="point_list_2284" TYPE="600">
+			<POINT>436.000 379.000</POINT>
+			<POINT>552.000 398.000</POINT>
+			<POINT>519.000 568.000</POINT>
+			<POINT>402.000 526.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3770" NAME="point_list_3770" TYPE="600">
+			<POINT>12.000 40.000</POINT>
+			<POINT>30.000 17.000</POINT>
+			<POINT>43.000 42.000</POINT>
+			<POINT>27.000 89.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="31995" NAME="point_list_31995" TYPE="600">
+			<POINT>414.000 241.000</POINT>
+			<POINT>495.000 253.000</POINT>
+			<POINT>545.000 404.000</POINT>
+			<POINT>616.000 582.000</POINT>
+			<POINT>547.000 599.000</POINT>
+			<POINT>411.000 495.000</POINT>
+			<POINT>302.000 462.000</POINT>
+			<POINT>321.000 352.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="31997" NAME="point_list_31997" TYPE="600">
+			<POINT>298.000 340.000</POINT>
+			<POINT>413.000 228.000</POINT>
+			<POINT>510.000 240.000</POINT>
+			<POINT>636.000 582.000</POINT>
+			<POINT>534.000 623.000</POINT>
+			<POINT>407.000 498.000</POINT>
+			<POINT>283.000 480.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="32905" NAME="point_list_32905" TYPE="600">
+			<POINT>0.000 -1.000</POINT>
+			<POINT>1023.000 0.000</POINT>
+			<POINT>1024.000 734.000</POINT>
+			<POINT>0.000 768.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="32913" NAME="point_list_32913" TYPE="600">
+			<POINT>412.000 240.000</POINT>
+			<POINT>494.000 253.000</POINT>
+			<POINT>616.000 579.000</POINT>
+			<POINT>543.000 608.000</POINT>
+			<POINT>403.000 495.000</POINT>
+			<POINT>301.000 459.000</POINT>
+			<POINT>317.000 349.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/02_Girl_and_dog/scene_slope</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_reservoi_171_init()" OPEN_SCRIPT_ID="" />
+</SCENE>

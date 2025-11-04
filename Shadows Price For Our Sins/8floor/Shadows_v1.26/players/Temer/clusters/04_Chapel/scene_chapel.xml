@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+<SCENE ID="120" ID_CLUSTER="4" LAYER="100" LOAD="false" OPEN="false" NAME="scene_chapel" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="37143" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="23">
+			<NAME>area_object_37143</NAME>
+			<CENTER>514.000 333.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_object_37143_37143_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="37144" />
+		</OBJECT>
+		<OBJECT ID="96827" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="22">
+			<NAME>p_a_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles star.png" frequency="2" gravity="-6.337 -51.612" maxCount="10" multiply="true" spreadAngle="1.74533" area="276.000000 61.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>8.000000</tangent>
+				<radial>31.000000</radial>
+				<startSize>42.000000</startSize>
+				<endSize>11.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>112b0097</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>263.000 447.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="96826" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="21">
+			<NAME>p_a_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="15" gravity="231.820 -162.322" maxCount="145" multiply="true" spreadAngle="5.18363" area="230.000000 192.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>-311.000000</tangent>
+				<radial>5.000000</radial>
+				<startSize>3.000000</startSize>
+				<endSize>4.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>11ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>265.000 444.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="95835" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="20" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>d_padre</NAME>
+			<CHILDS>
+				<OBJECT ID="38597" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="1">
+					<NAME>duh_padre</NAME>
+					<LAST_NAME></LAST_NAME>
+					<CHILDS />
+					<particles texture="images/particles cloud3.png" frequency="37" gravity="-0.628 11.983" maxCount="100" multiply="true" spreadAngle="0.663225" area="1.000000 100.000000" start_after_loading="true">
+						<lifetime>4.000000</lifetime>
+						<velocity>23.474 44.147</velocity>
+						<tangent>0.000000</tangent>
+						<radial>0.000000</radial>
+						<startSize>55.000000</startSize>
+						<endSize>279.000000</endSize>
+						<startColor>3ab7f</startColor>
+						<averColor>333ab7ff</averColor>
+						<endColor>1d40d4</endColor>
+					</particles>
+					<FILES_PATH>images/particles</FILES_PATH>
+					<TRANSFORM>80.000 100.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+				</OBJECT>
+			</CHILDS>
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>404.000 395.000 0.000 85.000 120.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_chapel monk_s.png</TEXTURE>
+			<SIZE>170 241</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="93153" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="19">
+			<NAME>motelkib_20</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles Motelek.png" frequency="1" gravity="0.000 0.000" maxCount="65" multiply="true" spreadAngle="1.01229" area="34.000000 46.000000" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>1.219 9.925</velocity>
+				<tangent>-327.000000</tangent>
+				<radial>12.000000</radial>
+				<startSize>4.000000</startSize>
+				<endSize>2.000000</endSize>
+				<startColor>d41255b</startColor>
+				<averColor>f5a6d759</averColor>
+				<endColor>109a7b32</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>299.000 394.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="12034" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="17">
+			<NAME>area_mg_angels</NAME>
+			<CENTER>940.000 450.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_chapel_area_mg_angels_12034_in()" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_mg_angels_12034_click()" OUTPUT_SCRIPT_ID="void scene_chapel_area_mg_angels_12034_out()" />
+			<POINT_LIST ID="12033" />
+		</OBJECT>
+		<OBJECT ID="6630" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="16">
+			<NAME>area_goto_scene_cell</NAME>
+			<CENTER>940.000 450.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_goto_scene_cell_6630_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6629" />
+		</OBJECT>
+		<OBJECT ID="6626" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="15">
+			<NAME>area_goto_scene_mg_angels</NAME>
+			<CENTER>940.000 450.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_chapel_area_goto_scene_mg_angels_6626_in()" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_goto_scene_mg_angels_6626_click()" OUTPUT_SCRIPT_ID="void scene_chapel_area_goto_scene_mg_angels_6626_out()" />
+			<POINT_LIST ID="6625" />
+		</OBJECT>
+		<OBJECT ID="6559" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="14">
+			<NAME>area_cu_grave</NAME>
+			<CENTER>365.000 525.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_cu_grave_6559_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6558" />
+		</OBJECT>
+		<OBJECT ID="6158" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="13">
+			<NAME>area_gotoscene_belfry</NAME>
+			<CENTER>635.000 335.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_gotoscene_belfry_6158_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6157" />
+		</OBJECT>
+		<OBJECT ID="169777" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="12">
+			<NAME>area_cu_organ_keys_1</NAME>
+			<CENTER>264.000 147.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_cu_organ_keys_1_169777_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="169776" />
+		</OBJECT>
+		<OBJECT ID="6108" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="11">
+			<NAME>area_cu_organ</NAME>
+			<CENTER>265.000 185.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_cu_organ_6108_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6107" />
+		</OBJECT>
+		<OBJECT ID="8494" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>door_open_20</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>936.000 462.000 0.000 87.000 121.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_chapel door_open_20.jpg</TEXTURE>
+			<SIZE>175 243</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="6089" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="9">
+			<NAME>area_cu_book</NAME>
+			<CENTER>565.000 600.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_cu_book_6089_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6088" />
+		</OBJECT>
+		<OBJECT ID="8495" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>book_open_20</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>551.000 607.000 0.000 58.000 24.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_chapel book_open_20.png</TEXTURE>
+			<SIZE>116 048</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5912" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="7">
+			<NAME>area_goto_hog_altar</NAME>
+			<CENTER>270.000 400.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_goto_hog_altar_5912_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="5911" />
+		</OBJECT>
+		<OBJECT ID="8496" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cover_open_20</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>352.000 463.000 0.000 121.000 52.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_chapel cover_open_20.jpg</TEXTURE>
+			<SIZE>242 104</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5874" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="5">
+			<NAME>area_goto_scene_statue_11</NAME>
+			<CENTER>485.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_chapel_area_goto_scene_statue_11_5874_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="5873" />
+		</OBJECT>
+		<OBJECT ID="8497" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>general_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>655.000 265.000 0.000 120.000 265.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_chapel general_1.png</TEXTURE>
+			<SIZE>240 530</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="93154" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="3">
+			<NAME>pil_07_20</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles dust_FX.png" frequency="18" gravity="-0.000 -0.000" maxCount="30" multiply="true" spreadAngle="1.01229" area="111.000000 111.000000" start_after_loading="true">
+				<lifetime>3.000000</lifetime>
+				<velocity>22.275 11.350</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>5.000000</startSize>
+				<endSize>1.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>ff5555ff</averColor>
+				<endColor>ef1dcb</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>855.000 166.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="93151" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="2">
+			<NAME>tuman_20</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud_big.png" frequency="16" gravity="0.000 0.000" maxCount="20" multiply="true" spreadAngle="0" area="61.000000 184.000000" start_after_loading="true">
+				<lifetime>3.000000</lifetime>
+				<velocity>-1.047 19.973</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>93.000000</startSize>
+				<endSize>155.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>9900acc5</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>478.000 294.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="8498" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>background_general_20</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_chapel background_general_20.jpg</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="5873" NAME="point_list_5873" TYPE="600">
+			<POINT>282.000 604.000</POINT>
+			<POINT>665.000 636.000</POINT>
+			<POINT>800.000 768.000</POINT>
+			<POINT>187.000 767.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="5911" NAME="point_list_5911" TYPE="600">
+			<POINT>79.000 279.000</POINT>
+			<POINT>459.000 316.000</POINT>
+			<POINT>448.000 471.000</POINT>
+			<POINT>306.000 472.000</POINT>
+			<POINT>255.000 460.000</POINT>
+			<POINT>217.000 500.000</POINT>
+			<POINT>70.000 503.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6088" NAME="point_list_6088" TYPE="600">
+			<POINT>499.000 572.000</POINT>
+			<POINT>543.000 527.000</POINT>
+			<POINT>661.000 590.000</POINT>
+			<POINT>610.000 642.000</POINT>
+			<POINT>492.000 626.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6107" NAME="point_list_6107" TYPE="600">
+			<POINT>82.000 162.000</POINT>
+			<POINT>96.000 104.000</POINT>
+			<POINT>227.000 44.000</POINT>
+			<POINT>357.000 94.000</POINT>
+			<POINT>431.000 181.000</POINT>
+			<POINT>452.000 304.000</POINT>
+			<POINT>82.000 262.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6157" NAME="point_list_6157" TYPE="600">
+			<POINT>576.000 143.000</POINT>
+			<POINT>625.000 100.000</POINT>
+			<POINT>681.000 110.000</POINT>
+			<POINT>693.000 525.000</POINT>
+			<POINT>577.000 528.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6558" NAME="point_list_6558" TYPE="600">
+			<POINT>231.000 489.000</POINT>
+			<POINT>260.000 475.000</POINT>
+			<POINT>453.000 476.000</POINT>
+			<POINT>474.000 501.000</POINT>
+			<POINT>492.000 573.000</POINT>
+			<POINT>336.000 591.000</POINT>
+			<POINT>210.000 580.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6625" NAME="point_list_6625" TYPE="600">
+			<POINT>893.000 381.000</POINT>
+			<POINT>971.000 374.000</POINT>
+			<POINT>979.000 540.000</POINT>
+			<POINT>902.000 535.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6629" NAME="point_list_6629" TYPE="600">
+			<POINT>890.000 380.000</POINT>
+			<POINT>973.000 374.000</POINT>
+			<POINT>983.000 541.000</POINT>
+			<POINT>899.000 538.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="12033" NAME="point_list_12033" TYPE="600">
+			<POINT>893.000 378.000</POINT>
+			<POINT>972.000 373.000</POINT>
+			<POINT>985.000 542.000</POINT>
+			<POINT>902.000 541.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="37144" NAME="point_list_37144" TYPE="600">
+			<POINT>0.000 0.000</POINT>
+			<POINT>1024.000 2.000</POINT>
+			<POINT>1024.000 663.000</POINT>
+			<POINT>0.000 665.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="169776" NAME="point_list_169776" TYPE="600">
+			<POINT>100.000 100.000</POINT>
+			<POINT>228.000 45.000</POINT>
+			<POINT>361.000 90.000</POINT>
+			<POINT>430.000 179.000</POINT>
+			<POINT>442.000 250.000</POINT>
+			<POINT>362.000 220.000</POINT>
+			<POINT>246.000 200.000</POINT>
+			<POINT>86.000 201.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/04_Chapel/scene_chapel</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_chapel_120_init()" OPEN_SCRIPT_ID="void scene_chapel_120_open()" />
+</SCENE>

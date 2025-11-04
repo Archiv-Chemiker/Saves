@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<SCENE ID="660" ID_CLUSTER="10" LAYER="7034" LOAD="false" OPEN="false" NAME="dialog_gardener_start" TYPE="303">
+	<OBJECTS>
+		<OBJECT ID="40601" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>object_40601</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>764.000 436.000 0.000 241.000 334.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/dialogs/dialog_gardener dialog_gardener_start/gardener.png</TEXTURE>
+			<SIZE>483 669</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="40419" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="5">
+			<NAME>dialog_gardener_start_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/clusters/dialogs/dialog_gardener</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_ghost_l.png" MOVABLE="false">
+					<POSITION>389 343</POSITION>
+					<TRANSFORM>389.000 343.000 0.000 388.000 343.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>-137 174</POSITION>
+							<TRANSFORM>-137.000 174.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_336840478_1936729357_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>-194 171</POSITION>
+							<TRANSFORM>-194.000 171.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Здравствуй, Дилан! Как &#10;гласит старая японская &#10;пословица, и Конфуцию не &#10;всегда везло. " TEXT_ID="499" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-267 -235</POSITION>
+							<TRANSFORM>-267.000 -235.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="40418" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="4">
+			<NAME>dialog_gardener_start_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/clusters/dialogs/dialog_gardener</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_ghost_l.png" MOVABLE="false">
+					<POSITION>389 343</POSITION>
+					<TRANSFORM>389.000 343.000 0.000 388.000 343.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>-137 174</POSITION>
+							<TRANSFORM>-137.000 174.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_1595738879_1183925880_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>-194 171</POSITION>
+							<TRANSFORM>-194.000 171.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Меня зовут Ханако, я была &#10;садовницей в этой &#10;оранжереи, и совершила &#10;страшный поступок. " TEXT_ID="500" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-267 -235</POSITION>
+							<TRANSFORM>-267.000 -235.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="40417" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="3">
+			<NAME>dialog_gardener_start_3</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/clusters/dialogs/dialog_gardener</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_ghost_l.png" MOVABLE="false">
+					<POSITION>389 343</POSITION>
+					<TRANSFORM>389.000 343.000 0.000 388.000 343.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>-137 174</POSITION>
+							<TRANSFORM>-137.000 174.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_1686154871_227990178_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>-194 171</POSITION>
+							<TRANSFORM>-194.000 171.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Металл проверяется на &#10;огне, человек - на вине. &#10;Моя вина - помощь, &#10;которую я оказала для &#10;одного ужасного человека. " TEXT_ID="501" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-267 -235</POSITION>
+							<TRANSFORM>-267.000 -235.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="40416" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="2">
+			<NAME>dialog_gardener_start_4</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/clusters/dialogs/dialog_gardener</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_ghost_l.png" MOVABLE="false">
+					<POSITION>389 343</POSITION>
+					<TRANSFORM>389.000 343.000 0.000 388.000 343.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>-137 174</POSITION>
+							<TRANSFORM>-137.000 174.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_1477620967_564594869_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>-194 171</POSITION>
+							<TRANSFORM>-194.000 171.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Умоляю, найди рецепт &#10;лекарства, для которого я &#10;собирала травы и &#10;растения. " TEXT_ID="502" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-267 -235</POSITION>
+							<TRANSFORM>-267.000 -235.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="40415" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="1">
+			<NAME>dialog_gardener_start_5</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/gui</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_ghost_l.png" MOVABLE="false">
+					<POSITION>389 343</POSITION>
+					<TRANSFORM>389.000 343.000 0.000 388.000 343.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>-137 174</POSITION>
+							<TRANSFORM>-137.000 174.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_1558802985_441295476_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>-194 171</POSITION>
+							<TRANSFORM>-194.000 171.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Моим родным не будет &#10;покоя, пока дух мой &#10;прикован к земле. " TEXT_ID="503" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-267 -235</POSITION>
+							<TRANSFORM>-267.000 -235.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING />
+	<FILES_PATH>images/clusters/dialogs/dialog_gardener</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="" />
+	<LP_INTERFACE_CLOSE />
+	<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+		<VERTICES>0 0 1023 0 1021 767 0 768 </VERTICES>
+		<INDEXES>0 1 2 0 2 3 </INDEXES>
+	</RASTER>
+</SCENE>

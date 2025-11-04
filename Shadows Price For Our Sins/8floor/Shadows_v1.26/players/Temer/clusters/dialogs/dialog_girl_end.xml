@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<SCENE ID="608" ID_CLUSTER="10" LAYER="7003" LOAD="false" OPEN="false" NAME="dialog_girl_end" TYPE="303">
+	<OBJECTS>
+		<OBJECT ID="32735" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>girla_with_fuse_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>330.000 523.000 0.000 30.000 8.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/dialogs/dialog_girl dialog_girl_end/gerl_gift_1.png</TEXTURE>
+			<SIZE>060 016</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="32734" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>girla_with_fuse</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>298.000 413.000 0.000 201.000 355.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/dialogs/dialog_girl dialog_girl_end/gerl_dog_gift.png</TEXTURE>
+			<SIZE>403 711</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="32733" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>girla_with_dog</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>310.000 412.000 0.000 214.000 356.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/dialogs/dialog_girl dialog_girl_end/gerl_dog.png</TEXTURE>
+			<SIZE>428 712</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="32454" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="2">
+			<NAME>dialog_girl_end_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/clusters/dialogs/dialog_girl</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_r.png" MOVABLE="false">
+					<POSITION>632 335</POSITION>
+					<TRANSFORM>632.000 335.000 0.000 357.000 267.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>246 189</POSITION>
+							<TRANSFORM>246.000 189.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_1901901974_400426849_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>188 186</POSITION>
+							<TRANSFORM>188.000 186.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Мой Спарки! Как я рада, &#10;что ты нашла его! Большое &#10;тебе спасибо, теперь мне &#10;не так страшно. " TEXT_ID="191" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-098 -228</POSITION>
+							<TRANSFORM>-98.000 -228.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="32455" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="1">
+			<NAME>dialog_girl_end_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/gui</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui dialog_r.png" MOVABLE="false">
+					<POSITION>632 335</POSITION>
+					<TRANSFORM>632.000 335.000 0.000 357.000 267.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui next_button.png" TEXTURE_LOCAL_ID="0">
+							<POSITION>246 189</POSITION>
+							<TRANSFORM>246.000 189.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS>
+								<SCRIPT EVENT="DOWN">void gui_1664750979_1813060274_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+							</SCRIPTS>
+						</BUTTON5>
+						<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" FONT="images/gui octoberEN_RU_29.fnt" TEXT="Далее" TEXT_ID="177" HOT_SPOT="0" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 128 255 255">
+							<POSITION>188 186</POSITION>
+							<TRANSFORM>188.000 186.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+						<WLABEL ID="100" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_30.png" FONT="images/gui alfios_30.fnt" TEXT="Пока тебя не было, я &#10;нашла вот это. Мне &#10;кажется, тебе понадобится &#10;этот предмет, чтобы &#10;попасть внутрь дома. " TEXT_ID="192" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 255 255 255">
+							<POSITION>-098 -228</POSITION>
+							<TRANSFORM>-98.000 -228.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+						</WLABEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING />
+	<FILES_PATH>images/clusters/dialogs/dialog_girl</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="" />
+	<LP_INTERFACE_CLOSE />
+	<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+		<VERTICES>0 1 1024 1 1024 767 0 767 </VERTICES>
+		<INDEXES>0 1 2 0 2 3 </INDEXES>
+	</RASTER>
+</SCENE>

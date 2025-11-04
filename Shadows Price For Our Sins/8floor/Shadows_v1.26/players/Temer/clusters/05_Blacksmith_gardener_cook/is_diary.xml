@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="472" ID_CLUSTER="5" LAYER="1517" LOAD="false" NAME="is_diary" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="54474" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>diary</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui list_8.png" VISIBLE="true">
+        <POSITION>527 349</POSITION>
+        <CONTEXT>
+            <PANEL ENABLE="true" ID="3" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>-154 -238</POSITION>
+                <TRANSFORM>-154 -238 0 0 0 0 0 0 -0.08726388961076736 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="4" TEXT="" TEXT_ID="679" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-35 -17</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="135957" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_135957</NAME>
+<CENTER>529 349</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_diary_area_object_135957_135957_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="135958"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="135958" NAME="point_list_135958" TYPE="600">
+<POINT>288 78</POINT>
+<POINT>725 29</POINT>
+<POINT>771 641</POINT>
+<POINT>332 670</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/05_Blacksmith_gardener_cook/scene_bakery</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="void is_diary_472_init()" OPEN_SCRIPT_ID="void is_diary_472_open()"/>
+<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+<VERTICES>285 76 719 34 773 640 333 673 </VERTICES>
+<INDEXES>0 1 2 0 2 3 </INDEXES>
+</RASTER>
+</SCENE>

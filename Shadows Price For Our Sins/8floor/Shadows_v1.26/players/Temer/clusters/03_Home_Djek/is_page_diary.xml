@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="253" ID_CLUSTER="3" LAYER="1335" LOAD="false" NAME="is_page_diary" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="34994" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>new</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui 13_IS_01_Back.png" VISIBLE="true">
+        <POSITION>491 380</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="3" TEXT="" TEXT_ID="340" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-167 -252</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="135933" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_135933</NAME>
+<CENTER>485 392</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_page_diary_area_object_135933_135933_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="135934"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="135934" NAME="point_list_135934" TYPE="600">
+<POINT>289 83</POINT>
+<POINT>684 83</POINT>
+<POINT>677 701</POINT>
+<POINT>287 694</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/03_Home_Djek/scene_nannys_room</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="void is_page_diary_253_init()" OPEN_SCRIPT_ID=""/>
+<RASTER AMOUNT_INDEX="27" AMOUNT_VERTEX="11">
+<VERTICES>282 91 336 74 354 98 402 76 574 73 654 81 683 107 712 240 672 591 676 696 281 692 </VERTICES>
+<INDEXES>0 1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0 7 8 0 8 9 0 9 10 </INDEXES>
+</RASTER>
+</SCENE>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="693" ID_CLUSTER="9" LAYER="459" LOAD="false" NAME="page_diary_33" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="54458" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>airon_in_diary</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="3" MOVABLE="false" TEXTURE="images/gui 05_IS_01_Back.png" VISIBLE="true">
+        <POSITION>254 288</POSITION>
+		<TRANSFORM>254 288 0 0 0 0 0 0 -0.15 0.8 0.8 1.0</TRANSFORM>
+        <CONTEXT>
+            <WLABEL FONT="images/gui alfios_30.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_30.png" HOT_SPOT="0" ID="4" TEXT="" TEXT_ID="338" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>14 -321</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="5" ID="5" LETTER_SPACE="0" MID_DIV="-1" TEXT="" TEXT_ID="339" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>8 -63</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/pages_diary/page_diary_33</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

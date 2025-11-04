@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="314" ID_CLUSTER="5" LAYER="5000" LOAD="false" NAME="is_page_dinar_stable" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="46284" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>page_dinar_stable</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui list_3.png" VISIBLE="true">
+        <POSITION>493 286</POSITION>
+        <CONTEXT>
+            <PANEL ENABLE="true" ID="3" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>35 -213</POSITION>
+                <TRANSFORM>35 -213 0 0 0 0 0 0 0.12216944247484207 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_15.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_15.png" HOT_SPOT="5" ID="4" TEXT="" TEXT_ID="649" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-13 -144</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="135941" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_135941</NAME>
+<CENTER>489 290</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_page_dinar_stable_area_object_135941_135941_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="135942"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="135942" NAME="point_list_135942" TYPE="600">
+<POINT>340 4</POINT>
+<POINT>705 54</POINT>
+<POINT>635 576</POINT>
+<POINT>273 544</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/05_Blacksmith_gardener_cook/scene_stable</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="void is_page_dinar_stable_314_init()" OPEN_SCRIPT_ID="void is_page_dinar_stable_314_open()"/>
+<RASTER AMOUNT_INDEX="48" AMOUNT_VERTEX="18">
+<VERTICES>329 37 349 0 402 0 478 5 553 16 602 27 645 28 688 29 709 39 735 45 711 70 710 119 665 464 641 581 356 559 314 549 279 520 324 66 </VERTICES>
+<INDEXES>0 1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0 7 8 0 8 9 0 9 10 0 10 11 0 11 12 0 12 13 0 13 14 0 14 15 0 15 16 0 16 17 </INDEXES>
+</RASTER>
+</SCENE>

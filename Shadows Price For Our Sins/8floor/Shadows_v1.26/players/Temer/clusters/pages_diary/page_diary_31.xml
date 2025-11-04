@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="691" ID_CLUSTER="9" LAYER="457" LOAD="false" NAME="page_diary_31" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="43947" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="401" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>object_43947</NAME>
+<CENTER>0 0</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="-1"/>
+<TRANSFORM>107 101 0 0 0 0 0.0 0.0 -0.17453292 1.0 1.0 1.0</TRANSFORM>
+<TEXTURE FRAME="1" QUALITY="0">images/clusters/pages_diary/page_diary_31 ph_11-1.png</TEXTURE>
+<SIZE>380 288</SIZE>
+<ANIM>1 0 1 0 1 1 1 1</ANIM>
+<FILES_PATH>0</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="54456" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="401" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>object_54456</NAME>
+<CENTER>0 0</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="-1"/>
+<TRANSFORM>126 264 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0</TRANSFORM>
+<TEXTURE FRAME="1" QUALITY="0">images/clusters/pages_diary/page_diary_31 stiker.png</TEXTURE>
+<SIZE>446 492</SIZE>
+<ANIM>1 0 1 0 1 1 1 1</ANIM>
+<FILES_PATH>0</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="54457" LAYER="3" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>text_on_lock_in_diary</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="3" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+        <POSITION>367 503</POSITION>
+        <TRANSFORM>367 503 0 0 0 0 0 0 -0.5235833525657654 1.0 1.0 1.0</TRANSFORM>
+        <CONTEXT>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="4" TEXT="" TEXT_ID="336" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-18 -21</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/pages_diary/page_diary_31</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

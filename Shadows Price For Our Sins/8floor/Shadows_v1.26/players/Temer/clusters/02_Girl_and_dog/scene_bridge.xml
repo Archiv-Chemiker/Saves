@@ -1,0 +1,568 @@
+<?xml version="1.0"?>
+<SCENE ID="106" ID_CLUSTER="2" LAYER="100" LOAD="false" OPEN="false" NAME="scene_bridge" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="148420" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="39">
+			<NAME>area_dialog_hog</NAME>
+			<CENTER>512.000 384.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_dialog_hog_148420_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="148421" />
+		</OBJECT>
+		<OBJECT ID="92239" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="38">
+			<NAME>expl_pt</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_3.png" frequency="0" gravity="0.000 0.000" maxCount="0" multiply="true" spreadAngle="6.28319" area="50.000000 69.000000" start_after_loading="false">
+				<lifetime>0.600000</lifetime>
+				<velocity>635.000 0.000</velocity>
+				<tangent>400.000000</tangent>
+				<radial>100.000000</radial>
+				<startSize>21.000000</startSize>
+				<endSize>258.000000</endSize>
+				<startColor>ff00c6ff</startColor>
+				<averColor>ff0030ff</averColor>
+				<endColor>66c60ff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>466.000 249.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="92238" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="37">
+			<NAME>expl</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud2.png" frequency="0" gravity="0.000 0.000" maxCount="0" multiply="true" spreadAngle="6.28319" area="400.000000 400.000000" start_after_loading="false">
+				<lifetime>0.600000</lifetime>
+				<velocity>133.388 -366.480</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>505.000000</startSize>
+				<endSize>763.000000</endSize>
+				<startColor>c6ff</startColor>
+				<averColor>ff0030ff</averColor>
+				<endColor>c600ff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>461.000 227.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="37329" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="36">
+			<NAME>motelki_bridge</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles Motelek.png" frequency="50" gravity="0.000 0.000" maxCount="5" multiply="true" spreadAngle="2.23402" area="0" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>1.219 9.925</velocity>
+				<tangent>-196.000000</tangent>
+				<radial>12.000000</radial>
+				<startSize>10.000000</startSize>
+				<endSize>3.000000</endSize>
+				<startColor>d41255b</startColor>
+				<averColor>f5fff1c0</averColor>
+				<endColor>109a7b32</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>723.000 36.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="33078" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="35">
+			<NAME>area_prom_dialog_alh_2</NAME>
+			<CENTER>606.000 297.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_prom_dialog_alh_2_33078_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="33079" />
+		</OBJECT>
+		<OBJECT ID="33076" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="34">
+			<NAME>area_prom_dialog_alh_1</NAME>
+			<CENTER>605.000 300.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_prom_dialog_alh_1_33076_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="33077" />
+		</OBJECT>
+		<OBJECT ID="32919" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="33">
+			<NAME>area_dialogalhimist_1</NAME>
+			<CENTER>512.000 382.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_dialogalhimist_1_32919_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="32920" />
+		</OBJECT>
+		<OBJECT ID="33074" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="32">
+			<NAME>area_lantern_1</NAME>
+			<CENTER>555.000 261.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_lantern_1_33074_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="33075" />
+		</OBJECT>
+		<OBJECT ID="17355" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="31">
+			<NAME>area_feedback_bridge_cart</NAME>
+			<CENTER>312.000 200.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_feedback_bridge_cart_17355_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="17356" />
+		</OBJECT>
+		<OBJECT ID="14302" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="30">
+			<NAME>area_object_14302</NAME>
+			<CENTER>552.000 608.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="14303" />
+		</OBJECT>
+		<OBJECT ID="10496" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="29">
+			<NAME>area_goto_scene_coast</NAME>
+			<CENTER>320.000 170.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_goto_scene_coast_10496_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10495" />
+		</OBJECT>
+		<OBJECT ID="10482" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="28">
+			<NAME>area_cycle</NAME>
+			<CENTER>190.000 560.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_cycle_10482_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10483" />
+		</OBJECT>
+		<OBJECT ID="10479" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="26">
+			<NAME>area_cycle_insert</NAME>
+			<CENTER>220.000 410.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_cycle_insert_10479_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10480" />
+		</OBJECT>
+		<OBJECT ID="3771" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="25">
+			<NAME>area_object_3771</NAME>
+			<CENTER>64.000 63.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_object_3771_3771_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3772" />
+		</OBJECT>
+		<OBJECT ID="7573" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="24" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>wagon_ghost</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>556.000 345.000 0.000 432.000 341.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge wagon_ghost.png</TEXTURE>
+			<SIZE>864 682</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="3735" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="23">
+			<NAME>area_goto_cu_bridge</NAME>
+			<CENTER>805.000 625.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_goto_cu_bridge_3735_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3734" />
+		</OBJECT>
+		<OBJECT ID="7574" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="22" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>lantern_light</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>450.000 126.000 0.000 115.000 126.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge lantern_light.png</TEXTURE>
+			<SIZE>231 252</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="3723" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="21">
+			<NAME>area_goto_cu_koleso</NAME>
+			<CENTER>170.000 430.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_goto_cu_koleso_3723_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3722" />
+		</OBJECT>
+		<OBJECT ID="7575" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="20" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>lantern_insert</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>454.000 68.000 0.000 36.000 52.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge lantern_insert.png</TEXTURE>
+			<SIZE>073 104</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2344" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="19">
+			<NAME>area_hog_cart</NAME>
+			<CENTER>645.000 200.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_hog_cart_2344_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2343" />
+		</OBJECT>
+		<OBJECT ID="7576" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="18" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>chains</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>529.000 295.000 0.000 495.000 178.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge chains.png</TEXTURE>
+			<SIZE>990 356</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2311" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="17">
+			<NAME>area_lantern</NAME>
+			<CENTER>545.000 260.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_lantern_2311_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2310" />
+		</OBJECT>
+		<OBJECT ID="7577" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="16" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>alch_up</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>610.000 280.000 0.000 135.000 207.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge alch_up.png</TEXTURE>
+			<SIZE>270 414</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2308" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="15">
+			<NAME>area_goto_sceen_slope</NAME>
+			<CENTER>545.000 725.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_area_goto_sceen_slope_2308_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2307" />
+		</OBJECT>
+		<OBJECT ID="96813" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="14">
+			<NAME>p_cart_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles star.png" frequency="2" gravity="-6.337 -51.612" maxCount="10" multiply="true" spreadAngle="1.74533" area="276.000000 61.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>8.000000</tangent>
+				<radial>31.000000</radial>
+				<startSize>42.000000</startSize>
+				<endSize>11.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>112b0097</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>667.000 269.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="96812" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="13">
+			<NAME>p_cart_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="15" gravity="231.820 -162.322" maxCount="145" multiply="true" spreadAngle="5.18363" area="230.000000 192.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>-311.000000</tangent>
+				<radial>5.000000</radial>
+				<startSize>3.000000</startSize>
+				<endSize>4.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>11ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>663.000 267.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="7578" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>alch_sit</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>615.000 281.000 0.000 129.000 207.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge alch_sit.png</TEXTURE>
+			<SIZE>258 414</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7579" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cycle_fixed</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>239.000 417.000 0.000 47.000 89.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge cycle_fixed.png</TEXTURE>
+			<SIZE>094 178</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7580" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cycle_insert</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>242.000 416.000 0.000 61.000 89.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge cycle_insert.png</TEXTURE>
+			<SIZE>122 178</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7581" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cycle</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_bridge_cycle_7581_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="179728" />
+			<TRANSFORM>193.000 581.000 0.000 102.000 76.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge cycle.png</TEXTURE>
+			<SIZE>204 152</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7582" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>wagon</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge wagon.png</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="37328" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="7">
+			<NAME>tuman_bridge</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="5" gravity="4.000 0.000" maxCount="20" multiply="true" spreadAngle="0.663225" area="50.000000 153.000000" start_after_loading="true">
+				<lifetime>8.000000</lifetime>
+				<velocity>19.890 2.091</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>145.000000</startSize>
+				<endSize>454.000000</endSize>
+				<startColor>12345f</startColor>
+				<averColor>99117899</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>257.000 118.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="7583" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>chalk</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>436.000 484.000 0.000 16.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge chalk.png</TEXTURE>
+			<SIZE>032 032</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7584" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>roadlight_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>244.000 171.000 0.000 95.000 41.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge roadlight_3.png</TEXTURE>
+			<SIZE>190 082</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7585" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>roadlight_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>301.000 203.000 0.000 86.000 40.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge roadlight_2.png</TEXTURE>
+			<SIZE>172 080</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7586" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>roadlight_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>119.000 348.000 0.000 119.000 142.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge roadlight_1.png</TEXTURE>
+			<SIZE>238 284</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7587" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>roadlight_0</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>459.000 368.000 0.000 141.000 142.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge roadlight_0.png</TEXTURE>
+			<SIZE>282 284</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7588" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>background</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_bridge background.jpg</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="2307" NAME="point_list_2307" TYPE="600">
+			<POINT>297.000 651.000</POINT>
+			<POINT>775.000 657.000</POINT>
+			<POINT>852.000 767.000</POINT>
+			<POINT>252.000 768.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2310" NAME="point_list_2310" TYPE="600">
+			<POINT>379.000 33.000</POINT>
+			<POINT>474.000 29.000</POINT>
+			<POINT>522.000 137.000</POINT>
+			<POINT>602.000 270.000</POINT>
+			<POINT>672.000 356.000</POINT>
+			<POINT>691.000 465.000</POINT>
+			<POINT>621.000 486.000</POINT>
+			<POINT>590.000 451.000</POINT>
+			<POINT>603.000 397.000</POINT>
+			<POINT>533.000 383.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2343" NAME="point_list_2343" TYPE="600">
+			<POINT>494.000 132.000</POINT>
+			<POINT>563.000 75.000</POINT>
+			<POINT>710.000 52.000</POINT>
+			<POINT>784.000 191.000</POINT>
+			<POINT>800.000 358.000</POINT>
+			<POINT>601.000 393.000</POINT>
+			<POINT>536.000 351.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3722" NAME="point_list_3722" TYPE="600">
+			<POINT>133.000 344.000</POINT>
+			<POINT>280.000 328.000</POINT>
+			<POINT>326.000 472.000</POINT>
+			<POINT>153.000 475.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3734" NAME="point_list_3734" TYPE="600">
+			<POINT>254.000 377.000</POINT>
+			<POINT>514.000 315.000</POINT>
+			<POINT>566.000 533.000</POINT>
+			<POINT>287.000 542.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3772" NAME="point_list_3772" TYPE="600">
+			<POINT>14.000 13.000</POINT>
+			<POINT>114.000 13.000</POINT>
+			<POINT>45.000 45.000</POINT>
+			<POINT>14.000 113.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10480" NAME="point_list_10480" TYPE="600">
+			<POINT>129.000 349.000</POINT>
+			<POINT>277.000 331.000</POINT>
+			<POINT>334.000 459.000</POINT>
+			<POINT>146.000 488.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10483" NAME="point_list_10483" TYPE="600">
+			<POINT>90.000 521.000</POINT>
+			<POINT>124.000 501.000</POINT>
+			<POINT>178.000 505.000</POINT>
+			<POINT>239.000 530.000</POINT>
+			<POINT>277.000 556.000</POINT>
+			<POINT>299.000 595.000</POINT>
+			<POINT>268.000 631.000</POINT>
+			<POINT>192.000 623.000</POINT>
+			<POINT>125.000 589.000</POINT>
+			<POINT>97.000 562.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10495" NAME="point_list_10495" TYPE="600">
+			<POINT>114.000 0.000</POINT>
+			<POINT>488.000 0.000</POINT>
+			<POINT>606.000 276.000</POINT>
+			<POINT>369.000 341.000</POINT>
+			<POINT>128.000 360.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14303" NAME="point_list_14303" TYPE="600">
+			<POINT>502.000 558.000</POINT>
+			<POINT>602.000 558.000</POINT>
+			<POINT>602.000 658.000</POINT>
+			<POINT>502.000 658.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="17356" NAME="point_list_17356" TYPE="600">
+			<POINT>159.000 101.000</POINT>
+			<POINT>230.000 61.000</POINT>
+			<POINT>391.000 70.000</POINT>
+			<POINT>496.000 304.000</POINT>
+			<POINT>353.000 339.000</POINT>
+			<POINT>129.000 282.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="32920" NAME="point_list_32920" TYPE="600">
+			<POINT>0.000 5.000</POINT>
+			<POINT>1021.000 0.000</POINT>
+			<POINT>1024.000 765.000</POINT>
+			<POINT>0.000 768.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="33075" NAME="point_list_33075" TYPE="600">
+			<POINT>382.000 37.000</POINT>
+			<POINT>475.000 36.000</POINT>
+			<POINT>512.000 114.000</POINT>
+			<POINT>728.000 457.000</POINT>
+			<POINT>622.000 486.000</POINT>
+			<POINT>515.000 365.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="33077" NAME="point_list_33077" TYPE="600">
+			<POINT>480.000 114.000</POINT>
+			<POINT>580.000 114.000</POINT>
+			<POINT>730.000 459.000</POINT>
+			<POINT>622.000 486.000</POINT>
+			<POINT>485.000 408.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="33079" NAME="point_list_33079" TYPE="600">
+			<POINT>482.000 111.000</POINT>
+			<POINT>582.000 111.000</POINT>
+			<POINT>731.000 459.000</POINT>
+			<POINT>625.000 483.000</POINT>
+			<POINT>481.000 413.000</POINT>
+			<POINT>482.000 211.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="148421" NAME="point_list_148421" TYPE="600">
+			<POINT>1.000 1.000</POINT>
+			<POINT>1022.000 0.000</POINT>
+			<POINT>1024.000 767.000</POINT>
+			<POINT>0.000 768.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="179728" NAME="point_list_179728" TYPE="600">
+			<POINT>91.000 545.000</POINT>
+			<POINT>94.000 518.000</POINT>
+			<POINT>122.000 499.000</POINT>
+			<POINT>180.000 505.000</POINT>
+			<POINT>237.000 528.000</POINT>
+			<POINT>281.000 553.000</POINT>
+			<POINT>306.000 597.000</POINT>
+			<POINT>268.000 634.000</POINT>
+			<POINT>193.000 623.000</POINT>
+			<POINT>95.000 569.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/02_Girl_and_dog/scene_bridge</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_bridge_106_init()" OPEN_SCRIPT_ID="void scene_bridge_106_open()" />
+</SCENE>

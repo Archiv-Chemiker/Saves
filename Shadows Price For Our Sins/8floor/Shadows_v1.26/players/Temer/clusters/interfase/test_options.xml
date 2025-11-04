@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="451" ID_CLUSTER="8" LAYER="9501" LOAD="false" NAME="test_options" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="13505" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_13505</NAME>
+<CENTER>512 384</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="13506"/>
+</OBJECT>
+<OBJECT ENABLE="true" ID="14180" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>options_gui</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="4" MOVABLE="false" TEXTURE="images/gui options_back.png" VISIBLE="true">
+        <POSITION>518 370</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/gui october29.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui october29_0.png" ID="5" TEXT="OPTIONS" TEXT_ID="200" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-3 -244</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui october24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui october24_0.png" ID="7" TEXT="MUSIC" TEXT_ID="440" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-2 -175</POSITION>
+            </WLABEL>
+            <BUTTON5 ENABLE="true" ID="11" TEXTURE="images/gui hellowen_gui_battonn.png" VISIBLE="true">
+                <POSITION>-103 194</POSITION>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" ID="13" TEXT="APPLY" TEXT_ID="446" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>0 -5</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_1227421503_JC_GUI_Button5_12_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+            <BUTTON5 ENABLE="true" ID="12" TEXTURE="images/gui hellowen_gui_battonn.png" VISIBLE="true">
+                <POSITION>112 194</POSITION>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" ID="14" TEXT="CLOSE" TEXT_ID="447" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>0 -5</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_1227421503_JC_GUI_Button5_11_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+			<BUTTON5 ENABLE="true" ID="122" TEXTURE="images/gui hellowen_gui_battonn.png" VISIBLE="true">
+                <POSITION>0 254</POSITION>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" ID="142" TEXT="CREDITS" TEXT_ID="1388" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>0 -5</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_open_credits_1227421503_JC_GUI_Button5_11_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+            <WLABEL FONT="images/gui october24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui october24_0.png" ID="15" TEXT="SOUND" TEXT_ID="441" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-2 -78</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui october24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui october24_0.png" ID="16" TEXT="FX" TEXT_ID="442" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-2 13</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui october24.fnt" FONT_COLOR="255 128 255 255" FONT_TEXTURE="images/gui october24_0.png" ID="17" TEXT="FULL SCREEN" TEXT_ID="444" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-191 133</POSITION>
+            </WLABEL>
+            <CHECKBOX ENABLE="true" ID="18" TEXTURE="images/gui check_box.png" VISIBLE="true">
+                <POSITION>64 140</POSITION>
+                <CONTEXT/>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_1227421503_JC_GUI_Checkbox5_18_up(JC_GUI_CHECKBOX5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </CHECKBOX>
+            <WLABEL FONT="images/gui october24.fnt" FONT_COLOR="255 128 255 255" FONT_TEXTURE="images/gui october24_0.png" ID="19" TEXT="WIDE SCREEN" TEXT_ID="445" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-15 133</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui october24.fnt" FONT_COLOR="255 128 255 255" FONT_TEXTURE="images/gui october24_0.png" ID="20" TEXT="GAME CURSOR" TEXT_ID="455" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>168 135</POSITION>
+            </WLABEL>
+            <CHECKBOX ENABLE="true" ID="21" TEXTURE="images/gui check_box.png" VISIBLE="true">
+                <POSITION>-115 140</POSITION>
+                <CONTEXT/>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_1227421503_JC_GUI_Checkbox5_21_up(JC_GUI_CHECKBOX5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </CHECKBOX>
+            <CHECKBOX ENABLE="true" ID="22" TEXTURE="images/gui check_box.png" VISIBLE="true">
+                <POSITION>251 140</POSITION>
+                <CONTEXT/>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_1227421503_JC_GUI_Checkbox5_22_up(JC_GUI_CHECKBOX5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </CHECKBOX>
+			<SLIDER13 BTN_DISTANCE="0.5" ENABLE="true" END="274 -132" ID="2" MAX="100" MIN="0" START="-280 -132" STEP="1" TEXTURE="images/gui slider.png" VALUE="50" VISIBLE="true">
+				<SCRIPTS>
+					<SCRIPT EVENT="VALUE_CHANGED">void gui_1227421503_JC_GUI_Slider13_3_value_changed(JC_GUI_SLIDER13@ this)</SCRIPT>
+				</SCRIPTS>
+			<CONTEXT/>
+			</SLIDER13>
+			<SLIDER13 BTN_DISTANCE="0.5" ENABLE="true" END="274 -34" ID="3" MAX="100" MIN="0" START="-280 -39" STEP="1" TEXTURE="images/gui slider.png" VALUE="50" VISIBLE="true">
+				<SCRIPTS>
+					<SCRIPT EVENT="VALUE_CHANGED">void gui_1227421505_JC_GUI_Slider13_4_value_changed(JC_GUI_SLIDER13@ this)</SCRIPT>
+				</SCRIPTS>
+				<CONTEXT/>
+			</SLIDER13>
+			<SLIDER13 BTN_DISTANCE="0.5" ENABLE="true" END="274 60" ID="87" MAX="100" MIN="0" START="-280 60" STEP="1" TEXTURE="images/gui slider.png" VALUE="50" VISIBLE="true">
+				<SCRIPTS>
+					<SCRIPT EVENT="VALUE_CHANGED">void gui_1212741212_JC_GUI_Slider13_3_value_changed(JC_GUI_SLIDER13@ this)</SCRIPT>
+				</SCRIPTS>
+				<CONTEXT/>
+			</SLIDER13>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="13506" NAME="point_list_13506" TYPE="600">
+<POINT>1 0</POINT>
+<POINT>1024 0</POINT>
+<POINT>1024 768</POINT>
+<POINT>0 767</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/interfase/test_options</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="void test_options_451_open()"/>
+</SCENE>

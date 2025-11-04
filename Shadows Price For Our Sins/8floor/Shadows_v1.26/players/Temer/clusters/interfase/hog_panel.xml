@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<SCENE ID="449" ID_CLUSTER="8" LAYER="6503" LOAD="false" OPEN="false" NAME="hog_panel" TYPE="308">
+	<OBJECTS>
+		<OBJECT ID="14668" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>podlogka_hog</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>517.000 722.000 0.000 324.000 46.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/hog_panel bg_paper.png</TEXTURE>
+			<SIZE>648 092</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="13390" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>right_hog_part</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>927.000 693.000 0.000 97.000 75.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/hog_panel gui_right_part.png</TEXTURE>
+			<SIZE>195 150</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="13389" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>left_hog_part</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>102.000 693.000 0.000 101.000 75.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/hog_panel gui_left_part.png</TEXTURE>
+			<SIZE>203 151</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="13388" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>background_for_hog</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>524.000 708.000 0.000 382.000 60.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/hog_panel gui_bg.png</TEXTURE>
+			<SIZE>764 121</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING />
+	<FILES_PATH>images/clusters/interfase/hog_panel</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="" />
+	<SETTINGS DEBUG="false">
+		<LIST_FONT FNT="fonts alfios_20.fnt" MID_DIV="4" TEXTURE="fonts alfios_20.png" />
+		<TITLE_FONT FNT="fonts alfios_24.fnt" MID_DIV="4" TEXTURE="fonts alfios_24.png" />
+		<TITLE_POS VALUE="519.000 648.000" />
+		<POS_RECT VALUE="200.000 695.000" />
+		<SIZE_RECT VALUE="630.000 55.000" />
+		<MAX_COL VALUE="4" />
+		<MAX_ROW VALUE="2" />
+		<COLOR_ENABLE_OBJECT VALUE="4278190080" />
+		<COLOR_DISABLE_OBJECT VALUE="4289200128" />
+		<COLOR_EXHOG_OBJECT VALUE="4278190081" />
+		<COLOR_LINE VALUE="232437" />
+		<SCRIPT_REMOVE_OBJECT VALUE="void hog_obj_sound()" />
+	</SETTINGS>
+	<SPEC_OBJECTS>
+		<OBJECT ID="36264" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hog_crossed_out</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>751.250 736.250 0.000 67.500 10.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/hog_panel list_checked.png</TEXTURE>
+			<SIZE>135 020</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="36544" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="6">
+			<NAME>hog_effect</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles par.png" frequency="17" gravity="86.000 0.000" maxCount="220" multiply="true" spreadAngle="6.28319" area="0" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>40.000 0.000</velocity>
+				<tangent>-262.000000</tangent>
+				<radial>12.000000</radial>
+				<startSize>1.000000</startSize>
+				<endSize>227.000000</endSize>
+				<startColor>ff8d8d8d</startColor>
+				<averColor>ff77bdff</averColor>
+				<endColor>8d8d8d</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>398.000 474.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+	</SPEC_OBJECTS>
+</SCENE>

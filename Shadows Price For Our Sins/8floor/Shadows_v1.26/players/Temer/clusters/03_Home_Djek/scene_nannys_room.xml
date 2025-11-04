@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<SCENE ID="113" ID_CLUSTER="3" LAYER="100" LOAD="false" OPEN="false" NAME="scene_nannys_room" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="33381" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="41">
+			<NAME>area_first_dialog_nanny</NAME>
+			<CENTER>530.000 350.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_first_dialog_nanny_33381_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="33382" />
+		</OBJECT>
+		<OBJECT ID="92255" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="40">
+			<NAME>pily_nannys</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_3.png" frequency="50" gravity="1.997 0.105" maxCount="30" multiply="true" spreadAngle="0.785398" area="203.000000 334.000000" start_after_loading="false">
+				<lifetime>5.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>7.000000</startSize>
+				<endSize>7.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>ff5555ff</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>370.000 130.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="92254" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="39">
+			<NAME>pilsmal_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles dust_FX.png" frequency="2" gravity="0.000 0.000" maxCount="10" multiply="true" spreadAngle="1.01229" area="173.000000 157.000000" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>5.000 0.000</velocity>
+				<tangent>-6.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>4.000000</startSize>
+				<endSize>2.000000</endSize>
+				<startColor>ff</startColor>
+				<averColor>f1abcdef</averColor>
+				<endColor>24ef1dcb</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>638.000 67.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="33383" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="38">
+			<NAME>area_second_dialog_nanny</NAME>
+			<CENTER>512.000 382.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_second_dialog_nanny_33383_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="33384" />
+		</OBJECT>
+		<OBJECT ID="85119" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="37" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>nyny_cor</NAME>
+			<CHILDS>
+				<OBJECT ID="32872" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="1">
+					<NAME>object_32872</NAME>
+					<LAST_NAME></LAST_NAME>
+					<CHILDS />
+					<particles texture="images/particles cloud3.png" frequency="37" gravity="-0.628 11.983" maxCount="100" multiply="true" spreadAngle="0.663225" area="1.000000 100.000000" start_after_loading="true">
+						<lifetime>4.000000</lifetime>
+						<velocity>23.474 44.147</velocity>
+						<tangent>0.000000</tangent>
+						<radial>0.000000</radial>
+						<startSize>55.000000</startSize>
+						<endSize>279.000000</endSize>
+						<startColor>3ab7f</startColor>
+						<averColor>333ab7ff</averColor>
+						<endColor>1d40d4</endColor>
+					</particles>
+					<FILES_PATH>images/particles</FILES_PATH>
+					<TRANSFORM>80.000 100.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+				</OBJECT>
+			</CHILDS>
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>564.000 376.000 0.000 85.000 140.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room nanny_s.png</TEXTURE>
+			<SIZE>170 280</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="33676" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="36">
+			<NAME>area_feedback_sewing_machine</NAME>
+			<CENTER>452.000 300.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_feedback_sewing_machine_33676_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="33677" />
+		</OBJECT>
+		<OBJECT ID="32152" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="35">
+			<NAME>area_mg_medalions</NAME>
+			<CENTER>752.000 390.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_nannys_room_area_mg_medalions_32152_in()" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_mg_medalions_32152_click()" OUTPUT_SCRIPT_ID="void scene_nannys_room_area_mg_medalions_32152_out()" />
+			<POINT_LIST ID="32151" />
+		</OBJECT>
+		<OBJECT ID="4713" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="33">
+			<NAME>area_light</NAME>
+			<CENTER>570.000 540.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_light_4713_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="4714" />
+		</OBJECT>
+		<OBJECT ID="4705" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="32">
+			<NAME>area_goto_scene_mg_medalions</NAME>
+			<CENTER>750.000 400.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_nannys_room_area_goto_scene_mg_medalions_4705_in()" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_goto_scene_mg_medalions_4705_click()" OUTPUT_SCRIPT_ID="void scene_nannys_room_area_goto_scene_mg_medalions_4705_out()" />
+			<POINT_LIST ID="4704" />
+		</OBJECT>
+		<OBJECT ID="4641" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="31">
+			<NAME>area_goto_cu_basket_thread</NAME>
+			<CENTER>275.000 585.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_goto_cu_basket_thread_4641_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="4640" />
+		</OBJECT>
+		<OBJECT ID="4637" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="30">
+			<NAME>area_doll_nannys</NAME>
+			<CENTER>270.000 375.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_doll_nannys_4637_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="4638" />
+		</OBJECT>
+		<OBJECT ID="4617" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="29">
+			<NAME>area_goto_cu_sewing_machine</NAME>
+			<CENTER>450.000 300.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_goto_cu_sewing_machine_4617_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="4616" />
+		</OBJECT>
+		<OBJECT ID="4252" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="28">
+			<NAME>area_window</NAME>
+			<CENTER>350.000 115.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_window_4252_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="4253" />
+		</OBJECT>
+		<OBJECT ID="4250" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="27">
+			<NAME>area_goto_scene_second_floor1</NAME>
+			<CENTER>510.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_area_goto_scene_second_floor1_4250_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="4249" />
+		</OBJECT>
+		<OBJECT ID="4218" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="26" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hand_clear</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>265.000 355.000 0.000 37.000 42.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room hand_clear.png</TEXTURE>
+			<SIZE>075 084</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4219" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="25" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hand_kadr_9</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>225.000 360.000 0.000 32.000 44.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room hand_kadr_9.png</TEXTURE>
+			<SIZE>065 089</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4220" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="24" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hand_kadr_8</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>225.000 365.000 0.000 32.000 49.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room hand_kadr_8.png</TEXTURE>
+			<SIZE>064 099</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4221" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="23" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hand_kadr_7</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>229.000 369.000 0.000 27.000 52.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room hand_kadr_7.png</TEXTURE>
+			<SIZE>055 105</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4222" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="22" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hand_kadr_6</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>254.000 355.000 0.000 48.000 70.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room hand_kadr_6.png</TEXTURE>
+			<SIZE>097 140</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4223" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="21" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hand_kadr_5</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>238.000 368.000 0.000 28.000 55.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room hand_kadr_5.png</TEXTURE>
+			<SIZE>057 110</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4224" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="20" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hand_kadr_4</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>249.000 366.000 0.000 32.000 52.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room hand_kadr_4.png</TEXTURE>
+			<SIZE>064 105</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4225" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="19" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hand_kadr_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>257.000 363.000 0.000 34.000 49.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room hand_kadr_3.png</TEXTURE>
+			<SIZE>068 098</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4226" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="18" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hand_kadr_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>264.000 360.000 0.000 38.000 45.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room hand_kadr_2.png</TEXTURE>
+			<SIZE>076 091</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4227" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="17" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hand_kadr_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>265.000 357.000 0.000 38.000 42.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room hand_kadr_1.png</TEXTURE>
+			<SIZE>076 084</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4228" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="16" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>doll</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>291.000 457.000 0.000 127.000 184.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room doll.png</TEXTURE>
+			<SIZE>255 369</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4229" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="15" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>back_up_doll</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>281.000 393.000 0.000 69.000 121.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room back_up_doll.png</TEXTURE>
+			<SIZE>138 242</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4230" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="14" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>doll_kadr_6</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>290.000 512.000 0.000 128.000 126.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room doll_kadr_6.png</TEXTURE>
+			<SIZE>256 253</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4231" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="13" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>doll_kadr_5</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>291.000 511.000 0.000 127.000 127.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room doll_kadr_5.png</TEXTURE>
+			<SIZE>255 254</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4232" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>doll_kadr_4</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>291.000 510.000 0.000 127.000 128.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room doll_kadr_4.png</TEXTURE>
+			<SIZE>255 256</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4233" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>doll_kadr_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>291.000 508.000 0.000 127.000 129.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room doll_kadr_3.png</TEXTURE>
+			<SIZE>255 258</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4234" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>doll_kadr_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>291.000 507.000 0.000 127.000 134.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room doll_kadr_2.png</TEXTURE>
+			<SIZE>255 268</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4235" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>doll_kadr_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>291.000 508.000 0.000 127.000 133.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room doll_kadr_1.png</TEXTURE>
+			<SIZE>255 267</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4236" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>open_window</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>469.000 350.000 0.000 315.000 349.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room open_window.png</TEXTURE>
+			<SIZE>631 699</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4237" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>curtain</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>886.000 227.000 0.000 138.000 226.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room curtain.png</TEXTURE>
+			<SIZE>276 453</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4238" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>curtain_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>175.000 183.000 0.000 175.000 183.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room curtain_1.png</TEXTURE>
+			<SIZE>350 366</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4239" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>things</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room things.png</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4240" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>close_window</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_nannys_room_close_window_4240_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>432.000 257.000 0.000 252.000 257.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room close_window.png</TEXTURE>
+			<SIZE>504 514</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4241" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>handle</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>487.000 269.000 0.000 11.000 13.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room handle.jpg</TEXTURE>
+			<SIZE>022 027</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4242" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>back</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room back.png</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4243" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sky</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>357.000 108.000 0.000 114.000 99.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_nannys_room sky.jpg</TEXTURE>
+			<SIZE>228 199</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="4249" NAME="point_list_4249" TYPE="600">
+			<POINT>216.000 633.000</POINT>
+			<POINT>704.000 601.000</POINT>
+			<POINT>826.000 768.000</POINT>
+			<POINT>181.000 767.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="4253" NAME="point_list_4253" TYPE="600">
+			<POINT>270.000 27.000</POINT>
+			<POINT>465.000 48.000</POINT>
+			<POINT>427.000 193.000</POINT>
+			<POINT>250.000 176.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="4616" NAME="point_list_4616" TYPE="600">
+			<POINT>360.000 207.000</POINT>
+			<POINT>540.000 212.000</POINT>
+			<POINT>546.000 389.000</POINT>
+			<POINT>367.000 390.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="4638" NAME="point_list_4638" TYPE="600">
+			<POINT>223.000 268.000</POINT>
+			<POINT>330.000 269.000</POINT>
+			<POINT>329.000 457.000</POINT>
+			<POINT>205.000 478.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="4640" NAME="point_list_4640" TYPE="600">
+			<POINT>164.000 537.000</POINT>
+			<POINT>358.000 527.000</POINT>
+			<POINT>408.000 621.000</POINT>
+			<POINT>164.000 637.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="4704" NAME="point_list_4704" TYPE="600">
+			<POINT>635.000 341.000</POINT>
+			<POINT>863.000 333.000</POINT>
+			<POINT>869.000 444.000</POINT>
+			<POINT>640.000 450.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="4714" NAME="point_list_4714" TYPE="600">
+			<POINT>519.000 486.000</POINT>
+			<POINT>619.000 486.000</POINT>
+			<POINT>619.000 586.000</POINT>
+			<POINT>519.000 586.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="32151" NAME="point_list_32151" TYPE="600">
+			<POINT>632.000 340.000</POINT>
+			<POINT>864.000 333.000</POINT>
+			<POINT>872.000 445.000</POINT>
+			<POINT>639.000 448.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="33382" NAME="point_list_33382" TYPE="600">
+			<POINT>0.000 2.000</POINT>
+			<POINT>1024.000 0.000</POINT>
+			<POINT>1024.000 736.000</POINT>
+			<POINT>0.000 765.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="33384" NAME="point_list_33384" TYPE="600">
+			<POINT>0.000 0.000</POINT>
+			<POINT>1024.000 0.000</POINT>
+			<POINT>1022.000 736.000</POINT>
+			<POINT>0.000 765.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="33677" NAME="point_list_33677" TYPE="600">
+			<POINT>358.000 207.000</POINT>
+			<POINT>542.000 212.000</POINT>
+			<POINT>547.000 393.000</POINT>
+			<POINT>368.000 391.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/03_Home_Djek/scene_nannys_room</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_nannys_room_113_init()" OPEN_SCRIPT_ID="void scene_nannys_room_113_open()" />
+</SCENE>

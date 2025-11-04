@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="241" ID_CLUSTER="3" LAYER="5000" LOAD="false" NAME="is_letter" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="35134" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>new</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui 15_IS_01_Back.png" VISIBLE="true">
+        <POSITION>534 380</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="3" TEXT="" TEXT_ID="341" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-172 -270</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="135935" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_135935</NAME>
+<CENTER>536 390</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_letter_area_object_135935_135935_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="135936"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="135936" NAME="point_list_135936" TYPE="600">
+<POINT>584 201</POINT>
+<POINT>577 97</POINT>
+<POINT>331 90</POINT>
+<POINT>330 227</POINT>
+<POINT>284 438</POINT>
+<POINT>476 691</POINT>
+<POINT>789 451</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/03_Home_Djek/scene_balcony</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="void is_letter_241_init()" OPEN_SCRIPT_ID=""/>
+<RASTER AMOUNT_INDEX="15" AMOUNT_VERTEX="7">
+<VERTICES>583 92 591 194 792 448 472 687 278 437 329 229 328 95 </VERTICES>
+<INDEXES>0 1 2 0 2 3 0 3 4 0 4 5 0 5 6 </INDEXES>
+</RASTER>
+</SCENE>

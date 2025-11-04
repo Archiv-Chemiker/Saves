@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<GAME>
+	<CURRENT_PLAYER NAME="Temer" />
+	<CURRENT_SETTINGS>
+		<FULL_SCREEN VALUE="true" />
+		<WIDE_SCREEN VALUE="false" />
+	</CURRENT_SETTINGS>
+	<PLAYERS>
+		<PLAYER>Temer</PLAYER>
+	</PLAYERS>
+</GAME>

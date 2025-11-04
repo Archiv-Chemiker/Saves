@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="644" ID_CLUSTER="11" LAYER="10103" LOAD="false" NAME="jack_video" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="38420" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="405" VISIBLE="true">
+<CHILDS/>
+<NAME>jack_vid</NAME>
+<LAST_NAME/>
+<FPS VALUE="1"/>
+<TRANSFORM>512 389 0 360 244 0 0.0 0.0 0.0 1.42 1.42 1.0</TRANSFORM>
+<TEXTURE>video living_room.ogv</TEXTURE>
+<SIZE>720 489</SIZE>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="-1"/>
+<FILES_PATH>video</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="113914" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>skip_video</NAME>
+<GUI>
+    <BUTTON5 ENABLE="true" ID="3" TEXTURE="images/clusters/videos/jack_video hint_button_long.png" VISIBLE="true">
+        <POSITION>932 33</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/clusters/videos/jack_video alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/clusters/videos/jack_video alfios_20.png" HOT_SPOT="0" ID="5" TEXT="" TEXT_ID="454" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>0 -1</POSITION> 	
+ <TRANSFORM>932 33 0 0 0 0 0 0 0 0.90 0.90 1.0</TRANSFORM>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </BUTTON5>
+</GUI>
+<FILES_PATH>images/clusters/videos/jack_video</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="38421" LAYER="3" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_38421</NAME>
+<CENTER>930 35</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void jack_video_area_object_38421_38421_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="38422"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="38422" NAME="point_list_38422" TYPE="600">
+<POINT>862 12</POINT>
+<POINT>1001 12</POINT>
+<POINT>1001 58</POINT>
+<POINT>859 56</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/videos/jack_video</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="void jack_video_644_open()"/>
+</SCENE>

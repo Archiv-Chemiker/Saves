@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="941" ID_CLUSTER="8" LAYER="6948" LOAD="false" NAME="hint_button_button" OPEN="false" TYPE="318">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="77945" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>hintButton</NAME>
+<GUI>
+    <PROGRESS_BAR ENABLE="true" ID="7" TEXTURE="images/gui gui_hint_button_vert.png" VISIBLE="true">
+        <POSITION>957 750</POSITION>
+		<TRANSFORM>957 750 0 0 0 0 0 0 -1.5707499980926514 1.0 1.0 1.0</TRANSFORM>
+        <CONTEXT/>
+        <SCRIPTS>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PROGRESS_BAR>
+    <BUTTON5 ENABLE="true" ID="11" TEXTURE="images/gui menu_button.png" VISIBLE="true">
+        <POSITION>957 750</POSITION>
+        <CONTEXT/>
+        <SCRIPTS>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </BUTTON5>
+    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="12" TEXT="" TEXT_ID="1220" VISIBLE="true">
+        <CONTEXT/>
+        <POSITION>958 745</POSITION>
+		<TRANSFORM>958 745 0 0 0 0 0 0 0 0.85 0.85 1.0</TRANSFORM>
+    </WLABEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="201379" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_201379</NAME>
+<CENTER>943 701</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="201380"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="201380" NAME="point_list_201380" TYPE="600">
+<POINT>907 724</POINT>
+<POINT>917 651</POINT>
+<POINT>1024 629</POINT>
+<POINT>1024 768</POINT>
+<POINT>863 768</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/interfase/hint_button_button</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="void hint_button_button_941_init()" OPEN_SCRIPT_ID=""/>
+<SETTINGS GUI_NAME="hintButton" ID_BUTTON="11" ID_PROGRESS="7" LOOPED="true">
+</SETTINGS>
+<SPEC_OBJECTS/>
+</SCENE>

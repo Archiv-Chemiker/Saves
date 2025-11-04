@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="708" ID_CLUSTER="9" LAYER="474" LOAD="false" NAME="page_diary_48" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="42592" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>diary_page_24</NAME>
+<GUI>
+    <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="6" ID="544" LETTER_SPACE="0" MID_DIV="1" TEXT="" TEXT_ID="609" VISIBLE="true">
+        <CONTEXT/>
+        <POSITION>720 65</POSITION>
+    </WLABEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/pages_diary/page_diary_48</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

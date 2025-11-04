@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="437" ID_CLUSTER="8" LAYER="6510" LOAD="false" NAME="feedback" OPEN="false" TYPE="316">
+<OBJECTS/>
+<FILLING/>
+<FILES_PATH>images/clusters/interfase/feedback</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+<SETTINGS>
+<TIME_SHOW_FB VALUE="5"/>
+<OFFSET_Y_FONT VALUE="-10"/>
+<OFFSET_Y VALUE="5"/>  <!-- Дополнительное смещение шрифта по Y -->
+<FADE_TIME_SHOW VALUE="0.2"/>	<!-- Время появления  -->
+<FADE_TIME_HIDE VALUE="0"/>	<!-- Время исчезновения-->
+<DELAY_HIDE VALUE="0"/>		<!-- Задержка перед исчезновением-->
+<POSITION_Y VALUE="0"/>		<!-- Позиция по Y-->
+<FONT FNT="fonts alfios_20.fnt" MID_DIV="12" TEXTURE="fonts alfios_20.png"/> <!-- Используемый шрифт MID_DIV = индивидуальное для каждого шрифта -->
+</SETTINGS>
+<SPEC_OBJECTS>
+<OBJECT ENABLE="true" ID="12795" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="401" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>feedBack_back</NAME>
+<CENTER>0 0</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="-1"/>
+<TRANSFORM>0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0</TRANSFORM>
+<TEXTURE FRAME="1" QUALITY="0">images/icons black1x1.jpg</TEXTURE>
+<SIZE>1 1</SIZE>
+<ANIM>1 0 1 0 1 1 1 1</ANIM>
+<FILES_PATH>images/icons</FILES_PATH>
+</OBJECT>
+</SPEC_OBJECTS>
+</SCENE>

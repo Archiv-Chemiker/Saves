@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<SCENE ID="110" ID_CLUSTER="3" LAYER="100" LOAD="false" OPEN="false" NAME="scene_living_room" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="92246" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="42">
+			<NAME>pily_10</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_3.png" frequency="50" gravity="1.997 0.105" maxCount="30" multiply="true" spreadAngle="0.785398" area="203.000000 334.000000" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>7.000000</startSize>
+				<endSize>7.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>ff5555ff</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>465.000 418.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="17390" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="41">
+			<NAME>area_object_17390</NAME>
+			<CENTER>508.000 126.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_object_17390_17390_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="17391" />
+		</OBJECT>
+		<OBJECT ID="17388" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="40">
+			<NAME>area_object_17388</NAME>
+			<CENTER>901.000 455.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_object_17388_17388_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="17389" />
+		</OBJECT>
+		<OBJECT ID="14065" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="39">
+			<NAME>area_prom_jack2</NAME>
+			<CENTER>650.000 415.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_prom_jack2_14065_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="14066" />
+		</OBJECT>
+		<OBJECT ID="14063" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="38">
+			<NAME>area_prom_jack1</NAME>
+			<CENTER>650.000 415.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_prom_jack1_14063_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="14064" />
+		</OBJECT>
+		<OBJECT ID="3966" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="37">
+			<NAME>area_djack</NAME>
+			<CENTER>650.000 415.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_living_room_area_djack_3966_in()" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_djack_3966_click()" OUTPUT_SCRIPT_ID="void scene_living_room_area_djack_3966_out()" />
+			<POINT_LIST ID="3967" />
+		</OBJECT>
+		<OBJECT ID="2704" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="36">
+			<NAME>area_goto_mirrors</NAME>
+			<CENTER>910.000 310.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_goto_mirrors_2704_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2703" />
+		</OBJECT>
+		<OBJECT ID="5580" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="35" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_jack_click</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>582.000 292.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room ani_jack_click.png</TEXTURE>
+			<SIZE>128 256</SIZE>
+			<ANIM>1 1 0 0 6 6 36 12.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5578" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="34" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_jack_watch</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>582.000 291.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room ani_jack_watch.png</TEXTURE>
+			<SIZE>128 256</SIZE>
+			<ANIM>1 0 1 0 6 6 36 12.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5555" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="33" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>camera</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>464.000 490.000 0.000 24.000 18.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room camera.png</TEXTURE>
+			<SIZE>048 036</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5577" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="32" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_jack_drink</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>584.000 296.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="64" QUALITY="">images/clusters/03_Home_Djek/scene_living_room ani_jack_drink.png</TEXTURE>
+			<SIZE>128 256</SIZE>
+			<ANIM>1 0 0 0 8 8 64 13.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5576" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="31" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_jack</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_living_room_ani_jack_5576_in()" MOUSECLICK_SCRIPT_ID="void scene_living_room_ani_jack_5576_click()" OUTPUT_SCRIPT_ID="void scene_living_room_ani_jack_5576_out()" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>582.000 292.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room ani_jack_idle.png</TEXTURE>
+			<SIZE>128 256</SIZE>
+			<ANIM>1 0 1 0 6 6 36 13.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5556" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="29" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>boardgame</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>461.000 508.000 0.000 41.000 20.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room boardgame.png</TEXTURE>
+			<SIZE>082 040</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5557" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="28" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>candle_glow</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>900.000 341.000 0.000 65.000 68.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room candle_glow.png</TEXTURE>
+			<SIZE>130 136</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5558" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="27" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>secret_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>41.000 515.000 0.000 41.000 54.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room secret_open.png</TEXTURE>
+			<SIZE>082 108</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="3693" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="26">
+			<NAME>area_cu_bookcase</NAME>
+			<CENTER>470.000 310.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_cu_bookcase_3693_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3692" />
+		</OBJECT>
+		<OBJECT ID="5559" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="25" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>beam_4_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>96.000 544.000 0.000 56.000 21.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room beam_4_open.png</TEXTURE>
+			<SIZE>112 042</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2757" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="24">
+			<NAME>area_goto_cu_secret</NAME>
+			<CENTER>130.000 540.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_goto_cu_secret_2757_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2756" />
+		</OBJECT>
+		<OBJECT ID="5560" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="23" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>beam_4</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>315.000 388.000 0.000 315.000 211.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room beam_4.png</TEXTURE>
+			<SIZE>630 422</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2717" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="22">
+			<NAME>area_goto_scene_backyard</NAME>
+			<CENTER>510.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_goto_scene_backyard_2717_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2716" />
+		</OBJECT>
+		<OBJECT ID="5561" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="21" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>beam_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>789.000 237.000 0.000 196.000 63.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room beam_3.png</TEXTURE>
+			<SIZE>392 126</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2713" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="20">
+			<NAME>area_goto_scene_hall</NAME>
+			<CENTER>190.000 340.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_goto_scene_hall_2713_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2712" />
+		</OBJECT>
+		<OBJECT ID="5562" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="19" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>beam_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>920.000 299.000 0.000 61.000 28.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room beam_2.png</TEXTURE>
+			<SIZE>122 056</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5563" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="18" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>beam_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>900.000 331.000 0.000 41.000 20.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room beam_1.png</TEXTURE>
+			<SIZE>082 040</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5564" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="17" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>mirrors_refl</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>920.000 306.000 0.000 64.000 57.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room mirrors_refl.png</TEXTURE>
+			<SIZE>128 114</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5565" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="16" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>secret_close</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>112.000 542.000 0.000 48.000 22.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room secret_close.png</TEXTURE>
+			<SIZE>096 044</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2689" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="15">
+			<NAME>area_goto_is_photo</NAME>
+			<CENTER>470.000 490.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_living_room_area_goto_is_photo_2689_in()" MOUSECLICK_SCRIPT_ID="void scene_living_room_area_goto_is_photo_2689_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2688" />
+		</OBJECT>
+		<OBJECT ID="5566" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="14" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>lamp</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>508.000 132.000 0.000 134.000 132.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room lamp.png</TEXTURE>
+			<SIZE>268 264</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5567" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="13" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>handle</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>476.000 293.000 0.000 8.000 3.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room handle.png</TEXTURE>
+			<SIZE>016 006</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5568" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>button</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>484.000 298.000 0.000 42.000 46.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room button.png</TEXTURE>
+			<SIZE>084 092</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5569" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>jack_sit</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>649.000 424.000 0.000 64.000 127.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room jack_sit.png</TEXTURE>
+			<SIZE>128 254</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5570" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>fireplace</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>898.000 454.000 0.000 126.000 124.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room fireplace.png</TEXTURE>
+			<SIZE>252 248</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="92243" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="9">
+			<NAME>flame_10</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles firepart.png" frequency="300" gravity="0.000 0.000" maxCount="150" multiply="true" spreadAngle="0.471239" area="84.000000 0.000000" start_after_loading="true">
+				<lifetime>0.700000</lifetime>
+				<velocity>6.804 -129.822</velocity>
+				<tangent>0.000000</tangent>
+				<radial>100.000000</radial>
+				<startSize>62.000000</startSize>
+				<endSize>1.000000</endSize>
+				<startColor>11ac67d4</startColor>
+				<averColor>77ffffff</averColor>
+				<endColor>11ff5400</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>905.000 489.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="37357" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="8">
+			<NAME>fire_living_room</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles firepart.png" frequency="300" gravity="0.000 0.000" maxCount="150" multiply="true" spreadAngle="0.471239" area="84.000000 0.000000" start_after_loading="false">
+				<lifetime>0.700000</lifetime>
+				<velocity>6.804 -129.822</velocity>
+				<tangent>0.000000</tangent>
+				<radial>100.000000</radial>
+				<startSize>62.000000</startSize>
+				<endSize>1.000000</endSize>
+				<startColor>11ac67d4</startColor>
+				<averColor>77ffffff</averColor>
+				<endColor>11ff5400</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>761.000 461.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="5571" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>fire</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>891.000 469.000 0.000 35.000 47.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room fire.png</TEXTURE>
+			<SIZE>070 094</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5572" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>fireplace_glow</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>765.000 442.000 0.000 168.000 201.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room fireplace_glow.png</TEXTURE>
+			<SIZE>336 402</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5573" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>fireplace_on</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>866.000 450.000 0.000 67.000 74.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room fireplace_on.png</TEXTURE>
+			<SIZE>134 148</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="5574" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>chair</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>718.000 335.000 0.000 259.000 219.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room chair.png</TEXTURE>
+			<SIZE>518 438</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="92245" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="3">
+			<NAME>iskra_10</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles firespark.png" frequency="24" gravity="0.000 -230.000" maxCount="5" multiply="true" spreadAngle="1.13446" area="38.000000 96.000000" start_after_loading="true">
+				<lifetime>0.800000</lifetime>
+				<velocity>0.000 -185.000</velocity>
+				<tangent>8.000000</tangent>
+				<radial>100.000000</radial>
+				<startSize>10.000000</startSize>
+				<endSize>3.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ffff4e00</averColor>
+				<endColor>973b67</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>676.000 329.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="92244" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="2">
+			<NAME>dimka_10</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="200" gravity="5.694 -12.790" maxCount="220" multiply="false" spreadAngle="6.28319" area="119.000000 257.000000" start_after_loading="true">
+				<lifetime>3.000000</lifetime>
+				<velocity>0.000 -0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>93.000000</startSize>
+				<endSize>279.000000</endSize>
+				<startColor>11000000</startColor>
+				<averColor>22000000</averColor>
+				<endColor>0</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>664.000 339.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="5575" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>background</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/03_Home_Djek/scene_living_room background.jpg</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="2688" NAME="point_list_2688" TYPE="600">
+			<POINT>414.000 438.000</POINT>
+			<POINT>514.000 438.000</POINT>
+			<POINT>514.000 538.000</POINT>
+			<POINT>414.000 538.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2703" NAME="point_list_2703" TYPE="600">
+			<POINT>847.000 245.000</POINT>
+			<POINT>998.000 241.000</POINT>
+			<POINT>995.000 367.000</POINT>
+			<POINT>834.000 348.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2712" NAME="point_list_2712" TYPE="600">
+			<POINT>104.000 173.000</POINT>
+			<POINT>305.000 195.000</POINT>
+			<POINT>294.000 411.000</POINT>
+			<POINT>233.000 422.000</POINT>
+			<POINT>223.000 461.000</POINT>
+			<POINT>98.000 472.000</POINT>
+			<POINT>104.000 273.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2716" NAME="point_list_2716" TYPE="600">
+			<POINT>270.000 625.000</POINT>
+			<POINT>691.000 625.000</POINT>
+			<POINT>821.000 768.000</POINT>
+			<POINT>169.000 768.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2756" NAME="point_list_2756" TYPE="600">
+			<POINT>68.000 484.000</POINT>
+			<POINT>168.000 484.000</POINT>
+			<POINT>168.000 584.000</POINT>
+			<POINT>68.000 584.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3692" NAME="point_list_3692" TYPE="600">
+			<POINT>381.000 242.000</POINT>
+			<POINT>542.000 243.000</POINT>
+			<POINT>539.000 364.000</POINT>
+			<POINT>380.000 363.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3967" NAME="point_list_3967" TYPE="600">
+			<POINT>1015.000 -18.000</POINT>
+			<POINT>1038.000 -21.000</POINT>
+			<POINT>1036.000 9.000</POINT>
+			<POINT>1024.000 0.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14064" NAME="point_list_14064" TYPE="600">
+			<POINT>622.000 314.000</POINT>
+			<POINT>722.000 314.000</POINT>
+			<POINT>695.000 545.000</POINT>
+			<POINT>594.000 490.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14066" NAME="point_list_14066" TYPE="600">
+			<POINT>623.000 314.000</POINT>
+			<POINT>723.000 314.000</POINT>
+			<POINT>701.000 542.000</POINT>
+			<POINT>596.000 489.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="17389" NAME="point_list_17389" TYPE="600">
+			<POINT>786.000 353.000</POINT>
+			<POINT>1024.000 372.000</POINT>
+			<POINT>1023.000 554.000</POINT>
+			<POINT>914.000 558.000</POINT>
+			<POINT>778.000 502.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="17391" NAME="point_list_17391" TYPE="600">
+			<POINT>392.000 11.000</POINT>
+			<POINT>631.000 14.000</POINT>
+			<POINT>628.000 127.000</POINT>
+			<POINT>516.000 241.000</POINT>
+			<POINT>491.000 238.000</POINT>
+			<POINT>385.000 113.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/03_Home_Djek/scene_living_room</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_living_room_110_init()" OPEN_SCRIPT_ID="void scene_living_room_110_open()" />
+</SCENE>

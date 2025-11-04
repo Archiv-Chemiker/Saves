@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="735" ID_CLUSTER="9" LAYER="501" LOAD="false" NAME="page_diary_75" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="126447" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>medallions_1</NAME>
+<GUI>
+    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="12" TEXT="" TEXT_ID="723" VISIBLE="true">
+        <CONTEXT/>
+        <POSITION>426 573</POSITION>
+    </WLABEL>
+    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="10" TEXT="" TEXT_ID="729" VISIBLE="true">
+        <CONTEXT/>
+        <POSITION>220 573</POSITION>
+    </WLABEL>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui ph_25-1.png" VISIBLE="true">
+        <POSITION>321 300</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="8" TEXT="" TEXT_ID="721" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-6 103</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="7" TEXT="" TEXT_ID="720" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-7 84</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="6" TEXT="" TEXT_ID="715" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>83 -79</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="5" TEXT="" TEXT_ID="714" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>83 -98</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="4" TEXT="" TEXT_ID="713" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-92 -78</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="3" TEXT="" TEXT_ID="703" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-92 -98</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+    <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="11" TEXT="" TEXT_ID="722" VISIBLE="true">
+        <CONTEXT/>
+        <POSITION>426 554</POSITION>
+    </WLABEL>
+    <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="9" TEXT="" TEXT_ID="728" VISIBLE="true">
+        <CONTEXT/>
+        <POSITION>220 554</POSITION>
+    </WLABEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/pages_diary/page_diary_75</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

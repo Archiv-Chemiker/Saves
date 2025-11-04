@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="954" ID_CLUSTER="8" LAYER="10999" LOAD="false" NAME="survay" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="161016" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>survey_label</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui new_del_player_back.png" VISIBLE="true">
+        <POSITION>530 343</POSITION>
+        <CONTEXT>
+            <BUTTON5 ENABLE="true" ID="4" TEXTURE="images/gui hellowen_gui_battonn.png" VISIBLE="true">
+                <POSITION>-3 140</POSITION>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="5" TEXT="_" TEXT_ID="450" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-1 -3</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void close_survey(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="3" TEXT="_" TEXT_ID="1395" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-3 -79</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/interfase/surv</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+<VERTICES>-211 -126 1167 -41 1241 986 -187 1088 </VERTICES>
+<INDEXES>0 1 2 0 2 3 </INDEXES>
+</RASTER>
+</SCENE>

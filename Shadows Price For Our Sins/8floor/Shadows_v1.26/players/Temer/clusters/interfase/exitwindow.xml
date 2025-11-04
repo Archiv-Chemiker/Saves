@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="943" ID_CLUSTER="8" LAYER="1655" LOAD="false" NAME="exitwindow" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="78927" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>exitwindow</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui new_del_player_back.png" VISIBLE="true">
+        <POSITION>524 311</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/gui octoberEN_RU_29.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" HOT_SPOT="0" ID="5" TEXT="" TEXT_ID="1230" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-3 -79</POSITION>
+            </WLABEL>
+            <BUTTON5 ENABLE="true" ID="4" TEXTURE="images/gui hellowen_gui_battonn.png" VISIBLE="true">
+                <POSITION>99 115</POSITION>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="7" TEXT="" TEXT_ID="453" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>0 -5</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_1987449447_JC_GUI_Button5_4_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+            <BUTTON5 ENABLE="true" ID="3" TEXTURE="images/gui hellowen_gui_battonn.png" VISIBLE="true">
+                <POSITION>-97 115</POSITION>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="6" TEXT="" TEXT_ID="452" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>0 -5</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_1986295200_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/interfase/test_main_menu</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+<VERTICES>0 0 1023 0 1024 768 0 768 </VERTICES>
+<INDEXES>0 1 2 0 2 3 </INDEXES>
+</RASTER>
+</SCENE>

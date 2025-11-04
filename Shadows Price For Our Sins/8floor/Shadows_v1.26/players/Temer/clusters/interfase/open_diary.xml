@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<SCENE ID="446" ID_CLUSTER="8" LAYER="6800" LOAD="false" OPEN="false" NAME="open_diary" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="15404" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="8">
+			<NAME>new_obj</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_3.png" frequency="145" gravity="-0.000 -0.000" maxCount="110" multiply="true" spreadAngle="6.28319" area="0" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>20.000 0.000</velocity>
+				<tangent>-33.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>9.000000</startSize>
+				<endSize>7.000000</endSize>
+				<startColor>ff</startColor>
+				<averColor>f1abcdef</averColor>
+				<endColor>24ef1dcb</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>875.000 671.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="15402" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>new_is</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>891.000 679.000 0.000 78.000 54.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/open_diary gui_diary_newmsg.png</TEXTURE>
+			<SIZE>157 108</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="13262" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="6">
+			<NAME>area_close_diary_1</NAME>
+			<CENTER>878.000 692.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void open_diary_area_close_diary_1_13262_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="13263" />
+		</OBJECT>
+		<OBJECT ID="13261" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_diary_close</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>890.000 690.000 0.000 69.000 57.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/open_diary diary_ani_12.png</TEXTURE>
+			<SIZE>138 114</SIZE>
+			<ANIM>0 0 0 0 4 3 12 25.000003</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="13255" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_diary_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>893.000 693.000 0.000 69.000 57.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="12" QUALITY="">images/clusters/interfase/open_diary diary_ani_12.png</TEXTURE>
+			<SIZE>138 114</SIZE>
+			<ANIM>1 0 0 0 4 3 12 25.000003</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="13251" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="3">
+			<NAME>area_open_diary</NAME>
+			<CENTER>871.000 692.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void open_diary_area_open_diary_13251_in()" MOUSECLICK_SCRIPT_ID="void open_diary_area_open_diary_13251_click()" OUTPUT_SCRIPT_ID="void open_diary_area_open_diary_13251_out()" />
+			<POINT_LIST ID="13252" />
+		</OBJECT>
+		<OBJECT ID="13250" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gui_diary_select</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>893.000 693.000 0.000 53.000 38.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/open_diary gui_diary_select.png</TEXTURE>
+			<SIZE>106 076</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="13249" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gui_diary</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>893.000 693.000 0.000 53.000 38.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/open_diary gui_diary.png</TEXTURE>
+			<SIZE>106 077</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="13252" NAME="point_list_13252" TYPE="600">
+			<POINT>825.000 700.000</POINT>
+			<POINT>827.000 682.000</POINT>
+			<POINT>900.000 639.000</POINT>
+			<POINT>970.000 685.000</POINT>
+			<POINT>885.000 736.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="13263" NAME="point_list_13263" TYPE="600">
+			<POINT>830.000 638.000</POINT>
+			<POINT>930.000 638.000</POINT>
+			<POINT>930.000 746.000</POINT>
+			<POINT>827.000 745.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/interfase/open_diary</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="" />
+</SCENE>

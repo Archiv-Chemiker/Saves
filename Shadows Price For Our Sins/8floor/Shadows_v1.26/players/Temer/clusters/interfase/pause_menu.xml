@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="456" ID_CLUSTER="8" LAYER="9500" LOAD="false" NAME="pause_menu" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="14880" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>PauseMenu</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui pause_back.png" VISIBLE="true">
+        <POSITION>528 345</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/gui octoberEN_RU_29.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" HOT_SPOT="0" ID="3" TEXT="" TEXT_ID="197" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-4 -122</POSITION>
+            </WLABEL>
+            <BUTTON5 ENABLE="true" ID="5" TEXTURE="images/gui hellowen_gui_battonn.png" VISIBLE="true">
+                <POSITION>-2 -64</POSITION>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 63 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="9" TEXT="" TEXT_ID="198" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>0 -5</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_974183302_JC_GUI_Button5_5_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+            <BUTTON5 ENABLE="true" ID="7" TEXTURE="images/gui hellowen_gui_battonn.png" VISIBLE="true">
+                <POSITION>-2 -16</POSITION>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 63 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="11" TEXT="" TEXT_ID="200" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>0 -5</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_973029055_JC_GUI_Button5_7_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+            <BUTTON5 ENABLE="true" ID="8" TEXTURE="images/gui hellowen_gui_battonn.png" VISIBLE="true">
+                <POSITION>-1 127</POSITION>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 63 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="12" TEXT="" TEXT_ID="201" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>0 -5</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_973029055_JC_GUI_Button5_8_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/interfase/pause_scen</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="void pause_menu_456_open()"/>
+<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+<VERTICES>-9 0 1024 0 1024 768 -10 768 </VERTICES>
+<INDEXES>0 1 2 0 2 3 </INDEXES>
+</RASTER>
+</SCENE>

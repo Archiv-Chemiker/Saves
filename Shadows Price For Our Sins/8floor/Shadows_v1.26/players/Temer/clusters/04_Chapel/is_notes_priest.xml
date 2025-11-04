@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="332" ID_CLUSTER="4" LAYER="5000" LOAD="false" NAME="is_notes_priest" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="45909" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>is_i_have_studied</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="5" MOVABLE="false" TEXTURE="images/gui list_stul.png" VISIBLE="true">
+        <POSITION>489 369</POSITION>
+        <CONTEXT>
+            <PANEL ENABLE="true" ID="6" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>0 -132</POSITION>
+                <TRANSFORM>0 -132 0 0 0 0 0 0 -0.10471666604280472 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="8" LETTER_SPACE="0" TEXT="" TEXT_ID="643" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-5 -4</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="135939" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_135939</NAME>
+<CENTER>492 369</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_notes_priest_area_object_135939_135939_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="135940"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="135940" NAME="point_list_135940" TYPE="600">
+<POINT>247 86</POINT>
+<POINT>680 51</POINT>
+<POINT>737 646</POINT>
+<POINT>295 688</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/04_Chapel/scene_cell</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="void is_notes_priest_332_open()"/>
+<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+<VERTICES>236 75 678 28 746 653 297 711 </VERTICES>
+<INDEXES>0 1 2 0 2 3 </INDEXES>
+</RASTER>
+</SCENE>

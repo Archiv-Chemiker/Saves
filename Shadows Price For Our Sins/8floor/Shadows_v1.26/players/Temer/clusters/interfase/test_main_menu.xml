@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<SCENE ID="450" ID_CLUSTER="8" LAYER="100" LOAD="false" OPEN="false" NAME="test_main_menu" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="206356" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="13">
+			<NAME>area_object_206356</NAME>
+			<CENTER>644.000 569.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void test_main_menu_area_object_206356_206356_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="206357" />
+		</OBJECT>
+		<OBJECT ID="205330" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bonus_button</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>874.000 619.000 0.000 68.000 38.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="5" QUALITY="">images/clusters/interfase/test_main_menu mainmenu_bonusbtn_ru.png</TEXTURE>
+			<SIZE>136 076</SIZE>
+			<ANIM>1 0 1 0 5 1 5 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="79809" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>starting_img</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/test_main_menu Creobit.jpg</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="72220" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="1270" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>object_72220</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>45.000 35.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/test_main_menu logo_ru.png</TEXTURE>
+			<SIZE>328 244</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="33519" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="9">
+			<NAME>MainMenu</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/clusters/interfase/test_main_menu</FILES_PATH>
+			<GUI>
+				<BUTTON5 ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/clusters/interfase/test_main_menu mainmenu_playbtn_ru.png" TEXTURE_LOCAL_ID="1271">
+					<POSITION>850 445</POSITION>
+					<TRANSFORM>850.000 445.000 0.000 82.000 53.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS>
+						<SCRIPT EVENT="UP">void gui_2061350130_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+					</SCRIPTS>
+				</BUTTON5>
+				<BUTTON5 ID="4" VISIBLE="true" ENABLE="true" TEXTURE="images/clusters/interfase/test_main_menu mainmenu_optionsbtn_ru.png" TEXTURE_LOCAL_ID="1272">
+					<POSITION>848 539</POSITION>
+					<TRANSFORM>848.000 539.000 0.000 97.000 40.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS>
+						<SCRIPT EVENT="UP">void gui_2061350130_JC_GUI_Button5_4_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+					</SCRIPTS>
+				</BUTTON5>
+				<BUTTON5 ID="5" VISIBLE="true" ENABLE="true" TEXTURE="images/clusters/interfase/test_main_menu mainmenu_exitbtn_ru.png" TEXTURE_LOCAL_ID="1273">
+					<POSITION>874 619</POSITION>
+					<TRANSFORM>874.000 619.000 0.000 68.000 38.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS>
+						<SCRIPT EVENT="UP">void gui_2061350130_JC_GUI_Button5_5_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+					</SCRIPTS>
+				</BUTTON5>
+				<BUTTON5 ID="8" VISIBLE="true" ENABLE="true" TEXTURE="images/clusters/interfase/test_main_menu mainmenu_profilebtn_ru.png" TEXTURE_LOCAL_ID="1274">
+					<POSITION>277 685</POSITION>
+					<TRANSFORM>277.000 685.000 0.000 93.000 28.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS>
+						<SCRIPT EVENT="UP">void gui_2061350130_JC_GUI_Button5_8_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+					</SCRIPTS>
+				</BUTTON5>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="17075" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="8">
+			<NAME>small_pil_menu</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles dust_FX.png" frequency="1" gravity="0.000 0.000" maxCount="20" multiply="true" spreadAngle="6.28319" area="400.000000 400.000000" start_after_loading="true">
+				<lifetime>10.000000</lifetime>
+				<velocity>5.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>1.000000</radial>
+				<startSize>6.000000</startSize>
+				<endSize>7.000000</endSize>
+				<startColor>1fffffff</startColor>
+				<averColor>ff5555ff</averColor>
+				<endColor>11ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>137.000 613.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="17074" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="7">
+			<NAME>pil_menu</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles dust_FX.png" frequency="1" gravity="0.000 0.000" maxCount="5" multiply="true" spreadAngle="6.28319" area="400.000000 400.000000" start_after_loading="true">
+				<lifetime>9.000000</lifetime>
+				<velocity>5.000 0.000</velocity>
+				<tangent>3.000000</tangent>
+				<radial>1.000000</radial>
+				<startSize>62.000000</startSize>
+				<endSize>42.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>dd5993d5</averColor>
+				<endColor>f34343</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>178.000 523.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="17068" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>foreground</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 447.000 0.000 512.000 321.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/test_main_menu foreground.png</TEXTURE>
+			<SIZE>1024 642</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="17069" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>fan</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>799.000 183.000 0.000 52.000 52.000 0.000 0.000 0.000 0.591 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/test_main_menu fan.png</TEXTURE>
+			<SIZE>105 105</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="17073" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="4">
+			<NAME>tuman_house_menu</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud_big.png" frequency="1" gravity="0.819 -0.574" maxCount="30" multiply="true" spreadAngle="0.296706" area="38.000000 42.000000" start_after_loading="true">
+				<lifetime>9.000000</lifetime>
+				<velocity>10.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>93.000000</startSize>
+				<endSize>258.000000</endSize>
+				<startColor>145dddd</startColor>
+				<averColor>ee356661</averColor>
+				<endColor>11</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>218.000 430.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="17072" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="3">
+			<NAME>tuman_tree_menu</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud_big.png" frequency="2" gravity="0.000 0.000" maxCount="40" multiply="true" spreadAngle="0.418879" area="0" start_after_loading="true">
+				<lifetime>60.000000</lifetime>
+				<velocity>10.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>103.000000</startSize>
+				<endSize>227.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>ffabcdef</averColor>
+				<endColor>eeffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>577.000 369.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="17071" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="2">
+			<NAME>menu_oblaka</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud4.png" frequency="1" gravity="5.601 -2.150" maxCount="25" multiply="true" spreadAngle="0.785398" area="157.000000 142.000000" start_after_loading="true">
+				<lifetime>9.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>217.000000</startSize>
+				<endSize>186.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>56acdff7</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>470.000 178.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="17078" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>menu_bgnd</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 260.000 0.000 512.000 260.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/test_main_menu menu_bgnd.jpg</TEXTURE>
+			<SIZE>1024 520</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="206357" NAME="point_list_206357" TYPE="600">
+			<POINT>594.000 519.000</POINT>
+			<POINT>694.000 519.000</POINT>
+			<POINT>694.000 619.000</POINT>
+			<POINT>594.000 619.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/interfase/test_main_menu</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void test_main_menu_450_init()" OPEN_SCRIPT_ID="void test_main_menu_450_open()" />
+</SCENE>

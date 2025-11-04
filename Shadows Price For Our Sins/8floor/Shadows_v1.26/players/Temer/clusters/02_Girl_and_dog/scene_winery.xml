@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<SCENE ID="107" ID_CLUSTER="2" LAYER="100" LOAD="false" OPEN="false" NAME="scene_winery" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="96815" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="31">
+			<NAME>p_cap_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles star.png" frequency="2" gravity="-6.337 -51.612" maxCount="10" multiply="true" spreadAngle="1.74533" area="276.000000 61.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>8.000000</tangent>
+				<radial>31.000000</radial>
+				<startSize>42.000000</startSize>
+				<endSize>11.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>112b0097</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>583.000 188.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="96814" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="30">
+			<NAME>p_cap_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="15" gravity="231.820 -162.322" maxCount="145" multiply="true" spreadAngle="5.18363" area="230.000000 192.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>-311.000000</tangent>
+				<radial>5.000000</radial>
+				<startSize>3.000000</startSize>
+				<endSize>4.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>11ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>585.000 188.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="83356" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="29">
+			<NAME>part_07</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles dust_FX.png" frequency="280" gravity="6.000 0.000" maxCount="90" multiply="true" spreadAngle="0.785398" area="300.000000 161.000000" start_after_loading="true">
+				<lifetime>2.600000</lifetime>
+				<velocity>5.000 0.000</velocity>
+				<tangent>-13.000000</tangent>
+				<radial>4.000000</radial>
+				<startSize>4.000000</startSize>
+				<endSize>1.000000</endSize>
+				<startColor>90ff</startColor>
+				<averColor>99ffd800</averColor>
+				<endColor>90ff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>412.000 561.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="83343" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="28">
+			<NAME>area_fake_chess</NAME>
+			<CENTER>430.000 565.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="83344" />
+		</OBJECT>
+		<OBJECT ID="63949" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="27">
+			<NAME>area_cu_cupboard</NAME>
+			<CENTER>585.000 150.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_winery_area_cu_cupboard_63949_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="63948" />
+		</OBJECT>
+		<OBJECT ID="32002" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="26">
+			<NAME>area_mg_chess</NAME>
+			<CENTER>420.000 565.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_winery_area_mg_chess_32002_in()" MOUSECLICK_SCRIPT_ID="void scene_winery_area_mg_chess_32002_click()" OUTPUT_SCRIPT_ID="void scene_winery_area_mg_chess_32002_out()" />
+			<POINT_LIST ID="32001" />
+		</OBJECT>
+		<OBJECT ID="15542" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="25">
+			<NAME>pil_winery</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_3.png" frequency="50" gravity="1.997 0.105" maxCount="30" multiply="true" spreadAngle="0.785398" area="203.000000 334.000000" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>7.000000</startSize>
+				<endSize>7.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>ff5555ff</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>442.000 92.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="14850" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="24">
+			<NAME>area_scene_mg_chess</NAME>
+			<CENTER>420.000 565.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_winery_area_scene_mg_chess_14850_in()" MOUSECLICK_SCRIPT_ID="void scene_winery_area_scene_mg_chess_14850_click()" OUTPUT_SCRIPT_ID="void scene_winery_area_scene_mg_chess_14850_out()" />
+			<POINT_LIST ID="14849" />
+		</OBJECT>
+		<OBJECT ID="3276" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="23">
+			<NAME>area_object_3276</NAME>
+			<CENTER>521.000 72.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_winery_area_object_3276_3276_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3277" />
+		</OBJECT>
+		<OBJECT ID="2787" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="22">
+			<NAME>area_goto_hog_cupboard</NAME>
+			<CENTER>580.000 155.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_winery_area_goto_hog_cupboard_2787_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2786" />
+		</OBJECT>
+		<OBJECT ID="2463" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="21">
+			<NAME>area_goto_cu_barrel</NAME>
+			<CENTER>400.000 295.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_winery_area_goto_cu_barrel_2463_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2462" />
+		</OBJECT>
+		<OBJECT ID="2407" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="20">
+			<NAME>area_goto_scene_wine_cellar</NAME>
+			<CENTER>430.000 570.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_winery_area_goto_scene_wine_cellar_2407_in()" MOUSECLICK_SCRIPT_ID="void scene_winery_area_goto_scene_wine_cellar_2407_click()" OUTPUT_SCRIPT_ID="void scene_winery_area_goto_scene_wine_cellar_2407_out()" />
+			<POINT_LIST ID="2406" />
+		</OBJECT>
+		<OBJECT ID="2373" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="19">
+			<NAME>area_goto_cu_basket</NAME>
+			<CENTER>725.000 345.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_winery_area_goto_cu_basket_2373_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2372" />
+		</OBJECT>
+		<OBJECT ID="1995" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="18">
+			<NAME>area_goto_cu_press</NAME>
+			<CENTER>160.000 325.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_winery_area_goto_cu_press_1995_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1962" />
+		</OBJECT>
+		<OBJECT ID="1960" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="17">
+			<NAME>area_press</NAME>
+			<CENTER>160.000 330.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_winery_area_press_1960_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1959" />
+		</OBJECT>
+		<OBJECT ID="1957" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="16">
+			<NAME>area_goto_scene_vinery</NAME>
+			<CENTER>525.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_winery_area_goto_scene_vinery_1957_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1956" />
+		</OBJECT>
+		<OBJECT ID="1940" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="15" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>press_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>143.000 257.000 0.000 62.000 97.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery press_3.png</TEXTURE>
+			<SIZE>124 195</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1941" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="14" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>press_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>150.000 301.000 0.000 55.000 97.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery press_2.png</TEXTURE>
+			<SIZE>111 194</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1942" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="13" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>press_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>158.000 277.000 0.000 47.000 99.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery press_1.png</TEXTURE>
+			<SIZE>095 199</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1943" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>press</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>158.000 317.000 0.000 67.000 96.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery press.png</TEXTURE>
+			<SIZE>135 192</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1944" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>window_close</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>572.000 144.000 0.000 84.000 67.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery window_close.png</TEXTURE>
+			<SIZE>168 134</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1945" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>window</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>553.000 147.000 0.000 109.000 81.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery window.png</TEXTURE>
+			<SIZE>218 163</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1946" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cork_spin</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>426.000 273.000 0.000 13.000 14.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery cork_spin.png</TEXTURE>
+			<SIZE>026 028</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1947" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cork</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>421.000 268.000 0.000 15.000 19.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery cork.png</TEXTURE>
+			<SIZE>031 038</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1948" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>light</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>500.000 482.000 0.000 358.000 168.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery light.png</TEXTURE>
+			<SIZE>716 337</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1949" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>box</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>880.000 606.000 0.000 144.000 162.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery box.png</TEXTURE>
+			<SIZE>289 324</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1950" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>364.000 584.000 0.000 364.000 184.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery open.png</TEXTURE>
+			<SIZE>728 369</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1951" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>halp</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>446.000 302.000 0.000 28.000 35.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery halp.png</TEXTURE>
+			<SIZE>057 071</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1952" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>vine</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>452.000 378.000 0.000 11.000 12.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery vine.png</TEXTURE>
+			<SIZE>022 025</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1953" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>back</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery back.png</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1954" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>wind</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>371.000 99.000 0.000 143.000 98.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_winery wind.jpg</TEXTURE>
+			<SIZE>287 197</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="1956" NAME="point_list_1956" TYPE="600">
+			<POINT>308.000 614.000</POINT>
+			<POINT>694.000 644.000</POINT>
+			<POINT>838.000 768.000</POINT>
+			<POINT>213.000 767.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1959" NAME="point_list_1959" TYPE="600">
+			<POINT>70.000 118.000</POINT>
+			<POINT>232.000 109.000</POINT>
+			<POINT>252.000 483.000</POINT>
+			<POINT>93.000 502.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1962" NAME="point_list_1962" TYPE="600">
+			<POINT>83.000 193.000</POINT>
+			<POINT>221.000 183.000</POINT>
+			<POINT>234.000 462.000</POINT>
+			<POINT>97.000 479.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2372" NAME="point_list_2372" TYPE="600">
+			<POINT>635.000 315.000</POINT>
+			<POINT>695.000 275.000</POINT>
+			<POINT>793.000 275.000</POINT>
+			<POINT>816.000 347.000</POINT>
+			<POINT>764.000 426.000</POINT>
+			<POINT>650.000 417.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2406" NAME="point_list_2406" TYPE="600">
+			<POINT>318.000 530.000</POINT>
+			<POINT>700.000 539.000</POINT>
+			<POINT>540.000 632.000</POINT>
+			<POINT>141.000 601.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2462" NAME="point_list_2462" TYPE="600">
+			<POINT>290.000 174.000</POINT>
+			<POINT>455.000 177.000</POINT>
+			<POINT>537.000 388.000</POINT>
+			<POINT>287.000 399.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2786" NAME="point_list_2786" TYPE="600">
+			<POINT>493.000 110.000</POINT>
+			<POINT>657.000 90.000</POINT>
+			<POINT>666.000 190.000</POINT>
+			<POINT>501.000 214.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3277" NAME="point_list_3277" TYPE="600">
+			<POINT>504.000 53.000</POINT>
+			<POINT>536.000 53.000</POINT>
+			<POINT>539.000 85.000</POINT>
+			<POINT>507.000 92.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14849" NAME="point_list_14849" TYPE="600">
+			<POINT>410.000 535.000</POINT>
+			<POINT>510.000 552.000</POINT>
+			<POINT>429.000 603.000</POINT>
+			<POINT>337.000 580.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="32001" NAME="point_list_32001" TYPE="600">
+			<POINT>415.000 535.000</POINT>
+			<POINT>508.000 551.000</POINT>
+			<POINT>432.000 605.000</POINT>
+			<POINT>338.000 582.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="63948" NAME="point_list_63948" TYPE="600">
+			<POINT>491.000 107.000</POINT>
+			<POINT>658.000 89.000</POINT>
+			<POINT>665.000 189.000</POINT>
+			<POINT>505.000 212.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="83344" NAME="point_list_83344" TYPE="600">
+			<POINT>17.000 9.000</POINT>
+			<POINT>51.000 13.000</POINT>
+			<POINT>54.000 42.000</POINT>
+			<POINT>27.000 44.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/02_Girl_and_dog/scene_winery</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_winery_107_init()" OPEN_SCRIPT_ID="void scene_winery_107_open()" />
+</SCENE>

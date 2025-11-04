@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="723" ID_CLUSTER="9" LAYER="489" LOAD="false" NAME="page_diary_63" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="54459" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>mary_in_diary</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="6" MOVABLE="false" TEXTURE="images/gui 04_IS_02_Back.png" VISIBLE="true">
+        <POSITION>280 343</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="7" TEXT="" TEXT_ID="337" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-214 137</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="8" TEXT="" TEXT_ID="438" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>93 275</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/pages_diary/page_diary_63</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

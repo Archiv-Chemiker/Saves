@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="460" ID_CLUSTER="9" LAYER="405" LOAD="false" NAME="page_diary_5" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="34571" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>inv_foto</NAME>
+<GUI>
+    <IMAGE ENABLE="true" ID="3" TEXTURE="images/gui ph_005_inv.png" VISIBLE="true">
+        <CONTEXT/>
+        <POSITION>293 306</POSITION>
+    </IMAGE>
+    <PANEL ENABLE="true" ID="3" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+        <POSITION>301 357</POSITION>
+        <TRANSFORM>301 357 0 0 0 0 0 0 -0.13962222635746002 1.0 1.0 1.0</TRANSFORM>
+        <CONTEXT>
+            <WLABEL FONT="images/gui alfios_30.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_30.png" HOT_SPOT="0" ID="4" TEXT="" TEXT_ID="333" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>11 -157</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="5" ID="5" LETTER_SPACE="0" MID_DIV="1" TEXT="" TEXT_ID="437" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-15 -196</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui octoberEN_RU_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui octoberEN_RU_20_0.png" HOT_SPOT="1" ID="2" TEXT="" TEXT_ID="435" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>74 31</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/pages_diary/page_diary_5</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

@@ -1,0 +1,921 @@
+<?xml version="1.0"?>
+<SCENE ID="100" ID_CLUSTER="1" LAYER="100" LOAD="false" OPEN="false" NAME="scene_gate" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="216504" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="69">
+			<NAME>area_for_tutorial</NAME>
+			<CENTER>230.000 75.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="216505" />
+		</OBJECT>
+		<OBJECT ID="144586" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="68" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>object_144586</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>765.000 602.000 0.000 26.000 32.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/icons cur_arrow_back.png</TEXTURE>
+			<SIZE>052 064</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH>images/icons</FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="144585" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="67" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>object_144585</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>871.000 597.000 0.000 25.000 39.000 0.000 0.000 0.000 4.712 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/icons cur_arrow_front.png</TEXTURE>
+			<SIZE>050 078</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH>images/icons</FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="94065" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="66">
+			<NAME>area_object_94065</NAME>
+			<CENTER>765.000 421.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_94065_94065_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="94066" />
+		</OBJECT>
+		<OBJECT ID="86886" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="65">
+			<NAME>area_object_86886</NAME>
+			<CENTER>775.000 137.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_86886_86886_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="86887" />
+		</OBJECT>
+		<OBJECT ID="81579" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="64">
+			<NAME>area_object_81579</NAME>
+			<CENTER>945.000 262.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_81579_81579_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="81580" />
+		</OBJECT>
+		<OBJECT ID="74427" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="63">
+			<NAME>area_control_musick</NAME>
+			<CENTER>719.000 17.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="74428" />
+		</OBJECT>
+		<OBJECT ID="67709" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="62">
+			<NAME>area_object_67709</NAME>
+			<CENTER>931.000 131.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_67709_67709_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="67710" />
+		</OBJECT>
+		<OBJECT ID="36968" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="61">
+			<NAME>area_skip_lantern_video</NAME>
+			<CENTER>122.000 51.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_skip_lantern_video_36968_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="36969" />
+		</OBJECT>
+		<OBJECT ID="35836" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="60">
+			<NAME>area_object_35836</NAME>
+			<CENTER>0.000 0.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_35836_35836_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+		</OBJECT>
+		<OBJECT ID="34426" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="59">
+			<NAME>area_object_34426</NAME>
+			<CENTER>453.000 74.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_34426_34426_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="34427" />
+		</OBJECT>
+		<OBJECT ID="17402" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="58">
+			<NAME>area_object_17402</NAME>
+			<CENTER>563.000 71.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_17402_17402_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="17403" />
+		</OBJECT>
+		<OBJECT ID="17395" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="57">
+			<NAME>area_object_17395</NAME>
+			<CENTER>347.000 84.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_gate_area_object_17395_17395_in()" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_17395_17395_click()" OUTPUT_SCRIPT_ID="void scene_gate_area_object_17395_17395_out()" />
+			<POINT_LIST ID="17396" />
+		</OBJECT>
+		<OBJECT ID="14760" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="56">
+			<NAME>area_hog_statue</NAME>
+			<CENTER>140.000 400.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_hog_statue_14760_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="14759" />
+		</OBJECT>
+		<OBJECT ID="14717" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="55" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>light_lamp_gate_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>489.000 79.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate light_lamp.png</TEXTURE>
+			<SIZE>125 130</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="14716" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="54" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>light_lamp_gate</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>292.000 125.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate light_lamp.png</TEXTURE>
+			<SIZE>125 130</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="14378" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="53">
+			<NAME>area_razdevaem_statue</NAME>
+			<CENTER>145.000 400.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_razdevaem_statue_14378_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="14379" />
+		</OBJECT>
+		<OBJECT ID="14376" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="52">
+			<NAME>area_rope_knife</NAME>
+			<CENTER>150.000 405.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_rope_knife_14376_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="14377" />
+		</OBJECT>
+		<OBJECT ID="14335" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="51">
+			<NAME>motelki</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles Motelek.png" frequency="50" gravity="0.000 0.000" maxCount="5" multiply="true" spreadAngle="2.23402" area="0" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>1.219 9.925</velocity>
+				<tangent>-196.000000</tangent>
+				<radial>12.000000</radial>
+				<startSize>10.000000</startSize>
+				<endSize>3.000000</endSize>
+				<startColor>d41255b</startColor>
+				<averColor>f5fff1c0</averColor>
+				<endColor>109a7b32</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>336.000 176.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="13839" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="50">
+			<NAME>area_after_hog</NAME>
+			<CENTER>161.000 387.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_after_hog_13839_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="13840" />
+		</OBJECT>
+		<OBJECT ID="13277" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="49">
+			<NAME>proba</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles leaf2.png" frequency="3" gravity="-0.733 13.981" maxCount="10" multiply="false" spreadAngle="1.8675" area="400.000000 19.000000" start_after_loading="true">
+				<lifetime>6.000000</lifetime>
+				<velocity>0.349 4.988</velocity>
+				<tangent>8.000000</tangent>
+				<radial>60.000000</radial>
+				<startSize>14.000000</startSize>
+				<endSize>31.000000</endSize>
+				<startColor>ff6798be</startColor>
+				<averColor>ffb2a184</averColor>
+				<endColor>2275b6</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>834.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="12991" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="48">
+			<NAME>area_object_12991</NAME>
+			<CENTER>886.000 499.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_12991_12991_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="12992" />
+		</OBJECT>
+		<OBJECT ID="12878" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="47">
+			<NAME>area_gate_feedback</NAME>
+			<CENTER>461.000 236.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_gate_feedback_12878_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="12879" />
+		</OBJECT>
+		<OBJECT ID="9014" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="46">
+			<NAME>area_object_9014</NAME>
+			<CENTER>0.000 0.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_9014_9014_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+		</OBJECT>
+		<OBJECT ID="9010" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="45">
+			<NAME>area_object_9010</NAME>
+			<CENTER>0.000 0.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_object_9010_9010_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+		</OBJECT>
+		<OBJECT ID="7633" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="44" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>knife_r</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>78.000 363.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="3" QUALITY="">images/clusters/01_Begin/scene_gate icons_01_Gate.png</TEXTURE>
+			<SIZE>064 064</SIZE>
+			<ANIM>1 0 1 0 3 3 9 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="4665" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="43">
+			<NAME>area_goto_cu_mailbox</NAME>
+			<CENTER>345.000 285.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_goto_cu_mailbox_4665_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="4664" />
+		</OBJECT>
+		<OBJECT ID="3813" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="42" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>light_lamp_4</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>920.000 9.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate light_lamp.png</TEXTURE>
+			<SIZE>125 130</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="3812" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="41" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>light_lamp_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>776.000 72.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate light_lamp.png</TEXTURE>
+			<SIZE>125 130</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="3811" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="40" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>light_lamp_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>709.000 172.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate light_lamp.png</TEXTURE>
+			<SIZE>125 130</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="3810" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="39" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>light_lamp_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>703.000 171.000 0.000 62.000 65.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate light_lamp.png</TEXTURE>
+			<SIZE>125 130</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2836" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="37" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_ribbon_7</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>629.000 214.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="4" QUALITY="">images/clusters/01_Begin/scene_gate rib7_644x247.png</TEXTURE>
+			<SIZE>028 066</SIZE>
+			<ANIM>1 0 1 0 3 3 9 7.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2835" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="36" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_ribbon_6</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>706.000 198.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="4" QUALITY="">images/clusters/01_Begin/scene_gate rib6_716x230.png</TEXTURE>
+			<SIZE>021 071</SIZE>
+			<ANIM>1 0 1 0 3 3 9 7.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2834" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="35" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_ribbon_5</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>941.000 2.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="9" QUALITY="">images/clusters/01_Begin/scene_gate rib5_951x25.png</TEXTURE>
+			<SIZE>021 051</SIZE>
+			<ANIM>1 0 1 0 3 3 9 6.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2833" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="34" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_ribbon_4</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>816.000 44.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="4" QUALITY="">images/clusters/01_Begin/scene_gate rib4_835x83.png</TEXTURE>
+			<SIZE>034 079</SIZE>
+			<ANIM>1 0 1 0 3 3 9 7.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2831" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="33" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_ribbon_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>658.000 137.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="4" QUALITY="">images/clusters/01_Begin/scene_gate rib3_662x157.png</TEXTURE>
+			<SIZE>016 074</SIZE>
+			<ANIM>1 0 1 0 3 3 9 7.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2830" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="32" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_ribbon_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>604.000 31.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="4" QUALITY="">images/clusters/01_Begin/scene_gate rib2_611x58.png</TEXTURE>
+			<SIZE>018 069</SIZE>
+			<ANIM>1 0 1 0 3 3 9 7.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2829" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="31" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_ribbon_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>502.000 2.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="4" QUALITY="">images/clusters/01_Begin/scene_gate rib1_512x31.png</TEXTURE>
+			<SIZE>022 057</SIZE>
+			<ANIM>1 0 1 0 3 3 9 7.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2828" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="30" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_ribbon</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>421.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="4" QUALITY="">images/clusters/01_Begin/scene_gate rib0_431x31.png</TEXTURE>
+			<SIZE>018 064</SIZE>
+			<ANIM>1 0 1 0 3 3 9 7.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1302" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="29">
+			<NAME>area_goto_porch</NAME>
+			<CENTER>460.000 265.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_goto_porch_1302_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1246" />
+		</OBJECT>
+		<OBJECT ID="1216" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="28">
+			<NAME>area_cu_car</NAME>
+			<CENTER>590.000 450.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_cu_car_1216_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1202" />
+		</OBJECT>
+		<OBJECT ID="1191" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="27">
+			<NAME>area_intercom_button</NAME>
+			<CENTER>560.000 240.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_area_intercom_button_1191_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1190" />
+		</OBJECT>
+		<OBJECT ID="1103" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="26" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>light_lamp</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>581.000 122.000 0.000 62.000 65.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate light_lamp.png</TEXTURE>
+			<SIZE>125 130</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1104" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="25" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>lamp_5</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>574.000 70.000 0.000 20.000 0.000 0.000 0.000 0.000 -0.057 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate lamp_5.png</TEXTURE>
+			<SIZE>040 063</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1105" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="24" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>lamp_4</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>702.000 126.000 0.000 18.000 0.000 0.000 0.000 0.000 -0.050 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate lamp_4.png</TEXTURE>
+			<SIZE>037 054</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1106" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="23" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>lamp_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>773.000 196.000 0.000 18.000 0.000 0.000 0.000 0.000 -0.066 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate lamp_2.png</TEXTURE>
+			<SIZE>036 052</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1107" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="22" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>lamp_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>840.000 89.000 0.000 18.000 0.000 0.000 0.000 0.000 -0.049 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate lamp_1.png</TEXTURE>
+			<SIZE>036 058</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1108" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="21" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>lamp</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>986.000 17.000 0.000 24.000 0.000 0.000 0.000 0.000 0.068 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate lamp.png</TEXTURE>
+			<SIZE>048 069</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1109" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="20" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bresent_off</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>171.000 654.000 0.000 170.000 113.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate bresent_off.png</TEXTURE>
+			<SIZE>341 227</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1110" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="19" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>rope_cut</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>166.000 630.000 0.000 166.000 83.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate rope_cut.png</TEXTURE>
+			<SIZE>332 167</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="17401" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="18">
+			<NAME>hog_statue_star_3</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_2.png" frequency="26" gravity="-0.314 5.992" maxCount="560" multiply="true" spreadAngle="6.21337" area="226.000000 250.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>-0.785 14.979</velocity>
+				<tangent>0.000000</tangent>
+				<radial>9.000000</radial>
+				<startSize>23.000000</startSize>
+				<endSize>3.000000</endSize>
+				<startColor>d41255b</startColor>
+				<averColor>ff61ccf0</averColor>
+				<endColor>ff9a7b32</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>176.000 574.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="17399" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="17">
+			<NAME>hog_statue_star_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles star.png" frequency="2" gravity="-6.337 -51.612" maxCount="10" multiply="true" spreadAngle="1.74533" area="276.000000 61.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>8.000000</tangent>
+				<radial>31.000000</radial>
+				<startSize>42.000000</startSize>
+				<endSize>11.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>112b0097</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>170.000 574.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="17398" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="16">
+			<NAME>hog_statue_star_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud4.png" frequency="36" gravity="-6.337 -51.612" maxCount="335" multiply="true" spreadAngle="1.74533" area="276.000000 61.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>8.000000</tangent>
+				<radial>31.000000</radial>
+				<startSize>155.000000</startSize>
+				<endSize>93.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>f1123334</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>173.000 570.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="14718" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="15">
+			<NAME>hog_statue_star</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="15" gravity="231.820 -162.322" maxCount="145" multiply="true" spreadAngle="5.18363" area="230.000000 192.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>-311.000000</tangent>
+				<radial>5.000000</radial>
+				<startSize>3.000000</startSize>
+				<endSize>4.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>11ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>173.000 565.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="1111" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="14" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>fence</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>302.000 588.000 0.000 302.000 95.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate fence.png</TEXTURE>
+			<SIZE>604 191</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1112" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="13" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>rope</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>160.000 416.000 0.000 159.000 249.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate rope.png</TEXTURE>
+			<SIZE>319 499</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1113" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bresent</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>205.000 409.000 0.000 205.000 275.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate bresent.png</TEXTURE>
+			<SIZE>410 551</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1114" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>carlight</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>775.000 327.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate carlight.jpg</TEXTURE>
+			<SIZE>250 162</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1115" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>doorlight</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>616.000 441.000 0.000 64.000 104.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate doorlight.jpg</TEXTURE>
+			<SIZE>128 208</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="14336" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="9">
+			<NAME>motelki_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles Motelek.png" frequency="50" gravity="0.000 0.000" maxCount="5" multiply="true" spreadAngle="2.23402" area="0" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>1.219 9.925</velocity>
+				<tangent>-196.000000</tangent>
+				<radial>12.000000</radial>
+				<startSize>10.000000</startSize>
+				<endSize>3.000000</endSize>
+				<startColor>d41255b</startColor>
+				<averColor>f5fff1c0</averColor>
+				<endColor>109a7b32</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>539.000 132.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="1124" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>treelight</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>596.000 169.000 0.000 428.000 169.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate treelight.png</TEXTURE>
+			<SIZE>857 338</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1125" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>base</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate base.png</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1126" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gate_last</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>472.000 247.000 0.000 95.000 120.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate gate_last.png</TEXTURE>
+			<SIZE>191 240</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2838" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_gates</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>374.000 115.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="36" QUALITY="">images/clusters/01_Begin/scene_gate gates_36f_471x248.png</TEXTURE>
+			<SIZE>194 262</SIZE>
+			<ANIM>1 0 0 0 6 6 36 13.999999</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1127" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gate_block</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>470.000 243.000 0.000 93.000 124.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate gate_block.png</TEXTURE>
+			<SIZE>187 248</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="14171" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="3">
+			<NAME>oblaka_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud2.png" frequency="1" gravity="1.963 -0.382" maxCount="25" multiply="true" spreadAngle="2.89725" area="0.000000 150.000000" start_after_loading="true">
+				<lifetime>30.000000</lifetime>
+				<velocity>-0.000 -0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>165.000000</startSize>
+				<endSize>351.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>44ffffff</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>2.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="1129" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>hause</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_gate_hause_1129_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 202.000 0.000 512.000 201.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate hause.jpg</TEXTURE>
+			<SIZE>1024 403</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1128" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gate</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>476.000 246.000 0.000 95.000 129.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_gate gate.png</TEXTURE>
+			<SIZE>191 259</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="1190" NAME="point_list_1190" TYPE="600">
+			<POINT>536.000 215.000</POINT>
+			<POINT>585.000 201.000</POINT>
+			<POINT>600.000 269.000</POINT>
+			<POINT>544.000 277.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1202" NAME="point_list_1202" TYPE="600">
+			<POINT>560.000 384.000</POINT>
+			<POINT>679.000 358.000</POINT>
+			<POINT>670.000 503.000</POINT>
+			<POINT>528.000 513.000</POINT>
+			<POINT>530.000 433.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1246" NAME="point_list_1246" TYPE="600">
+			<POINT>380.000 207.000</POINT>
+			<POINT>442.000 117.000</POINT>
+			<POINT>530.000 165.000</POINT>
+			<POINT>540.000 272.000</POINT>
+			<POINT>492.000 339.000</POINT>
+			<POINT>393.000 365.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="4664" NAME="point_list_4664" TYPE="600">
+			<POINT>315.000 258.000</POINT>
+			<POINT>371.000 248.000</POINT>
+			<POINT>378.000 318.000</POINT>
+			<POINT>324.000 325.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="12879" NAME="point_list_12879" TYPE="600">
+			<POINT>378.000 202.000</POINT>
+			<POINT>445.000 111.000</POINT>
+			<POINT>534.000 164.000</POINT>
+			<POINT>545.000 278.000</POINT>
+			<POINT>492.000 343.000</POINT>
+			<POINT>396.000 362.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="12992" NAME="point_list_12992" TYPE="600">
+			<POINT>874.000 491.000</POINT>
+			<POINT>900.000 480.000</POINT>
+			<POINT>899.000 507.000</POINT>
+			<POINT>872.000 519.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="13840" NAME="point_list_13840" TYPE="600">
+			<POINT>3.000 256.000</POINT>
+			<POINT>74.000 178.000</POINT>
+			<POINT>138.000 132.000</POINT>
+			<POINT>155.000 226.000</POINT>
+			<POINT>274.000 296.000</POINT>
+			<POINT>322.000 344.000</POINT>
+			<POINT>315.000 562.000</POINT>
+			<POINT>1.000 642.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14377" NAME="point_list_14377" TYPE="600">
+			<POINT>1.000 250.000</POINT>
+			<POINT>144.000 122.000</POINT>
+			<POINT>156.000 229.000</POINT>
+			<POINT>273.000 295.000</POINT>
+			<POINT>320.000 342.000</POINT>
+			<POINT>322.000 562.000</POINT>
+			<POINT>1.000 652.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14379" NAME="point_list_14379" TYPE="600">
+			<POINT>0.000 253.000</POINT>
+			<POINT>68.000 178.000</POINT>
+			<POINT>144.000 124.000</POINT>
+			<POINT>162.000 226.000</POINT>
+			<POINT>275.000 290.000</POINT>
+			<POINT>324.000 343.000</POINT>
+			<POINT>318.000 564.000</POINT>
+			<POINT>0.000 646.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14759" NAME="point_list_14759" TYPE="600">
+			<POINT>3.000 253.000</POINT>
+			<POINT>66.000 175.000</POINT>
+			<POINT>147.000 120.000</POINT>
+			<POINT>156.000 224.000</POINT>
+			<POINT>270.000 286.000</POINT>
+			<POINT>325.000 342.000</POINT>
+			<POINT>322.000 564.000</POINT>
+			<POINT>2.000 651.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="17396" NAME="point_list_17396" TYPE="600">
+			<POINT>297.000 34.000</POINT>
+			<POINT>397.000 34.000</POINT>
+			<POINT>397.000 134.000</POINT>
+			<POINT>297.000 134.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="17403" NAME="point_list_17403" TYPE="600">
+			<POINT>513.000 21.000</POINT>
+			<POINT>613.000 21.000</POINT>
+			<POINT>613.000 121.000</POINT>
+			<POINT>513.000 121.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="34427" NAME="point_list_34427" TYPE="600">
+			<POINT>403.000 24.000</POINT>
+			<POINT>503.000 24.000</POINT>
+			<POINT>503.000 124.000</POINT>
+			<POINT>403.000 124.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="36969" NAME="point_list_36969" TYPE="600">
+			<POINT>97.000 5.000</POINT>
+			<POINT>148.000 23.000</POINT>
+			<POINT>146.000 97.000</POINT>
+			<POINT>100.000 76.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="67710" NAME="point_list_67710" TYPE="600">
+			<POINT>881.000 81.000</POINT>
+			<POINT>981.000 81.000</POINT>
+			<POINT>981.000 181.000</POINT>
+			<POINT>881.000 181.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="74428" NAME="point_list_74428" TYPE="600">
+			<POINT>705.000 3.000</POINT>
+			<POINT>726.000 3.000</POINT>
+			<POINT>734.000 28.000</POINT>
+			<POINT>710.000 32.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="81580" NAME="point_list_81580" TYPE="600">
+			<POINT>895.000 212.000</POINT>
+			<POINT>995.000 212.000</POINT>
+			<POINT>995.000 312.000</POINT>
+			<POINT>895.000 312.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="86887" NAME="point_list_86887" TYPE="600">
+			<POINT>725.000 87.000</POINT>
+			<POINT>825.000 87.000</POINT>
+			<POINT>825.000 187.000</POINT>
+			<POINT>725.000 187.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="94066" NAME="point_list_94066" TYPE="600">
+			<POINT>740.000 214.000</POINT>
+			<POINT>840.000 214.000</POINT>
+			<POINT>840.000 314.000</POINT>
+			<POINT>740.000 314.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="216505" NAME="point_list_216505" TYPE="600">
+			<POINT>182.000 16.000</POINT>
+			<POINT>282.000 16.000</POINT>
+			<POINT>282.000 116.000</POINT>
+			<POINT>182.000 116.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/01_Begin/scene_gate</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_gate_100_init()" OPEN_SCRIPT_ID="void scene_gate_100_open()" />
+</SCENE>

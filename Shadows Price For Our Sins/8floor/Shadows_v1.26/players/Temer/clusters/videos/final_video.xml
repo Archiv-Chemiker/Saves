@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="633" ID_CLUSTER="11" LAYER="10004" LOAD="false" NAME="final_video" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="36977" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="405" VISIBLE="true">
+<CHILDS/>
+<NAME>video_final</NAME>
+<LAST_NAME/>
+<FPS VALUE="1"/>
+<TRANSFORM>512 389 0 360 240 0 0.0 0.0 0.0 1.42 1.42 1.0</TRANSFORM>
+<TEXTURE>video Final.ogv</TEXTURE>
+<SIZE>720 480</SIZE>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="-1"/>
+<FILES_PATH>video</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="113905" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>skip_video</NAME>
+<GUI>
+    <BUTTON5 ENABLE="true" ID="3" TEXTURE="images/clusters/videos/final_video hint_button_long.png" VISIBLE="true">
+        <POSITION>932 33</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/clusters/videos/final_video alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/clusters/videos/final_video alfios_20.png" HOT_SPOT="0" ID="5" TEXT="" TEXT_ID="454" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>0 -1</POSITION> 	
+ <TRANSFORM>932 33 0 0 0 0 0 0 0 0.90 0.90 1.0</TRANSFORM>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </BUTTON5>
+</GUI>
+<FILES_PATH>images/clusters/videos/final_video</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="108592" LAYER="3" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_108592</NAME>
+<CENTER>930 34</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void final_video_area_object_108592_108592_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="108593"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="108593" NAME="point_list_108593" TYPE="600">
+<POINT>860 12</POINT>
+<POINT>1001 12</POINT>
+<POINT>1001 56</POINT>
+<POINT>860 54</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/videos/final_video</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="void final_video_633_open()"/>
+</SCENE>

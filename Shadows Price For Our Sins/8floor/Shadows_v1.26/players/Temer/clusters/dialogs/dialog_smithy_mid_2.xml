@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="656" ID_CLUSTER="10" LAYER="7031" LOAD="false" NAME="dialog_smithy_mid_2" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="40390" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>dialog_smithy_mid_2</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui dialog_ghost_r.png" VISIBLE="true">
+        <POSITION>634 343</POSITION>
+        <CONTEXT>
+            <BUTTON5 ENABLE="true" ID="3" TEXTURE="images/gui next_button.png" VISIBLE="true">
+                <POSITION>236 177</POSITION>
+                <CONTEXT/>
+                <SCRIPTS>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="DOWN">void gui_250145340_702297455_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+            <WLABEL FONT="images/gui octoberEN_RU_29.fnt" FONT_COLOR="255 128 255 255" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" HOT_SPOT="0" ID="4" TEXT="" TEXT_ID="177" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>178 174</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_30.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_30.png" HOT_SPOT="1" ID="100" TEXT="" TEXT_ID="494" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-94 -236</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="40398" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="401" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>object_40398</NAME>
+<CENTER>0 0</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="-1"/>
+<TRANSFORM>245 405 0 244 364 0 0.0 0.0 0.0 1.0 1.0 1.0</TRANSFORM>
+<TEXTURE FRAME="1" QUALITY="0">images/clusters/dialogs/dialogs_smithy dialog_smithy_mid_2/smith.png</TEXTURE>
+<SIZE>489 728</SIZE>
+<ANIM>1 0 1 0 1 1 1 1</ANIM>
+<FILES_PATH>0</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/dialogs/dialogs_smithy</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+<VERTICES>0 0 1024 1 1023 768 0 767 </VERTICES>
+<INDEXES>0 1 2 0 2 3 </INDEXES>
+</RASTER>
+</SCENE>

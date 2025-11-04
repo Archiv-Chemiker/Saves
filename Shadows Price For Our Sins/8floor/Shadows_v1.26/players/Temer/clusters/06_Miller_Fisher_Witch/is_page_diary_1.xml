@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="400" ID_CLUSTER="6" LAYER="5000" LOAD="false" NAME="is_page_diary_1" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="83357" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>page_diary_1</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui list_1.png" VISIBLE="true">
+        <POSITION>519 341</POSITION>
+        <CONTEXT>
+            <PANEL ENABLE="true" ID="3" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>-104 -259</POSITION>
+                <TRANSFORM>-104 -259 0 0 0 0 0 0 0.10471666604280472 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="4" LINE_SPACE="-2" TEXT="" TEXT_ID="692" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-35 -19</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="135961" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_135961</NAME>
+<CENTER>507 343</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_page_diary_1_area_object_135961_135961_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="135962"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="135962" NAME="point_list_135962" TYPE="600">
+<POINT>333 25</POINT>
+<POINT>736 50</POINT>
+<POINT>707 661</POINT>
+<POINT>279 634</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/06_Miller_Fisher_Witch/scene_fisherman_house</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="void is_page_diary_1_400_init()" OPEN_SCRIPT_ID="void is_page_diary_1_400_open()"/>
+<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+<VERTICES>332 25 747 46 711 661 286 633 </VERTICES>
+<INDEXES>0 1 2 0 2 3 </INDEXES>
+</RASTER>
+</SCENE>

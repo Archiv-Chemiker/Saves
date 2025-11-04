@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="489" ID_CLUSTER="10" LAYER="428" LOAD="false" NAME="dialog_girl" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="32447" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>dialog_girl_mid_1</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui dialog_r.png" VISIBLE="true">
+        <POSITION>632 335</POSITION>
+        <CONTEXT>
+            <BUTTON5 ENABLE="true" ID="3" TEXTURE="images/gui next_button.png" VISIBLE="true">
+                <POSITION>246 189</POSITION>
+                <CONTEXT/>
+                <SCRIPTS>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="DOWN">void gui_691215312_605901099_JC_GUI_Button5_3_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+            <WLABEL FONT="images/gui octoberEN_RU_29.fnt" FONT_COLOR="255 128 255 255" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" HOT_SPOT="0" ID="4" TEXT="" TEXT_ID="177" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>188 186</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_30.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_30.png" HOT_SPOT="1" ID="100" TEXT="" TEXT_ID="190" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-98 -228</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/dialogs/dialog_girl</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

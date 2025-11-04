@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<SCENE ID="163" ID_CLUSTER="2" LAYER="1001" LOAD="false" OPEN="false" NAME="cu_cask" TYPE="303">
+	<OBJECTS>
+		<OBJECT ID="15217" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="21">
+			<NAME>area_take_watering_can_fuul</NAME>
+			<CENTER>560.000 365.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_cask_area_take_watering_can_fuul_15217_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="15218" />
+		</OBJECT>
+		<OBJECT ID="15215" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="20">
+			<NAME>area_valve_on</NAME>
+			<CENTER>495.000 145.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_cask_area_valve_on_15215_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="15216" />
+		</OBJECT>
+		<OBJECT ID="13614" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="19">
+			<NAME>object_13614</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/gui</FILES_PATH>
+			<GUI>
+				<BUTTON5 ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui exitbutton.png" TEXTURE_LOCAL_ID="0">
+					<POSITION>840 077</POSITION>
+					<TRANSFORM>840.000 77.000 0.000 24.000 23.500 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS>
+						<SCRIPT EVENT="UP">void gui_902832547_JC_GUI_Button5_2_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+					</SCRIPTS>
+				</BUTTON5>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="13303" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="18" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cu_frame_16</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>516.000 324.000 0.000 366.000 282.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/icons cu_frame.png</TEXTURE>
+			<SIZE>732 565</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH>images/icons</FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="3763" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="17">
+			<NAME>area_cheet_20</NAME>
+			<CENTER>213.000 124.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_cask_area_cheet_20_3763_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3764" />
+		</OBJECT>
+		<OBJECT ID="2859" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="16" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_valve</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>435.000 115.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cu_cask/ani_valve_245x30.png</TEXTURE>
+			<SIZE>128 028</SIZE>
+			<ANIM>1 1 0 0 2 3 6 7.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2498" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="15" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>found_watercan_full</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>521.000 328.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="3" QUALITY="">images/icons icons_05_Vineyard.png</TEXTURE>
+			<SIZE>064 064</SIZE>
+			<ANIM>1 0 1 0 3 2 6 1.000000</ANIM>
+			<FILES_PATH>images/icons</FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2000" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="13">
+			<NAME>area_watercan</NAME>
+			<CENTER>560.000 365.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_cask_area_watercan_2000_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1999" />
+		</OBJECT>
+		<OBJECT ID="1998" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="12">
+			<NAME>area_valve</NAME>
+			<CENTER>495.000 145.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_cask_area_valve_1998_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1997" />
+		</OBJECT>
+		<OBJECT ID="1632" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="11">
+			<NAME>area_inv_mirrow</NAME>
+			<CENTER>240.000 250.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_cask_area_inv_mirrow_1632_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1631" />
+		</OBJECT>
+		<OBJECT ID="1624" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>valve_off</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>476.000 129.000 0.000 32.000 14.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cu_cask/valve_off.png</TEXTURE>
+			<SIZE>064 028</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1625" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>valve_on</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>521.000 125.000 0.000 36.000 9.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cu_cask/valve_on.png</TEXTURE>
+			<SIZE>072 018</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1626" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>water_full</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>574.000 318.000 0.000 47.000 20.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cu_cask/water_full.png</TEXTURE>
+			<SIZE>094 040</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1627" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>water_half</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>589.000 325.000 0.000 31.000 12.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cu_cask/water_half.png</TEXTURE>
+			<SIZE>062 024</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="91339" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="5">
+			<NAME>kap_kap</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles water_v.png" frequency="1" gravity="-0.000 -0.000" maxCount="1" multiply="true" spreadAngle="0" area="5.000000 0.000000" start_after_loading="true">
+				<lifetime>0.500000</lifetime>
+				<velocity>-0.000 600.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>13.000000</startSize>
+				<endSize>9.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>400e567f</averColor>
+				<endColor>90e567f</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>548.000 248.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="91340" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="4">
+			<NAME>kranwat</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles water_v.png" frequency="36" gravity="11.000 0.000" maxCount="120" multiply="true" spreadAngle="0.174533" area="5.000000 0.000000" start_after_loading="false">
+				<lifetime>0.300000</lifetime>
+				<velocity>-0.000 175.000</velocity>
+				<tangent>-33.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>42.000000</startSize>
+				<endSize>25.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>ff0e567f</averColor>
+				<endColor>0</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>545.000 247.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="1628" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>watercan_empty</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>506.000 352.000 0.000 136.000 162.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cu_cask/watercan_empty.png</TEXTURE>
+			<SIZE>272 324</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1629" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>mirror</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>238.000 244.000 0.000 37.000 53.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cu_cask/mirror.png</TEXTURE>
+			<SIZE>074 106</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1630" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>background</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 326.000 0.000 320.000 240.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_vineyard cu_cask/background.jpg</TEXTURE>
+			<SIZE>640 480</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="1631" NAME="point_list_1631" TYPE="600">
+			<POINT>202.000 185.000</POINT>
+			<POINT>290.000 188.000</POINT>
+			<POINT>283.000 299.000</POINT>
+			<POINT>195.000 296.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1997" NAME="point_list_1997" TYPE="600">
+			<POINT>445.000 92.000</POINT>
+			<POINT>545.000 92.000</POINT>
+			<POINT>545.000 192.000</POINT>
+			<POINT>445.000 192.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1999" NAME="point_list_1999" TYPE="600">
+			<POINT>438.000 243.000</POINT>
+			<POINT>654.000 226.000</POINT>
+			<POINT>674.000 463.000</POINT>
+			<POINT>458.000 482.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3764" NAME="point_list_3764" TYPE="600">
+			<POINT>216.000 90.000</POINT>
+			<POINT>228.000 123.000</POINT>
+			<POINT>213.000 159.000</POINT>
+			<POINT>198.000 123.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="15216" NAME="point_list_15216" TYPE="600">
+			<POINT>447.000 93.000</POINT>
+			<POINT>547.000 93.000</POINT>
+			<POINT>547.000 193.000</POINT>
+			<POINT>447.000 193.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="15218" NAME="point_list_15218" TYPE="600">
+			<POINT>437.000 239.000</POINT>
+			<POINT>655.000 223.000</POINT>
+			<POINT>675.000 462.000</POINT>
+			<POINT>457.000 480.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/02_Girl_and_dog/scene_vineyard</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void cu_cask_163_init()" OPEN_SCRIPT_ID="void cu_cask_163_open()" />
+	<LP_INTERFACE_CLOSE />
+	<RASTER AMOUNT_INDEX="18" AMOUNT_VERTEX="8">
+		<VERTICES>149 50 886 37 893 605 705 589 677 580 361 581 336 603 147 614 </VERTICES>
+		<INDEXES>0 1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 </INDEXES>
+	</RASTER>
+</SCENE>

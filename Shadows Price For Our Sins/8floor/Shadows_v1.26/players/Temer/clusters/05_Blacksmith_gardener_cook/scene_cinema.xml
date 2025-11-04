@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+<SCENE ID="130" ID_CLUSTER="5" LAYER="100" LOAD="false" OPEN="false" NAME="scene_cinema" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="107681" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="43">
+			<NAME>area_object_107681</NAME>
+			<CENTER>511.000 109.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_object_107681_107681_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="107682" />
+		</OBJECT>
+		<OBJECT ID="107679" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="42">
+			<NAME>area_object_107679</NAME>
+			<CENTER>188.000 163.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_object_107679_107679_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="107680" />
+		</OBJECT>
+		<OBJECT ID="107677" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="41">
+			<NAME>area_object_107677</NAME>
+			<CENTER>78.000 63.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_object_107677_107677_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="107678" />
+		</OBJECT>
+		<OBJECT ID="107675" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="40">
+			<NAME>area_feedback_cinema</NAME>
+			<CENTER>361.000 316.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_feedback_cinema_107675_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="107676" />
+		</OBJECT>
+		<OBJECT ID="96837" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="39">
+			<NAME>p_d_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles star.png" frequency="2" gravity="-6.337 -51.612" maxCount="10" multiply="true" spreadAngle="1.74533" area="276.000000 61.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>8.000000</tangent>
+				<radial>31.000000</radial>
+				<startSize>42.000000</startSize>
+				<endSize>11.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>112b0097</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>171.000 526.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="96836" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="38">
+			<NAME>p_d_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="15" gravity="231.820 -162.322" maxCount="145" multiply="true" spreadAngle="5.18363" area="230.000000 192.000000" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>-311.000000</tangent>
+				<radial>5.000000</radial>
+				<startSize>3.000000</startSize>
+				<endSize>4.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ff00ffb2</averColor>
+				<endColor>11ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>164.000 518.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="95880" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="37">
+			<NAME>pily_cinema</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_3.png" frequency="50" gravity="1.997 0.105" maxCount="30" multiply="true" spreadAngle="0.785398" area="203.000000 334.000000" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>7.000000</startSize>
+				<endSize>7.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>ff5555ff</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>562.000 336.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="95879" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="36">
+			<NAME>pil_cinema_1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles dust_FX.png" frequency="20" gravity="0.000 0.000" maxCount="30" multiply="true" spreadAngle="6.28319" area="400.000000 400.000000" start_after_loading="false">
+				<lifetime>7.000000</lifetime>
+				<velocity>10.000 0.000</velocity>
+				<tangent>-9.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>11.000000</startSize>
+				<endSize>1.000000</endSize>
+				<startColor>ff</startColor>
+				<averColor>44abcdef</averColor>
+				<endColor>24ef1dcb</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>451.000 309.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="13484" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="35">
+			<NAME>area_cu_foto</NAME>
+			<CENTER>940.000 340.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_cinema_area_cu_foto_13484_in()" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_cu_foto_13484_click()" OUTPUT_SCRIPT_ID="void scene_cinema_area_cu_foto_13484_out()" />
+			<POINT_LIST ID="13480" />
+		</OBJECT>
+		<OBJECT ID="220654" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="34">
+			<NAME>area_mg_clown</NAME>
+			<CENTER>366.000 561.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_cinema_area_mg_clown_220654_in()" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_mg_clown_220654_click()" OUTPUT_SCRIPT_ID="void scene_cinema_area_mg_clown_220654_out()" />
+			<POINT_LIST ID="220653" />
+		</OBJECT>
+		<OBJECT ID="12054" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="33">
+			<NAME>area_mg_clown_1</NAME>
+			<CENTER>370.000 550.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_cinema_area_mg_clown_1_12054_in()" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_mg_clown_1_12054_click()" OUTPUT_SCRIPT_ID="void scene_cinema_area_mg_clown_1_12054_out()" />
+			<POINT_LIST ID="12053" />
+		</OBJECT>
+		<OBJECT ID="10214" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="32">
+			<NAME>area_next_slaid</NAME>
+			<CENTER>710.000 460.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_next_slaid_10214_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10215" />
+		</OBJECT>
+		<OBJECT ID="10212" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="31">
+			<NAME>area_cu_projector</NAME>
+			<CENTER>710.000 460.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_cu_projector_10212_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10211" />
+		</OBJECT>
+		<OBJECT ID="10196" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="30">
+			<NAME>area_cu_shut</NAME>
+			<CENTER>370.000 550.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_cinema_area_cu_shut_10196_in()" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_cu_shut_10196_click()" OUTPUT_SCRIPT_ID="void scene_cinema_area_cu_shut_10196_out()" />
+			<POINT_LIST ID="10195" />
+		</OBJECT>
+		<OBJECT ID="10116" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="29">
+			<NAME>area_hog_doll_house</NAME>
+			<CENTER>130.000 460.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_hog_doll_house_10116_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10115" />
+		</OBJECT>
+		<OBJECT ID="10051" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="28">
+			<NAME>area_cu_doll_house</NAME>
+			<CENTER>130.000 460.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_cu_doll_house_10051_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10050" />
+		</OBJECT>
+		<OBJECT ID="9881" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="27">
+			<NAME>area_open_box</NAME>
+			<CENTER>370.000 605.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_open_box_9881_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="9882" />
+		</OBJECT>
+		<OBJECT ID="9879" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="26" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_shut</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>283.000 407.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="25" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema ani.png</TEXTURE>
+			<SIZE>138 241</SIZE>
+			<ANIM>1 0 0 0 5 5 25 10.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9862" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="25">
+			<NAME>area_object_9862</NAME>
+			<CENTER>615.000 63.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_object_9862_9862_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="9863" />
+		</OBJECT>
+		<OBJECT ID="9859" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="23">
+			<NAME>area_take_net</NAME>
+			<CENTER>520.000 380.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_take_net_9859_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="9860" />
+		</OBJECT>
+		<OBJECT ID="9758" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="22">
+			<NAME>area_cord_cinema</NAME>
+			<CENTER>570.000 320.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_cord_cinema_9758_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="9759" />
+		</OBJECT>
+		<OBJECT ID="9750" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="21">
+			<NAME>area_scene_hall</NAME>
+			<CENTER>520.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_cinema_area_scene_hall_9750_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="9749" />
+		</OBJECT>
+		<OBJECT ID="9728" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="20" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>film_min_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>668.000 451.000 0.000 53.000 56.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema film_min_2.png</TEXTURE>
+			<SIZE>106 112</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9729" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="19" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>film_min_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>678.000 447.000 0.000 52.000 41.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema film_min_1.png</TEXTURE>
+			<SIZE>104 082</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9730" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="18" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>film_min</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>667.000 447.000 0.000 56.000 45.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema film_min.png</TEXTURE>
+			<SIZE>112 090</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9731" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="17" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>house_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>136.000 478.000 0.000 134.000 157.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema house_1.png</TEXTURE>
+			<SIZE>268 314</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9732" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="16" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>map</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>177.000 501.000 0.000 18.000 20.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema map.png</TEXTURE>
+			<SIZE>036 040</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9733" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="15" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>box_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>354.000 552.000 0.000 60.000 97.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema box_2.png</TEXTURE>
+			<SIZE>120 194</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9734" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="14" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>box_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>362.000 602.000 0.000 52.000 46.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema box_1.png</TEXTURE>
+			<SIZE>104 092</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9735" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="13" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>house</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>125.000 478.000 0.000 122.000 157.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema house.png</TEXTURE>
+			<SIZE>244 314</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9736" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>net</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>515.000 388.000 0.000 30.000 107.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema net.png</TEXTURE>
+			<SIZE>060 214</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9737" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>slide_7</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>429.000 311.000 0.000 144.000 107.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema slide_7.png</TEXTURE>
+			<SIZE>288 214</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9738" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>slide_6</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>423.000 319.000 0.000 146.000 116.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema slide_6.png</TEXTURE>
+			<SIZE>292 232</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9739" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>slide_5</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>429.000 311.000 0.000 144.000 107.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema slide_5.png</TEXTURE>
+			<SIZE>288 214</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9740" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>slide_4</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>429.000 311.000 0.000 144.000 107.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema slide_4.png</TEXTURE>
+			<SIZE>288 214</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9741" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>slide_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>429.000 311.000 0.000 144.000 107.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema slide_3.png</TEXTURE>
+			<SIZE>288 214</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9742" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>slide_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>430.000 311.000 0.000 144.000 107.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema slide_2.png</TEXTURE>
+			<SIZE>288 214</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9743" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>slide_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>429.000 311.000 0.000 144.000 107.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema slide_1.png</TEXTURE>
+			<SIZE>288 214</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9744" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>back_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema back_3.jpg</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9745" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>lens</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>652.000 408.000 0.000 15.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema lens.png</TEXTURE>
+			<SIZE>030 032</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9746" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>back_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>591.000 317.000 0.000 185.000 224.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema back_2.png</TEXTURE>
+			<SIZE>370 448</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="9747" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>back</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/05_Blacksmith_gardener_cook/scene_cinema back.jpg</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="9749" NAME="point_list_9749" TYPE="600">
+			<POINT>295.000 644.000</POINT>
+			<POINT>435.000 646.000</POINT>
+			<POINT>602.000 618.000</POINT>
+			<POINT>684.000 644.000</POINT>
+			<POINT>808.000 768.000</POINT>
+			<POINT>177.000 768.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="9759" NAME="point_list_9759" TYPE="600">
+			<POINT>482.000 156.000</POINT>
+			<POINT>683.000 155.000</POINT>
+			<POINT>686.000 377.000</POINT>
+			<POINT>640.000 401.000</POINT>
+			<POINT>635.000 481.000</POINT>
+			<POINT>468.000 489.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="9860" NAME="point_list_9860" TYPE="600">
+			<POINT>485.000 272.000</POINT>
+			<POINT>557.000 275.000</POINT>
+			<POINT>560.000 490.000</POINT>
+			<POINT>475.000 488.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="9863" NAME="point_list_9863" TYPE="600">
+			<POINT>603.000 45.000</POINT>
+			<POINT>636.000 44.000</POINT>
+			<POINT>622.000 82.000</POINT>
+			<POINT>594.000 74.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="9882" NAME="point_list_9882" TYPE="600">
+			<POINT>305.000 549.000</POINT>
+			<POINT>424.000 549.000</POINT>
+			<POINT>427.000 645.000</POINT>
+			<POINT>305.000 649.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10050" NAME="point_list_10050" TYPE="600">
+			<POINT>5.000 321.000</POINT>
+			<POINT>208.000 328.000</POINT>
+			<POINT>226.000 538.000</POINT>
+			<POINT>125.000 576.000</POINT>
+			<POINT>25.000 576.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10115" NAME="point_list_10115" TYPE="600">
+			<POINT>25.000 476.000</POINT>
+			<POINT>7.000 325.000</POINT>
+			<POINT>212.000 333.000</POINT>
+			<POINT>227.000 537.000</POINT>
+			<POINT>125.000 576.000</POINT>
+			<POINT>25.000 576.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10195" NAME="point_list_10195" TYPE="600">
+			<POINT>302.000 477.000</POINT>
+			<POINT>432.000 475.000</POINT>
+			<POINT>425.000 648.000</POINT>
+			<POINT>298.000 647.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10211" NAME="point_list_10211" TYPE="600">
+			<POINT>636.000 373.000</POINT>
+			<POINT>790.000 375.000</POINT>
+			<POINT>791.000 547.000</POINT>
+			<POINT>716.000 558.000</POINT>
+			<POINT>612.000 518.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10215" NAME="point_list_10215" TYPE="600">
+			<POINT>638.000 374.000</POINT>
+			<POINT>791.000 377.000</POINT>
+			<POINT>790.000 548.000</POINT>
+			<POINT>715.000 558.000</POINT>
+			<POINT>606.000 519.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="12053" NAME="point_list_12053" TYPE="600">
+			<POINT>300.000 472.000</POINT>
+			<POINT>434.000 477.000</POINT>
+			<POINT>433.000 651.000</POINT>
+			<POINT>300.000 645.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="13480" NAME="point_list_13480" TYPE="600">
+			<POINT>847.000 183.000</POINT>
+			<POINT>1024.000 132.000</POINT>
+			<POINT>1024.000 486.000</POINT>
+			<POINT>844.000 492.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="107676" NAME="point_list_107676" TYPE="600">
+			<POINT>243.000 159.000</POINT>
+			<POINT>480.000 160.000</POINT>
+			<POINT>461.000 473.000</POINT>
+			<POINT>266.000 459.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="107678" NAME="point_list_107678" TYPE="600">
+			<POINT>28.000 13.000</POINT>
+			<POINT>128.000 13.000</POINT>
+			<POINT>128.000 113.000</POINT>
+			<POINT>28.000 113.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="107680" NAME="point_list_107680" TYPE="600">
+			<POINT>138.000 19.000</POINT>
+			<POINT>238.000 19.000</POINT>
+			<POINT>237.000 308.000</POINT>
+			<POINT>171.000 304.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="107682" NAME="point_list_107682" TYPE="600">
+			<POINT>87.000 13.000</POINT>
+			<POINT>88.000 -6.000</POINT>
+			<POINT>531.000 -6.000</POINT>
+			<POINT>945.000 0.000</POINT>
+			<POINT>849.000 121.000</POINT>
+			<POINT>846.000 225.000</POINT>
+			<POINT>750.000 208.000</POINT>
+			<POINT>681.000 140.000</POINT>
+			<POINT>193.000 117.000</POINT>
+			<POINT>77.000 49.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="220653" NAME="point_list_220653" TYPE="600">
+			<POINT>297.000 476.000</POINT>
+			<POINT>436.000 481.000</POINT>
+			<POINT>432.000 647.000</POINT>
+			<POINT>296.000 646.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/05_Blacksmith_gardener_cook/scene_cinema</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_cinema_130_init()" OPEN_SCRIPT_ID="void scene_cinema_130_open()" />
+</SCENE>

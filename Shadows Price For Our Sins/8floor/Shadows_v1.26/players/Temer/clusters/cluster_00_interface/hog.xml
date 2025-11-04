@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<SCENE ID="10" NAME="hog" TYPE="308" ID_CLUSTER="0" LAYER="4002" LOAD="false" OPEN="false">  <!-- [4001; 5000] -->
+	<SETTINGS DEBUG="1">
+		<!-- шрифт, используемый для списка -->
+		<LIST_FONT TEXTURE="fonts font.png" FNT="fonts font.fnt" />
+		<!-- шрифт, используемый для шапки списка -->
+		<HAT_LIST_FONT TEXTURE="fonts font.png" FNT="fonts font.fnt" />
+		<!-- верхний левый угол прямоугольника, в котором распологается список -->
+		<POS_RECT VALUE="200 690" />
+		<!-- ширина и высота прямоугольника, в котором распологается список -->
+		<SIZE_RECT VALUE="600 75" />
+		<!-- максимально число столбцов -->
+		<MAX_COL VALUE="3" />
+		<!-- максимально число строк -->
+		<MAX_ROW VALUE="2" />
+		<!-- позиция заголовка -->
+		<POS_HAT VALUE="100 100" />
+		<!-- цвет доступного объекта -->
+		<COLOR_ENABLE_OBJECT  VALUE="4294967295" />
+		<!-- цвет недоступного объекта -->
+		<COLOR_DISABLE_OBJECT VALUE="3221200000" />
+		<!-- цвет найденного объекта -->
+		<COLOR_EXHOG_OBJECT   VALUE="2147483647" />
+	</SETTINGS> 
+	<SPEC_OBJECTS>
+		<OBJECT ID="1" TYPE="401" ENABLE="false" VISIBLE="true" LAYER="2">
+			<NAME>background</NAME>
+			<TRANSFORM>512 709 0 512 59 0 0 0 0 1 1 1</TRANSFORM>
+			<TEXTURE FRAME="0" QUALITY="0" >images/clusters/cluster_00_interface/hog background.png</TEXTURE>
+			<SIZE>1024 118</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1</ANIM> 
+			<EVENTS INPUT_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<FILES_PATH>0</FILES_PATH>
+		</OBJECT>
+	</SPEC_OBJECTS>
+	<OBJECTS/>
+	<FILLING>
+		
+	</FILLING>
+	<GUI>
+		<FILES_PATH>0</FILES_PATH>
+	</GUI>
+	<FILES_PATH>images/clusters/cluster_00_interface/hog</FILES_PATH>
+</SCENE>

@@ -1,0 +1,648 @@
+<?xml version="1.0"?>
+<SCENE ID="103" ID_CLUSTER="2" LAYER="100" LOAD="false" OPEN="false" NAME="scene_backyard" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="92231" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="48">
+			<NAME>pilsmal_backyard</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles dust_FX.png" frequency="2" gravity="0.000 0.000" maxCount="10" multiply="true" spreadAngle="1.01229" area="173.000000 157.000000" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>5.000 0.000</velocity>
+				<tangent>-6.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>4.000000</startSize>
+				<endSize>2.000000</endSize>
+				<startColor>ff</startColor>
+				<averColor>f1abcdef</averColor>
+				<endColor>24ef1dcb</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>103.000 440.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="83334" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="47">
+			<NAME>area_fuse_for_help</NAME>
+			<CENTER>850.000 270.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="83335" />
+		</OBJECT>
+		<OBJECT ID="75305" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="46" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gost_letter</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>497.000 531.000 0.000 45.000 47.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard letter_2_ghost.png</TEXTURE>
+			<SIZE>091 094</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="44790" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="45">
+			<NAME>area_gost_mary</NAME>
+			<CENTER>380.000 380.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_gost_mary_44790_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="44791" />
+		</OBJECT>
+		<OBJECT ID="44789" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="44" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gost_mary</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>440.000 5.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard ghostmary.png</TEXTURE>
+			<SIZE>223 474</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="31980" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="43">
+			<NAME>area_mg_lock</NAME>
+			<CENTER>850.000 280.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_backyard_area_mg_lock_31980_in()" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_mg_lock_31980_click()" OUTPUT_SCRIPT_ID="void scene_backyard_area_mg_lock_31980_out()" />
+			<POINT_LIST ID="31979" />
+		</OBJECT>
+		<OBJECT ID="14866" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="42">
+			<NAME>area_scn_lock_on_door</NAME>
+			<CENTER>850.000 280.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_backyard_area_scn_lock_on_door_14866_in()" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_scn_lock_on_door_14866_click()" OUTPUT_SCRIPT_ID="void scene_backyard_area_scn_lock_on_door_14866_out()" />
+			<POINT_LIST ID="14865" />
+		</OBJECT>
+		<OBJECT ID="14616" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="41">
+			<NAME>area_start_dialog_girl</NAME>
+			<CENTER>530.000 350.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_start_dialog_girl_14616_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="14617" />
+		</OBJECT>
+		<OBJECT ID="14615" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="40">
+			<NAME>leaf_backyard</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles leaf2.png" frequency="3" gravity="-0.733 13.981" maxCount="10" multiply="false" spreadAngle="1.8675" area="400.000000 19.000000" start_after_loading="true">
+				<lifetime>6.000000</lifetime>
+				<velocity>0.349 4.988</velocity>
+				<tangent>8.000000</tangent>
+				<radial>60.000000</radial>
+				<startSize>14.000000</startSize>
+				<endSize>31.000000</endSize>
+				<startColor>ff6798be</startColor>
+				<averColor>ffb2a184</averColor>
+				<endColor>2275b6</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>292.000 64.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="14612" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="39">
+			<NAME>motelki_backyard</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles Motelek.png" frequency="50" gravity="0.000 0.000" maxCount="5" multiply="true" spreadAngle="2.23402" area="0" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>1.219 9.925</velocity>
+				<tangent>-196.000000</tangent>
+				<radial>12.000000</radial>
+				<startSize>10.000000</startSize>
+				<endSize>3.000000</endSize>
+				<startColor>d41255b</startColor>
+				<averColor>f5fff1c0</averColor>
+				<endColor>109a7b32</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>797.000 95.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="13997" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="38">
+			<NAME>area_prom_dialog_g_2</NAME>
+			<CENTER>520.000 440.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_prom_dialog_g_2_13997_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="13998" />
+		</OBJECT>
+		<OBJECT ID="13995" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="37">
+			<NAME>area_prom_dialog_g_1</NAME>
+			<CENTER>520.000 440.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_prom_dialog_g_1_13995_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="13996" />
+		</OBJECT>
+		<OBJECT ID="5668" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="36">
+			<NAME>area_goto_scene_field</NAME>
+			<CENTER>400.000 280.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_goto_scene_field_5668_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="5667" />
+		</OBJECT>
+		<OBJECT ID="4784" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="35">
+			<NAME>area_goto_cu_gate</NAME>
+			<CENTER>400.000 280.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_goto_cu_gate_4784_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="4783" />
+		</OBJECT>
+		<OBJECT ID="3988" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="34">
+			<NAME>area_is_letter_2</NAME>
+			<CENTER>500.000 515.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_is_letter_2_3988_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3984" />
+		</OBJECT>
+		<OBJECT ID="3745" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="33">
+			<NAME>area_cheet_15</NAME>
+			<CENTER>32.000 51.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_cheet_15_3745_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3746" />
+		</OBJECT>
+		<OBJECT ID="3513" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="32">
+			<NAME>area_ani_chair</NAME>
+			<CENTER>645.000 325.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_ani_chair_3513_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3514" />
+		</OBJECT>
+		<OBJECT ID="2851" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="31" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_girl_click</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>203.000 285.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard girl_279x362_click.png</TEXTURE>
+			<SIZE>155 153</SIZE>
+			<ANIM>1 0 1 0 7 1 7 8.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2850" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="30" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_girl_stand</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>211.000 285.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="2" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard girl_279x362_blink.png</TEXTURE>
+			<SIZE>155 153</SIZE>
+			<ANIM>1 0 1 0 6 1 6 4.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2848" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="29">
+			<NAME>area_girl_stand</NAME>
+			<CENTER>250.000 350.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_girl_stand_2848_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2849" />
+		</OBJECT>
+		<OBJECT ID="2843" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="28" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_girl_cry</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>460.000 352.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="2" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard girl_502x468_cry.png</TEXTURE>
+			<SIZE>108 214</SIZE>
+			<ANIM>1 0 1 0 4 4 16 6.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2669" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="27">
+			<NAME>area_goto_scene_living_room</NAME>
+			<CENTER>820.000 265.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_goto_scene_living_room_2669_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2668" />
+		</OBJECT>
+		<OBJECT ID="2645" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="26">
+			<NAME>area_goto_cu_doll_on_tree</NAME>
+			<CENTER>110.000 440.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_goto_cu_doll_on_tree_2645_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2644" />
+		</OBJECT>
+		<OBJECT ID="1530" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="24">
+			<NAME>area_goto_is_door</NAME>
+			<CENTER>850.000 280.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_goto_is_door_1530_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1529" />
+		</OBJECT>
+		<OBJECT ID="1522" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="23">
+			<NAME>area_goto_cu_casket</NAME>
+			<CENTER>640.000 330.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_goto_cu_casket_1522_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1521" />
+		</OBJECT>
+		<OBJECT ID="1511" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="22">
+			<NAME>area_goto_cu_rocking_chair</NAME>
+			<CENTER>640.000 330.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_goto_cu_rocking_chair_1511_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1510" />
+		</OBJECT>
+		<OBJECT ID="1479" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="21">
+			<NAME>area_goto_cu_dog_least</NAME>
+			<CENTER>545.000 585.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_goto_cu_dog_least_1479_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1478" />
+		</OBJECT>
+		<OBJECT ID="1471" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="20">
+			<NAME>area_goto_scene_porch</NAME>
+			<CENTER>500.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_backyard_area_goto_scene_porch_1471_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="1470" />
+		</OBJECT>
+		<OBJECT ID="1453" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="19" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>letter</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>849.000 268.000 0.000 20.000 24.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard letter.png</TEXTURE>
+			<SIZE>041 048</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1454" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="18" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>letter_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>497.000 531.000 0.000 45.000 47.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard letter_2.png</TEXTURE>
+			<SIZE>091 094</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1455" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="17" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sofa</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>652.000 334.000 0.000 88.000 134.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard sofa.png</TEXTURE>
+			<SIZE>176 268</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2858" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="16" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_chair</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>655.000 327.000 0.000 94.000 144.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="49" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard chair_648x321.png</TEXTURE>
+			<SIZE>188 288</SIZE>
+			<ANIM>1 0 0 0 7 7 49 9.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1456" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="15" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>shkatulka_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>644.000 329.000 0.000 36.000 25.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard shkatulka_open.png</TEXTURE>
+			<SIZE>073 051</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1457" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="14" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>shkatulka_close</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>655.000 327.000 0.000 86.000 135.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard shkatulka_close.png</TEXTURE>
+			<SIZE>173 271</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1458" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="13" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>doll</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>101.000 485.000 0.000 31.000 43.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard doll.png</TEXTURE>
+			<SIZE>062 086</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1459" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>rope_close</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>89.000 358.000 0.000 88.000 205.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard rope_close.png</TEXTURE>
+			<SIZE>177 411</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1460" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>rope_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>105.000 387.000 0.000 104.000 214.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard rope_open.png</TEXTURE>
+			<SIZE>209 428</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1461" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>door_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>830.000 293.000 0.000 62.000 178.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard door_open.png</TEXTURE>
+			<SIZE>125 357</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1462" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>door_close</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>830.000 295.000 0.000 67.000 181.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard door_close.png</TEXTURE>
+			<SIZE>134 362</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1463" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>girl_stand</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>280.000 362.000 0.000 77.000 76.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard girl_stand.png</TEXTURE>
+			<SIZE>155 152</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1464" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>dog_leash</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>553.000 582.000 0.000 65.000 47.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard dog_leash.png</TEXTURE>
+			<SIZE>130 095</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1465" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>background_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>803.000 259.000 0.000 170.000 259.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard background_2.jpg</TEXTURE>
+			<SIZE>341 518</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1466" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gate_16_open</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>396.000 299.000 0.000 41.000 53.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard gate_16_open.jpg</TEXTURE>
+			<SIZE>082 106</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="1467" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>background_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard background_1.png</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="14614" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="3">
+			<NAME>tuman_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud_big.png" frequency="5" gravity="4.000 0.000" maxCount="20" multiply="true" spreadAngle="2.70526" area="400.000000 0.000000" start_after_loading="true">
+				<lifetime>8.000000</lifetime>
+				<velocity>5.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>2.000000</radial>
+				<startSize>351.000000</startSize>
+				<endSize>588.000000</endSize>
+				<startColor>1e6c83</startColor>
+				<averColor>55159dca</averColor>
+				<endColor>1e6c83</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>497.000 189.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="14613" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="2">
+			<NAME>tuman</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud_big.png" frequency="5" gravity="4.000 0.000" maxCount="20" multiply="true" spreadAngle="2.70526" area="400.000000 0.000000" start_after_loading="true">
+				<lifetime>8.000000</lifetime>
+				<velocity>5.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>2.000000</radial>
+				<startSize>351.000000</startSize>
+				<endSize>588.000000</endSize>
+				<startColor>1e6c83</startColor>
+				<averColor>55159dca</averColor>
+				<endColor>1e6c83</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>256.000 204.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="1468" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>background</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>361.000 157.000 0.000 361.000 156.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard background.jpg</TEXTURE>
+			<SIZE>722 313</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="1470" NAME="point_list_1470" TYPE="600">
+			<POINT>285.000 622.000</POINT>
+			<POINT>780.000 660.000</POINT>
+			<POINT>831.000 768.000</POINT>
+			<POINT>153.000 768.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1478" NAME="point_list_1478" TYPE="600">
+			<POINT>481.000 584.000</POINT>
+			<POINT>531.000 558.000</POINT>
+			<POINT>587.000 526.000</POINT>
+			<POINT>642.000 534.000</POINT>
+			<POINT>574.000 607.000</POINT>
+			<POINT>526.000 642.000</POINT>
+			<POINT>464.000 635.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1510" NAME="point_list_1510" TYPE="600">
+			<POINT>558.000 233.000</POINT>
+			<POINT>700.000 219.000</POINT>
+			<POINT>741.000 418.000</POINT>
+			<POINT>582.000 457.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1521" NAME="point_list_1521" TYPE="600">
+			<POINT>557.000 237.000</POINT>
+			<POINT>694.000 222.000</POINT>
+			<POINT>739.000 417.000</POINT>
+			<POINT>586.000 438.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="1529" NAME="point_list_1529" TYPE="600">
+			<POINT>806.000 236.000</POINT>
+			<POINT>897.000 229.000</POINT>
+			<POINT>900.000 322.000</POINT>
+			<POINT>807.000 317.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2644" NAME="point_list_2644" TYPE="600">
+			<POINT>51.000 436.000</POINT>
+			<POINT>120.000 286.000</POINT>
+			<POINT>166.000 301.000</POINT>
+			<POINT>157.000 542.000</POINT>
+			<POINT>21.000 560.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2668" NAME="point_list_2668" TYPE="600">
+			<POINT>771.000 130.000</POINT>
+			<POINT>870.000 109.000</POINT>
+			<POINT>883.000 436.000</POINT>
+			<POINT>789.000 427.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="2849" NAME="point_list_2849" TYPE="600">
+			<POINT>197.000 272.000</POINT>
+			<POINT>297.000 271.000</POINT>
+			<POINT>300.000 436.000</POINT>
+			<POINT>205.000 443.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3514" NAME="point_list_3514" TYPE="600">
+			<POINT>563.000 243.000</POINT>
+			<POINT>689.000 224.000</POINT>
+			<POINT>735.000 410.000</POINT>
+			<POINT>594.000 439.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3746" NAME="point_list_3746" TYPE="600">
+			<POINT>16.000 46.000</POINT>
+			<POINT>36.000 16.000</POINT>
+			<POINT>48.000 51.000</POINT>
+			<POINT>28.000 87.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3984" NAME="point_list_3984" TYPE="600">
+			<POINT>492.000 485.000</POINT>
+			<POINT>553.000 497.000</POINT>
+			<POINT>539.000 537.000</POINT>
+			<POINT>472.000 555.000</POINT>
+			<POINT>471.000 510.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="4783" NAME="point_list_4783" TYPE="600">
+			<POINT>331.000 202.000</POINT>
+			<POINT>446.000 187.000</POINT>
+			<POINT>458.000 343.000</POINT>
+			<POINT>344.000 357.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="5667" NAME="point_list_5667" TYPE="600">
+			<POINT>331.000 200.000</POINT>
+			<POINT>446.000 188.000</POINT>
+			<POINT>462.000 343.000</POINT>
+			<POINT>346.000 364.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="13996" NAME="point_list_13996" TYPE="600">
+			<POINT>462.000 369.000</POINT>
+			<POINT>561.000 350.000</POINT>
+			<POINT>570.000 514.000</POINT>
+			<POINT>465.000 579.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="13998" NAME="point_list_13998" TYPE="600">
+			<POINT>463.000 368.000</POINT>
+			<POINT>562.000 352.000</POINT>
+			<POINT>569.000 516.000</POINT>
+			<POINT>464.000 578.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14617" NAME="point_list_14617" TYPE="600">
+			<POINT>-2.000 3.000</POINT>
+			<POINT>1024.000 1.000</POINT>
+			<POINT>1024.000 669.000</POINT>
+			<POINT>0.000 666.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="14865" NAME="point_list_14865" TYPE="600">
+			<POINT>806.000 229.000</POINT>
+			<POINT>906.000 229.000</POINT>
+			<POINT>906.000 329.000</POINT>
+			<POINT>806.000 329.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="31979" NAME="point_list_31979" TYPE="600">
+			<POINT>804.000 230.000</POINT>
+			<POINT>904.000 230.000</POINT>
+			<POINT>904.000 330.000</POINT>
+			<POINT>804.000 330.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="44791" NAME="point_list_44791" TYPE="600">
+			<POINT>3.000 6.000</POINT>
+			<POINT>1022.000 1.000</POINT>
+			<POINT>1024.000 675.000</POINT>
+			<POINT>2.000 666.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="83335" NAME="point_list_83335" TYPE="600">
+			<POINT>60.000 17.000</POINT>
+			<POINT>83.000 17.000</POINT>
+			<POINT>75.000 36.000</POINT>
+			<POINT>55.000 38.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/02_Girl_and_dog/scene_backyard</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_backyard_103_init()" OPEN_SCRIPT_ID="void scene_backyard_103_open()" />
+</SCENE>

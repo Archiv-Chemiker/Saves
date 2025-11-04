@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="457" ID_CLUSTER="8" LAYER="7100" LOAD="false" NAME="menu_button" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="14715" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>MenuButton</NAME>
+<GUI>
+    <BUTTON5 ENABLE="true" ID="2" TEXTURE="images/gui menu_button.png" VISIBLE="true">
+        <POSITION>57 748</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="3" TEXT="" TEXT_ID="196" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>0 -5</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP">void gui_1693089133_JC_GUI_Button5_2_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </BUTTON5>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/interfase/menu_button</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+</SCENE>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="926" ID_CLUSTER="13" LAYER="7000" LOAD="false" NAME="tutorial_24" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="65157" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_65157</NAME>
+<CENTER>511 383</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="65158"/>
+</OBJECT>
+<OBJECT ENABLE="true" ID="65160" LAYER="3" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>tutorial_24</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui tutorial_back.png" VISIBLE="true">
+        <POSITION>743 221</POSITION>
+        <CONTEXT>
+            <CHECKBOX ENABLE="true" ID="100" TEXTURE="images/gui check_box.png" VISIBLE="true">
+                <POSITION>-100 81</POSITION>
+                <CONTEXT/>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP">void gui_110968986_JC_GUI_Checkbox5_100_up(JC_GUI_CHECKBOX5@ this)</SCRIPT>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </CHECKBOX>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="4" TEXT="" TEXT_ID="1049" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-80 68</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="5" TEXT="" TEXT_ID="1041" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-141 -98</POSITION>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="65161" LAYER="4" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_65161</NAME>
+<CENTER>961 58</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void tutorial_24_area_object_65161_65161_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="65162"/>
+</OBJECT>
+<OBJECT ENABLE="true" ID="65193" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="401" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>arrow_tut_18</NAME>
+<CENTER>0 0</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="-1"/>
+<TRANSFORM>964 45 0 26 0 0 0.0 0.0 0.7853982 1.0 1.0 1.0</TRANSFORM>
+<TEXTURE FRAME="1" QUALITY="0">images/clusters/tutorial/tutorial_24 tutorial_arrow.png</TEXTURE>
+<SIZE>52 64</SIZE>
+<ANIM>1 0 1 0 1 1 1 1</ANIM>
+<FILES_PATH>0</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="65158" NAME="point_list_65158" TYPE="600">
+<POINT>-2 -1</POINT>
+<POINT>1022 0</POINT>
+<POINT>1024 767</POINT>
+<POINT>0 766</POINT>
+</POINT_LIST>
+<POINT_LIST ID="65162" NAME="point_list_65162" TYPE="600">
+<POINT>911 8</POINT>
+<POINT>1011 8</POINT>
+<POINT>1011 108</POINT>
+<POINT>911 108</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/tutorial/tutorial_24</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="void tutorial_24_926_init()" OPEN_SCRIPT_ID=""/>
+</SCENE>

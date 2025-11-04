@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="330" ID_CLUSTER="4" LAYER="5000" LOAD="false" NAME="is_page_diary_4" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="54462" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>page_diary_4</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui list_4.png" VISIBLE="true">
+        <POSITION>501 349</POSITION>
+        <CONTEXT>
+            <PANEL ENABLE="true" ID="3" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>-63 -240</POSITION>
+                <TRANSFORM>-63 -240 0 0 0 0 0 0 0.17452777922153473 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="4" TEXT="" TEXT_ID="640" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-35 -37</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="135937" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_135937</NAME>
+<CENTER>494 357</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_page_diary_4_area_object_135937_135937_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="135938"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="135938" NAME="point_list_135938" TYPE="600">
+<POINT>366 50</POINT>
+<POINT>725 115</POINT>
+<POINT>642 664</POINT>
+<POINT>264 601</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/04_Chapel/scene_cell</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="void is_page_diary_4_330_init()" OPEN_SCRIPT_ID="void is_page_diary_4_330_open()"/>
+<RASTER AMOUNT_INDEX="15" AMOUNT_VERTEX="7">
+<VERTICES>364 51 436 57 670 96 705 114 723 175 644 667 269 598 </VERTICES>
+<INDEXES>0 1 2 0 2 3 0 3 4 0 4 5 0 5 6 </INDEXES>
+</RASTER>
+</SCENE>

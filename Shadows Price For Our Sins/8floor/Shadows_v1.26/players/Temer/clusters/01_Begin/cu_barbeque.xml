@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<SCENE ID="176" ID_CLUSTER="1" LAYER="1001" LOAD="false" OPEN="false" NAME="cu_barbeque" TYPE="303">
+	<OBJECTS>
+		<OBJECT ID="92230" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="16">
+			<NAME>waterb</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_1.png" frequency="62" gravity="11.000 0.000" maxCount="220" multiply="true" spreadAngle="0.0523599" area="5.000000 0.000000" start_after_loading="false">
+				<lifetime>1.000000</lifetime>
+				<velocity>-143.352 100.376</velocity>
+				<tangent>-164.000000</tangent>
+				<radial>100.000000</radial>
+				<startSize>27.000000</startSize>
+				<endSize>103.000000</endSize>
+				<startColor>33ffffff</startColor>
+				<averColor>880e567f</averColor>
+				<endColor>e567f</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>495.000 254.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="92229" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="15">
+			<NAME>par_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud2.png" frequency="50" gravity="-19.081 -98.163" maxCount="50" multiply="true" spreadAngle="1.44862" area="138.000000 0.000000" start_after_loading="false">
+				<lifetime>3.000000</lifetime>
+				<velocity>-24.805 -127.612</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>433.000000</startSize>
+				<endSize>526.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>55ffffff</averColor>
+				<endColor>ffffff</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>519.000 311.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="91345" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="14">
+			<NAME>iskry_2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles firespark.png" frequency="1" gravity="0.000 0.000" maxCount="110" multiply="true" spreadAngle="1.13446" area="126.000000 0.000000" start_after_loading="false">
+				<lifetime>1.000000</lifetime>
+				<velocity>0.000 -1000.000</velocity>
+				<tangent>-221.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>21.000000</startSize>
+				<endSize>52.000000</endSize>
+				<startColor>ffffffff</startColor>
+				<averColor>ffff4e00</averColor>
+				<endColor>ff973b67</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>510.000 310.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="34132" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="13">
+			<NAME>area_take_handle</NAME>
+			<CENTER>530.000 300.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_barbeque_area_take_handle_34132_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="34133" />
+		</OBJECT>
+		<OBJECT ID="14371" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="12">
+			<NAME>flame_grill</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles firepart.png" frequency="41" gravity="10.000 0.000" maxCount="50" multiply="true" spreadAngle="0" area="157.000000 30.000000" start_after_loading="false">
+				<lifetime>0.800000</lifetime>
+				<velocity>-63.348 -194.967</velocity>
+				<tangent>171.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>186.000000</startSize>
+				<endSize>21.000000</endSize>
+				<startColor>ff9999</startColor>
+				<averColor>77ffffff</averColor>
+				<endColor>ff9999</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>509.000 311.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="14370" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="11">
+			<NAME>voda_tushh</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_0_1.png" frequency="62" gravity="11.000 0.000" maxCount="220" multiply="true" spreadAngle="0.0523599" area="5.000000 0.000000" start_after_loading="false">
+				<lifetime>1.000000</lifetime>
+				<velocity>-143.352 100.376</velocity>
+				<tangent>-164.000000</tangent>
+				<radial>100.000000</radial>
+				<startSize>27.000000</startSize>
+				<endSize>103.000000</endSize>
+				<startColor>33ffffff</startColor>
+				<averColor>880e567f</averColor>
+				<endColor>e567f</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>509.000 311.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="14299" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="10">
+			<NAME>object_14299</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/gui</FILES_PATH>
+			<GUI>
+				<BUTTON5 ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui exitbutton.png" TEXTURE_LOCAL_ID="0">
+					<POSITION>840 077</POSITION>
+					<TRANSFORM>840.000 77.000 0.000 24.000 23.500 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS>
+						<SCRIPT EVENT="UP">void gui_902832547_JC_GUI_Button5_2_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+					</SCRIPTS>
+				</BUTTON5>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="13297" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>cu_frame_10</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>516.000 324.000 0.000 366.000 283.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/icons cu_frame.png</TEXTURE>
+			<SIZE>732 565</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH>images/icons</FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="3759" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="8">
+			<NAME>area_cheet_12</NAME>
+			<CENTER>220.000 132.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_barbeque_area_cheet_12_3759_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="3760" />
+		</OBJECT>
+		<OBJECT ID="2512" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="6">
+			<NAME>area_handle</NAME>
+			<CENTER>530.000 295.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void cu_barbeque_area_handle_2512_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="2511" />
+		</OBJECT>
+		<OBJECT ID="2002" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>watercan</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>706.000 233.000 0.000 189.000 213.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque cu_barbeque/watercan.png</TEXTURE>
+			<SIZE>378 426</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2003" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>handle_found</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>529.000 316.000 0.000 73.000 42.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque cu_barbeque/handle_found.png</TEXTURE>
+			<SIZE>146 084</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2004" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>grill_hot</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 326.000 0.000 320.000 240.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque cu_barbeque/grill_hot.jpg</TEXTURE>
+			<SIZE>640 480</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2005" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>handle_cold</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>529.000 317.000 0.000 74.000 47.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque cu_barbeque/handle_cold.jpg</TEXTURE>
+			<SIZE>148 094</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="2006" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>gril_cold</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 326.000 0.000 320.000 240.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/01_Begin/scene_barbeque cu_barbeque/gril_cold.jpg</TEXTURE>
+			<SIZE>640 480</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="2511" NAME="point_list_2511" TYPE="600">
+			<POINT>359.000 182.000</POINT>
+			<POINT>614.000 137.000</POINT>
+			<POINT>767.000 228.000</POINT>
+			<POINT>780.000 309.000</POINT>
+			<POINT>733.000 384.000</POINT>
+			<POINT>578.000 470.000</POINT>
+			<POINT>360.000 446.000</POINT>
+			<POINT>265.000 313.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="3760" NAME="point_list_3760" TYPE="600">
+			<POINT>205.000 125.000</POINT>
+			<POINT>221.000 94.000</POINT>
+			<POINT>235.000 127.000</POINT>
+			<POINT>216.000 171.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="34133" NAME="point_list_34133" TYPE="600">
+			<POINT>384.000 308.000</POINT>
+			<POINT>441.000 249.000</POINT>
+			<POINT>601.000 226.000</POINT>
+			<POINT>668.000 292.000</POINT>
+			<POINT>627.000 404.000</POINT>
+			<POINT>470.000 441.000</POINT>
+			<POINT>410.000 407.000</POINT>
+			<POINT>392.000 360.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/01_Begin/scene_barbeque</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void cu_barbeque_176_init()" OPEN_SCRIPT_ID="" />
+	<LP_INTERFACE_CLOSE />
+	<RASTER AMOUNT_INDEX="144" AMOUNT_VERTEX="50">
+		<VERTICES>165 58 205 51 224 50 237 61 267 58 289 47 302 61 329 52 348 52 361 68 676 65 709 52 715 65 788 61 806 45 836 34 861 49 877 67 880 110 857 110 855 151 864 175 856 227 854 246 859 283 868 301 848 302 853 373 863 384 858 402 849 432 857 458 881 486 852 542 897 574 865 587 803 593 782 600 768 585 673 584 359 585 269 610 157 591 147 485 164 454 168 350 161 248 163 155 145 148 162 123 </VERTICES>
+		<INDEXES>0 1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0 7 8 0 8 9 0 9 10 0 10 11 0 11 12 0 12 13 0 13 14 0 14 15 0 15 16 0 16 17 0 17 18 0 18 19 0 19 20 0 20 21 0 21 22 0 22 23 0 23 24 0 24 25 0 25 26 0 26 27 0 27 28 0 28 29 0 29 30 0 30 31 0 31 32 0 32 33 0 33 34 0 34 35 0 35 36 0 36 37 0 37 38 0 38 39 0 39 40 0 40 41 0 41 42 0 42 43 0 43 44 0 44 45 0 45 46 0 46 47 0 47 48 0 48 49 </INDEXES>
+	</RASTER>
+</SCENE>

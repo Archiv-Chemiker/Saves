@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="395" ID_CLUSTER="6" LAYER="5000" LOAD="false" NAME="is_latter_of_whitch" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="54480" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>letter_of_witch</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui letter.png" VISIBLE="true">
+        <POSITION>504 315</POSITION>
+        <CONTEXT>
+            <PANEL ENABLE="true" ID="3" MOVABLE="false" TEXTURE="images/gui empty-pixel.png" VISIBLE="true">
+                <POSITION>-121 -234</POSITION>
+                <TRANSFORM>-121 -234 0 0 0 0 0 0 -0.017452778294682503 1.0 1.0 1.0</TRANSFORM>
+                <CONTEXT>
+                    <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="1" ID="4" LETTER_SPACE="-2" MID_DIV="-1" TEXT="" TEXT_ID="688" VISIBLE="true">
+                        <CONTEXT/>
+                        <POSITION>-35 -15</POSITION>
+                    </WLABEL>
+                </CONTEXT>
+                <SCRIPTS>
+                    <SCRIPT EVENT="GRAB"/>
+                    <SCRIPT EVENT="DOWN"/>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </PANEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="135963" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_135963</NAME>
+<CENTER>507 316</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_latter_of_whitch_area_object_135963_135963_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="135964"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="135964" NAME="point_list_135964" TYPE="600">
+<POINT>295 39</POINT>
+<POINT>689 23</POINT>
+<POINT>720 610</POINT>
+<POINT>306 605</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/06_Miller_Fisher_Witch/scene_waterwheel</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="void is_latter_of_whitch_395_init()" OPEN_SCRIPT_ID="void is_latter_of_whitch_395_open()"/>
+<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+<VERTICES>292 42 691 25 721 598 305 614 </VERTICES>
+<INDEXES>0 1 2 0 2 3 </INDEXES>
+</RASTER>
+</SCENE>

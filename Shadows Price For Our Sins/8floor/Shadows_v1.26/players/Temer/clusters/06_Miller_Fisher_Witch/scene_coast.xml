@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<SCENE ID="132" ID_CLUSTER="6" LAYER="100" LOAD="false" OPEN="false" NAME="scene_coast" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="40670" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="25">
+			<NAME>area_fisherman_dialog</NAME>
+			<CENTER>512.000 333.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_coast_area_fisherman_dialog_40670_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="40671" />
+		</OBJECT>
+		<OBJECT ID="107683" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="24">
+			<NAME>area_object_107683</NAME>
+			<CENTER>99.000 255.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_coast_area_object_107683_107683_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="107684" />
+		</OBJECT>
+		<OBJECT ID="95888" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="23">
+			<NAME>motelki_shore</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles Motelek.png" frequency="1" gravity="0.000 0.000" maxCount="65" multiply="true" spreadAngle="1.01229" area="34.000000 46.000000" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>1.219 9.925</velocity>
+				<tangent>-327.000000</tangent>
+				<radial>12.000000</radial>
+				<startSize>4.000000</startSize>
+				<endSize>2.000000</endSize>
+				<startColor>d41255b</startColor>
+				<averColor>f5a6d759</averColor>
+				<endColor>109a7b32</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>869.000 24.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="95840" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="22" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>d_fisherman</NAME>
+			<CHILDS>
+				<OBJECT ID="40669" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="1">
+					<NAME>duh_fisherman</NAME>
+					<LAST_NAME></LAST_NAME>
+					<CHILDS />
+					<particles texture="images/particles cloud3.png" frequency="37" gravity="-0.628 11.983" maxCount="100" multiply="true" spreadAngle="0.663225" area="1.000000 100.000000" start_after_loading="true">
+						<lifetime>4.000000</lifetime>
+						<velocity>23.474 44.147</velocity>
+						<tangent>0.000000</tangent>
+						<radial>0.000000</radial>
+						<startSize>55.000000</startSize>
+						<endSize>279.000000</endSize>
+						<startColor>3ab7f</startColor>
+						<averColor>333ab7ff</averColor>
+						<endColor>1d40d4</endColor>
+					</particles>
+					<FILES_PATH>images/particles</FILES_PATH>
+					<TRANSFORM>80.000 100.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+				</OBJECT>
+			</CHILDS>
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>350.000 365.000 0.000 123.000 159.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast fisher_s.png</TEXTURE>
+			<SIZE>247 318</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="75316" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="21" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sticks_off</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>176.000 325.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast stikcs_off.png</TEXTURE>
+			<SIZE>052 064</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="220666" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="20">
+			<NAME>area_mg_door_house</NAME>
+			<CENTER>425.000 264.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_coast_area_mg_door_house_220666_in()" MOUSECLICK_SCRIPT_ID="void scene_coast_area_mg_door_house_220666_click()" OUTPUT_SCRIPT_ID="void scene_coast_area_mg_door_house_220666_out()" />
+			<POINT_LIST ID="220665" />
+		</OBJECT>
+		<OBJECT ID="11344" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="19">
+			<NAME>area_mg_door_house_1</NAME>
+			<CENTER>420.000 270.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_coast_area_mg_door_house_1_11344_in()" MOUSECLICK_SCRIPT_ID="void scene_coast_area_mg_door_house_1_11344_click()" OUTPUT_SCRIPT_ID="void scene_coast_area_mg_door_house_1_11344_out()" />
+			<POINT_LIST ID="11343" />
+		</OBJECT>
+		<OBJECT ID="10803" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="18">
+			<NAME>area_scene_waterwheel</NAME>
+			<CENTER>890.000 110.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_coast_area_scene_waterwheel_10803_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10802" />
+		</OBJECT>
+		<OBJECT ID="10779" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="17">
+			<NAME>area_cu_ladder</NAME>
+			<CENTER>755.000 355.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_coast_area_cu_ladder_10779_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10778" />
+		</OBJECT>
+		<OBJECT ID="10763" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="16">
+			<NAME>area_cu_sticks</NAME>
+			<CENTER>200.000 360.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_coast_area_cu_sticks_10763_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10762" />
+		</OBJECT>
+		<OBJECT ID="10571" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="15">
+			<NAME>area_goto_scene_fisherman_house</NAME>
+			<CENTER>434.000 224.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_coast_area_goto_scene_fisherman_house_10571_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10570" />
+		</OBJECT>
+		<OBJECT ID="10567" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="14">
+			<NAME>area_cu_door_house</NAME>
+			<CENTER>425.000 270.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_coast_area_cu_door_house_10567_in()" MOUSECLICK_SCRIPT_ID="void scene_coast_area_cu_door_house_10567_click()" OUTPUT_SCRIPT_ID="void scene_coast_area_cu_door_house_10567_out()" />
+			<POINT_LIST ID="10566" />
+		</OBJECT>
+		<OBJECT ID="10530" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="13">
+			<NAME>area_fisherman_cover</NAME>
+			<CENTER>510.000 460.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_coast_area_fisherman_cover_10530_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10529" />
+		</OBJECT>
+		<OBJECT ID="10510" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="12">
+			<NAME>area_scene_bridge</NAME>
+			<CENTER>520.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_coast_area_scene_bridge_10510_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="10509" />
+		</OBJECT>
+		<OBJECT ID="10498" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>door_open_32</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>400.000 272.000 0.000 11.000 32.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast door_open_32.png</TEXTURE>
+			<SIZE>022 064</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="10499" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>door_close_32</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>418.000 273.000 0.000 18.000 31.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast door_close_32.png</TEXTURE>
+			<SIZE>040 062</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="10500" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>stairs_32</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>739.000 401.000 0.000 23.000 25.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast stairs_32.png</TEXTURE>
+			<SIZE>046 050</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="10501" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ladder_32</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>763.000 335.000 0.000 72.000 146.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast ladder_32.png</TEXTURE>
+			<SIZE>144 292</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="10502" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>coveropen_32</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>504.000 412.000 0.000 57.000 29.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast coveropen_32.png</TEXTURE>
+			<SIZE>114 058</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="10503" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>coverbox_32</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>504.000 443.000 0.000 57.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast coverbox_32.png</TEXTURE>
+			<SIZE>114 032</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="10504" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>door</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>893.000 111.000 0.000 77.000 111.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast door.png</TEXTURE>
+			<SIZE>154 222</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="10805" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ani_river</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>455.000 374.000 0.000 344.000 119.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="5" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast river.png</TEXTURE>
+			<SIZE>688 238</SIZE>
+			<ANIM>1 0 1 0 2 4 8 7.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="10506" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>shore_32</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast shore_32.png</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="95889" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="2">
+			<NAME>tuman_32</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud_big.png" frequency="20" gravity="2.000 0.000" maxCount="50" multiply="true" spreadAngle="2.70526" area="400.000000 10.000000" start_after_loading="true">
+				<lifetime>15.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>2.000000</radial>
+				<startSize>114.000000</startSize>
+				<endSize>279.000000</endSize>
+				<startColor>1e6c83</startColor>
+				<averColor>55159dca</averColor>
+				<endColor>1e6c83</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>138.000 306.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="10507" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sky_32</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>404.000 246.000 0.000 404.000 246.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_coast sky_32.jpg</TEXTURE>
+			<SIZE>808 492</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="10509" NAME="point_list_10509" TYPE="600">
+			<POINT>252.000 605.000</POINT>
+			<POINT>710.000 605.000</POINT>
+			<POINT>839.000 768.000</POINT>
+			<POINT>160.000 766.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10529" NAME="point_list_10529" TYPE="600">
+			<POINT>418.000 410.000</POINT>
+			<POINT>601.000 405.000</POINT>
+			<POINT>597.000 506.000</POINT>
+			<POINT>418.000 510.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10566" NAME="point_list_10566" TYPE="600">
+			<POINT>333.000 212.000</POINT>
+			<POINT>521.000 215.000</POINT>
+			<POINT>518.000 313.000</POINT>
+			<POINT>333.000 312.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10570" NAME="point_list_10570" TYPE="600">
+			<POINT>326.000 211.000</POINT>
+			<POINT>408.000 135.000</POINT>
+			<POINT>542.000 170.000</POINT>
+			<POINT>528.000 314.000</POINT>
+			<POINT>326.000 311.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10762" NAME="point_list_10762" TYPE="600">
+			<POINT>146.000 296.000</POINT>
+			<POINT>269.000 300.000</POINT>
+			<POINT>267.000 424.000</POINT>
+			<POINT>149.000 420.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10778" NAME="point_list_10778" TYPE="600">
+			<POINT>746.000 183.000</POINT>
+			<POINT>864.000 185.000</POINT>
+			<POINT>771.000 487.000</POINT>
+			<POINT>655.000 480.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="10802" NAME="point_list_10802" TYPE="600">
+			<POINT>785.000 30.000</POINT>
+			<POINT>1023.000 2.000</POINT>
+			<POINT>1014.000 230.000</POINT>
+			<POINT>833.000 235.000</POINT>
+			<POINT>777.000 493.000</POINT>
+			<POINT>652.000 481.000</POINT>
+			<POINT>731.000 229.000</POINT>
+			<POINT>700.000 225.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="11343" NAME="point_list_11343" TYPE="600">
+			<POINT>333.000 211.000</POINT>
+			<POINT>522.000 216.000</POINT>
+			<POINT>521.000 311.000</POINT>
+			<POINT>333.000 311.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="40671" NAME="point_list_40671" TYPE="600">
+			<POINT>0.000 0.000</POINT>
+			<POINT>1024.000 0.000</POINT>
+			<POINT>1024.000 659.000</POINT>
+			<POINT>0.000 666.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="107684" NAME="point_list_107684" TYPE="600">
+			<POINT>3.000 5.000</POINT>
+			<POINT>188.000 3.000</POINT>
+			<POINT>198.000 137.000</POINT>
+			<POINT>143.000 276.000</POINT>
+			<POINT>141.000 474.000</POINT>
+			<POINT>1.000 507.000</POINT>
+			<POINT>3.000 105.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="220665" NAME="point_list_220665" TYPE="600">
+			<POINT>329.000 214.000</POINT>
+			<POINT>522.000 214.000</POINT>
+			<POINT>519.000 314.000</POINT>
+			<POINT>329.000 314.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/06_Miller_Fisher_Witch/scene_coast</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_coast_132_init()" OPEN_SCRIPT_ID="void scene_coast_132_open()" />
+</SCENE>

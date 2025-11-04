@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<SCENE ID="158" ID_CLUSTER="2" LAYER="5000" LOAD="false" OPEN="false" NAME="is_dog_photo" TYPE="303">
+	<OBJECTS>
+		<OBJECT ID="2803" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>dog</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_dog_photo_dog_2803_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>544.000 241.000 0.000 169.000 241.000 0.000 0.000 0.000 0.000 1.000 1.000 0.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/02_Girl_and_dog/scene_backyard is_dog_photo/dog.png</TEXTURE>
+			<SIZE>339 482</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING />
+	<FILES_PATH>images/clusters/02_Girl_and_dog/scene_backyard</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void is_dog_photo_158_init()" OPEN_SCRIPT_ID="void is_dog_photo_158_open()" />
+	<LP_INTERFACE_CLOSE />
+	<RASTER AMOUNT_INDEX="27" AMOUNT_VERTEX="11">
+		<VERTICES>334 0 723 0 689 74 573 134 656 171 729 294 695 432 531 496 396 411 367 264 498 140 </VERTICES>
+		<INDEXES>0 1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0 7 8 0 8 9 0 9 10 </INDEXES>
+	</RASTER>
+</SCENE>

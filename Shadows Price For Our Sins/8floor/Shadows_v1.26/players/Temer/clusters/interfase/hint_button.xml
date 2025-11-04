@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<SCENE ID="440" ID_CLUSTER="8" LAYER="6850" LOAD="false" OPEN="false" NAME="hint_button" TYPE="313">
+	<OBJECTS>
+		<OBJECT ID="12899" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="4">
+			<NAME>area_use_hint_button</NAME>
+			<CENTER>962.000 692.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void hint_button_area_use_hint_button_12899_in()" MOUSECLICK_SCRIPT_ID="void hint_button_area_use_hint_button_12899_click()" OUTPUT_SCRIPT_ID="void hint_button_area_use_hint_button_12899_out()" />
+			<POINT_LIST ID="12900" />
+		</OBJECT>
+		<OBJECT ID="12990" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="3" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>pumpkin_so_light_hint</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>968.000 674.000 0.000 53.000 59.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/hint_button gui_pumpkin_so_light.png</TEXTURE>
+			<SIZE>106 119</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="12989" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="2" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>pumpkin_light_hint</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>969.000 689.000 0.000 53.000 44.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/hint_button gui_pumpkin_light.png</TEXTURE>
+			<SIZE>106 088</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="12988" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>pumpkin_hint</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>968.000 689.000 0.000 53.000 44.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/interfase/hint_button gui_pumpkin_dark.png</TEXTURE>
+			<SIZE>106 088</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="12900" NAME="point_list_12900" TYPE="600">
+			<POINT>933.000 655.000</POINT>
+			<POINT>970.000 646.000</POINT>
+			<POINT>1007.000 656.000</POINT>
+			<POINT>1017.000 681.000</POINT>
+			<POINT>1015.000 714.000</POINT>
+			<POINT>990.000 732.000</POINT>
+			<POINT>967.000 738.000</POINT>
+			<POINT>933.000 731.000</POINT>
+			<POINT>908.000 702.000</POINT>
+			<POINT>913.000 675.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/interfase/hint_button</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void hint_button_440_init()" OPEN_SCRIPT_ID="void hint_button_440_open()" />
+	<SETTINGS DEBUG="true">
+		<HELP DISPLAY_TIME="3" HELP_CLUSTER_ID="8" HELP_SCENE_ID="442" INVENT_CLUSTER_ID="8" INVENT_SCENE_ID="441" />
+		<SCRIPT_UPDATE_PROGRESS>void update_hint()</SCRIPT_UPDATE_PROGRESS>
+		<SCRIPT_USE>void use_hint()</SCRIPT_USE>
+		<SCRIPT_REG>void reg_hint()</SCRIPT_REG>
+		<SCENE DELAY="0.1" SHOW="2" />
+		<INVENTORY DELAY="0.1" SHOW="2" />
+		<TIP DELAY="0" SHOW="2" />
+		<MORE_SCENES>
+			<SCENE ID_SCENE="444" ID_CLUSTER="8" />
+			<SCENE ID_SCENE="445" ID_CLUSTER="8" />
+		</MORE_SCENES>
+	</SETTINGS>
+	<SPEC_OBJECTS>
+		<OBJECT ID="33234" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="5">
+			<NAME>scene_hint</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_2_1.png" frequency="114" gravity="0.000 0.000" maxCount="140" multiply="true" spreadAngle="4.71239" area="0" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>-34.573 77.651</velocity>
+				<tangent>400.000000</tangent>
+				<radial>50.000000</radial>
+				<startSize>1.000000</startSize>
+				<endSize>39.000000</endSize>
+				<startColor>fff177</startColor>
+				<averColor>ffffb243</averColor>
+				<endColor>ffff6622</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>860.000 160.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="33522" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="6">
+			<NAME>inventory_hint</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles slice_2_1.png" frequency="114" gravity="0.000 0.000" maxCount="140" multiply="true" spreadAngle="4.71239" area="0" start_after_loading="false">
+				<lifetime>2.000000</lifetime>
+				<velocity>-34.573 77.651</velocity>
+				<tangent>400.000000</tangent>
+				<radial>50.000000</radial>
+				<startSize>1.000000</startSize>
+				<endSize>39.000000</endSize>
+				<startColor>fff177</startColor>
+				<averColor>ffffb243</averColor>
+				<endColor>ffff6622</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>423.000 334.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="33523" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="7">
+			<NAME>tip_hint</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles star2.png" frequency="0" gravity="0.000 0.000" maxCount="5" multiply="true" spreadAngle="0" area="0" start_after_loading="false">
+				<lifetime>1.000000</lifetime>
+				<velocity>0.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>50.000000</startSize>
+				<endSize>30.000000</endSize>
+				<startColor>5555ff</startColor>
+				<averColor>ffffffff</averColor>
+				<endColor>ff5300</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>520.000 720.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+	</SPEC_OBJECTS>
+</SCENE>

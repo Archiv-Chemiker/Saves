@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="630" ID_CLUSTER="11" LAYER="10003" LOAD="false" NAME="lantern_video" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="36974" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="405" VISIBLE="true">
+<CHILDS/>
+<NAME>lantern_vid</NAME>
+<LAST_NAME/>
+<FPS VALUE="1"/>
+<TRANSFORM>512 389 0 360 240 0 0.0 0.0 0.0 1.42 1.42 1.0</TRANSFORM>
+<TEXTURE>video Lantern.ogv</TEXTURE>
+<SUBTITLES>video lantern.cre</SUBTITLES>
+<SIZE>720 480</SIZE>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="-1"/>
+<FILES_PATH>video</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="113904" LAYER="2" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>skip_video</NAME>
+<GUI>
+    <BUTTON5 ENABLE="true" ID="3" TEXTURE="images/clusters/videos/lantern_video hint_button_long.png" VISIBLE="true">
+        <POSITION>932 33</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/clusters/videos/lantern_video alfios_20.fnt" FONT_COLOR="255 0 0 0" FONT_TEXTURE="images/clusters/videos/lantern_video alfios_20.png" HOT_SPOT="0" ID="5" TEXT="" TEXT_ID="454" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>0 -1</POSITION> 	
+ <TRANSFORM>932 33 0 0 0 0 0 0 0 0.90 0.90 1.0</TRANSFORM>
+            </WLABEL>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </BUTTON5>
+</GUI>
+<FILES_PATH>images/clusters/videos/lantern_video</FILES_PATH>
+</OBJECT>
+<OBJECT ENABLE="true" ID="36975" LAYER="3" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="400" TYPE_ADD="0" VISIBLE="true">
+<CHILDS/>
+<NAME>area_object_36975</NAME>
+<CENTER>929 33</CENTER>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void lantern_video_area_object_36975_36975_click()" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<POINT_LIST ID="36976"/>
+</OBJECT>
+</OBJECTS>
+<FILLING>
+<POINT_LIST ID="36976" NAME="point_list_36976" TYPE="600">
+<POINT>857 11</POINT>
+<POINT>1000 11</POINT>
+<POINT>1001 55</POINT>
+<POINT>858 54</POINT>
+</POINT_LIST>
+</FILLING>
+<FILES_PATH>images/clusters/videos/lantern_video</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID="void lantern_video_630_open()"/>
+</SCENE>

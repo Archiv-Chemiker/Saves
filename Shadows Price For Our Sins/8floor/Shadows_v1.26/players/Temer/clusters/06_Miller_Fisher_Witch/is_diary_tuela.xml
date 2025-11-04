@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<SCENE ID="407" ID_CLUSTER="6" LAYER="1464" LOAD="false" OPEN="false" NAME="is_diary_tuela" TYPE="303">
+	<OBJECTS>
+		<OBJECT ID="81562" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="8">
+			<NAME>area_last_witch_page</NAME>
+			<CENTER>301.000 352.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_diary_tuela_area_last_witch_page_81562_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="81563" />
+		</OBJECT>
+		<OBJECT ID="81560" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="7">
+			<NAME>area_next_witch_page</NAME>
+			<CENTER>670.000 371.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_diary_tuela_area_next_witch_page_81560_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="81561" />
+		</OBJECT>
+		<OBJECT ID="81559" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="6">
+			<NAME>witch_page2</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/gui</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui witch_dairy_p2.png" MOVABLE="false">
+					<POSITION>498 366</POSITION>
+					<TRANSFORM>498.000 366.000 0.000 439.000 356.500 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<PANEL ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui empty-pixel.png" MOVABLE="false">
+							<POSITION>-285 -278</POSITION>
+							<TRANSFORM>-285.000 -278.000 0.000 0.500 0.500 0.000 0.000 0.000 0.087 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS />
+							<CONTEXT>
+								<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_20.png" FONT="images/gui alfios_20.fnt" TEXT="Я подслушала, что с помощью меча &#10;света можно вернуть ее обратно с &#10;мир живых. И тогда я выкрала меч &#10;и подменила его на копию. Я &#10;думала, что Джек просто не сможет &#10;открыть портал. Но оказалась, &#10;ключом в царство Самайна была &#10;настольная игра. И за обман Бог &#10;Тьмы проклял моего любимого. А я &#10;осталась жить на ферме, которую &#10;все обходили стороной, боясь &#10;моего гнева. " TEXT_ID="698" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 0 0 0">
+									<POSITION>-036 -017</POSITION>
+									<TRANSFORM>-36.000 -17.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+								</WLABEL>
+							</CONTEXT>
+						</PANEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="11087" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="5">
+			<NAME>area_take_brooch</NAME>
+			<CENTER>825.000 450.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void is_diary_tuela_area_take_brooch_11087_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="11088" />
+		</OBJECT>
+		<OBJECT ID="11085" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>brooch</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>814.000 452.000 0.000 120.000 39.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_room_witches is_diary_tuela/brooch.png</TEXTURE>
+			<SIZE>240 078</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="81558" ENABLE="true" VISIBLE="false" TEXT="0" TYPE="406" TYPE_ADD="0" LAYER="3">
+			<NAME>witch_page1</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<FILES_PATH>images/gui</FILES_PATH>
+			<GUI>
+				<PANEL ID="2" VISIBLE="true" ENABLE="true" TEXTURE="images/gui witch_dairy_p1.png" MOVABLE="false">
+					<POSITION>498 366</POSITION>
+					<TRANSFORM>498.000 366.000 0.000 439.000 356.500 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+					<SCRIPTS />
+					<CONTEXT>
+						<PANEL ID="5" VISIBLE="true" ENABLE="true" TEXTURE="images/gui empty-pixel.png" MOVABLE="false">
+							<POSITION>110 -243</POSITION>
+							<TRANSFORM>110.000 -243.000 0.000 0.500 0.500 0.000 0.000 0.000 0.087 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS />
+							<CONTEXT>
+								<WLABEL ID="6" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_20.png" FONT="images/gui alfios_20.fnt" TEXT="Встретив Мэри, он сделал ей &#10;предложение. При помощи &#10;колдовства я пыталась не &#10;допустить их свадьбы. Используя &#10;знания магии вуду, украв &#10;карманные часы Джека, пыталась &#10;приворожить его. Моя мамаша обо &#10;всем узнала, и даже вызвала на &#10;помощь алхимика, чтобы изгнать во &#10;мне нечистую силу. Я так &#10;разозлилась, что заколдовала &#10;мост, а потом прокляла старуху. В &#10;ночь перед венчанием я убила &#10;Мэри. Какой-то оборванец видел &#10;меня в лодке на реке, но я &#10;наслала на него проклятье. И даже &#10;после ее смерти Мэри Джек &#10;продолжал любить эту глупую &#10;девчонку. " TEXT_ID="697" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 0 0 0">
+									<POSITION>-036 -019</POSITION>
+									<TRANSFORM>-36.000 -19.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+								</WLABEL>
+							</CONTEXT>
+						</PANEL>
+						<PANEL ID="3" VISIBLE="true" ENABLE="true" TEXTURE="images/gui empty-pixel.png" MOVABLE="false">
+							<POSITION>-293 -235</POSITION>
+							<TRANSFORM>-293.000 -235.000 0.000 0.500 0.500 0.000 0.000 0.000 0.087 1.000 1.000 1.000</TRANSFORM>
+							<SCRIPTS />
+							<CONTEXT>
+								<WLABEL ID="4" VISIBLE="true" ENABLE="true" FONT_TEXTURE="images/gui alfios_20.png" FONT="images/gui alfios_20.fnt" TEXT="Меня зовут Тэлута. Я последняя &#10;живая душа на ферме Стоунов. Моя &#10;мать, известная всем как няня &#10;Нэди, говорила, что моя любовь к &#10;Джеку не сулит никому добра. Как &#10;я ненавижу эту старуху! Но она &#10;оказалась права. Я влюбилась в &#10;Джека еще ребенком, когда нас с &#10;матерью приютили на ферме его &#10;родители, и устроили работать в &#10;своем доме. Джек был &#10;очаровательным мальчиком, а затем &#10;вырос и стал настоящим рыцарем. &#10;Но он не видел во мне женщины. " TEXT_ID="696" HOT_SPOT="1" MID_DIV="4" LETTER_SPACE="0" FONT_COLOR="255 0 0 0">
+									<POSITION>-036 -017</POSITION>
+									<TRANSFORM>-36.000 -17.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+								</WLABEL>
+							</CONTEXT>
+						</PANEL>
+					</CONTEXT>
+				</PANEL>
+			</GUI>
+		</OBJECT>
+		<OBJECT ID="11084" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>brooch_found</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>811.000 449.000 0.000 117.000 35.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/06_Miller_Fisher_Witch/scene_room_witches is_diary_tuela/brooch_found.png</TEXTURE>
+			<SIZE>234 070</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="11088" NAME="point_list_11088" TYPE="600">
+			<POINT>684.000 388.000</POINT>
+			<POINT>930.000 416.000</POINT>
+			<POINT>941.000 459.000</POINT>
+			<POINT>904.000 484.000</POINT>
+			<POINT>864.000 486.000</POINT>
+			<POINT>684.000 488.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="81561" NAME="point_list_81561" TYPE="600">
+			<POINT>520.000 56.000</POINT>
+			<POINT>869.000 81.000</POINT>
+			<POINT>863.000 687.000</POINT>
+			<POINT>472.000 655.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="81563" NAME="point_list_81563" TYPE="600">
+			<POINT>152.000 34.000</POINT>
+			<POINT>505.000 55.000</POINT>
+			<POINT>466.000 670.000</POINT>
+			<POINT>97.000 630.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/06_Miller_Fisher_Witch/scene_room_witches</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void is_diary_tuela_407_init()" OPEN_SCRIPT_ID="void is_diary_tuela_407_open()" />
+	<LP_INTERFACE_CLOSE />
+	<RASTER AMOUNT_INDEX="30" AMOUNT_VERTEX="12">
+		<VERTICES>99 35 190 22 923 64 913 394 937 413 952 448 924 496 900 513 899 720 472 697 91 651 61 581 </VERTICES>
+		<INDEXES>0 1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0 7 8 0 8 9 0 9 10 0 10 11 </INDEXES>
+	</RASTER>
+</SCENE>

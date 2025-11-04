@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="948" ID_CLUSTER="8" LAYER="1660" LOAD="false" NAME="dsadas" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="94060" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>CloseCUbutton</NAME>
+<GUI>
+    <BUTTON5 ENABLE="true" ID="2" TEXTURE="images/gui exitbutton.png" VISIBLE="true">
+        <POSITION>840 77</POSITION>
+        <CONTEXT/>
+        <SCRIPTS>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP">void gui_902832547_JC_GUI_Button5_2_up(JC_GUI_BUTTON5@ this)</SCRIPT>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </BUTTON5>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/interfase/test_gui</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+<VERTICES>192 86 832 86 832 566 192 566 </VERTICES>
+<INDEXES>0 1 2 0 2 3 </INDEXES>
+</RASTER>
+</SCENE>

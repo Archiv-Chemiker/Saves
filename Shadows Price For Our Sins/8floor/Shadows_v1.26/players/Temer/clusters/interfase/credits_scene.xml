@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="950" ID_CLUSTER="8" LAYER="9503" LOAD="false" NAME="credits_scene" OPEN="false" TYPE="303">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="108591" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="406" VISIBLE="true">
+<CHILDS/>
+<NAME>credits</NAME>
+<GUI>
+    <PANEL ENABLE="true" ID="2" MOVABLE="false" TEXTURE="images/gui credits_back.png" VISIBLE="true">
+        <POSITION>514 387</POSITION>
+        <CONTEXT>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="5" ID="24" TEXT="set_hot_spot_5" TEXT_ID="1385" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>1 -49</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="23" TEXT="Programming" TEXT_ID="1384" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>0 -6</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="22" TEXT="Dabry Logan" TEXT_ID="1391" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-1 -48</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="21" TEXT="Voice Over" TEXT_ID="1390" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>0 -79</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="5" ID="20" TEXT="setHotSpot_5" TEXT_ID="1383" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>296 -160</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="19" TEXT="Art" TEXT_ID="1382" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>291 -80</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="18" TEXT="empty" TEXT_ID="1387" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-304 179</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="17" TEXT="Sound and Music" TEXT_ID="1386" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-302 147</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="16" TEXT="empty" TEXT_ID="1381" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-305 104</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="15" TEXT="Art Director" TEXT_ID="1380" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-306 73</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="14" TEXT="empty" TEXT_ID="1379" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-304 31</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="13" TEXT="Game Dis" TEXT_ID="1378" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-307 -1</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="12" TEXT="empty" TEXT_ID="1377" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-305 -48</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="11" TEXT="Project Management" TEXT_ID="1376" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-300 -80</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_30.fnt" FONT_COLOR="255 87 161 183" FONT_TEXTURE="images/gui alfios_30.png" HOT_SPOT="0" ID="10" TEXT="Creobit" TEXT_ID="1373" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-2 -121</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_20.fnt" FONT_COLOR="255 255 255 255" FONT_TEXTURE="images/gui alfios_20.png" HOT_SPOT="0" ID="8" TEXT="Anna Loginova" TEXT_ID="1375" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-5 -181</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_24.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui alfios_24.png" HOT_SPOT="0" ID="7" TEXT="Producers" TEXT_ID="1374" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-7 -210</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui alfios_30.fnt" FONT_COLOR="255 87 161 183" FONT_TEXTURE="images/gui alfios_30.png" HOT_SPOT="0" ID="6" TEXT="8floor" TEXT_ID="1372" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-7 -250</POSITION>
+            </WLABEL>
+            <WLABEL FONT="images/gui octoberEN_RU_29.fnt" FONT_COLOR="255 255 210 0" FONT_TEXTURE="images/gui octoberEN_RU_29_0.png" HOT_SPOT="0" ID="4" TEXT="Mitwirkende" TEXT_ID="1388" VISIBLE="true">
+                <CONTEXT/>
+                <POSITION>-9 -300</POSITION>
+            </WLABEL>
+            <BUTTON5 ENABLE="true" ID="3" TEXTURE="images/gui exitbutton.png" VISIBLE="true">
+                <POSITION>445 -299</POSITION>
+                <CONTEXT/>
+                <SCRIPTS>
+                    <SCRIPT EVENT="DOWN">void gui_166893581_JC_GUI_Button5_3_down(JC_GUI_BUTTON5@ this)</SCRIPT>
+                    <SCRIPT EVENT="UP"/>
+                    <SCRIPT EVENT="ENTER"/>
+                    <SCRIPT EVENT="LEAVE"/>
+                </SCRIPTS>
+            </BUTTON5>
+        </CONTEXT>
+        <SCRIPTS>
+            <SCRIPT EVENT="GRAB"/>
+            <SCRIPT EVENT="DOWN"/>
+            <SCRIPT EVENT="UP"/>
+            <SCRIPT EVENT="ENTER"/>
+            <SCRIPT EVENT="LEAVE"/>
+        </SCRIPTS>
+    </PANEL>
+</GUI>
+<FILES_PATH>images/gui</FILES_PATH>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/interfase/for_credits</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="" OPEN_SCRIPT_ID=""/>
+<RASTER AMOUNT_INDEX="6" AMOUNT_VERTEX="4">
+<VERTICES>0 0 1023 0 1024 768 1 767 </VERTICES>
+<INDEXES>0 1 2 0 2 3 </INDEXES>
+</RASTER>
+</SCENE>

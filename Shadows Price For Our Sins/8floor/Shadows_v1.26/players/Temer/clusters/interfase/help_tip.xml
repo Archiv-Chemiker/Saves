@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCENE ID="494" ID_CLUSTER="8" LAYER="433" LOAD="false" NAME="help_tip" OPEN="false" TYPE="300">
+<OBJECTS>
+<OBJECT ENABLE="true" ID="15151" LAYER="1" PLENUM="false" PLENUM_OFFSET="0 0" TEXT="0" TYPE="404" VISIBLE="true">
+<CHILDS/>
+<NAME>object_15151</NAME>
+<LAST_NAME/>
+<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" MOUSEUP_SCRIPT_ID="" OUTPUT_SCRIPT_ID=""/>
+<TRANSFORM>497 371 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0</TRANSFORM>
+<FILES_PATH>images/particles</FILES_PATH>
+<POINT_LIST ID="-1"/>
+<particles area="44" frequency="50" gravity="0 0" maxCount="5" multiply="true" spreadAngle="2.23402" texture="images/particles Motelek.png">
+	<lifetime>5</lifetime>
+	<velocity>1.21869 9.92547</velocity>
+
+	<tangent>-196</tangent>
+	<radial>12</radial>
+
+	<startSize>10</startSize>
+	<endSize>3</endSize>
+
+	<startColor>d41255b</startColor>
+	<averColor>f5fff1c0</averColor>
+	<endColor>109a7b32</endColor>
+</particles>
+</OBJECT>
+</OBJECTS>
+<FILLING/>
+<FILES_PATH>images/clusters/interfase/help_tip</FILES_PATH>
+<EVENTS INIT_SCRIPT_ID="void help_tip_494_init()" OPEN_SCRIPT_ID=""/>
+</SCENE>

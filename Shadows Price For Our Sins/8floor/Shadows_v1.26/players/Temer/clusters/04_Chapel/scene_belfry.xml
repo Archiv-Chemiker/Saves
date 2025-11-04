@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<SCENE ID="121" ID_CLUSTER="4" LAYER="100" LOAD="false" OPEN="false" NAME="scene_belfry" TYPE="300">
+	<OBJECTS>
+		<OBJECT ID="106752" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="35">
+			<NAME>area_feedback_owl_bell</NAME>
+			<CENTER>542.000 145.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_feedback_owl_bell_106752_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="106753" />
+		</OBJECT>
+		<OBJECT ID="106750" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="34">
+			<NAME>area_feedback_owl</NAME>
+			<CENTER>342.000 505.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_feedback_owl_106750_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="106751" />
+		</OBJECT>
+		<OBJECT ID="94041" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="33">
+			<NAME>owlout</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud3.png" frequency="170" gravity="-0.000 -0.000" maxCount="1570" multiply="false" spreadAngle="6.28319" area="109.000000 109.000000" start_after_loading="false">
+				<lifetime>1.000000</lifetime>
+				<velocity>53.460 27.239</velocity>
+				<tangent>32.000000</tangent>
+				<radial>39.000000</radial>
+				<startSize>350.000000</startSize>
+				<endSize>1.000000</endSize>
+				<startColor>0</startColor>
+				<averColor>ff000000</averColor>
+				<endColor>0</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>309.000 500.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="94038" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="32">
+			<NAME>pil_21</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles dust_FX.png" frequency="18" gravity="-0.000 -0.000" maxCount="30" multiply="true" spreadAngle="1.01229" area="265.000000 307.000000" start_after_loading="true">
+				<lifetime>3.000000</lifetime>
+				<velocity>22.275 11.350</velocity>
+				<tangent>16.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>5.000000</startSize>
+				<endSize>1.000000</endSize>
+				<startColor>ffffff</startColor>
+				<averColor>ff5555ff</averColor>
+				<endColor>ef1dcb</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>370.000 361.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="220636" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="31">
+			<NAME>area_mg_twins</NAME>
+			<CENTER>638.000 421.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_belfry_area_mg_twins_220636_in()" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_mg_twins_220636_click()" OUTPUT_SCRIPT_ID="void scene_belfry_area_mg_twins_220636_out()" />
+			<POINT_LIST ID="220635" />
+		</OBJECT>
+		<OBJECT ID="11723" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="30">
+			<NAME>area_mg_twins_1</NAME>
+			<CENTER>630.000 430.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_belfry_area_mg_twins_1_11723_in()" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_mg_twins_1_11723_click()" OUTPUT_SCRIPT_ID="void scene_belfry_area_mg_twins_1_11723_out()" />
+			<POINT_LIST ID="11722" />
+		</OBJECT>
+		<OBJECT ID="6755" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="29">
+			<NAME>area_object_6755</NAME>
+			<CENTER>616.000 281.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_object_6755_6755_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6756" />
+		</OBJECT>
+		<OBJECT ID="6750" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="28">
+			<NAME>area_cu_block_window</NAME>
+			<CENTER>630.000 430.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_cu_block_window_6750_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6749" />
+		</OBJECT>
+		<OBJECT ID="6746" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="27">
+			<NAME>area_scene_mg_pairs_2</NAME>
+			<CENTER>630.000 430.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="void scene_belfry_area_scene_mg_pairs_2_6746_in()" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_scene_mg_pairs_2_6746_click()" OUTPUT_SCRIPT_ID="void scene_belfry_area_scene_mg_pairs_2_6746_out()" />
+			<POINT_LIST ID="6745" />
+		</OBJECT>
+		<OBJECT ID="6182" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="25">
+			<NAME>area_bell_on_floor</NAME>
+			<CENTER>325.000 560.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_bell_on_floor_6182_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6181" />
+		</OBJECT>
+		<OBJECT ID="6175" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="24">
+			<NAME>area_object_6175</NAME>
+			<CENTER>62.000 73.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_object_6175_6175_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6176" />
+		</OBJECT>
+		<OBJECT ID="6173" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="23">
+			<NAME>area_cu_bell</NAME>
+			<CENTER>770.000 335.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_cu_bell_6173_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6172" />
+		</OBJECT>
+		<OBJECT ID="6169" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="22">
+			<NAME>area_stepladden</NAME>
+			<CENTER>770.000 385.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_stepladden_6169_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6170" />
+		</OBJECT>
+		<OBJECT ID="7605" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="21" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>owl_aye_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>289.000 541.000 0.000 13.000 4.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry owl_aye_3.png</TEXTURE>
+			<SIZE>026 008</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7606" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="20" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>owl_3</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>296.000 571.000 0.000 40.000 50.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry owl_3.png</TEXTURE>
+			<SIZE>080 100</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7607" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="18" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>owl_aye_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>312.000 423.000 0.000 12.000 4.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry owl_aye_1.png</TEXTURE>
+			<SIZE>024 009</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7608" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="17" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>owl_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>315.000 457.000 0.000 38.000 55.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry owl_1.png</TEXTURE>
+			<SIZE>076 110</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="6164" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="16">
+			<NAME>area_clapper</NAME>
+			<CENTER>920.000 440.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_clapper_6164_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6165" />
+		</OBJECT>
+		<OBJECT ID="7609" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="15" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>owl_aye</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>368.000 526.000 0.000 12.000 5.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry owl_aye.png</TEXTURE>
+			<SIZE>024 010</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7610" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="14" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>owl</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>395.000 567.000 0.000 57.000 56.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry owl.png</TEXTURE>
+			<SIZE>114 112</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="6154" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="400" TYPE_ADD="0" LAYER="13">
+			<NAME>area_goto_scene_chapel_1</NAME>
+			<CENTER>510.000 720.000</CENTER>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="void scene_belfry_area_goto_scene_chapel_1_6154_click()" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="6153" />
+		</OBJECT>
+		<OBJECT ID="7611" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="12" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>fan</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>321.000 573.000 0.000 30.000 19.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry fan.png</TEXTURE>
+			<SIZE>060 038</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7612" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="11" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>ladder</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>800.000 549.000 0.000 83.000 78.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry ladder.png</TEXTURE>
+			<SIZE>166 156</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7613" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="10" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bell</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>915.000 443.000 0.000 55.000 24.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry bell.png</TEXTURE>
+			<SIZE>110 048</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7614" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="9" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bell_1</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>781.000 258.000 0.000 15.000 23.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry bell_1.png</TEXTURE>
+			<SIZE>030 046</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7615" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="8" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>mosaic</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>599.000 418.000 0.000 20.000 16.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry mosaic.png</TEXTURE>
+			<SIZE>040 032</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7616" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="7" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>wall</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>632.000 405.000 0.000 115.000 121.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry wall.png</TEXTURE>
+			<SIZE>230 242</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7617" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="6" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>bell_2</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>779.000 223.000 0.000 47.000 51.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry bell_2.png</TEXTURE>
+			<SIZE>094 102</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7618" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="5" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>campanile</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>512.000 384.000 0.000 512.000 384.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry campanile.png</TEXTURE>
+			<SIZE>1024 768</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="7619" ENABLE="false" VISIBLE="false" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="4" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>machete</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>616.000 515.000 0.000 51.000 8.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry machete.png</TEXTURE>
+			<SIZE>102 016</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+		<OBJECT ID="94040" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="3">
+			<NAME>tuman_14_belfry</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud_big.png" frequency="5" gravity="4.000 0.000" maxCount="20" multiply="true" spreadAngle="2.70526" area="400.000000 0.000000" start_after_loading="true">
+				<lifetime>8.000000</lifetime>
+				<velocity>5.000 0.000</velocity>
+				<tangent>0.000000</tangent>
+				<radial>2.000000</radial>
+				<startSize>351.000000</startSize>
+				<endSize>588.000000</endSize>
+				<startColor>1e6c83</startColor>
+				<averColor>55159dca</averColor>
+				<endColor>1e6c83</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>256.000 414.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="94039" ENABLE="true" VISIBLE="true" TEXT="0" TYPE="404" TYPE_ADD="0" LAYER="2">
+			<NAME>tuman_21</NAME>
+			<LAST_NAME></LAST_NAME>
+			<CHILDS />
+			<particles texture="images/particles cloud2.png" frequency="18" gravity="10.000 0.000" maxCount="20" multiply="true" spreadAngle="0.174533" area="30.000000 196.000000" start_after_loading="true">
+				<lifetime>5.000000</lifetime>
+				<velocity>18.271 8.135</velocity>
+				<tangent>15.000000</tangent>
+				<radial>0.000000</radial>
+				<startSize>155.000000</startSize>
+				<endSize>309.000000</endSize>
+				<startColor>5dddd</startColor>
+				<averColor>55356661</averColor>
+				<endColor>0</endColor>
+			</particles>
+			<FILES_PATH>images/particles</FILES_PATH>
+			<TRANSFORM>229.000 380.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+		</OBJECT>
+		<OBJECT ID="7620" ENABLE="false" VISIBLE="true" TEXT="0" TYPE="401" TYPE_ADD="0" LAYER="1" FILES_PATH_ID="0" PLENUM="false" PLENUM_OFFSET="0.000 0.000">
+			<NAME>sky</NAME>
+			<CHILDS />
+			<LAST_NAME></LAST_NAME>
+			<EVENTS INPUT_SCRIPT_ID="" MOUSECLICK_SCRIPT_ID="" OUTPUT_SCRIPT_ID="" />
+			<POINT_LIST ID="-1" />
+			<TRANSFORM>643.000 337.000 0.000 381.000 195.000 0.000 0.000 0.000 0.000 1.000 1.000 1.000</TRANSFORM>
+			<TEXTURE FRAME="1" QUALITY="">images/clusters/04_Chapel/scene_belfry sky.jpg</TEXTURE>
+			<SIZE>762 390</SIZE>
+			<ANIM>1 0 1 0 1 1 1 1.000000</ANIM>
+			<FILES_PATH></FILES_PATH>
+		</OBJECT>
+	</OBJECTS>
+	<FILLING>
+		<POINT_LIST ID="6153" NAME="point_list_6153" TYPE="600">
+			<POINT>215.000 614.000</POINT>
+			<POINT>449.000 607.000</POINT>
+			<POINT>700.000 615.000</POINT>
+			<POINT>753.000 647.000</POINT>
+			<POINT>842.000 767.000</POINT>
+			<POINT>163.000 765.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6165" NAME="point_list_6165" TYPE="600">
+			<POINT>854.000 425.000</POINT>
+			<POINT>970.000 396.000</POINT>
+			<POINT>999.000 442.000</POINT>
+			<POINT>860.000 481.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6170" NAME="point_list_6170" TYPE="600">
+			<POINT>726.000 181.000</POINT>
+			<POINT>826.000 181.000</POINT>
+			<POINT>829.000 585.000</POINT>
+			<POINT>698.000 614.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6172" NAME="point_list_6172" TYPE="600">
+			<POINT>727.000 180.000</POINT>
+			<POINT>827.000 180.000</POINT>
+			<POINT>829.000 592.000</POINT>
+			<POINT>704.000 604.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6176" NAME="point_list_6176" TYPE="600">
+			<POINT>12.000 23.000</POINT>
+			<POINT>112.000 23.000</POINT>
+			<POINT>53.000 65.000</POINT>
+			<POINT>12.000 123.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6181" NAME="point_list_6181" TYPE="600">
+			<POINT>229.000 479.000</POINT>
+			<POINT>412.000 484.000</POINT>
+			<POINT>444.000 608.000</POINT>
+			<POINT>217.000 615.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6745" NAME="point_list_6745" TYPE="600">
+			<POINT>538.000 330.000</POINT>
+			<POINT>712.000 317.000</POINT>
+			<POINT>750.000 516.000</POINT>
+			<POINT>517.000 524.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6749" NAME="point_list_6749" TYPE="600">
+			<POINT>538.000 326.000</POINT>
+			<POINT>712.000 316.000</POINT>
+			<POINT>752.000 514.000</POINT>
+			<POINT>517.000 521.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="6756" NAME="point_list_6756" TYPE="600">
+			<POINT>597.000 255.000</POINT>
+			<POINT>621.000 252.000</POINT>
+			<POINT>666.000 311.000</POINT>
+			<POINT>566.000 311.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="11722" NAME="point_list_11722" TYPE="600">
+			<POINT>537.000 329.000</POINT>
+			<POINT>714.000 316.000</POINT>
+			<POINT>755.000 512.000</POINT>
+			<POINT>519.000 526.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="106751" NAME="point_list_106751" TYPE="600">
+			<POINT>282.000 397.000</POINT>
+			<POINT>382.000 397.000</POINT>
+			<POINT>455.000 607.000</POINT>
+			<POINT>229.000 613.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="106753" NAME="point_list_106753" TYPE="600">
+			<POINT>121.000 3.000</POINT>
+			<POINT>502.000 14.000</POINT>
+			<POINT>963.000 1.000</POINT>
+			<POINT>898.000 86.000</POINT>
+			<POINT>718.000 162.000</POINT>
+			<POINT>711.000 223.000</POINT>
+			<POINT>533.000 289.000</POINT>
+			<POINT>430.000 236.000</POINT>
+			<POINT>121.000 103.000</POINT>
+		</POINT_LIST>
+		<POINT_LIST ID="220635" NAME="point_list_220635" TYPE="600">
+			<POINT>540.000 331.000</POINT>
+			<POINT>710.000 318.000</POINT>
+			<POINT>757.000 514.000</POINT>
+			<POINT>520.000 525.000</POINT>
+		</POINT_LIST>
+	</FILLING>
+	<FILES_PATH>images/clusters/04_Chapel/scene_belfry</FILES_PATH>
+	<EVENTS INIT_SCRIPT_ID="void scene_belfry_121_init()" OPEN_SCRIPT_ID="void scene_belfry_121_open()" />
+</SCENE>
