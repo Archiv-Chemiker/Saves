@@ -1,0 +1,125 @@
+﻿Log file open, 08/09/25 19:56:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(976923823) SRandInit(976923823).
+LogTaskGraph: Started task graph with 4 named threads and 11 total threads with 1 sets of task threads.
+LogInit: Build: 2022
+LogInit: Engine Version: 4.18.3-157267+++ws+head
+LogInit: Compatible Engine Version: 4.18.0-157267+++ws+head
+LogInit: Net CL: 157267
+LogInit: Compiled (64-bit): Apr 29 2019 13:09:11
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++ws+head
+LogInit: Command line: "../../../Engine/Binaries/Win64/CrashReportClient.exe" "C:/Users/TeMeR/AppData/Local//FadeToSilence/Saved/Crashes/UE4CC-Windows-A33D89CB485F2DF1B4BFBC8F119DEAB9_0000" -AppName=UE4-WhiteSilence -CrashGUID=UE4CC-Windows-A33D89CB485F2DF1B4BFBC8F119DEAB9_0000 -DebugSymbols=..\..\..\Engine\Intermediate\Symbols
+LogInit: Base directory: S:/SteamLibrary/steamapps/common/Fade To Silence/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 500000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2025.08.09-13.56.44:790][  0]LogInit: Computer: COMPUTER
+[2025.08.09-13.56.44:791][  0]LogInit: User: TeMeR
+[2025.08.09-13.56.44:791][  0]LogInit: CPU Page size=4096, Cores=8
+[2025.08.09-13.56.44:791][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.08.09-13.56.44:791][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2025.08.09-13.56.44:791][  0]LogMemory: Platform Memory Stats for Windows
+[2025.08.09-13.56.44:791][  0]LogMemory: Process Physical Memory: 64.53 MB used, 64.54 MB peak
+[2025.08.09-13.56.44:791][  0]LogMemory: Process Virtual Memory: 65.58 MB used, 65.58 MB peak
+[2025.08.09-13.56.44:791][  0]LogMemory: Physical Memory: 20094.89 MB used,  45306.39 MB free, 65401.28 MB total
+[2025.08.09-13.56.44:791][  0]LogMemory: Virtual Memory: 4363.50 MB used,  45306.39 MB free, 134217728.00 MB total
+[2025.08.09-13.56.44:793][  0]LogAssetRegistry: FAssetRegistry took 0.0006 seconds to start up
+[2025.08.09-13.56.44:793][  0]LogUObjectArray: 161 objects as part of root set at end of initial load.
+[2025.08.09-13.56.44:793][  0]LogUObjectAllocator: 27448 out of 0 bytes used by permanent object pool.
+[2025.08.09-13.56.44:793][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.08.09-13.56.44:793][  0]LogInit: Using OS detected language (ru-RU).
+[2025.08.09-13.56.44:793][  0]LogInit: Using OS detected locale (ru-RU).
+[2025.08.09-13.56.44:793][  0]LogPaths: Warning: No paths for game localization data were specifed in the game configuration.
+[2025.08.09-13.56.44:793][  0]LogInit: Warning: No paths for engine localization data were specifed in the engine configuration.
+[2025.08.09-13.56.44:793][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2025.08.09-13.56.44:793][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2025.08.09-13.56.44:793][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000048 seconds
+[2025.08.09-13.56.44:794][  0]CrashReportClientLog: CrashReportClientVersion=1.0
+[2025.08.09-13.56.44:794][  0]CrashReportClientLog: CrashReportReceiver disabled
+[2025.08.09-13.56.44:794][  0]CrashReportClientLog: DataRouterUrl: https://unreal.backtrace.io/post/fadetosilence/3ba1a175c5c6ffb59963b96c4f57f38ceecfe3dd2b1c21688f3ee32c0c1ebad6
+[2025.08.09-13.56.44:794][  0]LogCrashDebugHelper: DepotName: //ws/head
+[2025.08.09-13.56.44:794][  0]LogCrashDebugHelper: BuiltFromCL: 157267
+[2025.08.09-13.56.44:794][  0]LogCrashDebugHelper: EngineVersion: 4.18.3-157267+++ws+head
+[2025.08.09-13.56.44:794][  0]LogCrashDebugHelper: BuildVersion: 2022
+[2025.08.09-13.56.44:795][  0]LogCrashDebugHelper: Warning: CrashDebugHelperConfig invalid
+[2025.08.09-13.56.44:795][  0]LogCrashDebugHelper: Warning: PDB Cache disabled
+[2025.08.09-13.56.45:186][  0]LogSlate: Using Freetype 2.6.0
+[2025.08.09-13.56.45:246][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.08.09-13.56.47:677][  0]CrashReportClientLog: Initial state = Unknown UploadState value
+[2025.08.09-13.56.47:677][  0]CrashReportClientLog: Initial state = Unknown UploadState value
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper: Successfully opened minidump: C:/Users/TeMeR/AppData/Local//FadeToSilence/Saved/Crashes/UE4CC-Windows-A33D89CB485F2DF1B4BFBC8F119DEAB9_0000/UE4Minidump.dmp
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper: Modules loaded: 177, unloaded: 0
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper: Symbol paths
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper:     SRV*..\..\..\Engine\Intermediate\Symbols
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\Steamworks\Steamv139\Win64
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\FadeToSilence\Binaries\Win64
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\thirdparty\Simul\Win64
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Plugins\Runtime\Nvidia\Ansel\Binaries\ThirdParty
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\OpenVR\OpenVRv1_0_10\Win64
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64
+[2025.08.09-13.56.52:421][  0]LogCrashDebugHelper: Image paths
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:     SRV*..\..\..\Engine\Intermediate\Symbols
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\Steamworks\Steamv139\Win64
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\FadeToSilence\Binaries\Win64
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\thirdparty\Simul\Win64
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Plugins\Runtime\Nvidia\Ansel\Binaries\ThirdParty
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\OpenVR\OpenVRv1_0_10\Win64
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:     S:\SteamLibrary\steamapps\common\Fade To Silence\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper: Context size matches x64 sizeof( CONTEXT )
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper: Running GetContextStackTrace()
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper: GetContextStackTrace() got 26 frames
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:   0: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:   1: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:   2: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:   3: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:   4: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:   5: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:   6: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:   7: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:   8: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:   9: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  10: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  11: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  12: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  13: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  14: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  15: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  16: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  17: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  18: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  19: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  20: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  21: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  22: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  23: FadeToSilence_Win64_Shipping
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  24: kernel32
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper:  25: ntdll
+[2025.08.09-13.56.52:422][  0]LogCrashDebugHelper: Warning: Callstack generated with 0 valid function names
+[2025.08.09-13.56.52:422][  0]LogSlate: Took 0.018551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.09-13.56.52:448][  0]LogSlate: Took 0.025347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.08.09-13.56.52:475][  0]LogSlate: Took 0.026115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Testing/Fonts/Roboto-Italic.ttf' (157K)
+[2025.08.09-13.57.14:407][  0]LogWindows: FPlatformMisc::RequestExit(0)
+[2025.08.09-13.57.14:441][  0]LogSlate: Request Window 'Unreal Engine 4 Crash Reporter' being destroyed
+[2025.08.09-13.57.14:442][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2025.08.09-13.57.14:468][  0]LogExit: Preparing to exit.
+[2025.08.09-13.57.14:468][  0]LogExit: Object subsystem successfully closed.
+[2025.08.09-13.57.14:469][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (8)
+[2025.08.09-13.57.14:469][  0]LogModuleManager: Shutting down and abandoning module InputCore (6)
+[2025.08.09-13.57.14:469][  0]LogModuleManager: Shutting down and abandoning module CrashDebugHelper (4)
+[2025.08.09-13.57.14:469][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (2)
+[2025.08.09-13.57.14:469][  0]LogExit: Exiting.
+[2025.08.09-13.57.14:469][  0]Log file closed, 08/09/25 19:57:14
