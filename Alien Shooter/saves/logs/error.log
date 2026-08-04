@@ -1,0 +1,420 @@
+----< 2026-08-04 21:26:45 >----< D:\Games\PC\Steam\steamapps\common\Alien Shooter\AlienShooter.exe (Cr-2026-07-31 11:38:11 La-2026-07-31 11:38:11 Lw-2026-07-31 11:38:11) >----
+   Enum display modes 1280x1024 X8R8G8B8 D16
+   Enum display modes 1024x768 X8R8G8B8 D16
+   Enum display modes 800x600 X8R8G8B8 D16
+   Enum display modes 640x480 X8R8G8B8 D16
+find adapter 'NVIDIA GeForce RTX 4070 Ti SUPER\\.\DISPLAY1'
+   find display modes 1280x1024 X8R8G8B8
+   find display modes 1280x960 X8R8G8B8
+   find display modes 1280x800 X8R8G8B8
+   find display modes 1280x768 X8R8G8B8
+   find display modes 1280x720 X8R8G8B8
+WM_PAINT
+Selected display mode(FULLSCREEN 1280x720 backbuffer=A8R8G8B8 desktop=X8R8G8B8 zbuffer D24S8) -> SUCCESS
+  RestoreDeviceObjects(), GetBackBuffer() -> SUCCESS
+SetViewPort(0,0 - 1280,720) -> SUCCESS
+SetViewPort(0,0 - 1280,720) -> SUCCESS
+SetViewPort(0,0 - 1280,720) -> SUCCESS
+SetViewPort (0,0) - (1280,720)
+Op=mod Arg1=tex Arg2=dif AOp=mod Arg1=tex Arg2=dif
+Op=mod Arg1=tex Arg2=dif AOp=mod Arg1=tex Arg2=dif
+TextureCaps=NOTPOWER2 DXT1 DXT3 DXT5 MAXSIZE=16384,16384
+    RestoreDeviceObjects('Courier')
+caps=HARDWARE DOUBLEBUFFER COLOR32 VSYNC PIXELSHADER=-64768
+Pitch=5120 zPitch=2560
+    InvalidateDeviceObjects('Courier')
+    RestoreDeviceObjects('Courier New')
+!!!ERROR 21:26:46!!!RES 'Not opened' 'data': 0x0 Couldn't open 'wav\addon\fly_death2.wav'
+LoadSFX::No   =60                sizeof(SFX)   =72       load time     =121ms Quality=1
+LoadWeapon::No=46                sizeof(WEAPON)=612 
+!!!ERROR 21:26:46!!!VID [0-Загрузка]: 0 Missing noCadr for noAnimCadr and noDir
+!!!ERROR 21:26:46!!!PICTURE 'vid\small_logo.bmp': 0x0 Couldn't open ''
+LOAD::Can't open file vid\small_logo.bmp
+!!!ERROR 21:26:47!!!RES '' 'DATA': 0x0 Couldn't open 'vid\small_logo.bmp'
+LOAD::Can't open file vid\small_logo.bmp
+!!!ERROR 21:26:49!!!PICTURE 'vid\small_logo2.bmp': 0x0 Couldn't open ''
+LOAD::Can't open file vid\small_logo2.bmp
+!!!ERROR 21:26:50!!!RES '' 'DATA': 0x0 Couldn't open 'vid\small_logo2.bmp'
+LOAD::Can't open file vid\small_logo2.bmp
+!!!ERROR 21:26:51!!!PICTURE 'vid\publ_logo2.bmp': 0x0 Couldn't open ''
+LOAD::Can't open file vid\publ_logo2.bmp
+!!!ERROR 21:26:53!!!RES '' 'DATA': 0x0 Couldn't open 'vid\publ_logo2.bmp'
+LOAD::Can't open file vid\publ_logo2.bmp
+!!!ERROR 21:26:54!!!PICTURE 'vid\publ_logo.bmp': 0x0 Couldn't open ''
+LOAD::Can't open file vid\publ_logo.bmp
+!!!ERROR 21:26:55!!!RES '' 'DATA': 0x0 Couldn't open 'vid\publ_logo.bmp'
+LOAD::Can't open file vid\publ_logo.bmp
+!!!ERROR 21:26:57!!!VID [926-Взрыв кислотный]: 49 nWeapon > noWeapon
+!!!ERROR 21:26:57!!!VID [10-ИГРОК - верхняя часть туловища (Secret Weapon)]: 0xFA Invalid LinkVid
+LoadVid::No   =1001              sizeof(VID)   =1156     load time     =11535ms   MaxSizeX,Y=1024,768
+Player release
+Sprite release
+Menu   release
+Average fps=0
+Script release
+!!!ERROR 21:26:57!!!RES 'maps\logo.map' 'MAP ': 0x0 Invalid resource type
+!!!ERROR 21:26:57!!!MAP: 0x0 Section can't found (load 'VID')
+CurrentTime   =10                sizeof(SPRITE)=116      Map version   =9
+Vid    release 10686464 103951709
+LoadScript::ByteCode=1477 varNo=164 DefineNo=423 stackNo=239
+WM_PAINT
+!!!ERROR!!!SCRIPT: Invalid nvid for CreateSprite() 702
+!!!ERROR!!!SCRIPT: Invalid nvid for CreateSprite() 699
+NoVid[701]=1 0 0 0 Логотип игры Layer=6 C:\Users\TeMeR\AppData\Local\Temp\vid6
+Player release
+Sprite release
+Menu   release
+Average fps=59
+Script release
+!!!ERROR 21:27:10!!!RES 'maps\mainmenu.map' 'MAP ': 0x0 Invalid resource type
+!!!ERROR 21:27:10!!!MAP: 0x0 Section can't found (load 'VID')
+CurrentTime   =10                sizeof(SPRITE)=116      Map version   =9
+Vid    release 10686464 103951709
+LoadScript::ByteCode=42254 varNo=369 DefineNo=470 stackNo=775
+WM_PAINT
+WM_PAINT
+TestCooperativeLevel() -> D3DERR_DEVICENOTRESET
+    InvalidateDeviceObjects('Courier New')
+  InvalidateDeviceObjects(FULLSCREEN 1280x720 backbuffer=A8R8G8B8 desktop=X8R8G8B8 zbuffer=D24S8) -> SUCCESS
+  RestoreDeviceObjects(), GetBackBuffer() -> SUCCESS
+    RestoreDeviceObjects('Courier New')
+SetViewPort(0,0 - 1280,720) -> SUCCESS
+WM_PAINT
+!!!ERROR 21:27:24!!!VID [0-Загрузка]: 0 Missing noCadr for noAnimCadr and noDir
+!!!ERROR 21:27:24!!!VID [10-ИГРОК - верхняя часть туловища (Secret Weapon)]: 0xFA Invalid LinkVid
+!!!ERROR!!!SCRIPT: Invalid nvid for SetVid 20
+NoVid[  3]=6 0 0 0 шрифт 3 большой Layer=13 C:\Users\TeMeR\AppData\Local\Temp\vid3
+NoVid[  4]=11 0 0 0 шрифт 4 малый Layer=13 C:\Users\TeMeR\AppData\Local\Temp\vid4
+NoVid[705]=5 0 0 0 кнопки для главного меню Layer=8 vid\705.vid
+NoVid[706]=1 0 0 0 картинка с гл. персонажем male Layer=4 vid\preview_male00.vid
+NoVid[707]=1 0 0 0 картинка с гл. персонажем female Layer=4 vid\preview_female00.vid
+NoVid[716]=2 0 0 0 кнопки больше меньше Layer=13 vid\716.vid
+NoVid[717]=1 0 0 0 кнопка под детализацию графики Layer=8 vid\menu_butt00.vid
+Player release
+Sprite release
+Menu   release
+Average fps=58
+Script release
+!!!ERROR 21:27:24!!!RES 'maps\survive_01.map' 'MAP ': 0x0 Invalid resource type
+!!!ERROR 21:27:24!!!MAP: 0x0 Section can't found (load 'VID')
+CurrentTime   =10                sizeof(SPRITE)=116      Map version   =9
+Create Empty Hardware Ground
+Vid    release 17166464 103951709
+LoadScript::ByteCode=41385 varNo=472 DefineNo=462 stackNo=2403
+!!!ERROR 21:27:24!!!VID [0-Загрузка]: 0 Missing noCadr for noAnimCadr and noDir
+!!!ERROR 21:27:24!!!VID [10-ИГРОК - верхняя часть туловища (Secret Weapon)]: 0xFA Invalid LinkVid
+!!!ERROR!!!SCRIPT: Invalid nvid for SetVid 20
+StatNumKilled=26549
+StatNumDestroyBox=1474
+StatNumDestroyBarrel=1225
+StatNumCollectMoney=324950
+!!!ERROR 21:27:56!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:28:16!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:28:20!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:28:38!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:28:38!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:28:57!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:15!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:24!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:28!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:30!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:33!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:35!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:45!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:52!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:52!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:57!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:57!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:29:58!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:00!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:01!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:05!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:05!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:11!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:18!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:34!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:41!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:49!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:50!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:50!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:51!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:56!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:56!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:56!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:56!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:56!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:30:57!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:02!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:15!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:15!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:16!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:16!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:16!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:16!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:17!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:17!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:18!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:23!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:24!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:24!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:26!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:26!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:27!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:29!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:32!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:35!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:35!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:36!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:38!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:38!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:38!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:39!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:41!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:51!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:51!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:53!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:55!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:31:57!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:01!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:01!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:01!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:10!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:10!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:13!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:18!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:22!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:22!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:25!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:26!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:28!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:29!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:35!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:36!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:39!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:47!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:32:58!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:18!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:33!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:35!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:39!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:41!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:44!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:45!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:45!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:45!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:49!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:33:52!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:01!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:01!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:05!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:06!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:08!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:08!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:13!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:14!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:15!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:23!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:24!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:25!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:25!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:26!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:31!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:40!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:42!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:43!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:48!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:48!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:49!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:49!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:51!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:52!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:56!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:56!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:58!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:34:59!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:20!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:35:21!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:35:21!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:22!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:23!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:35:25!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:27!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:35:28!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:35:29!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:31!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:35:33!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:33!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:34!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:34!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:39!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:35:39!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:35:41!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:42!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:43!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:43!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:44!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:44!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:35:47!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:47!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:35:56!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:01!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:01!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:04!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:05!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:05!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:06!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:06!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:10!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:15!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:16!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:16!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:19!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:21!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:22!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:23!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:26!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:27!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:28!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:28!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:32!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:32!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:32!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:33!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:33!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:34!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:34!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:34!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:34!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:34!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:34!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:35!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:37!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:37!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:39!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:39!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:39!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:41!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:41!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:43!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:44!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:44!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:45!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:45!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:46!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:46!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:46!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:46!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:47!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:48!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:48!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:50!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:50!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:52!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:52!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:52!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:53!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:53!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:55!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:55!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:56!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:56!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:56!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:56!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:57!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:57!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:57!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:57!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:36:57!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:59!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:59!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:36:59!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:37:00!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:37:01!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:37:02!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:03!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:06!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:08!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:09!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:10!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:10!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:11!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:13!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:14!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:37:14!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:14!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:15!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:15!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:15!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:15!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:15!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:16!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:16!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:17!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:18!!!SOUND: 0x6A Invalid nsfx
+!!!ERROR 21:37:18!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:18!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:18!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:19!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:21!!!LOGIC: 0 this variable is not unit
+!!!ERROR 21:37:21!!!LOGIC: 0 this variable is not unit
+NoVid[  3]=5 0 0 0 шрифт 3 большой Layer=13 C:\Users\TeMeR\AppData\Local\Temp\vid3
+NoVid[  4]=3 0 0 0 шрифт 4 малый Layer=13 C:\Users\TeMeR\AppData\Local\Temp\vid4
+NoVid[ 40]=0 21 0 0 МОНСТР 5 (Slug) Layer=6 vid\040.vid
+NoVid[ 50]=0 19 0 0 МОНСТР 1 Layer=6 vid\050.vid
+NoVid[ 53]=0 3 0 0 МОНСТР 1 желтый Layer=6 vid\050.vid
+NoVid[ 56]=0 2 0 0 МОНСТР 1 красный Layer=6 vid\050.vid
+NoVid[ 60]=0 4 0 0 МОНСТР 2 Layer=6 vid\060.vid
+NoVid[ 63]=0 2 0 0 МОНСТР 2 желтый Layer=6 vid\060.vid
+NoVid[ 70]=0 27 0 0 МОНСТР 3 (weapon) Layer=6 vid\070.vid
+NoVid[ 73]=0 12 0 0 МОНСТР 3 желтый (weapon) Layer=6 vid\070.vid
+NoVid[ 76]=0 5 0 0 МОНСТР 3 красный (weapon) Layer=6 vid\070.vid
+NoVid[ 90]=0 1 0 0 МОНСТР 4 (tank-weapon) зелёный Layer=6 vid\080.vid
+NoVid[108]=1 95 0 0 тень небольшая Layer=4 vid\108.vid
+NoVid[125]=5 0 0 0 Fx под аптечками Layer=4 vid\125.vid
+NoVid[139]=36 0 0 0 Fx под патронами Layer=4 vid\125.vid
+NoVid[147]=0 1 0 0 Лёд - летящий Layer=6 vid\147.vid
+NoVid[151]=0 2 0 0 Гибы - летящие Layer=6 vid\151.vid
+NoVid[204]=3 0 0 0 бронежелет зелёный Layer=6 vid\200.vid
+NoVid[210]=7 0 0 0 BONUS: Healh Layer=6 vid\210.vid
+NoVid[211]=1 0 0 0 BONUS: Big Healh Layer=6 vid\211.vid
+NoVid[264]=1 0 0 0 Weapon: Minigun Layer=6 vid\254.vid
+NoVid[302]=8 0 0 0 AMMO: Патроны ShotGun Layer=6 vid\302.vid
+NoVid[303]=5 0 0 0 AMMO: Патроны GranadeLuncher Layer=6 vid\303.vid
+NoVid[304]=5 0 0 0 AMMO: Патроны Minigun Layer=6 vid\304.vid
+NoVid[305]=4 0 0 0 AMMO: Патроны Rocket Luncher Layer=6 vid\305.vid
+NoVid[306]=3 0 0 0 AMMO: Патроны Freeze Rife Layer=6 vid\306.vid
+NoVid[307]=3 0 0 0 AMMO: Патроны Plasma Rife Layer=6 vid\307.vid
+NoVid[308]=1 0 0 0 AMMO: Патроны Flame Thrower Layer=6 vid\308.vid
+NoVid[334]=0 1 0 0 Оружее1 монстра4 Layer=6 vid\334.vid
+NoVid[744]=3 0 0 0 Меню Победы Иконки Layer=13 vid\744.vid
+NoVid[746]=6 0 0 0 Черный задник Layer=3 vid\746.vid
+NoVid[1024]=1 0 0 0 Self Created Hardware Prerendered Ground  Layer=0 
+Player release
+Sprite release
+Menu   release
+Average fps=59
+Script release
+!!!ERROR 21:37:27!!!RES 'maps\mainmenu.map' 'MAP ': 0x0 Invalid resource type
+!!!ERROR 21:37:27!!!MAP: 0x0 Section can't found (load 'VID')
+CurrentTime   =10                sizeof(SPRITE)=116      Map version   =9
+Vid    release 10686464 104019293
+LoadScript::ByteCode=42254 varNo=369 DefineNo=470 stackNo=775
+NoVid[  3]=6 0 0 0 шрифт 3 большой Layer=13 C:\Users\TeMeR\AppData\Local\Temp\vid3
+NoVid[  4]=3 0 0 0 шрифт 4 малый Layer=13 C:\Users\TeMeR\AppData\Local\Temp\vid4
+NoVid[695]=4 0 0 0 кнопки для главного меню Layer=6 vid\695.vid
+NoVid[696]=1 0 0 0 Меню Рекламы Задник Layer=13 vid\696.vid
+NoVid[704]=1 0 0 0 Задник главного меню Layer=4 vid\main_back.vid
+NoVid[705]=6 0 0 0 кнопки для главного меню Layer=8 vid\705.vid
+Player release
+Sprite release
+Menu   release
+Average fps=56
+Script release
+Mouse  release
+!!!ERROR 21:37:35!!!SPRITE[-1](-236,332,0): 0x1 Invalid noRef for SPRITE with EmptyVid
+!!!ERROR 21:37:35!!!SPRITE[-1](-236,332,0): 1 Reference count non zero after delete
+Vid    release 393216 15360
+    InvalidateDeviceObjects('Courier New')
+d3dDevice release 1
+d3d release 0
+ase 0
