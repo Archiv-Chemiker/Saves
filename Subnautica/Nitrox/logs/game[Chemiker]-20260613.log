@@ -1,0 +1,39 @@
+[15:49:46.620] [INF] Setting player name to Chemiker
+[15:49:46.621] [ERR-UNITY] Can't remove TextMeshProUGUI (Script) because uGUI_TextFade (Script), uGUI_TextFade (Script) depends on it
+[15:49:46.621] [ERR-UNITY] Can't remove TextMeshProUGUI (Script) because uGUI_TextFade (Script), uGUI_TextFade (Script) depends on it
+[15:49:55.166] [WRN] [FMOD_StudioEventEmitter_Start_Patch] - No NitroxEntity found for event:/player/breathing at Player/SpawnPlayerSounds/PlayerSounds(Clone)/breathing
+[15:49:55.277] [WRN] [FMOD_CustomEmitter_Start_Patch] - No NitroxEntity found for event:/player/bubbles at Player/camPivot/camRoot/camOffset/pdaCamPivot/SpawnPlayerFX/PlayerFX(Clone)/BreathingBubbles
+[15:50:08.944] [WRN] [FMOD_CustomEmitter_Start_Patch] - No NitroxEntity found for event:/sub/base/medkit_locker/open at EscapePod-MainPrefab/EscapePod/ModulesRoot/MedCabRoot/MedicalCabinet(Clone)
+[15:50:08.944] [WRN] [FMOD_CustomEmitter_Start_Patch] - No NitroxEntity found for event:/sub/base/medkit_locker/close at EscapePod-MainPrefab/EscapePod/ModulesRoot/MedCabRoot/MedicalCabinet(Clone)
+[15:50:39.965] [INF] Init body prototype RemotePlayerPrototype
+[15:50:41.899] [INF] Initializing MultiplayerSessionManager...
+[15:50:41.914] [INF] Running NitroxClient.GameLogic.InitialSync.ClockSyncInitialSyncProcessor
+[15:50:41.935] [INF] Server ONLINE: correction = 00:00:02.4388762
+[15:50:42.080] [INF] [NtpSyncer] NTP time correction offset: 00:00:02.4346576
+[15:50:42.099] [INF] Client ONLINE: correction = 00:00:02.4346576
+[15:50:42.111] [INF] Running NitroxClient.GameLogic.InitialSync.PdaInitialSyncProcessor
+[15:50:42.113] [INF] Received initial sync packet with 0 KnownTech.knownTech types and 0 KnownTech.analyzedTech types.
+[15:50:42.144] [INF] Received initial sync packet with 0 pda log entries
+[15:50:42.178] [INF] Received initial sync packet with 0 encyclopedia entries
+[15:50:42.253] [INF] Running NitroxClient.GameLogic.InitialSync.PlayerInitialSyncProcessor
+[15:50:42.254] [INF] Setting up escape pod, FirstTimeConnecting: True
+[15:50:42.322] [INF] Received initial sync player IntroCinematicMode: LOADING
+[15:50:42.355] [INF] Received initial sync player GameObject Id: 105094a1-7c7d-44bb-9f86-c5365bdc9bd2
+[15:50:42.669] [INF] Received initial sync packet with gamemode SURVIVAL
+[15:50:42.737] [INF] Running NitroxClient.GameLogic.InitialSync.RemotePlayerInitialSyncProcessor
+[15:50:42.753] [INF] Running NitroxClient.GameLogic.InitialSync.StoryGoalInitialSyncProcessor
+[15:50:42.790] [INF] Received initial sync packet with:
+- Completed story goals : 0
+- Personal goals        : 0
+- Radio queue           : 0
+[15:50:42.921] [INF] Running NitroxClient.GameLogic.InitialSync.GlobalRootInitialSyncProcessor
+[15:50:47.637] [INF] Received initial sync packet with 13 global root entities
+[15:50:47.695] [INF] Running NitroxClient.GameLogic.InitialSync.PlayerPositionInitialSyncProcessor
+[15:50:47.732] [INF] Running NitroxClient.GameLogic.InitialSync.PlayerPreferencesInitialSyncProcessor
+[15:50:47.786] [INF] Running NitroxClient.GameLogic.InitialSync.SimulationOwnershipInitialSyncProcessor
+[15:50:47.837] [INF] Running NitroxClient.GameLogic.InitialSync.EquippedItemInitialSyncProcessor
+[15:50:47.838] [INF] Recieved initial sync with 0 pieces of equipped items
+[15:50:47.853] [INF] Running NitroxClient.GameLogic.InitialSync.QuickSlotInitialSyncProcessor
+[15:50:47.854] [INF] Received initial sync with 0 quick slots populated with items
+[15:51:04.897] [WRN] [Creature_ChooseBestAction_Patch.Prefix():L17] Couldn't find an id on CellRoot(Clone)/Skyray(Clone) -> Skyray.cs
+[15:52:09.841] [INF] [Discord] Shutdown client

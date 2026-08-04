@@ -1,0 +1,1 @@
+EntityData.zip распаковать чтобы файл EntityData.json оказался в этой директории Nitrox\saves\SubServer2

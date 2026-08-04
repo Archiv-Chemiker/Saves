@@ -1,0 +1,24 @@
+[15:46:32.932] [INF] Using Nitrox Alpha V1.8.1.0 aec1f6e4 built on 7 января 2026 г. 18:36:53
+[15:46:33.252] [INF] Game version: 1.22.83031
+[15:46:34.157] [INF] Registering dependencies
+[15:46:34.373] [INF] Patching Subnautica...
+[15:46:35.215] [INF] Completed patching
+[15:46:35.215] [INF] Applying Nitrox behaviours..
+[15:46:35.216] [INF] Behaviours applied.
+[15:46:38.117] [INF] [Discord] Starting Discord client
+[15:46:38.399] [INF] Unity run in background set to "True"
+[15:46:46.903] [ERR] [LiteNetLib]  [B]Bind exception: System.Net.Sockets.SocketException (0x80004005): Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint localEP) [0x00043] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at LiteNetLib.NetManager.BindSocket (System.Net.Sockets.Socket socket, System.Net.IPEndPoint ep) [0x000fe] in <c3786b6d3c354fc1abde13f1befb2260>:0 , errorCode: AddressAlreadyInUse
+[15:46:46.906] [INF] Searching for LAN servers...
+[15:46:48.147] [INF] Adding LAN server: 26.236.106.165:11000
+[15:47:02.046] [INF] Adding LAN server: 26.236.106.165:11000
+[15:49:20.828] [INF] Initializing MultiplayerSessionManager...
+[15:49:20.833] [INF] Multiplayer client loaded…
+[15:49:21.742] [INF] Initializing LiteNetLibClient...
+[15:49:21.774] [INF] Connected to server
+[15:49:21.777] [INF] Requesting session policy info
+[15:49:21.857] [INF] Processing session policy information.
+[15:49:21.878] [INF] Waiting for user input
+[15:49:45.449] [INF] Launching game

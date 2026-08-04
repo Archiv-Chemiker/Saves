@@ -1,0 +1,9 @@
+[19:19:41.969] [INF] Starting Nitrox Launcher V1.8.1.0+aec1f6e4e1a322b045c701bdb2394bc0dd2afc88 with args "" built on Wednesday, January 7, 2026 6:37:21 PM
+[19:19:46.044] [INF] GET request to https://nitrox.rux.gg/api/version/latest
+[19:20:10.506] [INF] Starting server:
+File: D:\Games\PC\Steam\steamapps\common\Subnautica\Nitrox_1.8.1.0_win_x64\Nitrox.Server.Subnautica.exe
+Working directory: D:\Games\PC\Steam\steamapps\common\Subnautica\Nitrox_1.8.1.0_win_x64
+Arguments: --save, SubServer2, --embedded
+[19:20:10.566] [INF] Starting client IPC "NitroxServer_3688"
+[19:22:24.490] [INF] Launching Subnautica in multiplayer mode
+[19:22:25.012] [WRN] Nitrox entry point already patched.

@@ -1,0 +1,141 @@
+[15:42:20.984] [INF] Starting Nitrox Server V1.8.1.0 for Subnautica
+[15:42:21.011] [INF] Server input stream is redirected
+[15:42:21.020] [INF] Using game files from: 'D:\Games\PC\Steam\steamapps\common\Subnautica'
+[15:42:23.932] [INF] Building cache, this may take a while...
+[15:43:05.729] [INF] Successfully built cache with 213 prefab placeholder groups and 18 random spawn behaviours. Future server starts will take less time.
+[15:43:08.842] [INF] Loading world with seed NHITPQOKUC
+[15:43:09.197] [INF] World state saved
+[15:43:09.247] [INF] World backed up
+[15:43:09.256] [INF] Server is listening on port 11000 UDP
+[15:43:09.257] [INF] Using JSON as save file serializer
+[15:43:09.258] [INF] Server Password: "**********************"
+[15:43:09.260] [INF] Admin Password: "**************"
+[15:43:09.261] [INF] Autosave: ENABLED (2 min)
+[15:43:09.261] [INF] Autobackup: ENABLED (Max Backups: 10)
+[15:43:09.263] [INF] Loaded save
+
+ - Save location: C:\Users\TeMeR\AppData\Roaming\Nitrox\saves\SubServer
+ - Aurora's state: explodes in 65 minutes [0/4]
+ - Current time: day 1 (480s)
+ - Scheduled goals stored: 0
+ - Story goals completed: 0
+ - Radio messages stored: 0
+ - World gamemode: SURVIVAL
+ - Encyclopedia entries: 0
+ - Known tech: 0
+
+[15:43:09.264] [INF] Server has paused, waiting for players to connect
+[15:43:09.264] [INF] Server started (48.3s)
+[15:43:09.264] [INF] To get help for commands, run help in console or /help in chatbox
+[15:43:09.350] [INF] Use IP to connect:
+	127.0.0.1 - You (Local)
+	192.168.1.2 - Friends on same internet network (LAN)
+	fdfd::1aec:6aa5 - Friends on same internet network (LAN)
+	**************** - Friends on another internet network (requires port forwarding)
+	fdfd::1aec:6aa5 - Friends using Radmin (VPN)
+	26.236.106.165 - Friends using Radmin (VPN)
+	**************** - Friends on another internet network (requires port forwarding)
+[15:43:14.220] [INF] Server port 11000 UDP has been automatically opened on your router (port is closed when server closes)
+[15:49:21.818] [INF] Providing session policies...
+[15:49:45.403] [INF] Processing reservation request from Chemiker
+[15:49:45.425] [INF] Reservation processed successfully: Username: Chemiker - [MultiplayerSessionReservation: PlayerId: 1, ReservationKey: 70443051-fc88-493b-a087-2a6e26d15a9e, ReservationState: RESERVED, CorrelationId: 0284ae7d-50ce-4fff-ab5a-2dc3206a3eca]
+[15:50:41.780] [INF] Added player Chemiker to queue
+[15:50:41.786] [INF] Starting sync for player Chemiker
+[15:50:41.794] [INF] Granted admin to 'Chemiker' because they're playing on the host machine
+[15:50:47.884] [INF] Server has resumed
+[15:50:47.897] [INF] Player Chemiker joined successfully. Remaining requests: 0
+[15:50:48.280] [INF] Spawning 2396 entities from 180 spawn points in batch [NitroxInt3 - 12, 18, 12]
+[15:50:48.383] [INF] Spawning 2092 entities from 163 spawn points in batch [NitroxInt3 - 12, 18, 13]
+[15:50:48.486] [INF] Spawning 1385 entities from 166 spawn points in batch [NitroxInt3 - 13, 18, 13]
+[15:50:48.596] [INF] Spawning 1308 entities from 142 spawn points in batch [NitroxInt3 - 11, 18, 13]
+[15:50:48.681] [INF] Spawning 1399 entities from 177 spawn points in batch [NitroxInt3 - 13, 18, 12]
+[15:50:48.754] [INF] Spawning 1222 entities from 127 spawn points in batch [NitroxInt3 - 11, 18, 12]
+[15:50:48.851] [INF] Spawning 6 entities from 5 spawn points in batch [NitroxInt3 - 12, 17, 12]
+[15:50:48.894] [INF] Spawning 450 entities from 106 spawn points in batch [NitroxInt3 - 11, 17, 12]
+[15:50:48.966] [INF] Spawning 1588 entities from 147 spawn points in batch [NitroxInt3 - 12, 18, 11]
+[15:50:49.043] [INF] Spawning 1013 entities from 116 spawn points in batch [NitroxInt3 - 13, 18, 11]
+[15:50:49.101] [INF] Spawning 808 entities from 109 spawn points in batch [NitroxInt3 - 11, 18, 11]
+[15:50:49.159] [INF] Spawning 475 entities from 104 spawn points in batch [NitroxInt3 - 12, 17, 11]
+[15:50:49.217] [INF] Spawning 506 entities from 140 spawn points in batch [NitroxInt3 - 13, 17, 11]
+[15:50:49.282] [INF] Spawning 741 entities from 147 spawn points in batch [NitroxInt3 - 11, 17, 11]
+[15:52:09.595] [INF] Chemiker left the game
+[15:52:09.595] [INF] Server has paused, waiting for players to connect
+[15:52:09.767] [INF] World state saved
+[16:48:39.930] [INF] [BROADCAST] Server is shutting down...
+[16:48:39.931] [INF] Nitrox Server Stopping...
+[16:48:40.113] [INF] World state saved
+[16:48:40.631] [INF] Nitrox Server Stopped
+[17:00:15.292] [INF] Starting Nitrox Server V1.8.1.0 for Subnautica
+[17:00:15.316] [INF] Server input stream is redirected
+[17:00:15.326] [INF] Using game files from: 'D:\Games\PC\Steam\steamapps\common\Subnautica'
+[17:00:16.564] [INF] Successfully loaded cache with 213 prefab placeholder groups and 18 random spawn behaviours.
+[17:00:19.053] [INF] Loading world with seed NHITPQOKUC
+[17:00:19.926] [INF] World state saved
+[17:00:20.056] [INF] World backed up
+[17:00:20.065] [INF] Server is listening on port 11000 UDP
+[17:00:20.065] [INF] Using JSON as save file serializer
+[17:00:20.067] [INF] Server Password: "**********************"
+[17:00:20.069] [INF] Admin Password: "**************"
+[17:00:20.070] [INF] Autosave: ENABLED (2 min)
+[17:00:20.070] [INF] Autobackup: ENABLED (Max Backups: 10)
+[17:00:20.073] [INF] Loaded save
+
+ - Save location: C:\Users\TeMeR\AppData\Roaming\Nitrox\saves\SubServer
+ - Aurora's state: explodes in 64 minutes [0/4]
+ - Current time: day 1 (561s)
+ - Scheduled goals stored: 5
+ - Story goals completed: 1
+ - Radio messages stored: 0
+ - World gamemode: SURVIVAL
+ - Encyclopedia entries: 0
+ - Known tech: 0
+
+[17:00:20.073] [INF] Server has paused, waiting for players to connect
+[17:00:20.073] [INF] Server started (4.8s)
+[17:00:20.073] [INF] To get help for commands, run help in console or /help in chatbox
+[17:00:20.175] [INF] Use IP to connect:
+	127.0.0.1 - You (Local)
+	192.168.1.2 - Friends on same internet network (LAN)
+	fdfd::1aec:6aa5 - Friends on same internet network (LAN)
+	**************** - Friends on another internet network (requires port forwarding)
+	fdfd::1aec:6aa5 - Friends using Radmin (VPN)
+	26.236.106.165 - Friends using Radmin (VPN)
+	**************** - Friends on another internet network (requires port forwarding)
+[17:00:24.743] [INF] Server port 11000 UDP has been automatically opened on your router (port is closed when server closes)
+[18:39:40.493] [INF] Starting Nitrox Server V1.8.1.0 for Subnautica
+[18:39:40.516] [INF] Server input stream is redirected
+[18:39:40.525] [INF] Using game files from: 'D:\Games\PC\Steam\steamapps\common\Subnautica'
+[18:39:42.562] [INF] Successfully loaded cache with 213 prefab placeholder groups and 18 random spawn behaviours.
+[18:39:47.351] [INF] Loading world with seed NHITPQOKUC
+[18:39:47.750] [INF] Port 11000 UDP is already port forwarded
+[18:39:48.043] [INF] World state saved
+[18:39:48.126] [INF] World backed up
+[18:39:48.134] [INF] Server is listening on port 11000 UDP
+[18:39:48.135] [INF] Using JSON as save file serializer
+[18:39:48.136] [INF] Server Password: "**********************"
+[18:39:48.138] [INF] Admin Password: "**************"
+[18:39:48.138] [INF] Autosave: ENABLED (2 min)
+[18:39:48.138] [INF] Autobackup: ENABLED (Max Backups: 10)
+[18:39:48.140] [INF] Loaded save
+
+ - Save location: C:\Users\TeMeR\AppData\Roaming\Nitrox\saves\SubServer
+ - Aurora's state: explodes in 64 minutes [0/4]
+ - Current time: day 1 (561s)
+ - Scheduled goals stored: 5
+ - Story goals completed: 1
+ - Radio messages stored: 0
+ - World gamemode: SURVIVAL
+ - Encyclopedia entries: 0
+ - Known tech: 0
+
+[18:39:48.140] [INF] Server has paused, waiting for players to connect
+[18:39:48.141] [INF] Server started (7.6s)
+[18:39:48.141] [INF] To get help for commands, run help in console or /help in chatbox
+[18:39:48.219] [INF] Use IP to connect:
+	127.0.0.1 - You (Local)
+	192.168.1.2 - Friends on same internet network (LAN)
+	fdfd::1aec:6aa5 - Friends on same internet network (LAN)
+	**************** - Friends on another internet network (requires port forwarding)
+	fdfd::1aec:6aa5 - Friends using Radmin (VPN)
+	26.236.106.165 - Friends using Radmin (VPN)
+	**************** - Friends on another internet network (requires port forwarding)
