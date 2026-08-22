@@ -1,0 +1,22 @@
+[01:31:59.811] [INFO] [Subnautica.Loader] Loading dependencies: C:\Users\TeMeR\AppData\Roaming\.botbenson\Subnautica Below Zero\Game\Dependencies\, Total: 15
+[01:31:59.819] [INFO] [Subnautica.Loader] Loaded dependency: v2.3.3, Name: 0Harmony
+[01:31:59.820] [INFO] [Subnautica.Loader] Loaded dependency: v1.2.1, Name: DiscordRPC
+[01:31:59.821] [INFO] [Subnautica.Loader] Loaded dependency: v1.2.0, Name: LiteNetLib
+[01:31:59.822] [INFO] [Subnautica.Loader] Loaded dependency: v2.5.0, Name: MessagePack.Annotations
+[01:31:59.823] [INFO] [Subnautica.Loader] Loaded dependency: v2.5.0, Name: MessagePack
+[01:31:59.824] [INFO] [Subnautica.Loader] Loaded dependency: v13.0.0, Name: Newtonsoft.Json
+[01:31:59.826] [INFO] [Subnautica.Loader] Loaded dependency: v3.0.1, Name: Subnautica.Network
+[01:31:59.827] [INFO] [Subnautica.Loader] Loaded dependency: v3.0.1, Name: Subnautica.Server
+[01:31:59.829] [INFO] [Subnautica.Loader] Loaded dependency: v4.0.3, Name: System.Buffers
+[01:31:59.830] [INFO] [Subnautica.Loader] Loaded dependency: v6.0.0, Name: System.Collections.Immutable
+[01:31:59.831] [INFO] [Subnautica.Loader] Loaded dependency: v4.0.1, Name: System.Memory
+[01:31:59.832] [INFO] [Subnautica.Loader] Loaded dependency: v4.0.0, Name: System.Reflection.Emit
+[01:31:59.833] [INFO] [Subnautica.Loader] Loaded dependency: v4.0.0, Name: System.Reflection.Emit.ILGeneration
+[01:31:59.833] [INFO] [Subnautica.Loader] All dependencies are loaded!
+[01:31:59.833] [INFO] [Subnautica.Loader] Loading plugins: C:\Users\TeMeR\AppData\Roaming\.botbenson\Subnautica Below Zero\Game\Plugins\, Total: 2
+[01:31:59.843] [INFO] [Subnautica.Loader] Loaded plugin: v3.0.1, Name: Subnautica.Client, Hash: 62B8F14287062E63B76E3E0B147DD9D1842231E5BC08728D6BD3C868238271DB
+[01:31:59.852] [INFO] [Subnautica.Loader] Loaded plugin: v3.0.1, Name: Subnautica.Events, Hash: B0A3ABDDCF9E4D97DB66CA81C5032CC5FDD6737AFF3EE0769BF72303B10F9A12
+[01:32:01.419] [INFO] [Subnautica.API] Loading Language: ru-RU, Path: C:\Users\TeMeR\AppData\Roaming\.botbenson\Subnautica Below Zero\App\Languages\ru-RU.json
+[01:32:01.490] [INFO] [Subnautica.API] Connecting to server!
+[01:32:04.019] [INFO] [Subnautica.API] Received Ready from user chemikertemer#0
+[01:32:15.649] [INFO] [Subnautica.API] [Connection] IsReady(0): True, anyError: False, ERR: 
